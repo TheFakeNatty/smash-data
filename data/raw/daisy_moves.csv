@@ -1,0 +1,145 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Daisy,Ground Attacks,Jab 1,2,27,--,Transitions to Jab 2 as early as frame 7.,2.0,5,3,--,-22,2,25
+Daisy,Ground Attacks,Jab 2,2,29,--,--,3.0,9,4,--,-23,2—3,26
+Daisy,Ground Attacks,Forward Tilt,7,36,--,--,7.0/8.0/6.0,7/4/**,7/8/**,Close/Mid hit far/Late,-22/-21,7/8—9/10—15,21
+Daisy,Ground Attacks,Up Tilt,9,37,--,--,8.0/10.0,7/8,8/10,Close/Far,-20/-18,9—13,24
+Daisy,Ground Attacks,Down Tilt,8,23,--,--,7.0,7,7,--,-8,8—9,14
+Daisy,Ground Attacks,Dash Attack,6/17,37,--,First hit blockstrings into second hit,4.0/6.0,5/7,-/6,--,-14,6—9/17—19,18
+Daisy,Ground Attacks,Forward Smash,15,45,--,Can make directional inputs to change weapon. Charge hold is frame 5.,15.0/13.5/18.0,10/10/11,10/9/12,Golf/Tennis/Pan,-20/-21/-18,15—17/15—17/15—17,28
+Daisy,Ground Attacks,Up Smash,14,44,--,Head and arm intangibility on frame 14-20. Charge hold is frame 9,17.0/15.0/12.0/10.0/12.0,10/11,10/11,Early tip/Early hand/Early sides/Late tip/Late hand,-20/-19,14—16/17—20,24
+Daisy,Ground Attacks,Down Smash,6/10/14/18/22/26/30,54,--,Charge hold is frame 2,2.0/3.0,4/15,3/3,Multi/Final,-21,6—7/10—11/14—15/18—19/ 22—23/26—27/30—31,23
+Daisy,Ground Attacks,Neutral Air,5,48,7,Autocancels on frame 1-4 and 36 onward,13.0/6.0/5.0,9/6,5/3,Early/Late hands/Late hips,-2/-4,5—8/9—19,29
+Daisy,Ground Attacks,Forward Air,16,57,13,Autocancels on frame 1-9 and 41 onward,14.0/15.0,10/10,5/5,Close/Far,-8/-8,16—20,37
+Daisy,Ground Attacks,Back Air,6,53,11,Autocancels on frame 1-4 and 30 onward,12.0/7.0,9/7,5/3,Early/Late,-6/-8,6—7,46
+Daisy,Ground Attacks,Up Air,10/15,45,7,Autocancels on frame 1-4 and 41 onward,4.0/6.0,6/7,3/3,Hit 1(Early/Normal/Late)/Hit 2(Early/Normal),-4/-4,(10/11/12—13)(15/16—19),26
+Daisy,Ground Attacks,Down Air,12/18/24/30,38,8,Autocancels on frame 1-11 and 38 onward,2.0/1.0/5.0,4/6,2/3,Multihits far/Multihits close/Final,-6/-5,12—13/18—19/24—25/30—31,7
+Daisy,Ground Attacks,Neutral B (Toad),9 (Start of Counter),62,--,Counter window 9-34 from 10-35. Also invulnerable on frame 8.,--,--,--,--,--,--,--
+Daisy,Ground Attacks,"Toad, Attack",2/6/8/12/14/17,60,--,--,3.5 per spore,--,--,--,--,**,--
+Daisy,Ground Attacks,Side B (daisy Bomber),13,62/87,--,Startup is 2 upon reaching a target. 18 endlag on hit. Total frames is 62 on level ground when you miss. And 87 if you miss and go over an edge. Hit is 25 total frames.,12.0,9,11,--,-13,13—36(detector),--
+Daisy,Ground Attacks,"Side B, Air (daisy Bomber, Air)",13,87,35,Startup is 2 upon reaching a target. 18 endlag on hit.,12.0,9,11,--,-13,13—36(detector),--
+Daisy,Ground Attacks,Up B (daisy Parasol),7/11/16/21/26/31,--,26/40,40 landing lag from special fall. Or 26 if still holding umbrella,3.0/1.0/4.0,5/4/15,4/2/5,First/Multi/Final,--,7/11/16/21/26/31,--
+Daisy,Ground Attacks,Down B (Turnip Pull),--,39,--,"Turnip damage depends both on the type and how it is thrown. Z-Drop damage depends on distance fallen. Turnip chances are: Normal(88.7), Winking(6.89), Dot Eye(1.7), Stitchface(1.7), Bob-omb(0.4), Mr. Saturn(0.6).",8.3—27.6,7—15,3—8,--,--,**,--
+Daisy,Ground Attacks,Grab,6,36,--,--,--,,,,,6—7,29
+Daisy,Ground Attacks,Dash Grab,9,44,--,--,--,,,,,9—10,34
+Daisy,Ground Attacks,Pivot Grab,10,39,--,--,--,,,,,10—11,28
+Daisy,Ground Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
+Daisy,Ground Attacks,Forward Throw,14/16,39,--,--,2.0/6.0,,,,,,
+Daisy,Ground Attacks,Backward Throw,20/21,49,--,Invincible 1-22,2.0/9.0,,,,,,
+Daisy,Ground Attacks,Up Throw,19/26,49,--,--,2.0/6.0,,,,,,
+Daisy,Ground Attacks,Down Throw,34/43,64,--,--,1.0/7.0,,,,,,
+Daisy,Ground Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Daisy,Ground Attacks,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
+Daisy,Ground Attacks,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
+Daisy,Ground Attacks,Neutral Air Dodge,,61,10,Intangible on frame 3-30,,,,,,,
+Daisy,Ground Attacks,"Air Dodge, Down",,86,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Ground Attacks,"Air Dodge, Diagonally Down",,92,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Ground Attacks,"Air Dodge, Left/Right",,103,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Ground Attacks,"Air Dodge, Diagonally Up",,124,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Ground Attacks,"Air Dodge, Up",,141,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Ground Attacks,Stats,,,,,,,,,,,
+Daisy,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Daisy,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Daisy,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Daisy,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Daisy,Aerial Attacks,Neutral Air,5,48,7,Autocancels on frame 1-4 and 36 onward,13.0/6.0/5.0,9/6,5/3,Early/Late hands/Late hips,-2/-4,5—8/9—19,29
+Daisy,Aerial Attacks,Forward Air,16,57,13,Autocancels on frame 1-9 and 41 onward,14.0/15.0,10/10,5/5,Close/Far,-8/-8,16—20,37
+Daisy,Aerial Attacks,Back Air,6,53,11,Autocancels on frame 1-4 and 30 onward,12.0/7.0,9/7,5/3,Early/Late,-6/-8,6—7,46
+Daisy,Aerial Attacks,Up Air,10/15,45,7,Autocancels on frame 1-4 and 41 onward,4.0/6.0,6/7,3/3,Hit 1(Early/Normal/Late)/Hit 2(Early/Normal),-4/-4,(10/11/12—13)(15/16—19),26
+Daisy,Aerial Attacks,Down Air,12/18/24/30,38,8,Autocancels on frame 1-11 and 38 onward,2.0/1.0/5.0,4/6,2/3,Multihits far/Multihits close/Final,-6/-5,12—13/18—19/24—25/30—31,7
+Daisy,Aerial Attacks,Neutral B (Toad),9 (Start of Counter),62,--,Counter window 9-34 from 10-35. Also invulnerable on frame 8.,--,--,--,--,--,--,--
+Daisy,Aerial Attacks,"Toad, Attack",2/6/8/12/14/17,60,--,--,3.5 per spore,--,--,--,--,**,--
+Daisy,Aerial Attacks,Side B (daisy Bomber),13,62/87,--,Startup is 2 upon reaching a target. 18 endlag on hit. Total frames is 62 on level ground when you miss. And 87 if you miss and go over an edge. Hit is 25 total frames.,12.0,9,11,--,-13,13—36(detector),--
+Daisy,Aerial Attacks,"Side B, Air (daisy Bomber, Air)",13,87,35,Startup is 2 upon reaching a target. 18 endlag on hit.,12.0,9,11,--,-13,13—36(detector),--
+Daisy,Aerial Attacks,Up B (daisy Parasol),7/11/16/21/26/31,--,26/40,40 landing lag from special fall. Or 26 if still holding umbrella,3.0/1.0/4.0,5/4/15,4/2/5,First/Multi/Final,--,7/11/16/21/26/31,--
+Daisy,Aerial Attacks,Down B (Turnip Pull),--,39,--,"Turnip damage depends both on the type and how it is thrown. Z-Drop damage depends on distance fallen. Turnip chances are: Normal(88.7), Winking(6.89), Dot Eye(1.7), Stitchface(1.7), Bob-omb(0.4), Mr. Saturn(0.6).",8.3—27.6,7—15,3—8,--,--,**,--
+Daisy,Aerial Attacks,Grab,6,36,--,--,--,,,,,6—7,29
+Daisy,Aerial Attacks,Dash Grab,9,44,--,--,--,,,,,9—10,34
+Daisy,Aerial Attacks,Pivot Grab,10,39,--,--,--,,,,,10—11,28
+Daisy,Aerial Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
+Daisy,Aerial Attacks,Forward Throw,14/16,39,--,--,2.0/6.0,,,,,,
+Daisy,Aerial Attacks,Backward Throw,20/21,49,--,Invincible 1-22,2.0/9.0,,,,,,
+Daisy,Aerial Attacks,Up Throw,19/26,49,--,--,2.0/6.0,,,,,,
+Daisy,Aerial Attacks,Down Throw,34/43,64,--,--,1.0/7.0,,,,,,
+Daisy,Aerial Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Daisy,Aerial Attacks,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
+Daisy,Aerial Attacks,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
+Daisy,Aerial Attacks,Neutral Air Dodge,,61,10,Intangible on frame 3-30,,,,,,,
+Daisy,Aerial Attacks,"Air Dodge, Down",,86,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Aerial Attacks,"Air Dodge, Diagonally Down",,92,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Aerial Attacks,"Air Dodge, Left/Right",,103,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Aerial Attacks,"Air Dodge, Diagonally Up",,124,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Aerial Attacks,"Air Dodge, Up",,141,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Aerial Attacks,Stats,,,,,,,,,,,
+Daisy,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Daisy,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Daisy,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Daisy,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Daisy,Special Attacks,Neutral B (Toad),9 (Start of Counter),62,--,Counter window 9-34 from 10-35. Also invulnerable on frame 8.,--,--,--,--,--,--,--
+Daisy,Special Attacks,"Toad, Attack",2/6/8/12/14/17,60,--,--,3.5 per spore,--,--,--,--,**,--
+Daisy,Special Attacks,Side B (daisy Bomber),13,62/87,--,Startup is 2 upon reaching a target. 18 endlag on hit. Total frames is 62 on level ground when you miss. And 87 if you miss and go over an edge. Hit is 25 total frames.,12.0,9,11,--,-13,13—36(detector),--
+Daisy,Special Attacks,"Side B, Air (daisy Bomber, Air)",13,87,35,Startup is 2 upon reaching a target. 18 endlag on hit.,12.0,9,11,--,-13,13—36(detector),--
+Daisy,Special Attacks,Up B (daisy Parasol),7/11/16/21/26/31,--,26/40,40 landing lag from special fall. Or 26 if still holding umbrella,3.0/1.0/4.0,5/4/15,4/2/5,First/Multi/Final,--,7/11/16/21/26/31,--
+Daisy,Special Attacks,Down B (Turnip Pull),--,39,--,"Turnip damage depends both on the type and how it is thrown. Z-Drop damage depends on distance fallen. Turnip chances are: Normal(88.7), Winking(6.89), Dot Eye(1.7), Stitchface(1.7), Bob-omb(0.4), Mr. Saturn(0.6).",8.3—27.6,7—15,3—8,--,--,**,--
+Daisy,Special Attacks,Grab,6,36,--,--,--,,,,,6—7,29
+Daisy,Special Attacks,Dash Grab,9,44,--,--,--,,,,,9—10,34
+Daisy,Special Attacks,Pivot Grab,10,39,--,--,--,,,,,10—11,28
+Daisy,Special Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
+Daisy,Special Attacks,Forward Throw,14/16,39,--,--,2.0/6.0,,,,,,
+Daisy,Special Attacks,Backward Throw,20/21,49,--,Invincible 1-22,2.0/9.0,,,,,,
+Daisy,Special Attacks,Up Throw,19/26,49,--,--,2.0/6.0,,,,,,
+Daisy,Special Attacks,Down Throw,34/43,64,--,--,1.0/7.0,,,,,,
+Daisy,Special Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Daisy,Special Attacks,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
+Daisy,Special Attacks,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
+Daisy,Special Attacks,Neutral Air Dodge,,61,10,Intangible on frame 3-30,,,,,,,
+Daisy,Special Attacks,"Air Dodge, Down",,86,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Special Attacks,"Air Dodge, Diagonally Down",,92,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Special Attacks,"Air Dodge, Left/Right",,103,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Special Attacks,"Air Dodge, Diagonally Up",,124,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Special Attacks,"Air Dodge, Up",,141,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Special Attacks,Stats,,,,,,,,,,,
+Daisy,Special Attacks,Ledge Grab,,,,,,,,,,,
+Daisy,Special Attacks,Ledge Hang,,,,,,,,,,,
+Daisy,Special Attacks,Ledge Roll,,,,,,,,,,,
+Daisy,Special Attacks,Getup Attacks,,,,,,,,,,,
+Daisy,Grabs / Throws,Grab,6,36,--,--,--,,,,,6—7,29
+Daisy,Grabs / Throws,Dash Grab,9,44,--,--,--,,,,,9—10,34
+Daisy,Grabs / Throws,Pivot Grab,10,39,--,--,--,,,,,10—11,28
+Daisy,Grabs / Throws,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
+Daisy,Grabs / Throws,Forward Throw,14/16,39,--,--,2.0/6.0,,,,,,
+Daisy,Grabs / Throws,Backward Throw,20/21,49,--,Invincible 1-22,2.0/9.0,,,,,,
+Daisy,Grabs / Throws,Up Throw,19/26,49,--,--,2.0/6.0,,,,,,
+Daisy,Grabs / Throws,Down Throw,34/43,64,--,--,1.0/7.0,,,,,,
+Daisy,Grabs / Throws,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Daisy,Grabs / Throws,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
+Daisy,Grabs / Throws,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
+Daisy,Grabs / Throws,Neutral Air Dodge,,61,10,Intangible on frame 3-30,,,,,,,
+Daisy,Grabs / Throws,"Air Dodge, Down",,86,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Grabs / Throws,"Air Dodge, Diagonally Down",,92,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Grabs / Throws,"Air Dodge, Left/Right",,103,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Grabs / Throws,"Air Dodge, Diagonally Up",,124,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Grabs / Throws,"Air Dodge, Up",,141,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Grabs / Throws,Stats,,,,,,,,,,,
+Daisy,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Daisy,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Daisy,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Daisy,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Daisy,Dodges / Rolls,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Daisy,Dodges / Rolls,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
+Daisy,Dodges / Rolls,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
+Daisy,Dodges / Rolls,Neutral Air Dodge,,61,10,Intangible on frame 3-30,,,,,,,
+Daisy,Dodges / Rolls,"Air Dodge, Down",,86,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Dodges / Rolls,"Air Dodge, Diagonally Down",,92,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Dodges / Rolls,"Air Dodge, Left/Right",,103,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Dodges / Rolls,"Air Dodge, Diagonally Up",,124,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Dodges / Rolls,"Air Dodge, Up",,141,11-19,Intangible on frame 3-21,,,,,,,
+Daisy,Dodges / Rolls,Stats,,,,,,,,,,,
+Daisy,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Daisy,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Daisy,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Daisy,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Daisy,Misc Info,Stats,,,,,,,,,,,
+Daisy,Misc Info,Ledge Grab,,,,,,,,,,,
+Daisy,Misc Info,Ledge Hang,,,,,,,,,,,
+Daisy,Misc Info,Ledge Roll,,,,,,,,,,,
+Daisy,Misc Info,Getup Attacks,,,,,,,,,,,

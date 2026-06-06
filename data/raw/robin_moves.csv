@@ -1,0 +1,151 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Robin,Ground Attacks,Jab 1,4,31,--,Transitions to jab 2 as early as frame 9,2.0,7,3,--,-24,4—5,26
+Robin,Ground Attacks,Jab 2,5,34,--,Transitions to jab 3 as early as frame 9 or Rapid Jab on frame 8,1.5,5,3,--,-26,5—6,28
+Robin,Ground Attacks,Jab 3,6,35,--,--,5.0,12,6,--,-23,6—7,28
+Robin,Ground Attacks,Rapid Jab,4/6/8...,--,--,--,0.9,4,3,--,--,**,--
+Robin,Ground Attacks,Rapid Jab Finisher,5,47,--,--,2.0,14,3,--,-39,5—6,41
+Robin,Ground Attacks,Forward Tilt,9,32,--,--,7.5,7,8,--,-15,9—10,22
+Robin,Ground Attacks,Up Tilt,6,32,--,--,6.0,6,6,--,-20,6—14,18
+Robin,Ground Attacks,Down Tilt,7,21,--,--,6.0,6,6,--,-8,7—8,13
+Robin,Ground Attacks,Dash Attack,8,41,--,--,10.0/6.0,9/7,10/6,Early/Late,-23,8—10(11—18),23
+Robin,Ground Attacks,Forward Smash,16,57,--,Charge hold is frame 6,16.0/10.0/9.6,15/12/8,11/7/7,Early/Late/Bronze,-30/-34,16—18(19—27),30
+Robin,Ground Attacks,Up Smash,12,52,--,Charge hold is frame 5,10.0/15.0/9.0,12/15/7,7/10/7,Close/Far/Bronze,-33/-30/-33,"12,13—16(17—32)",20
+Robin,Ground Attacks,Down Smash,16,56,--,Sparks generate on frame 20 for levin version. Charge hold is frame 3,15.0/12.0/8.0,15/13/7,-/8/6,Sword/spark/bronze,-28/-34,16—17(19—22/23—28),28
+Robin,Ground Attacks,Neutral Air,7/20,47,11,Autocancels on frame 1-3 and 32 onward (bronze) or 40 (levin),11.5/6.9,13/7,5/3,Levin/Bronze,-6/-8,7—10/20—23(24—28),19
+Robin,Ground Attacks,Forward Air,12,33,11,Autocancels on frame 1-3 and 27 onward (bronze) or 28 (levin),12.5/7.5,14/7,5/3,Levin/Bronze,-6/-8,12—15(16—19),14
+Robin,Ground Attacks,Back Air,9,39,11,Autocancels on frame 32 onward (either version),15.0/5.0/9.0,15/9/7,5/3/4,Early/late/Bronze,-6/-8/-7,9—10(11—16),23
+Robin,Ground Attacks,Up Air,10,45,11,Autocancels on frame 1-4 and 27 onward (bronze) or 28 (levin),13.0/5.0/7.8,14/9/7,5/3/4,Early/Late/Bronze,-6/-8/-7,10—13(14—23),22
+Robin,Ground Attacks,Down Air,13,59,16,Autocancels on frame 48 onward (either version),11.0/8.0/7.2/6.0,16/11/7/6,4/4/3/3,"Levin Early/late, Bronze Early/late",-12/-13,13—15(16—17/18—24),35
+Robin,Ground Attacks,Neutral B (Thunder/Elthunder/Arcthunder),8/8/8,32/38/38,--,"7 frames to enter charge state. 4 to cancel charge with shield 33 frames to reach Elthunder 73 to reach Arcthunder, 133 to reach Thoron. Empty Tome Thunder has 39 total frames.",5.5/11.0,9/13,3/4,Thunder/Elthunder/Arcthunder,-12/-13,8—22 / 8—49 / 8—79,--
+Robin,Ground Attacks,Arcthunder (Vortex),1...,--,--,--,6.0/2.4/8.0,-/-/11,-/-/3,First/Multi/Final,+0,1—16(rehit: 4)/17,--
+Robin,Ground Attacks,Thoron,23/27/31/35/39/43/47,74 (109 air),--,--,2.6/2.6,-/7,-/2,Multi/Final,-20,23—92(Rehit: 4),--
+Robin,Ground Attacks,Side B (Arcfire),17,63,--,"Pillar hits once every eight frames, ending on frame 50.",2.0/1.3/4.0,6/4/11,2/2/2,First/Multi/Final,+13,17—76,2
+Robin,Ground Attacks,Up B (Elwind),8/28,--,25,"Hitbox animation note: The blades are relative to Robin's position when he shoots them. In-game, Robin will move after each blade is shot, so they are not relative to each other at all. Visual is default angle. Empty Tome Elwind has 51 total frames.",7.0/5.0,7/6,3/3,Early/Late,--,8(9—12/13—31) / 28—32(33—55),--
+Robin,Ground Attacks,Down B (Nosferatu),15,49,--,Invulnerable on frame 15-18. 31 frames animation for releasing victim.,**,--,--,--,**,15—18,31
+Robin,Ground Attacks,Thrown Items,--,--,--,--,**,--,--,--,--,--,--
+Robin,Ground Attacks,Grab,7,39,--,--,--,,,,,7—8,31
+Robin,Ground Attacks,Dash Grab,10,47,--,--,--,,,,,10—11,36
+Robin,Ground Attacks,Pivot Grab,11,42,--,--,--,,,,,11—12,30
+Robin,Ground Attacks,Pummel,1,21,**,Total frames includes 15 frames of hitlag,1.5,,,,,,
+Robin,Ground Attacks,Forward Throw,16,31,--,--,8.0,,,,,,
+Robin,Ground Attacks,Backward Throw,25,44,--,--,11.0,,,,,,
+Robin,Ground Attacks,Up Throw,15,47,--,--,9.0,,,,,,
+Robin,Ground Attacks,Down Throw,16,37,--,--,6.0,,,,,,
+Robin,Ground Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Robin,Ground Attacks,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
+Robin,Ground Attacks,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
+Robin,Ground Attacks,Neutral Air Dodge,,51,10,Intangible on frame 3-30,,,,,,,
+Robin,Ground Attacks,"Air Dodge, Down",,73,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Ground Attacks,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Ground Attacks,"Air Dodge, Left/Right",,86,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Ground Attacks,"Air Dodge, Diagonally Up",,103,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Ground Attacks,"Air Dodge, Up",,114,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Ground Attacks,Stats,,,,,,,,,,,
+Robin,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Robin,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Robin,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Robin,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Robin,Aerial Attacks,Neutral Air,7/20,47,11,Autocancels on frame 1-3 and 32 onward (bronze) or 40 (levin),11.5/6.9,13/7,5/3,Levin/Bronze,-6/-8,7—10/20—23(24—28),19
+Robin,Aerial Attacks,Forward Air,12,33,11,Autocancels on frame 1-3 and 27 onward (bronze) or 28 (levin),12.5/7.5,14/7,5/3,Levin/Bronze,-6/-8,12—15(16—19),14
+Robin,Aerial Attacks,Back Air,9,39,11,Autocancels on frame 32 onward (either version),15.0/5.0/9.0,15/9/7,5/3/4,Early/late/Bronze,-6/-8/-7,9—10(11—16),23
+Robin,Aerial Attacks,Up Air,10,45,11,Autocancels on frame 1-4 and 27 onward (bronze) or 28 (levin),13.0/5.0/7.8,14/9/7,5/3/4,Early/Late/Bronze,-6/-8/-7,10—13(14—23),22
+Robin,Aerial Attacks,Down Air,13,59,16,Autocancels on frame 48 onward (either version),11.0/8.0/7.2/6.0,16/11/7/6,4/4/3/3,"Levin Early/late, Bronze Early/late",-12/-13,13—15(16—17/18—24),35
+Robin,Aerial Attacks,Neutral B (Thunder/Elthunder/Arcthunder),8/8/8,32/38/38,--,"7 frames to enter charge state. 4 to cancel charge with shield 33 frames to reach Elthunder 73 to reach Arcthunder, 133 to reach Thoron. Empty Tome Thunder has 39 total frames.",5.5/11.0,9/13,3/4,Thunder/Elthunder/Arcthunder,-12/-13,8—22 / 8—49 / 8—79,--
+Robin,Aerial Attacks,Arcthunder (Vortex),1...,--,--,--,6.0/2.4/8.0,-/-/11,-/-/3,First/Multi/Final,+0,1—16(rehit: 4)/17,--
+Robin,Aerial Attacks,Thoron,23/27/31/35/39/43/47,74 (109 air),--,--,2.6/2.6,-/7,-/2,Multi/Final,-20,23—92(Rehit: 4),--
+Robin,Aerial Attacks,Side B (Arcfire),17,63,--,"Pillar hits once every eight frames, ending on frame 50.",2.0/1.3/4.0,6/4/11,2/2/2,First/Multi/Final,+13,17—76,2
+Robin,Aerial Attacks,Up B (Elwind),8/28,--,25,"Hitbox animation note: The blades are relative to Robin's position when he shoots them. In-game, Robin will move after each blade is shot, so they are not relative to each other at all. Visual is default angle. Empty Tome Elwind has 51 total frames.",7.0/5.0,7/6,3/3,Early/Late,--,8(9—12/13—31) / 28—32(33—55),--
+Robin,Aerial Attacks,Down B (Nosferatu),15,49,--,Invulnerable on frame 15-18. 31 frames animation for releasing victim.,**,--,--,--,**,15—18,31
+Robin,Aerial Attacks,Thrown Items,--,--,--,--,**,--,--,--,--,--,--
+Robin,Aerial Attacks,Grab,7,39,--,--,--,,,,,7—8,31
+Robin,Aerial Attacks,Dash Grab,10,47,--,--,--,,,,,10—11,36
+Robin,Aerial Attacks,Pivot Grab,11,42,--,--,--,,,,,11—12,30
+Robin,Aerial Attacks,Pummel,1,21,**,Total frames includes 15 frames of hitlag,1.5,,,,,,
+Robin,Aerial Attacks,Forward Throw,16,31,--,--,8.0,,,,,,
+Robin,Aerial Attacks,Backward Throw,25,44,--,--,11.0,,,,,,
+Robin,Aerial Attacks,Up Throw,15,47,--,--,9.0,,,,,,
+Robin,Aerial Attacks,Down Throw,16,37,--,--,6.0,,,,,,
+Robin,Aerial Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Robin,Aerial Attacks,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
+Robin,Aerial Attacks,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
+Robin,Aerial Attacks,Neutral Air Dodge,,51,10,Intangible on frame 3-30,,,,,,,
+Robin,Aerial Attacks,"Air Dodge, Down",,73,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Aerial Attacks,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Aerial Attacks,"Air Dodge, Left/Right",,86,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Aerial Attacks,"Air Dodge, Diagonally Up",,103,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Aerial Attacks,"Air Dodge, Up",,114,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Aerial Attacks,Stats,,,,,,,,,,,
+Robin,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Robin,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Robin,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Robin,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Robin,Special Attacks,Neutral B (Thunder/Elthunder/Arcthunder),8/8/8,32/38/38,--,"7 frames to enter charge state. 4 to cancel charge with shield 33 frames to reach Elthunder 73 to reach Arcthunder, 133 to reach Thoron. Empty Tome Thunder has 39 total frames.",5.5/11.0,9/13,3/4,Thunder/Elthunder/Arcthunder,-12/-13,8—22 / 8—49 / 8—79,--
+Robin,Special Attacks,Arcthunder (Vortex),1...,--,--,--,6.0/2.4/8.0,-/-/11,-/-/3,First/Multi/Final,+0,1—16(rehit: 4)/17,--
+Robin,Special Attacks,Thoron,23/27/31/35/39/43/47,74 (109 air),--,--,2.6/2.6,-/7,-/2,Multi/Final,-20,23—92(Rehit: 4),--
+Robin,Special Attacks,Side B (Arcfire),17,63,--,"Pillar hits once every eight frames, ending on frame 50.",2.0/1.3/4.0,6/4/11,2/2/2,First/Multi/Final,+13,17—76,2
+Robin,Special Attacks,Up B (Elwind),8/28,--,25,"Hitbox animation note: The blades are relative to Robin's position when he shoots them. In-game, Robin will move after each blade is shot, so they are not relative to each other at all. Visual is default angle. Empty Tome Elwind has 51 total frames.",7.0/5.0,7/6,3/3,Early/Late,--,8(9—12/13—31) / 28—32(33—55),--
+Robin,Special Attacks,Down B (Nosferatu),15,49,--,Invulnerable on frame 15-18. 31 frames animation for releasing victim.,**,--,--,--,**,15—18,31
+Robin,Special Attacks,Thrown Items,--,--,--,--,**,--,--,--,--,--,--
+Robin,Special Attacks,Grab,7,39,--,--,--,,,,,7—8,31
+Robin,Special Attacks,Dash Grab,10,47,--,--,--,,,,,10—11,36
+Robin,Special Attacks,Pivot Grab,11,42,--,--,--,,,,,11—12,30
+Robin,Special Attacks,Pummel,1,21,**,Total frames includes 15 frames of hitlag,1.5,,,,,,
+Robin,Special Attacks,Forward Throw,16,31,--,--,8.0,,,,,,
+Robin,Special Attacks,Backward Throw,25,44,--,--,11.0,,,,,,
+Robin,Special Attacks,Up Throw,15,47,--,--,9.0,,,,,,
+Robin,Special Attacks,Down Throw,16,37,--,--,6.0,,,,,,
+Robin,Special Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Robin,Special Attacks,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
+Robin,Special Attacks,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
+Robin,Special Attacks,Neutral Air Dodge,,51,10,Intangible on frame 3-30,,,,,,,
+Robin,Special Attacks,"Air Dodge, Down",,73,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Special Attacks,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Special Attacks,"Air Dodge, Left/Right",,86,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Special Attacks,"Air Dodge, Diagonally Up",,103,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Special Attacks,"Air Dodge, Up",,114,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Special Attacks,Stats,,,,,,,,,,,
+Robin,Special Attacks,Ledge Grab,,,,,,,,,,,
+Robin,Special Attacks,Ledge Hang,,,,,,,,,,,
+Robin,Special Attacks,Ledge Roll,,,,,,,,,,,
+Robin,Special Attacks,Getup Attacks,,,,,,,,,,,
+Robin,Grabs / Throws,Grab,7,39,--,--,--,,,,,7—8,31
+Robin,Grabs / Throws,Dash Grab,10,47,--,--,--,,,,,10—11,36
+Robin,Grabs / Throws,Pivot Grab,11,42,--,--,--,,,,,11—12,30
+Robin,Grabs / Throws,Pummel,1,21,**,Total frames includes 15 frames of hitlag,1.5,,,,,,
+Robin,Grabs / Throws,Forward Throw,16,31,--,--,8.0,,,,,,
+Robin,Grabs / Throws,Backward Throw,25,44,--,--,11.0,,,,,,
+Robin,Grabs / Throws,Up Throw,15,47,--,--,9.0,,,,,,
+Robin,Grabs / Throws,Down Throw,16,37,--,--,6.0,,,,,,
+Robin,Grabs / Throws,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Robin,Grabs / Throws,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
+Robin,Grabs / Throws,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
+Robin,Grabs / Throws,Neutral Air Dodge,,51,10,Intangible on frame 3-30,,,,,,,
+Robin,Grabs / Throws,"Air Dodge, Down",,73,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Grabs / Throws,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Grabs / Throws,"Air Dodge, Left/Right",,86,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Grabs / Throws,"Air Dodge, Diagonally Up",,103,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Grabs / Throws,"Air Dodge, Up",,114,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Grabs / Throws,Stats,,,,,,,,,,,
+Robin,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Robin,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Robin,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Robin,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Robin,Dodges / Rolls,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Robin,Dodges / Rolls,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
+Robin,Dodges / Rolls,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
+Robin,Dodges / Rolls,Neutral Air Dodge,,51,10,Intangible on frame 3-30,,,,,,,
+Robin,Dodges / Rolls,"Air Dodge, Down",,73,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Dodges / Rolls,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Dodges / Rolls,"Air Dodge, Left/Right",,86,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Dodges / Rolls,"Air Dodge, Diagonally Up",,103,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Dodges / Rolls,"Air Dodge, Up",,114,11-19,Intangible on frame 3-21,,,,,,,
+Robin,Dodges / Rolls,Stats,,,,,,,,,,,
+Robin,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Robin,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Robin,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Robin,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Robin,Misc Info,Stats,,,,,,,,,,,
+Robin,Misc Info,Ledge Grab,,,,,,,,,,,
+Robin,Misc Info,Ledge Hang,,,,,,,,,,,
+Robin,Misc Info,Ledge Roll,,,,,,,,,,,
+Robin,Misc Info,Getup Attacks,,,,,,,,,,,
