@@ -1,0 +1,138 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Pikachu,Ground Attacks,Jab,2,17,--,Transitions to next Jab as early as frame 7,1.4/1.2,4/4,3/2,--,-12/-13,2—3,14
+Pikachu,Ground Attacks,Forward Tilt,6,29,--,--,9.0/8.0/10.0,11/11/12,9/8/10,Neutral/Down/Up,-14/-15/-13,6—8,21
+Pikachu,Ground Attacks,Up Tilt,7,26,--,--,5.0,6,6,--,-13,7—13,13
+Pikachu,Ground Attacks,Down Tilt,7,18,--,--,6.0,6,7,--,-4,7—8,10
+Pikachu,Ground Attacks,Dash Attack,6,35,--,--,11.0/6.0,13/9,18/10,Early/Late,-11,6—8(9—12),23
+Pikachu,Ground Attacks,Forward Smash,15,53,--,Charge hold is frame 9,15.0/18.0/12.0,15/15/13,9/12/8,Early/late/latest,-29,15—16/17—19/20—29,24
+Pikachu,Ground Attacks,Up Smash,10,44,--,Charge hold is frame 2,(14.0/13.0)/11.0/7.0,10/9/8,10/9/8,Clean/Mid/Late,-24,10—12/13—14/15—17,27
+Pikachu,Ground Attacks,Down Smash,8/11/14/17/20/23,65,--,Charge hold is frame 2,2.0/3.0,7/7,3/3,Multi/Final,-39,8—9/11—12/14—15/17—18/20—21,44
+Pikachu,Ground Attacks,Neutral Air,3/9/15/21,38,9,Autocancels on frame 37 onward,1.7/3.5,7/8,2/2,Multi/Final,-7,3—6/9—12/15—18/21—22,16
+Pikachu,Ground Attacks,Forward Air,11...,41,12,Autocancels on frame 1-4 and 32 onward,1.3/4.8,6/13,2/3,Multi/Final,-10/-9,11—25/27 (rehit: 3),14
+Pikachu,Ground Attacks,Back Air,4/8/12/16/20/24,43,18,Landing hit on frame 1. Autocancels on frame 1-3 and 38 onward,1.0/3.5/4.0,4/11/5,2/2/5,Multi/Final/Landing,-12,4—5/8—9/12—13/16—17/20—21/24—25/1—2,18
+Pikachu,Ground Attacks,Up Air,4,26,14,Autocancels on frame 1-3 and 18 onward,6.0/5.0/4.0,6/5,3/3,Clean tail/Clean tip/Late,-11/-11,4—6/7—8,18
+Pikachu,Ground Attacks,Down Air,14,47,22,Landing hit on frame 1. Autocancels on frame 38 onward,13.0/12.0/4.0,14/13/8,5/5/5,Meteor/Late/Landing,-16,14—15/16—26/1—2,21
+Pikachu,Ground Attacks,Neutral B (Thunderjolt),19,51,--,--,6.0/4.8,9/9,3/3,Arc/Projectile,-20,19—52(53—85/86—114),--
+Pikachu,Ground Attacks,Side B (Skull Bash),18/18,96/74,--,"Startup is 10 on release. On hit endlag is 21 frames. On level ground, total frames is 96, 74 in the air.",10.0—21.4,8—13,10—19,Ground/Air,-11 to -2,18—52,44
+Pikachu,Ground Attacks,Up B (Quick Attack),15/29,52/66,24,Total frames assumes you end on the ground.,3.0/2.0,7/7,3/3,Early/Late,-33,15—19/29—33,19
+Pikachu,Ground Attacks,Down B (Thunder),13/**,86/74,--,First total frames is when the thunder bolt misses you. Invulnerable on frame 34-43 if bolt hits you. Spikes on frames 13—15.,6.0/8.0/15.0,11/15,3/14,Projectile Early / Projectile Late / Contact,-26,13—15(16—85): Early // 21—23(24—93): Late // 1-2: Contact,84
+Pikachu,Ground Attacks,Grab,7,36,--,--,--,,,,,7—8,28
+Pikachu,Ground Attacks,Dash Grab,11,44,--,--,--,,,,,11—12,32
+Pikachu,Ground Attacks,Pivot Grab,12,39,--,--,--,,,,,12—13,26
+Pikachu,Ground Attacks,Pummel,1,16,--,Total frames includes 11 frames of hitlag,1.0,,,,,,
+Pikachu,Ground Attacks,Forward Throw,11/15/19/23/30,43,--,--,2.0/2.0,,,,,,
+Pikachu,Ground Attacks,Backward Throw,26,49,--,--,9.0,,,,,,
+Pikachu,Ground Attacks,Up Throw,14/16,35,--,--,3.0/5.0,,,,,,
+Pikachu,Ground Attacks,Down Throw,29,51,--,--,5.0,,,,,,
+Pikachu,Ground Attacks,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
+Pikachu,Ground Attacks,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
+Pikachu,Ground Attacks,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
+Pikachu,Ground Attacks,Neutral Air Dodge,,50,10,Intangible on frame 2-26,,,,,,,
+Pikachu,Ground Attacks,"Air Dodge, Down",,69,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Ground Attacks,"Air Dodge, Diagonally Down",,76,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Ground Attacks,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Ground Attacks,"Air Dodge, Diagonally Up",,97,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Ground Attacks,"Air Dodge, Up",,109,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Ground Attacks,Stats,,,,,,,,,,,
+Pikachu,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Pikachu,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Pikachu,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Pikachu,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Pikachu,Aerial Attacks,Neutral Air,3/9/15/21,38,9,Autocancels on frame 37 onward,1.7/3.5,7/8,2/2,Multi/Final,-7,3—6/9—12/15—18/21—22,16
+Pikachu,Aerial Attacks,Forward Air,11...,41,12,Autocancels on frame 1-4 and 32 onward,1.3/4.8,6/13,2/3,Multi/Final,-10/-9,11—25/27 (rehit: 3),14
+Pikachu,Aerial Attacks,Back Air,4/8/12/16/20/24,43,18,Landing hit on frame 1. Autocancels on frame 1-3 and 38 onward,1.0/3.5/4.0,4/11/5,2/2/5,Multi/Final/Landing,-12,4—5/8—9/12—13/16—17/20—21/24—25/1—2,18
+Pikachu,Aerial Attacks,Up Air,4,26,14,Autocancels on frame 1-3 and 18 onward,6.0/5.0/4.0,6/5,3/3,Clean tail/Clean tip/Late,-11/-11,4—6/7—8,18
+Pikachu,Aerial Attacks,Down Air,14,47,22,Landing hit on frame 1. Autocancels on frame 38 onward,13.0/12.0/4.0,14/13/8,5/5/5,Meteor/Late/Landing,-16,14—15/16—26/1—2,21
+Pikachu,Aerial Attacks,Neutral B (Thunderjolt),19,51,--,--,6.0/4.8,9/9,3/3,Arc/Projectile,-20,19—52(53—85/86—114),--
+Pikachu,Aerial Attacks,Side B (Skull Bash),18/18,96/74,--,"Startup is 10 on release. On hit endlag is 21 frames. On level ground, total frames is 96, 74 in the air.",10.0—21.4,8—13,10—19,Ground/Air,-11 to -2,18—52,44
+Pikachu,Aerial Attacks,Up B (Quick Attack),15/29,52/66,24,Total frames assumes you end on the ground.,3.0/2.0,7/7,3/3,Early/Late,-33,15—19/29—33,19
+Pikachu,Aerial Attacks,Down B (Thunder),13/**,86/74,--,First total frames is when the thunder bolt misses you. Invulnerable on frame 34-43 if bolt hits you. Spikes on frames 13—15.,6.0/8.0/15.0,11/15,3/14,Projectile Early / Projectile Late / Contact,-26,13—15(16—85): Early // 21—23(24—93): Late // 1-2: Contact,84
+Pikachu,Aerial Attacks,Grab,7,36,--,--,--,,,,,7—8,28
+Pikachu,Aerial Attacks,Dash Grab,11,44,--,--,--,,,,,11—12,32
+Pikachu,Aerial Attacks,Pivot Grab,12,39,--,--,--,,,,,12—13,26
+Pikachu,Aerial Attacks,Pummel,1,16,--,Total frames includes 11 frames of hitlag,1.0,,,,,,
+Pikachu,Aerial Attacks,Forward Throw,11/15/19/23/30,43,--,--,2.0/2.0,,,,,,
+Pikachu,Aerial Attacks,Backward Throw,26,49,--,--,9.0,,,,,,
+Pikachu,Aerial Attacks,Up Throw,14/16,35,--,--,3.0/5.0,,,,,,
+Pikachu,Aerial Attacks,Down Throw,29,51,--,--,5.0,,,,,,
+Pikachu,Aerial Attacks,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
+Pikachu,Aerial Attacks,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
+Pikachu,Aerial Attacks,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
+Pikachu,Aerial Attacks,Neutral Air Dodge,,50,10,Intangible on frame 2-26,,,,,,,
+Pikachu,Aerial Attacks,"Air Dodge, Down",,69,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Aerial Attacks,"Air Dodge, Diagonally Down",,76,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Aerial Attacks,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Aerial Attacks,"Air Dodge, Diagonally Up",,97,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Aerial Attacks,"Air Dodge, Up",,109,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Aerial Attacks,Stats,,,,,,,,,,,
+Pikachu,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Pikachu,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Pikachu,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Pikachu,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Pikachu,Special Attacks,Neutral B (Thunderjolt),19,51,--,--,6.0/4.8,9/9,3/3,Arc/Projectile,-20,19—52(53—85/86—114),--
+Pikachu,Special Attacks,Side B (Skull Bash),18/18,96/74,--,"Startup is 10 on release. On hit endlag is 21 frames. On level ground, total frames is 96, 74 in the air.",10.0—21.4,8—13,10—19,Ground/Air,-11 to -2,18—52,44
+Pikachu,Special Attacks,Up B (Quick Attack),15/29,52/66,24,Total frames assumes you end on the ground.,3.0/2.0,7/7,3/3,Early/Late,-33,15—19/29—33,19
+Pikachu,Special Attacks,Down B (Thunder),13/**,86/74,--,First total frames is when the thunder bolt misses you. Invulnerable on frame 34-43 if bolt hits you. Spikes on frames 13—15.,6.0/8.0/15.0,11/15,3/14,Projectile Early / Projectile Late / Contact,-26,13—15(16—85): Early // 21—23(24—93): Late // 1-2: Contact,84
+Pikachu,Special Attacks,Grab,7,36,--,--,--,,,,,7—8,28
+Pikachu,Special Attacks,Dash Grab,11,44,--,--,--,,,,,11—12,32
+Pikachu,Special Attacks,Pivot Grab,12,39,--,--,--,,,,,12—13,26
+Pikachu,Special Attacks,Pummel,1,16,--,Total frames includes 11 frames of hitlag,1.0,,,,,,
+Pikachu,Special Attacks,Forward Throw,11/15/19/23/30,43,--,--,2.0/2.0,,,,,,
+Pikachu,Special Attacks,Backward Throw,26,49,--,--,9.0,,,,,,
+Pikachu,Special Attacks,Up Throw,14/16,35,--,--,3.0/5.0,,,,,,
+Pikachu,Special Attacks,Down Throw,29,51,--,--,5.0,,,,,,
+Pikachu,Special Attacks,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
+Pikachu,Special Attacks,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
+Pikachu,Special Attacks,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
+Pikachu,Special Attacks,Neutral Air Dodge,,50,10,Intangible on frame 2-26,,,,,,,
+Pikachu,Special Attacks,"Air Dodge, Down",,69,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Special Attacks,"Air Dodge, Diagonally Down",,76,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Special Attacks,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Special Attacks,"Air Dodge, Diagonally Up",,97,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Special Attacks,"Air Dodge, Up",,109,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Special Attacks,Stats,,,,,,,,,,,
+Pikachu,Special Attacks,Ledge Grab,,,,,,,,,,,
+Pikachu,Special Attacks,Ledge Hang,,,,,,,,,,,
+Pikachu,Special Attacks,Ledge Roll,,,,,,,,,,,
+Pikachu,Special Attacks,Getup Attacks,,,,,,,,,,,
+Pikachu,Grabs / Throws,Grab,7,36,--,--,--,,,,,7—8,28
+Pikachu,Grabs / Throws,Dash Grab,11,44,--,--,--,,,,,11—12,32
+Pikachu,Grabs / Throws,Pivot Grab,12,39,--,--,--,,,,,12—13,26
+Pikachu,Grabs / Throws,Pummel,1,16,--,Total frames includes 11 frames of hitlag,1.0,,,,,,
+Pikachu,Grabs / Throws,Forward Throw,11/15/19/23/30,43,--,--,2.0/2.0,,,,,,
+Pikachu,Grabs / Throws,Backward Throw,26,49,--,--,9.0,,,,,,
+Pikachu,Grabs / Throws,Up Throw,14/16,35,--,--,3.0/5.0,,,,,,
+Pikachu,Grabs / Throws,Down Throw,29,51,--,--,5.0,,,,,,
+Pikachu,Grabs / Throws,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
+Pikachu,Grabs / Throws,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
+Pikachu,Grabs / Throws,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
+Pikachu,Grabs / Throws,Neutral Air Dodge,,50,10,Intangible on frame 2-26,,,,,,,
+Pikachu,Grabs / Throws,"Air Dodge, Down",,69,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Grabs / Throws,"Air Dodge, Diagonally Down",,76,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Grabs / Throws,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Grabs / Throws,"Air Dodge, Diagonally Up",,97,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Grabs / Throws,"Air Dodge, Up",,109,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Grabs / Throws,Stats,,,,,,,,,,,
+Pikachu,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Pikachu,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Pikachu,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Pikachu,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Pikachu,Dodges / Rolls,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
+Pikachu,Dodges / Rolls,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
+Pikachu,Dodges / Rolls,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
+Pikachu,Dodges / Rolls,Neutral Air Dodge,,50,10,Intangible on frame 2-26,,,,,,,
+Pikachu,Dodges / Rolls,"Air Dodge, Down",,69,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Dodges / Rolls,"Air Dodge, Diagonally Down",,76,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Dodges / Rolls,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Dodges / Rolls,"Air Dodge, Diagonally Up",,97,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Dodges / Rolls,"Air Dodge, Up",,109,11-19,Intangible on frame 2-19,,,,,,,
+Pikachu,Dodges / Rolls,Stats,,,,,,,,,,,
+Pikachu,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Pikachu,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Pikachu,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Pikachu,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Pikachu,Misc Info,Stats,,,,,,,,,,,
+Pikachu,Misc Info,Ledge Grab,,,,,,,,,,,
+Pikachu,Misc Info,Ledge Hang,,,,,,,,,,,
+Pikachu,Misc Info,Ledge Roll,,,,,,,,,,,
+Pikachu,Misc Info,Getup Attacks,,,,,,,,,,,

@@ -1,0 +1,149 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Sonic,Ground Attacks,Jab 1,3,19,--,Transitions to jab 2 as early as frame 7,2.0,7,3,--,-13,3,16
+Sonic,Ground Attacks,Jab 2,2,21,--,Transitions to jab 3 as early as frame 6,1.5,5,3,--,-16,2,19
+Sonic,Ground Attacks,Jab 3,4,35,--,--,4.0,11,5,--,-26,4—5,30
+Sonic,Ground Attacks,Forward Tilt,6/8,35,--,--,4.0/7.0,5/7,-/7,--,-20,6/8—11,24
+Sonic,Ground Attacks,Up Tilt,6(7)/13,35,--,"First hit on frame 6 is ground only, frame 7 if anti air.",2.0/6.0,4/6,3/6,--,-20,6—8(7—8)/13—14,21
+Sonic,Ground Attacks,Down Tilt,6,27,--,--,6.0,6,6,--,-15,6—7,20
+Sonic,Ground Attacks,Dash Attack,5,49,--,--,8.0/6.0,6,6,Early/Late,-38,5—8(9—20),29
+Sonic,Ground Attacks,Forward Smash,18,47,--,Charge hold is frame 12. Please checkthis Tweetto see hitboxes with Sonic's fist at a normal size.,14.0,10,10,--,-19,18—20,27
+Sonic,Ground Attacks,Up Smash,14...,61,--,Invulnerable on frame 14-18. Charge hold is frame 10,5.0/1.0/3.0,6/4/5,2/-/3,First/Multi/Final,-29,14/17/19/21/23/25/27/29-30,31
+Sonic,Ground Attacks,Down Smash,12,54,--,Charge hold is frame 5,12.0,9,8,--,-34,12—13,41
+Sonic,Ground Attacks,Neutral Air,6,49,10,Autocancels on frame 48 onward,12.0/8.0/5.0,9/7/6,5/4/3,Early/Late/Later,-5/-6/-7,6—9(10—19/20—38),11
+Sonic,Ground Attacks,Forward Air,5/7/9/11/13/15,45,16,Autocancels on frame 1-2 and 34 onward,0.8/3.0,4/7,-/2,Multi/Final,-14/-14,5/7/9/11/13/15,30
+Sonic,Ground Attacks,Back Air,13,37,15,Autocancels on frame 1-4 and 33 onward,14.0/10.0,12/8,5/4,Early/Late,-10/-11,13—14(15—19),18
+Sonic,Ground Attacks,Up Air,5/14,39,13,Autocancels on frame 1-4 and 16 onward,3.0/8.0,5/9,2/4,--,-11/-9,5—7/14—15,24
+Sonic,Ground Attacks,Down Air,17,45,21,Autocancels on frame 1-3 and 41 onward,8.0/7.0,11/7,4/3,Meteor/Late,-17/-18,17—19/20—32,13
+Sonic,Ground Attacks,Neutral B (Homing Attack),17—82,-,--,26 endlag on hit,7.0—20.0,7—12,4—10,--,-22 to -16,**,--
+Sonic,Ground Attacks,Side B (Spin Dash),17,--,--,Invulnerable frame 17-22. Startup is 1 from a charging state with six I-frames. Stops on shields. Endlag for that is 28.Startup/charge cancelable starting f7 into:- vertical spin dash jump- spin hopsAfter release cancels into:-Spin dash jump-double jump (aerial only)Check out this imagefor more information on Spin Dash and Spin Charge.,5.0/7.0—10.9,6/7—8,6/7—10,--,"+6 (hop)+8 (grounded, no charge)+11 (grounded, full charge)+11 (aerial, any)",**,--
+Sonic,Ground Attacks,"Spin Dash, Jump",3,--,--,Cancelable into:-Up/Neutral special-All aerials-Double jump,--,--,--,--,+4,--,--
+Sonic,Ground Attacks,Up B (Spring Jump),4,18,10,Invulnerable on frame 5-7. Landing lag state can be overwritten with other actions. No projectile on ground version.,4.0,5,2,--,-7,**,--
+Sonic,Ground Attacks,Down B (Spin Charge),15/17/19/21,59,-,Startup and total frames refer to minimum charge.Startup/charge cancelable starting f7 into:- spin dash jump- double jump (air only)Check out this imagefor more information on Spin Dash and Spin Charge.,1.7—2.5/4.0,4—5/5,-/5,Multi/Final,-33,**,--
+Sonic,Ground Attacks,"Spin Charge, Jump",3,10,-,Jumping from an air version generates no hitbox or endlag.,3.0/6.0,5/6,4/6,--,-1,**,--
+Sonic,Ground Attacks,"Spin Charge, Aerial",3,10,-,Jumping from an air version generates no hitbox or endlag.,3.0/6.0,5/6,4/6,--,-1,**,--
+Sonic,Ground Attacks,Grab,7,37,--,--,--,,,,,7—8,29
+Sonic,Ground Attacks,Dash Grab,10,47,--,--,--,,,,,10—11,36
+Sonic,Ground Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Sonic,Ground Attacks,Pummel,1,19,Total frames includes 13 frames of hitlag.,--,1.3,,,,,,
+Sonic,Ground Attacks,Forward Throw,10/11,37,--,--,1.0/6.0,,,,,,
+Sonic,Ground Attacks,Backward Throw,43,66,--,--,7.0,,,,,,
+Sonic,Ground Attacks,Up Throw,22/23,42,--,--,1.0/5.0,,,,,,
+Sonic,Ground Attacks,Down Throw,18/26/34/42,74,--,--,1.0/5.0,,,,,,
+Sonic,Ground Attacks,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
+Sonic,Ground Attacks,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
+Sonic,Ground Attacks,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
+Sonic,Ground Attacks,Neutral Air Dodge,,50,10,Intangible on frame 2-26,,,,,,,
+Sonic,Ground Attacks,"Air Dodge, Down",,66,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Ground Attacks,"Air Dodge, Diagonally Down",,74,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Ground Attacks,"Air Dodge, Left/Right",,81,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Ground Attacks,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Ground Attacks,"Air Dodge, Up",,107,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Ground Attacks,Stats,,,,,,,,,,,
+Sonic,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Sonic,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Sonic,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Sonic,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Sonic,Aerial Attacks,Neutral Air,6,49,10,Autocancels on frame 48 onward,12.0/8.0/5.0,9/7/6,5/4/3,Early/Late/Later,-5/-6/-7,6—9(10—19/20—38),11
+Sonic,Aerial Attacks,Forward Air,5/7/9/11/13/15,45,16,Autocancels on frame 1-2 and 34 onward,0.8/3.0,4/7,-/2,Multi/Final,-14/-14,5/7/9/11/13/15,30
+Sonic,Aerial Attacks,Back Air,13,37,15,Autocancels on frame 1-4 and 33 onward,14.0/10.0,12/8,5/4,Early/Late,-10/-11,13—14(15—19),18
+Sonic,Aerial Attacks,Up Air,5/14,39,13,Autocancels on frame 1-4 and 16 onward,3.0/8.0,5/9,2/4,--,-11/-9,5—7/14—15,24
+Sonic,Aerial Attacks,Down Air,17,45,21,Autocancels on frame 1-3 and 41 onward,8.0/7.0,11/7,4/3,Meteor/Late,-17/-18,17—19/20—32,13
+Sonic,Aerial Attacks,Neutral B (Homing Attack),17—82,-,--,26 endlag on hit,7.0—20.0,7—12,4—10,--,-22 to -16,**,--
+Sonic,Aerial Attacks,Side B (Spin Dash),17,--,--,Invulnerable frame 17-22. Startup is 1 from a charging state with six I-frames. Stops on shields. Endlag for that is 28.Startup/charge cancelable starting f7 into:- vertical spin dash jump- spin hopsAfter release cancels into:-Spin dash jump-double jump (aerial only)Check out this imagefor more information on Spin Dash and Spin Charge.,5.0/7.0—10.9,6/7—8,6/7—10,--,"+6 (hop)+8 (grounded, no charge)+11 (grounded, full charge)+11 (aerial, any)",**,--
+Sonic,Aerial Attacks,"Spin Dash, Jump",3,--,--,Cancelable into:-Up/Neutral special-All aerials-Double jump,--,--,--,--,+4,--,--
+Sonic,Aerial Attacks,Up B (Spring Jump),4,18,10,Invulnerable on frame 5-7. Landing lag state can be overwritten with other actions. No projectile on ground version.,4.0,5,2,--,-7,**,--
+Sonic,Aerial Attacks,Down B (Spin Charge),15/17/19/21,59,-,Startup and total frames refer to minimum charge.Startup/charge cancelable starting f7 into:- spin dash jump- double jump (air only)Check out this imagefor more information on Spin Dash and Spin Charge.,1.7—2.5/4.0,4—5/5,-/5,Multi/Final,-33,**,--
+Sonic,Aerial Attacks,"Spin Charge, Jump",3,10,-,Jumping from an air version generates no hitbox or endlag.,3.0/6.0,5/6,4/6,--,-1,**,--
+Sonic,Aerial Attacks,"Spin Charge, Aerial",3,10,-,Jumping from an air version generates no hitbox or endlag.,3.0/6.0,5/6,4/6,--,-1,**,--
+Sonic,Aerial Attacks,Grab,7,37,--,--,--,,,,,7—8,29
+Sonic,Aerial Attacks,Dash Grab,10,47,--,--,--,,,,,10—11,36
+Sonic,Aerial Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Sonic,Aerial Attacks,Pummel,1,19,Total frames includes 13 frames of hitlag.,--,1.3,,,,,,
+Sonic,Aerial Attacks,Forward Throw,10/11,37,--,--,1.0/6.0,,,,,,
+Sonic,Aerial Attacks,Backward Throw,43,66,--,--,7.0,,,,,,
+Sonic,Aerial Attacks,Up Throw,22/23,42,--,--,1.0/5.0,,,,,,
+Sonic,Aerial Attacks,Down Throw,18/26/34/42,74,--,--,1.0/5.0,,,,,,
+Sonic,Aerial Attacks,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
+Sonic,Aerial Attacks,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
+Sonic,Aerial Attacks,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
+Sonic,Aerial Attacks,Neutral Air Dodge,,50,10,Intangible on frame 2-26,,,,,,,
+Sonic,Aerial Attacks,"Air Dodge, Down",,66,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Aerial Attacks,"Air Dodge, Diagonally Down",,74,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Aerial Attacks,"Air Dodge, Left/Right",,81,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Aerial Attacks,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Aerial Attacks,"Air Dodge, Up",,107,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Aerial Attacks,Stats,,,,,,,,,,,
+Sonic,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Sonic,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Sonic,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Sonic,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Sonic,Special Attacks,Neutral B (Homing Attack),17—82,-,--,26 endlag on hit,7.0—20.0,7—12,4—10,--,-22 to -16,**,--
+Sonic,Special Attacks,Side B (Spin Dash),17,--,--,Invulnerable frame 17-22. Startup is 1 from a charging state with six I-frames. Stops on shields. Endlag for that is 28.Startup/charge cancelable starting f7 into:- vertical spin dash jump- spin hopsAfter release cancels into:-Spin dash jump-double jump (aerial only)Check out this imagefor more information on Spin Dash and Spin Charge.,5.0/7.0—10.9,6/7—8,6/7—10,--,"+6 (hop)+8 (grounded, no charge)+11 (grounded, full charge)+11 (aerial, any)",**,--
+Sonic,Special Attacks,"Spin Dash, Jump",3,--,--,Cancelable into:-Up/Neutral special-All aerials-Double jump,--,--,--,--,+4,--,--
+Sonic,Special Attacks,Up B (Spring Jump),4,18,10,Invulnerable on frame 5-7. Landing lag state can be overwritten with other actions. No projectile on ground version.,4.0,5,2,--,-7,**,--
+Sonic,Special Attacks,Down B (Spin Charge),15/17/19/21,59,-,Startup and total frames refer to minimum charge.Startup/charge cancelable starting f7 into:- spin dash jump- double jump (air only)Check out this imagefor more information on Spin Dash and Spin Charge.,1.7—2.5/4.0,4—5/5,-/5,Multi/Final,-33,**,--
+Sonic,Special Attacks,"Spin Charge, Jump",3,10,-,Jumping from an air version generates no hitbox or endlag.,3.0/6.0,5/6,4/6,--,-1,**,--
+Sonic,Special Attacks,"Spin Charge, Aerial",3,10,-,Jumping from an air version generates no hitbox or endlag.,3.0/6.0,5/6,4/6,--,-1,**,--
+Sonic,Special Attacks,Grab,7,37,--,--,--,,,,,7—8,29
+Sonic,Special Attacks,Dash Grab,10,47,--,--,--,,,,,10—11,36
+Sonic,Special Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Sonic,Special Attacks,Pummel,1,19,Total frames includes 13 frames of hitlag.,--,1.3,,,,,,
+Sonic,Special Attacks,Forward Throw,10/11,37,--,--,1.0/6.0,,,,,,
+Sonic,Special Attacks,Backward Throw,43,66,--,--,7.0,,,,,,
+Sonic,Special Attacks,Up Throw,22/23,42,--,--,1.0/5.0,,,,,,
+Sonic,Special Attacks,Down Throw,18/26/34/42,74,--,--,1.0/5.0,,,,,,
+Sonic,Special Attacks,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
+Sonic,Special Attacks,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
+Sonic,Special Attacks,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
+Sonic,Special Attacks,Neutral Air Dodge,,50,10,Intangible on frame 2-26,,,,,,,
+Sonic,Special Attacks,"Air Dodge, Down",,66,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Special Attacks,"Air Dodge, Diagonally Down",,74,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Special Attacks,"Air Dodge, Left/Right",,81,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Special Attacks,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Special Attacks,"Air Dodge, Up",,107,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Special Attacks,Stats,,,,,,,,,,,
+Sonic,Special Attacks,Ledge Grab,,,,,,,,,,,
+Sonic,Special Attacks,Ledge Hang,,,,,,,,,,,
+Sonic,Special Attacks,Ledge Roll,,,,,,,,,,,
+Sonic,Special Attacks,Getup Attacks,,,,,,,,,,,
+Sonic,Grabs / Throws,Grab,7,37,--,--,--,,,,,7—8,29
+Sonic,Grabs / Throws,Dash Grab,10,47,--,--,--,,,,,10—11,36
+Sonic,Grabs / Throws,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Sonic,Grabs / Throws,Pummel,1,19,Total frames includes 13 frames of hitlag.,--,1.3,,,,,,
+Sonic,Grabs / Throws,Forward Throw,10/11,37,--,--,1.0/6.0,,,,,,
+Sonic,Grabs / Throws,Backward Throw,43,66,--,--,7.0,,,,,,
+Sonic,Grabs / Throws,Up Throw,22/23,42,--,--,1.0/5.0,,,,,,
+Sonic,Grabs / Throws,Down Throw,18/26/34/42,74,--,--,1.0/5.0,,,,,,
+Sonic,Grabs / Throws,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
+Sonic,Grabs / Throws,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
+Sonic,Grabs / Throws,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
+Sonic,Grabs / Throws,Neutral Air Dodge,,50,10,Intangible on frame 2-26,,,,,,,
+Sonic,Grabs / Throws,"Air Dodge, Down",,66,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Grabs / Throws,"Air Dodge, Diagonally Down",,74,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Grabs / Throws,"Air Dodge, Left/Right",,81,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Grabs / Throws,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Grabs / Throws,"Air Dodge, Up",,107,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Grabs / Throws,Stats,,,,,,,,,,,
+Sonic,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Sonic,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Sonic,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Sonic,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Sonic,Dodges / Rolls,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
+Sonic,Dodges / Rolls,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
+Sonic,Dodges / Rolls,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
+Sonic,Dodges / Rolls,Neutral Air Dodge,,50,10,Intangible on frame 2-26,,,,,,,
+Sonic,Dodges / Rolls,"Air Dodge, Down",,66,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Dodges / Rolls,"Air Dodge, Diagonally Down",,74,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Dodges / Rolls,"Air Dodge, Left/Right",,81,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Dodges / Rolls,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Dodges / Rolls,"Air Dodge, Up",,107,11-19,Intangible on frame 2-19,,,,,,,
+Sonic,Dodges / Rolls,Stats,,,,,,,,,,,
+Sonic,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Sonic,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Sonic,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Sonic,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Sonic,Misc Info,Stats,,,,,,,,,,,
+Sonic,Misc Info,Ledge Grab,,,,,,,,,,,
+Sonic,Misc Info,Ledge Hang,,,,,,,,,,,
+Sonic,Misc Info,Ledge Roll,,,,,,,,,,,
+Sonic,Misc Info,Getup Attacks,,,,,,,,,,,

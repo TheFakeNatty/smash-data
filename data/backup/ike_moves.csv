@@ -1,0 +1,143 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Ike,Ground Attacks,Jab 1,4,23,--,Transitions to Jab 2 as early as frame 9,2.5,8,4,--,-15,4—5,18
+Ike,Ground Attacks,Jab 2,3,27,--,Transitions to jab 3 as early as frame 9,2.5,6,4,--,-20,3—4,23
+Ike,Ground Attacks,Jab 3,5,40,--,Attack hits directly above Ike on frame 5 only.,5.0,12,6,--,-29,5—8,32
+Ike,Ground Attacks,Forward Tilt,12,41,--,--,12.5,9,12,--,-17,12—13,28
+Ike,Ground Attacks,Up Tilt,11,39,--,--,12.0/8.0,9,11,Early/Late,-17,11—16/17—21,18
+Ike,Ground Attacks,Down Tilt,7,28,--,--,8.0,7,8,--,-13,7—8,20
+Ike,Ground Attacks,Dash Attack,15,47,--,--,14.0,12,15,--,-17,15—16/17—19,28
+Ike,Ground Attacks,Forward Smash,31,83,--,Sword hits directly above Ike on frame 31. Strong hit on 33. Charge hold is frame 24,19.0/22.0,12/13,13/14,Early/Late,-39/-36,31—32/33—35,48
+Ike,Ground Attacks,Up Smash,25,70,--,Charge hold is frame 11,17.0/10.0,11,11,Early/Late,-34,25—29/30—31,39
+Ike,Ground Attacks,Down Smash,13/32,70,--,Charge hold is frame 5,16.0/19.0/9,10/12/**,11/13/**,First/Second/Second Late,-46/-25,13—15/32—33/34—36,34
+Ike,Ground Attacks,Neutral Air,10,59,8,Autocancels on frame 1-2 and 50 onward,7.5/6.0,7/6,3/3,Early/Late,-5,10—14/15—22,37
+Ike,Ground Attacks,Forward Air,11,51,14,Autocancels on frame 42 onward,13.0,9,5,--,-9,11—15,36
+Ike,Ground Attacks,Back Air,7,54,11,Autocancels on frame 1-2 and 35 onward,14.0,10,5,--,-6,7—9,45
+Ike,Ground Attacks,Up Air,13,56,9,Autocancels on frame 1-5 and 51 onward,11.0,8,4,--,-5,13—18,38
+Ike,Ground Attacks,Down Air,16,54,14,Autocancels on frame 1-4 and 48 onward,15.0,10,5,--,-9,16—17,37
+Ike,Ground Attacks,Neutral B (Eruption),30-239,78-287,--,"On release, startup is 11 and total frames is 59",10.0—35.0,8—16,10—Shieldbreak,--,-38 to Shieldbreak,**,--
+Ike,Ground Attacks,Side B (Quickdraw),16,53/34/44,30,"Reaches max charge around 85. Startup is 2 upon reaching a target. Swing total frames is 34, or 44 from the air. Landing lag only occurs after entering special fall. Can continue recovery options after an air swing on frame 44.",6.0—13.0,6—9,6—12,--,-28 to -22,**,--
+Ike,Ground Attacks,Up B (Aether),15/44/51/61,--,36,Landing hit on frame 1. Super armor on frame 5-35. (ending the frame he ascends). Super armor on frame 15-35 for the air version.,6.0/1.0/3.0/6.0,6/4/5/6,6/2/4/6,First/multi/falling/landing,-29,**,--
+Ike,Ground Attacks,Down B (Counter),9 (Start of Counter),73,--,Invulnerable on frame 8. Counters on frame 9-33,--,--,--,--,--,--,--
+Ike,Ground Attacks,"Counter, Attack",4,43,--,Invulnerable on frame 1-4 in addition to counter freeze frames,--,--,--,--,--,4—5,38
+Ike,Ground Attacks,Grab,7,36,--,--,--,,,,,7—8,28
+Ike,Ground Attacks,Dash Grab,10,44,--,--,--,,,,,10—11,33
+Ike,Ground Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Ike,Ground Attacks,Pummel,1,20,Total frames includes 14 frames of hitlag.,--,1.6,,,,,,
+Ike,Ground Attacks,Forward Throw,5/8,32,--,--,3.5/4.0,,,,,,
+Ike,Ground Attacks,Backward Throw,20/22,37,--,--,3.0/4.0,,,,,,
+Ike,Ground Attacks,Up Throw,18/20,42,--,--,3.5/4.0,,,,,,
+Ike,Ground Attacks,Down Throw,35/40,57,--,--,3.0/4.0,,,,,,
+Ike,Ground Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Ike,Ground Attacks,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Ike,Ground Attacks,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Ike,Ground Attacks,Neutral Air Dodge,,49,10,Intangible on frame 4-31.,,,,,,,
+Ike,Ground Attacks,"Air Dodge, Down",,66,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Ground Attacks,"Air Dodge, Diagonally Down",,76,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Ground Attacks,"Air Dodge, Left/Right",,82,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Ground Attacks,"Air Dodge, Diagonally Up",,96,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Ground Attacks,"Air Dodge, Up",,108,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Ground Attacks,Stats,,,,,,,,,,,
+Ike,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Ike,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Ike,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Ike,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Ike,Aerial Attacks,Neutral Air,10,59,8,Autocancels on frame 1-2 and 50 onward,7.5/6.0,7/6,3/3,Early/Late,-5,10—14/15—22,37
+Ike,Aerial Attacks,Forward Air,11,51,14,Autocancels on frame 42 onward,13.0,9,5,--,-9,11—15,36
+Ike,Aerial Attacks,Back Air,7,54,11,Autocancels on frame 1-2 and 35 onward,14.0,10,5,--,-6,7—9,45
+Ike,Aerial Attacks,Up Air,13,56,9,Autocancels on frame 1-5 and 51 onward,11.0,8,4,--,-5,13—18,38
+Ike,Aerial Attacks,Down Air,16,54,14,Autocancels on frame 1-4 and 48 onward,15.0,10,5,--,-9,16—17,37
+Ike,Aerial Attacks,Neutral B (Eruption),30-239,78-287,--,"On release, startup is 11 and total frames is 59",10.0—35.0,8—16,10—Shieldbreak,--,-38 to Shieldbreak,**,--
+Ike,Aerial Attacks,Side B (Quickdraw),16,53/34/44,30,"Reaches max charge around 85. Startup is 2 upon reaching a target. Swing total frames is 34, or 44 from the air. Landing lag only occurs after entering special fall. Can continue recovery options after an air swing on frame 44.",6.0—13.0,6—9,6—12,--,-28 to -22,**,--
+Ike,Aerial Attacks,Up B (Aether),15/44/51/61,--,36,Landing hit on frame 1. Super armor on frame 5-35. (ending the frame he ascends). Super armor on frame 15-35 for the air version.,6.0/1.0/3.0/6.0,6/4/5/6,6/2/4/6,First/multi/falling/landing,-29,**,--
+Ike,Aerial Attacks,Down B (Counter),9 (Start of Counter),73,--,Invulnerable on frame 8. Counters on frame 9-33,--,--,--,--,--,--,--
+Ike,Aerial Attacks,"Counter, Attack",4,43,--,Invulnerable on frame 1-4 in addition to counter freeze frames,--,--,--,--,--,4—5,38
+Ike,Aerial Attacks,Grab,7,36,--,--,--,,,,,7—8,28
+Ike,Aerial Attacks,Dash Grab,10,44,--,--,--,,,,,10—11,33
+Ike,Aerial Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Ike,Aerial Attacks,Pummel,1,20,Total frames includes 14 frames of hitlag.,--,1.6,,,,,,
+Ike,Aerial Attacks,Forward Throw,5/8,32,--,--,3.5/4.0,,,,,,
+Ike,Aerial Attacks,Backward Throw,20/22,37,--,--,3.0/4.0,,,,,,
+Ike,Aerial Attacks,Up Throw,18/20,42,--,--,3.5/4.0,,,,,,
+Ike,Aerial Attacks,Down Throw,35/40,57,--,--,3.0/4.0,,,,,,
+Ike,Aerial Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Ike,Aerial Attacks,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Ike,Aerial Attacks,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Ike,Aerial Attacks,Neutral Air Dodge,,49,10,Intangible on frame 4-31.,,,,,,,
+Ike,Aerial Attacks,"Air Dodge, Down",,66,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Aerial Attacks,"Air Dodge, Diagonally Down",,76,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Aerial Attacks,"Air Dodge, Left/Right",,82,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Aerial Attacks,"Air Dodge, Diagonally Up",,96,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Aerial Attacks,"Air Dodge, Up",,108,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Aerial Attacks,Stats,,,,,,,,,,,
+Ike,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Ike,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Ike,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Ike,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Ike,Special Attacks,Neutral B (Eruption),30-239,78-287,--,"On release, startup is 11 and total frames is 59",10.0—35.0,8—16,10—Shieldbreak,--,-38 to Shieldbreak,**,--
+Ike,Special Attacks,Side B (Quickdraw),16,53/34/44,30,"Reaches max charge around 85. Startup is 2 upon reaching a target. Swing total frames is 34, or 44 from the air. Landing lag only occurs after entering special fall. Can continue recovery options after an air swing on frame 44.",6.0—13.0,6—9,6—12,--,-28 to -22,**,--
+Ike,Special Attacks,Up B (Aether),15/44/51/61,--,36,Landing hit on frame 1. Super armor on frame 5-35. (ending the frame he ascends). Super armor on frame 15-35 for the air version.,6.0/1.0/3.0/6.0,6/4/5/6,6/2/4/6,First/multi/falling/landing,-29,**,--
+Ike,Special Attacks,Down B (Counter),9 (Start of Counter),73,--,Invulnerable on frame 8. Counters on frame 9-33,--,--,--,--,--,--,--
+Ike,Special Attacks,"Counter, Attack",4,43,--,Invulnerable on frame 1-4 in addition to counter freeze frames,--,--,--,--,--,4—5,38
+Ike,Special Attacks,Grab,7,36,--,--,--,,,,,7—8,28
+Ike,Special Attacks,Dash Grab,10,44,--,--,--,,,,,10—11,33
+Ike,Special Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Ike,Special Attacks,Pummel,1,20,Total frames includes 14 frames of hitlag.,--,1.6,,,,,,
+Ike,Special Attacks,Forward Throw,5/8,32,--,--,3.5/4.0,,,,,,
+Ike,Special Attacks,Backward Throw,20/22,37,--,--,3.0/4.0,,,,,,
+Ike,Special Attacks,Up Throw,18/20,42,--,--,3.5/4.0,,,,,,
+Ike,Special Attacks,Down Throw,35/40,57,--,--,3.0/4.0,,,,,,
+Ike,Special Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Ike,Special Attacks,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Ike,Special Attacks,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Ike,Special Attacks,Neutral Air Dodge,,49,10,Intangible on frame 4-31.,,,,,,,
+Ike,Special Attacks,"Air Dodge, Down",,66,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Special Attacks,"Air Dodge, Diagonally Down",,76,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Special Attacks,"Air Dodge, Left/Right",,82,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Special Attacks,"Air Dodge, Diagonally Up",,96,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Special Attacks,"Air Dodge, Up",,108,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Special Attacks,Stats,,,,,,,,,,,
+Ike,Special Attacks,Ledge Grab,,,,,,,,,,,
+Ike,Special Attacks,Ledge Hang,,,,,,,,,,,
+Ike,Special Attacks,Ledge Roll,,,,,,,,,,,
+Ike,Special Attacks,Getup Attacks,,,,,,,,,,,
+Ike,Grabs / Throws,Grab,7,36,--,--,--,,,,,7—8,28
+Ike,Grabs / Throws,Dash Grab,10,44,--,--,--,,,,,10—11,33
+Ike,Grabs / Throws,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Ike,Grabs / Throws,Pummel,1,20,Total frames includes 14 frames of hitlag.,--,1.6,,,,,,
+Ike,Grabs / Throws,Forward Throw,5/8,32,--,--,3.5/4.0,,,,,,
+Ike,Grabs / Throws,Backward Throw,20/22,37,--,--,3.0/4.0,,,,,,
+Ike,Grabs / Throws,Up Throw,18/20,42,--,--,3.5/4.0,,,,,,
+Ike,Grabs / Throws,Down Throw,35/40,57,--,--,3.0/4.0,,,,,,
+Ike,Grabs / Throws,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Ike,Grabs / Throws,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Ike,Grabs / Throws,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Ike,Grabs / Throws,Neutral Air Dodge,,49,10,Intangible on frame 4-31.,,,,,,,
+Ike,Grabs / Throws,"Air Dodge, Down",,66,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Grabs / Throws,"Air Dodge, Diagonally Down",,76,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Grabs / Throws,"Air Dodge, Left/Right",,82,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Grabs / Throws,"Air Dodge, Diagonally Up",,96,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Grabs / Throws,"Air Dodge, Up",,108,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Grabs / Throws,Stats,,,,,,,,,,,
+Ike,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Ike,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Ike,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Ike,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Ike,Dodges / Rolls,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Ike,Dodges / Rolls,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Ike,Dodges / Rolls,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Ike,Dodges / Rolls,Neutral Air Dodge,,49,10,Intangible on frame 4-31.,,,,,,,
+Ike,Dodges / Rolls,"Air Dodge, Down",,66,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Dodges / Rolls,"Air Dodge, Diagonally Down",,76,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Dodges / Rolls,"Air Dodge, Left/Right",,82,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Dodges / Rolls,"Air Dodge, Diagonally Up",,96,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Dodges / Rolls,"Air Dodge, Up",,108,11-19,Intangible on frame 4-22.,,,,,,,
+Ike,Dodges / Rolls,Stats,,,,,,,,,,,
+Ike,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Ike,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Ike,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Ike,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Ike,Misc Info,Stats,,,,,,,,,,,
+Ike,Misc Info,Ledge Grab,,,,,,,,,,,
+Ike,Misc Info,Ledge Hang,,,,,,,,,,,
+Ike,Misc Info,Ledge Roll,,,,,,,,,,,
+Ike,Misc Info,Getup Attacks,,,,,,,,,,,

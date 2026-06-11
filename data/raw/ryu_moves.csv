@@ -1,158 +1,158 @@
-character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
-Ryu,Ground Attacks,Jab 1 (Light),2,15,--,Special Cancellable. Transitions to jab 2 as early as frame 6,1.5,9,3,--,-10,2—3,12
-Ryu,Ground Attacks,"Jab (Heavy, Close)",7,37,--,"Head, chest and arms invincible: frames 4-10. Special Cancellable.",12.0/8.0,13,11,--,-19,7(8—11),26
-Ryu,Ground Attacks,"Jab (Heavy, Far)",9,32,--,--,10.0,12,10,--,-13,9—10,22
-Ryu,Ground Attacks,Jab 2,3,27,--,Special Cancellable. Transitions to jab 3 as early as frame 6,1.5,9,3,--,-21,3—4,23
-Ryu,Ground Attacks,Jab 3,8,35,--,--,5.0,12,6,--,-21,8—10,25
-Ryu,Ground Attacks,"Forward Tilt (Light, Close)",3,29,--,Special Cancellable. Can't seem to perform this unless within range,6.0,9,6,--,-20,3—4,25
-Ryu,Ground Attacks,"Forward Tilt (Light, Far)",8,23,--,Leg intangibility on frame 6-11,6.8,10,7,--,-8,8—11,12
-Ryu,Ground Attacks,Forward Tilt (Heavy),15/17,36,--,--,3.0/6.0,7/9,-/6,--,-13,15/17—18,18
-Ryu,Ground Attacks,Up Tilt (Light),3,14,--,Special Cancellable. Transitions to another Utilt as early as frame 8,2.0,7,3,--,-8,3—6,8
-Ryu,Ground Attacks,Up Tilt (Heavy),7,37,--,Special Cancellable. Upper body intangibility on frame 4-10.,12.0,13,11,--,-19,7(8—11),26
-Ryu,Ground Attacks,Down Tilt (Light),2,14,--,Special Cancellable. Transitions to another Dtilt as early as frame 8,1.6,8,3,--,-9,2—3,11
-Ryu,Ground Attacks,Down Tilt (Heavy),6,27,--,Special Cancellable,7.0/5.5,10/9,7/6,Strong/Weak,-15,6—7,20
-Ryu,Ground Attacks,Dash Attack,7,40,--,--,12.0/8.0,13/11,11/8,Early/Late,-22,7—9(10—15),25
-Ryu,Ground Attacks,Forward Smash,15,45,--,Charge hold is frame 5,16.0/17.5,16/17,11/12,Close/Far,-19/-18,15—17,28
-Ryu,Ground Attacks,Up Smash,9,44,--,Arm intangibility on frame 9-12. Charge hold is frame 6,17.0/13.5,17/14,11/9,Early/Late,-24,9(10—12),32
-Ryu,Ground Attacks,Down Smash,5,41,--,Special Cancellable. Charge hold is frame 2,16.0/12.0,16/13,11/8,Sweet/Sour,-25,5—6,35
-Ryu,Ground Attacks,Neutral Air,4,35,5,Special Cancellable. Autocancels on frame 34 onward,8.0/4.5,11/8,4/3,Early/Late,-1/-2,4—6(7—31),4
-Ryu,Ground Attacks,Forward Air,8,36,11,Special Cancellable. Autocancels on frame 1-2 and 38 onward,"9.0/14.0, 8.0/12.0","15/11, 13/11","5/4, 5/4","Early foot/knee, Late foot/knee","-7/-6, -7/-6",8—9(10—14),22
-Ryu,Ground Attacks,Back Air,8,41,10,Special Cancellable. Autocancels on frame 25 onward,16.0/13.0,16/14,6/5,Close/Far,-4/-5,8—9,32
-Ryu,Ground Attacks,Up Air,6/9,35,11,Special Cancellable. Arm intangibility on frame 6-10. Autocancels on frame 18 onward,5.0/6.0,9/9,3/3,--,-8/-8,6—7/9—11,24
-Ryu,Ground Attacks,Down Air,8,45,15,Special Cancellable. Autocancels on frame 1-2 and 33 onward,12.0,13,5,--,-10,8—12,33
-Ryu,Ground Attacks,Neutral B (Hadouken),12,57,--,--,"9.0/9.5/10.0, 11.25/11.875/12.5","9/10/10, 10/11/11","8/8/8, 10/10/10","Normal Light/Medium/Heavy, True Light/Medium/Heavy","-27/-28/-28, -26/-25/-25",12—18(19—93) / 12—17(18—78) / 12—16(17—61),--
-Ryu,Ground Attacks,Shakunetsu Hadouken,12,56,--,"Hits on frame 1,2,3, and 4 with a final hit on frame 7. Rehit rate for light/medium is 2, rehit rate for heavy is 1.",1.1/9.3,10,3,Light/Medium/Heavy,-23/-23/-27,12—21(22—79) / 12—20(21—72) / 12—19(20—66),--
-Ryu,Ground Attacks,Side B (Tatsumaki Senpukyaku),8,58—90,--,"Wind-up active 8-9, later hits 29-30 and 45-46 (medium/heavy only). Total frames depends on distance traveled. Leg intangibility added in 7.0.0. The active frames listed are the front hitboxes only, and only one set of hitboxes can connect with an opponent.","11.0/11.0/12.0/13.0, 12.76/12.76/13.92/15.08","10/13/13/14, 14/14/15/15","10/10/11/12, 12/12/13/14","normal initial/light/medium/heavy, true initial/light/medium/heavy","-40—-72/-35/-67/-65, -38—-70/-33/-64/-63","8-9, 13-15, 29-31, and 45-47",11
-Ryu,Ground Attacks,"Side B, Air (Tatsumaki Senpukyaku, Air)",8,79,--,Leg intangibility on frame 13-44,"11.0/10.0/11.0/12.0, 12.76/11.6/12.76/13.92","13/12/13/13, 14/13/14/15","10/10/10/11, 12/11/12/13","normal initial/light/medium/heavy, true initial/light/medium/heavy","-62 to -61, -61 to -60",8—9/**,--
-Ryu,Ground Attacks,Up B (Shoryuken),6,--,22,Invulnerable on frame 5,13.0—15.0/7.0,19/20/21/10,12/13/14/7,Light/Medium/Heavy/Late,**,6(7—8/9—19),--
-Ryu,Ground Attacks,True Shoryuken,6,--,15,Arm intangibility on frame 1-14 Completely Invulnerable on frame 4-6.,15.6—18.0/8.4,21/22/23/11,14/15/16/8,Light/Medium/Heavy/Late,**,6(7—8/9—19),--
-Ryu,Ground Attacks,Down B (Focus Attack),"11 (+21), 11(+31), 11(+59)","55, 55, 114",--,"Stage 1: Can dash from frame 26 of entering charge or immediately after a successful hitStage 2: Focus armor begins on frame 1 and lasts until the 11 frames of the punchStage 3: This stage is unblockableDamage-bsed armor notes: Armor starts at 16.8% and ends at 33.6% in Stage 3, going up 0.289% per frame held.","12.0, 10.0, 17.0","18, 20, unblockable","11, 10, unblockable","Stage 1, Stage 2, Stage 3","-33, -34, unblockable",32—33/42—43/70—71,--
-Ryu,Ground Attacks,"Focus Attack, Dash Cancel",--,19/19,--,"First advantage is on stage 1 hit, second advantage is on stage 2 hit",--,--,--,--,-8/-9,**,--
-Ryu,Ground Attacks,Grab,6,34,--,--,--,,,,,6—7,27
-Ryu,Ground Attacks,Dash Grab,9,42,--,--,--,,,,,9—10,32
-Ryu,Ground Attacks,Pivot Grab,10,37,--,--,--,,,,,10—11,26
-Ryu,Ground Attacks,Pummel,1,16,--,Total frames includes 10 frames of hitlag,1.3,,,,,,
-Ryu,Ground Attacks,Forward Throw,16,41,--,--,9.0,,,,,,
-Ryu,Ground Attacks,Backward Throw,23,49,--,--,12.0,,,,,,
-Ryu,Ground Attacks,Up Throw,18/25,46,--,Kicks on frame 25. Leg intangible 25—30.,8.0,,,,,,
-Ryu,Ground Attacks,Down Throw,18/19,44,--,--,3.0/6.0,,,,,,
-Ryu,Ground Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Ryu,Ground Attacks,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
-Ryu,Ground Attacks,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
-Ryu,Ground Attacks,Neutral Air Dodge,,49,10,Intangible on frame 3-27.,,,,,,,
-Ryu,Ground Attacks,"Air Dodge, Down",,67,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Ground Attacks,"Air Dodge, Diagonally Down",,73,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Ground Attacks,"Air Dodge, Left/Right",,80,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Ground Attacks,"Air Dodge, Diagonally Up",,89,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Ground Attacks,"Air Dodge, Up",,102,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Ground Attacks,Stats,,,,,,,,,,,
-Ryu,Ground Attacks,Ledge Grab,,,,,,,,,,,
-Ryu,Ground Attacks,Ledge Hang,,,,,,,,,,,
-Ryu,Ground Attacks,Ledge Roll,,,,,,,,,,,
-Ryu,Ground Attacks,Getup Attacks,,,,,,,,,,,
-Ryu,Aerial Attacks,Neutral Air,4,35,5,Special Cancellable. Autocancels on frame 34 onward,8.0/4.5,11/8,4/3,Early/Late,-1/-2,4—6(7—31),4
-Ryu,Aerial Attacks,Forward Air,8,36,11,Special Cancellable. Autocancels on frame 1-2 and 38 onward,"9.0/14.0, 8.0/12.0","15/11, 13/11","5/4, 5/4","Early foot/knee, Late foot/knee","-7/-6, -7/-6",8—9(10—14),22
-Ryu,Aerial Attacks,Back Air,8,41,10,Special Cancellable. Autocancels on frame 25 onward,16.0/13.0,16/14,6/5,Close/Far,-4/-5,8—9,32
-Ryu,Aerial Attacks,Up Air,6/9,35,11,Special Cancellable. Arm intangibility on frame 6-10. Autocancels on frame 18 onward,5.0/6.0,9/9,3/3,--,-8/-8,6—7/9—11,24
-Ryu,Aerial Attacks,Down Air,8,45,15,Special Cancellable. Autocancels on frame 1-2 and 33 onward,12.0,13,5,--,-10,8—12,33
-Ryu,Aerial Attacks,Neutral B (Hadouken),12,57,--,--,"9.0/9.5/10.0, 11.25/11.875/12.5","9/10/10, 10/11/11","8/8/8, 10/10/10","Normal Light/Medium/Heavy, True Light/Medium/Heavy","-27/-28/-28, -26/-25/-25",12—18(19—93) / 12—17(18—78) / 12—16(17—61),--
-Ryu,Aerial Attacks,Shakunetsu Hadouken,12,56,--,"Hits on frame 1,2,3, and 4 with a final hit on frame 7. Rehit rate for light/medium is 2, rehit rate for heavy is 1.",1.1/9.3,10,3,Light/Medium/Heavy,-23/-23/-27,12—21(22—79) / 12—20(21—72) / 12—19(20—66),--
-Ryu,Aerial Attacks,Side B (Tatsumaki Senpukyaku),8,58—90,--,"Wind-up active 8-9, later hits 29-30 and 45-46 (medium/heavy only). Total frames depends on distance traveled. Leg intangibility added in 7.0.0. The active frames listed are the front hitboxes only, and only one set of hitboxes can connect with an opponent.","11.0/11.0/12.0/13.0, 12.76/12.76/13.92/15.08","10/13/13/14, 14/14/15/15","10/10/11/12, 12/12/13/14","normal initial/light/medium/heavy, true initial/light/medium/heavy","-40—-72/-35/-67/-65, -38—-70/-33/-64/-63","8-9, 13-15, 29-31, and 45-47",11
-Ryu,Aerial Attacks,"Side B, Air (Tatsumaki Senpukyaku, Air)",8,79,--,Leg intangibility on frame 13-44,"11.0/10.0/11.0/12.0, 12.76/11.6/12.76/13.92","13/12/13/13, 14/13/14/15","10/10/10/11, 12/11/12/13","normal initial/light/medium/heavy, true initial/light/medium/heavy","-62 to -61, -61 to -60",8—9/**,--
-Ryu,Aerial Attacks,Up B (Shoryuken),6,--,22,Invulnerable on frame 5,13.0—15.0/7.0,19/20/21/10,12/13/14/7,Light/Medium/Heavy/Late,**,6(7—8/9—19),--
-Ryu,Aerial Attacks,True Shoryuken,6,--,15,Arm intangibility on frame 1-14 Completely Invulnerable on frame 4-6.,15.6—18.0/8.4,21/22/23/11,14/15/16/8,Light/Medium/Heavy/Late,**,6(7—8/9—19),--
-Ryu,Aerial Attacks,Down B (Focus Attack),"11 (+21), 11(+31), 11(+59)","55, 55, 114",--,"Stage 1: Can dash from frame 26 of entering charge or immediately after a successful hitStage 2: Focus armor begins on frame 1 and lasts until the 11 frames of the punchStage 3: This stage is unblockableDamage-bsed armor notes: Armor starts at 16.8% and ends at 33.6% in Stage 3, going up 0.289% per frame held.","12.0, 10.0, 17.0","18, 20, unblockable","11, 10, unblockable","Stage 1, Stage 2, Stage 3","-33, -34, unblockable",32—33/42—43/70—71,--
-Ryu,Aerial Attacks,"Focus Attack, Dash Cancel",--,19/19,--,"First advantage is on stage 1 hit, second advantage is on stage 2 hit",--,--,--,--,-8/-9,**,--
-Ryu,Aerial Attacks,Grab,6,34,--,--,--,,,,,6—7,27
-Ryu,Aerial Attacks,Dash Grab,9,42,--,--,--,,,,,9—10,32
-Ryu,Aerial Attacks,Pivot Grab,10,37,--,--,--,,,,,10—11,26
-Ryu,Aerial Attacks,Pummel,1,16,--,Total frames includes 10 frames of hitlag,1.3,,,,,,
-Ryu,Aerial Attacks,Forward Throw,16,41,--,--,9.0,,,,,,
-Ryu,Aerial Attacks,Backward Throw,23,49,--,--,12.0,,,,,,
-Ryu,Aerial Attacks,Up Throw,18/25,46,--,Kicks on frame 25. Leg intangible 25—30.,8.0,,,,,,
-Ryu,Aerial Attacks,Down Throw,18/19,44,--,--,3.0/6.0,,,,,,
-Ryu,Aerial Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Ryu,Aerial Attacks,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
-Ryu,Aerial Attacks,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
-Ryu,Aerial Attacks,Neutral Air Dodge,,49,10,Intangible on frame 3-27.,,,,,,,
-Ryu,Aerial Attacks,"Air Dodge, Down",,67,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Aerial Attacks,"Air Dodge, Diagonally Down",,73,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Aerial Attacks,"Air Dodge, Left/Right",,80,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Aerial Attacks,"Air Dodge, Diagonally Up",,89,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Aerial Attacks,"Air Dodge, Up",,102,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Aerial Attacks,Stats,,,,,,,,,,,
-Ryu,Aerial Attacks,Ledge Grab,,,,,,,,,,,
-Ryu,Aerial Attacks,Ledge Hang,,,,,,,,,,,
-Ryu,Aerial Attacks,Ledge Roll,,,,,,,,,,,
-Ryu,Aerial Attacks,Getup Attacks,,,,,,,,,,,
-Ryu,Special Attacks,Neutral B (Hadouken),12,57,--,--,"9.0/9.5/10.0, 11.25/11.875/12.5","9/10/10, 10/11/11","8/8/8, 10/10/10","Normal Light/Medium/Heavy, True Light/Medium/Heavy","-27/-28/-28, -26/-25/-25",12—18(19—93) / 12—17(18—78) / 12—16(17—61),--
-Ryu,Special Attacks,Shakunetsu Hadouken,12,56,--,"Hits on frame 1,2,3, and 4 with a final hit on frame 7. Rehit rate for light/medium is 2, rehit rate for heavy is 1.",1.1/9.3,10,3,Light/Medium/Heavy,-23/-23/-27,12—21(22—79) / 12—20(21—72) / 12—19(20—66),--
-Ryu,Special Attacks,Side B (Tatsumaki Senpukyaku),8,58—90,--,"Wind-up active 8-9, later hits 29-30 and 45-46 (medium/heavy only). Total frames depends on distance traveled. Leg intangibility added in 7.0.0. The active frames listed are the front hitboxes only, and only one set of hitboxes can connect with an opponent.","11.0/11.0/12.0/13.0, 12.76/12.76/13.92/15.08","10/13/13/14, 14/14/15/15","10/10/11/12, 12/12/13/14","normal initial/light/medium/heavy, true initial/light/medium/heavy","-40—-72/-35/-67/-65, -38—-70/-33/-64/-63","8-9, 13-15, 29-31, and 45-47",11
-Ryu,Special Attacks,"Side B, Air (Tatsumaki Senpukyaku, Air)",8,79,--,Leg intangibility on frame 13-44,"11.0/10.0/11.0/12.0, 12.76/11.6/12.76/13.92","13/12/13/13, 14/13/14/15","10/10/10/11, 12/11/12/13","normal initial/light/medium/heavy, true initial/light/medium/heavy","-62 to -61, -61 to -60",8—9/**,--
-Ryu,Special Attacks,Up B (Shoryuken),6,--,22,Invulnerable on frame 5,13.0—15.0/7.0,19/20/21/10,12/13/14/7,Light/Medium/Heavy/Late,**,6(7—8/9—19),--
-Ryu,Special Attacks,True Shoryuken,6,--,15,Arm intangibility on frame 1-14 Completely Invulnerable on frame 4-6.,15.6—18.0/8.4,21/22/23/11,14/15/16/8,Light/Medium/Heavy/Late,**,6(7—8/9—19),--
-Ryu,Special Attacks,Down B (Focus Attack),"11 (+21), 11(+31), 11(+59)","55, 55, 114",--,"Stage 1: Can dash from frame 26 of entering charge or immediately after a successful hitStage 2: Focus armor begins on frame 1 and lasts until the 11 frames of the punchStage 3: This stage is unblockableDamage-bsed armor notes: Armor starts at 16.8% and ends at 33.6% in Stage 3, going up 0.289% per frame held.","12.0, 10.0, 17.0","18, 20, unblockable","11, 10, unblockable","Stage 1, Stage 2, Stage 3","-33, -34, unblockable",32—33/42—43/70—71,--
-Ryu,Special Attacks,"Focus Attack, Dash Cancel",--,19/19,--,"First advantage is on stage 1 hit, second advantage is on stage 2 hit",--,--,--,--,-8/-9,**,--
-Ryu,Special Attacks,Grab,6,34,--,--,--,,,,,6—7,27
-Ryu,Special Attacks,Dash Grab,9,42,--,--,--,,,,,9—10,32
-Ryu,Special Attacks,Pivot Grab,10,37,--,--,--,,,,,10—11,26
-Ryu,Special Attacks,Pummel,1,16,--,Total frames includes 10 frames of hitlag,1.3,,,,,,
-Ryu,Special Attacks,Forward Throw,16,41,--,--,9.0,,,,,,
-Ryu,Special Attacks,Backward Throw,23,49,--,--,12.0,,,,,,
-Ryu,Special Attacks,Up Throw,18/25,46,--,Kicks on frame 25. Leg intangible 25—30.,8.0,,,,,,
-Ryu,Special Attacks,Down Throw,18/19,44,--,--,3.0/6.0,,,,,,
-Ryu,Special Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Ryu,Special Attacks,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
-Ryu,Special Attacks,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
-Ryu,Special Attacks,Neutral Air Dodge,,49,10,Intangible on frame 3-27.,,,,,,,
-Ryu,Special Attacks,"Air Dodge, Down",,67,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Special Attacks,"Air Dodge, Diagonally Down",,73,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Special Attacks,"Air Dodge, Left/Right",,80,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Special Attacks,"Air Dodge, Diagonally Up",,89,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Special Attacks,"Air Dodge, Up",,102,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Special Attacks,Stats,,,,,,,,,,,
-Ryu,Special Attacks,Ledge Grab,,,,,,,,,,,
-Ryu,Special Attacks,Ledge Hang,,,,,,,,,,,
-Ryu,Special Attacks,Ledge Roll,,,,,,,,,,,
-Ryu,Special Attacks,Getup Attacks,,,,,,,,,,,
-Ryu,Grabs / Throws,Grab,6,34,--,--,--,,,,,6—7,27
-Ryu,Grabs / Throws,Dash Grab,9,42,--,--,--,,,,,9—10,32
-Ryu,Grabs / Throws,Pivot Grab,10,37,--,--,--,,,,,10—11,26
-Ryu,Grabs / Throws,Pummel,1,16,--,Total frames includes 10 frames of hitlag,1.3,,,,,,
-Ryu,Grabs / Throws,Forward Throw,16,41,--,--,9.0,,,,,,
-Ryu,Grabs / Throws,Backward Throw,23,49,--,--,12.0,,,,,,
-Ryu,Grabs / Throws,Up Throw,18/25,46,--,Kicks on frame 25. Leg intangible 25—30.,8.0,,,,,,
-Ryu,Grabs / Throws,Down Throw,18/19,44,--,--,3.0/6.0,,,,,,
-Ryu,Grabs / Throws,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Ryu,Grabs / Throws,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
-Ryu,Grabs / Throws,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
-Ryu,Grabs / Throws,Neutral Air Dodge,,49,10,Intangible on frame 3-27.,,,,,,,
-Ryu,Grabs / Throws,"Air Dodge, Down",,67,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Grabs / Throws,"Air Dodge, Diagonally Down",,73,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Grabs / Throws,"Air Dodge, Left/Right",,80,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Grabs / Throws,"Air Dodge, Diagonally Up",,89,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Grabs / Throws,"Air Dodge, Up",,102,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Grabs / Throws,Stats,,,,,,,,,,,
-Ryu,Grabs / Throws,Ledge Grab,,,,,,,,,,,
-Ryu,Grabs / Throws,Ledge Hang,,,,,,,,,,,
-Ryu,Grabs / Throws,Ledge Roll,,,,,,,,,,,
-Ryu,Grabs / Throws,Getup Attacks,,,,,,,,,,,
-Ryu,Dodges / Rolls,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Ryu,Dodges / Rolls,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
-Ryu,Dodges / Rolls,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
-Ryu,Dodges / Rolls,Neutral Air Dodge,,49,10,Intangible on frame 3-27.,,,,,,,
-Ryu,Dodges / Rolls,"Air Dodge, Down",,67,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Dodges / Rolls,"Air Dodge, Diagonally Down",,73,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Dodges / Rolls,"Air Dodge, Left/Right",,80,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Dodges / Rolls,"Air Dodge, Diagonally Up",,89,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Dodges / Rolls,"Air Dodge, Up",,102,11-19,Intangible on frame 3-21.,,,,,,,
-Ryu,Dodges / Rolls,Stats,,,,,,,,,,,
-Ryu,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
-Ryu,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
-Ryu,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
-Ryu,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
-Ryu,Misc Info,Stats,,,,,,,,,,,
-Ryu,Misc Info,Ledge Grab,,,,,,,,,,,
-Ryu,Misc Info,Ledge Hang,,,,,,,,,,,
-Ryu,Misc Info,Ledge Roll,,,,,,,,,,,
-Ryu,Misc Info,Getup Attacks,,,,,,,,,,,
+character,section,move,startup,total_frames,landing_lag,damage,advantage_on_shield,active_frames,notes,shield_lag,shield_stun,hitbox_type,end_lag,misc_raw,oos_options
+Ryu,Ground Attacks,Jab 1 (Light),2,15,--,1.5,-10,2—3,Special Cancellable. Transitions to jab 2 as early as frame 6,9,3,--,12,,
+Ryu,Ground Attacks,"Jab (Heavy, Close)",7,37,--,12.0/8.0,-19,7(8—11),"Head, chest and arms invincible: frames 4-10. Special Cancellable.",13,11,--,26,,
+Ryu,Ground Attacks,"Jab (Heavy, Far)",9,32,--,10.0,-13,9—10,--,12,10,--,22,,
+Ryu,Ground Attacks,Jab 2,3,27,--,1.5,-21,3—4,Special Cancellable. Transitions to jab 3 as early as frame 6,9,3,--,23,,
+Ryu,Ground Attacks,Jab 3,8,35,--,5.0,-21,8—10,--,12,6,--,25,,
+Ryu,Ground Attacks,"Forward Tilt (Light, Close)",3,29,--,6.0,-20,3—4,Special Cancellable. Can't seem to perform this unless within range,9,6,--,25,,
+Ryu,Ground Attacks,"Forward Tilt (Light, Far)",8,23,--,6.8,-8,8—11,Leg intangibility on frame 6-11,10,7,--,12,,
+Ryu,Ground Attacks,Forward Tilt (Heavy),15/17,36,--,3.0/6.0,-13,15/17—18,--,7/9,-/6,--,18,,
+Ryu,Ground Attacks,Up Tilt (Light),3,14,--,2.0,-8,3—6,Special Cancellable. Transitions to another Utilt as early as frame 8,7,3,--,8,,
+Ryu,Ground Attacks,Up Tilt (Heavy),7,37,--,12.0,-19,7(8—11),Special Cancellable. Upper body intangibility on frame 4-10.,13,11,--,26,,
+Ryu,Ground Attacks,Down Tilt (Light),2,14,--,1.6,-9,2—3,Special Cancellable. Transitions to another Dtilt as early as frame 8,8,3,--,11,,
+Ryu,Ground Attacks,Down Tilt (Heavy),6,27,--,7.0/5.5,-15,6—7,Special Cancellable,10/9,7/6,Strong/Weak,20,,
+Ryu,Ground Attacks,Dash Attack,7,40,--,12.0/8.0,-22,7—9(10—15),--,13/11,11/8,Early/Late,25,,
+Ryu,Ground Attacks,Forward Smash,15,45,--,16.0/17.5,-19/-18,15—17,Charge hold is frame 5,16/17,11/12,Close/Far,28,,
+Ryu,Ground Attacks,Up Smash,9,44,--,17.0/13.5,-24,9(10—12),Arm intangibility on frame 9-12. Charge hold is frame 6,17/14,11/9,Early/Late,32,,
+Ryu,Ground Attacks,Down Smash,5,41,--,16.0/12.0,-25,5—6,Special Cancellable. Charge hold is frame 2,16/13,11/8,Sweet/Sour,35,,
+Ryu,Ground Attacks,Neutral Air,4,35,5,8.0/4.5,-1/-2,4—6(7—31),Special Cancellable. Autocancels on frame 34 onward,11/8,4/3,Early/Late,4,,
+Ryu,Ground Attacks,Forward Air,8,36,11,"9.0/14.0, 8.0/12.0","-7/-6, -7/-6",8—9(10—14),Special Cancellable. Autocancels on frame 1-2 and 38 onward,"15/11, 13/11","5/4, 5/4","Early foot/knee, Late foot/knee",22,,
+Ryu,Ground Attacks,Back Air,8,41,10,16.0/13.0,-4/-5,8—9,Special Cancellable. Autocancels on frame 25 onward,16/14,6/5,Close/Far,32,,
+Ryu,Ground Attacks,Up Air,6/9,35,11,5.0/6.0,-8/-8,6—7/9—11,Special Cancellable. Arm intangibility on frame 6-10. Autocancels on frame 18 onward,9/9,3/3,--,24,,
+Ryu,Ground Attacks,Down Air,8,45,15,12.0,-10,8—12,Special Cancellable. Autocancels on frame 1-2 and 33 onward,13,5,--,33,,
+Ryu,Ground Attacks,Neutral B (Hadouken),12,57,--,"9.0/9.5/10.0, 11.25/11.875/12.5","-27/-28/-28, -26/-25/-25",12—18(19—93) / 12—17(18—78) / 12—16(17—61),--,"9/10/10, 10/11/11","8/8/8, 10/10/10","Normal Light/Medium/Heavy, True Light/Medium/Heavy",--,,
+Ryu,Ground Attacks,Shakunetsu Hadouken,12,56,--,1.1/9.3,-23/-23/-27,12—21(22—79) / 12—20(21—72) / 12—19(20—66),"Hits on frame 1,2,3, and 4 with a final hit on frame 7. Rehit rate for light/medium is 2, rehit rate for heavy is 1.",10,3,Light/Medium/Heavy,--,,
+Ryu,Ground Attacks,Side B (Tatsumaki Senpukyaku),8,58—90,--,"11.0/11.0/12.0/13.0, 12.76/12.76/13.92/15.08","-40—-72/-35/-67/-65, -38—-70/-33/-64/-63","8-9, 13-15, 29-31, and 45-47","Wind-up active 8-9, later hits 29-30 and 45-46 (medium/heavy only). Total frames depends on distance traveled. Leg intangibility added in 7.0.0. The active frames listed are the front hitboxes only, and only one set of hitboxes can connect with an opponent.","10/13/13/14, 14/14/15/15","10/10/11/12, 12/12/13/14","normal initial/light/medium/heavy, true initial/light/medium/heavy",11,,
+Ryu,Ground Attacks,"Side B, Air (Tatsumaki Senpukyaku, Air)",8,79,--,"11.0/10.0/11.0/12.0, 12.76/11.6/12.76/13.92","-62 to -61, -61 to -60",8—9/**,Leg intangibility on frame 13-44,"13/12/13/13, 14/13/14/15","10/10/10/11, 12/11/12/13","normal initial/light/medium/heavy, true initial/light/medium/heavy",--,,
+Ryu,Ground Attacks,Up B (Shoryuken),6,--,22,13.0—15.0/7.0,**,6(7—8/9—19),Invulnerable on frame 5,19/20/21/10,12/13/14/7,Light/Medium/Heavy/Late,--,,
+Ryu,Ground Attacks,True Shoryuken,6,--,15,15.6—18.0/8.4,**,6(7—8/9—19),Arm intangibility on frame 1-14 Completely Invulnerable on frame 4-6.,21/22/23/11,14/15/16/8,Light/Medium/Heavy/Late,--,,
+Ryu,Ground Attacks,Down B (Focus Attack),"11 (+21), 11(+31), 11(+59)","55, 55, 114",--,"12.0, 10.0, 17.0","-33, -34, unblockable",32—33/42—43/70—71,"Stage 1: Can dash from frame 26 of entering charge or immediately after a successful hitStage 2: Focus armor begins on frame 1 and lasts until the 11 frames of the punchStage 3: This stage is unblockableDamage-bsed armor notes: Armor starts at 16.8% and ends at 33.6% in Stage 3, going up 0.289% per frame held.","18, 20, unblockable","11, 10, unblockable","Stage 1, Stage 2, Stage 3",--,,
+Ryu,Ground Attacks,"Focus Attack, Dash Cancel",--,19/19,--,--,-8/-9,**,"First advantage is on stage 1 hit, second advantage is on stage 2 hit",--,--,--,--,,
+Ryu,Ground Attacks,Grab,6,34,--,--,,6—7,--,,,,27,,
+Ryu,Ground Attacks,Dash Grab,9,42,--,--,,9—10,--,,,,32,,
+Ryu,Ground Attacks,Pivot Grab,10,37,--,--,,10—11,--,,,,26,,
+Ryu,Ground Attacks,Pummel,1,16,--,1.3,,,Total frames includes 10 frames of hitlag,,,,,,
+Ryu,Ground Attacks,Forward Throw,16,41,--,9.0,,,--,,,,,,
+Ryu,Ground Attacks,Backward Throw,23,49,--,12.0,,,--,,,,,,
+Ryu,Ground Attacks,Up Throw,18/25,46,--,8.0,,,Kicks on frame 25. Leg intangible 25—30.,,,,,,
+Ryu,Ground Attacks,Down Throw,18/19,44,--,3.0/6.0,,,--,,,,,,
+Ryu,Ground Attacks,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Ryu,Ground Attacks,Forward Roll,,30,--,,,,Intangible on frame 4-15.,,,,,,
+Ryu,Ground Attacks,Backward Roll,,35,--,,,,Intangible on frame 5-16.,,,,,,
+Ryu,Ground Attacks,Neutral Air Dodge,,49,10,,,,Intangible on frame 3-27.,,,,,,
+Ryu,Ground Attacks,"Air Dodge, Down",,67,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Ground Attacks,"Air Dodge, Diagonally Down",,73,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Ground Attacks,"Air Dodge, Left/Right",,80,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Ground Attacks,"Air Dodge, Diagonally Up",,89,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Ground Attacks,"Air Dodge, Up",,102,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Ground Attacks,Stats,,,,,,,,,,,,,
+Ryu,Ground Attacks,Ledge Grab,,,,,,,,,,,,,
+Ryu,Ground Attacks,Ledge Hang,,,,,,,,,,,,,
+Ryu,Ground Attacks,Ledge Roll,,,,,,,,,,,,,
+Ryu,Ground Attacks,Getup Attacks,,,,,,,,,,,,,
+Ryu,Aerial Attacks,Neutral Air,4,35,5,8.0/4.5,-1/-2,4—6(7—31),Special Cancellable. Autocancels on frame 34 onward,11/8,4/3,Early/Late,4,,
+Ryu,Aerial Attacks,Forward Air,8,36,11,"9.0/14.0, 8.0/12.0","-7/-6, -7/-6",8—9(10—14),Special Cancellable. Autocancels on frame 1-2 and 38 onward,"15/11, 13/11","5/4, 5/4","Early foot/knee, Late foot/knee",22,,
+Ryu,Aerial Attacks,Back Air,8,41,10,16.0/13.0,-4/-5,8—9,Special Cancellable. Autocancels on frame 25 onward,16/14,6/5,Close/Far,32,,
+Ryu,Aerial Attacks,Up Air,6/9,35,11,5.0/6.0,-8/-8,6—7/9—11,Special Cancellable. Arm intangibility on frame 6-10. Autocancels on frame 18 onward,9/9,3/3,--,24,,
+Ryu,Aerial Attacks,Down Air,8,45,15,12.0,-10,8—12,Special Cancellable. Autocancels on frame 1-2 and 33 onward,13,5,--,33,,
+Ryu,Aerial Attacks,Neutral B (Hadouken),12,57,--,"9.0/9.5/10.0, 11.25/11.875/12.5","-27/-28/-28, -26/-25/-25",12—18(19—93) / 12—17(18—78) / 12—16(17—61),--,"9/10/10, 10/11/11","8/8/8, 10/10/10","Normal Light/Medium/Heavy, True Light/Medium/Heavy",--,,
+Ryu,Aerial Attacks,Shakunetsu Hadouken,12,56,--,1.1/9.3,-23/-23/-27,12—21(22—79) / 12—20(21—72) / 12—19(20—66),"Hits on frame 1,2,3, and 4 with a final hit on frame 7. Rehit rate for light/medium is 2, rehit rate for heavy is 1.",10,3,Light/Medium/Heavy,--,,
+Ryu,Aerial Attacks,Side B (Tatsumaki Senpukyaku),8,58—90,--,"11.0/11.0/12.0/13.0, 12.76/12.76/13.92/15.08","-40—-72/-35/-67/-65, -38—-70/-33/-64/-63","8-9, 13-15, 29-31, and 45-47","Wind-up active 8-9, later hits 29-30 and 45-46 (medium/heavy only). Total frames depends on distance traveled. Leg intangibility added in 7.0.0. The active frames listed are the front hitboxes only, and only one set of hitboxes can connect with an opponent.","10/13/13/14, 14/14/15/15","10/10/11/12, 12/12/13/14","normal initial/light/medium/heavy, true initial/light/medium/heavy",11,,
+Ryu,Aerial Attacks,"Side B, Air (Tatsumaki Senpukyaku, Air)",8,79,--,"11.0/10.0/11.0/12.0, 12.76/11.6/12.76/13.92","-62 to -61, -61 to -60",8—9/**,Leg intangibility on frame 13-44,"13/12/13/13, 14/13/14/15","10/10/10/11, 12/11/12/13","normal initial/light/medium/heavy, true initial/light/medium/heavy",--,,
+Ryu,Aerial Attacks,Up B (Shoryuken),6,--,22,13.0—15.0/7.0,**,6(7—8/9—19),Invulnerable on frame 5,19/20/21/10,12/13/14/7,Light/Medium/Heavy/Late,--,,
+Ryu,Aerial Attacks,True Shoryuken,6,--,15,15.6—18.0/8.4,**,6(7—8/9—19),Arm intangibility on frame 1-14 Completely Invulnerable on frame 4-6.,21/22/23/11,14/15/16/8,Light/Medium/Heavy/Late,--,,
+Ryu,Aerial Attacks,Down B (Focus Attack),"11 (+21), 11(+31), 11(+59)","55, 55, 114",--,"12.0, 10.0, 17.0","-33, -34, unblockable",32—33/42—43/70—71,"Stage 1: Can dash from frame 26 of entering charge or immediately after a successful hitStage 2: Focus armor begins on frame 1 and lasts until the 11 frames of the punchStage 3: This stage is unblockableDamage-bsed armor notes: Armor starts at 16.8% and ends at 33.6% in Stage 3, going up 0.289% per frame held.","18, 20, unblockable","11, 10, unblockable","Stage 1, Stage 2, Stage 3",--,,
+Ryu,Aerial Attacks,"Focus Attack, Dash Cancel",--,19/19,--,--,-8/-9,**,"First advantage is on stage 1 hit, second advantage is on stage 2 hit",--,--,--,--,,
+Ryu,Aerial Attacks,Grab,6,34,--,--,,6—7,--,,,,27,,
+Ryu,Aerial Attacks,Dash Grab,9,42,--,--,,9—10,--,,,,32,,
+Ryu,Aerial Attacks,Pivot Grab,10,37,--,--,,10—11,--,,,,26,,
+Ryu,Aerial Attacks,Pummel,1,16,--,1.3,,,Total frames includes 10 frames of hitlag,,,,,,
+Ryu,Aerial Attacks,Forward Throw,16,41,--,9.0,,,--,,,,,,
+Ryu,Aerial Attacks,Backward Throw,23,49,--,12.0,,,--,,,,,,
+Ryu,Aerial Attacks,Up Throw,18/25,46,--,8.0,,,Kicks on frame 25. Leg intangible 25—30.,,,,,,
+Ryu,Aerial Attacks,Down Throw,18/19,44,--,3.0/6.0,,,--,,,,,,
+Ryu,Aerial Attacks,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Ryu,Aerial Attacks,Forward Roll,,30,--,,,,Intangible on frame 4-15.,,,,,,
+Ryu,Aerial Attacks,Backward Roll,,35,--,,,,Intangible on frame 5-16.,,,,,,
+Ryu,Aerial Attacks,Neutral Air Dodge,,49,10,,,,Intangible on frame 3-27.,,,,,,
+Ryu,Aerial Attacks,"Air Dodge, Down",,67,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Aerial Attacks,"Air Dodge, Diagonally Down",,73,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Aerial Attacks,"Air Dodge, Left/Right",,80,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Aerial Attacks,"Air Dodge, Diagonally Up",,89,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Aerial Attacks,"Air Dodge, Up",,102,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Aerial Attacks,Stats,,,,,,,,,,,,,
+Ryu,Aerial Attacks,Ledge Grab,,,,,,,,,,,,,
+Ryu,Aerial Attacks,Ledge Hang,,,,,,,,,,,,,
+Ryu,Aerial Attacks,Ledge Roll,,,,,,,,,,,,,
+Ryu,Aerial Attacks,Getup Attacks,,,,,,,,,,,,,
+Ryu,Special Attacks,Neutral B (Hadouken),12,57,--,"9.0/9.5/10.0, 11.25/11.875/12.5","-27/-28/-28, -26/-25/-25",12—18(19—93) / 12—17(18—78) / 12—16(17—61),--,"9/10/10, 10/11/11","8/8/8, 10/10/10","Normal Light/Medium/Heavy, True Light/Medium/Heavy",--,,
+Ryu,Special Attacks,Shakunetsu Hadouken,12,56,--,1.1/9.3,-23/-23/-27,12—21(22—79) / 12—20(21—72) / 12—19(20—66),"Hits on frame 1,2,3, and 4 with a final hit on frame 7. Rehit rate for light/medium is 2, rehit rate for heavy is 1.",10,3,Light/Medium/Heavy,--,,
+Ryu,Special Attacks,Side B (Tatsumaki Senpukyaku),8,58—90,--,"11.0/11.0/12.0/13.0, 12.76/12.76/13.92/15.08","-40—-72/-35/-67/-65, -38—-70/-33/-64/-63","8-9, 13-15, 29-31, and 45-47","Wind-up active 8-9, later hits 29-30 and 45-46 (medium/heavy only). Total frames depends on distance traveled. Leg intangibility added in 7.0.0. The active frames listed are the front hitboxes only, and only one set of hitboxes can connect with an opponent.","10/13/13/14, 14/14/15/15","10/10/11/12, 12/12/13/14","normal initial/light/medium/heavy, true initial/light/medium/heavy",11,,
+Ryu,Special Attacks,"Side B, Air (Tatsumaki Senpukyaku, Air)",8,79,--,"11.0/10.0/11.0/12.0, 12.76/11.6/12.76/13.92","-62 to -61, -61 to -60",8—9/**,Leg intangibility on frame 13-44,"13/12/13/13, 14/13/14/15","10/10/10/11, 12/11/12/13","normal initial/light/medium/heavy, true initial/light/medium/heavy",--,,
+Ryu,Special Attacks,Up B (Shoryuken),6,--,22,13.0—15.0/7.0,**,6(7—8/9—19),Invulnerable on frame 5,19/20/21/10,12/13/14/7,Light/Medium/Heavy/Late,--,,
+Ryu,Special Attacks,True Shoryuken,6,--,15,15.6—18.0/8.4,**,6(7—8/9—19),Arm intangibility on frame 1-14 Completely Invulnerable on frame 4-6.,21/22/23/11,14/15/16/8,Light/Medium/Heavy/Late,--,,
+Ryu,Special Attacks,Down B (Focus Attack),"11 (+21), 11(+31), 11(+59)","55, 55, 114",--,"12.0, 10.0, 17.0","-33, -34, unblockable",32—33/42—43/70—71,"Stage 1: Can dash from frame 26 of entering charge or immediately after a successful hitStage 2: Focus armor begins on frame 1 and lasts until the 11 frames of the punchStage 3: This stage is unblockableDamage-bsed armor notes: Armor starts at 16.8% and ends at 33.6% in Stage 3, going up 0.289% per frame held.","18, 20, unblockable","11, 10, unblockable","Stage 1, Stage 2, Stage 3",--,,
+Ryu,Special Attacks,"Focus Attack, Dash Cancel",--,19/19,--,--,-8/-9,**,"First advantage is on stage 1 hit, second advantage is on stage 2 hit",--,--,--,--,,
+Ryu,Special Attacks,Grab,6,34,--,--,,6—7,--,,,,27,,
+Ryu,Special Attacks,Dash Grab,9,42,--,--,,9—10,--,,,,32,,
+Ryu,Special Attacks,Pivot Grab,10,37,--,--,,10—11,--,,,,26,,
+Ryu,Special Attacks,Pummel,1,16,--,1.3,,,Total frames includes 10 frames of hitlag,,,,,,
+Ryu,Special Attacks,Forward Throw,16,41,--,9.0,,,--,,,,,,
+Ryu,Special Attacks,Backward Throw,23,49,--,12.0,,,--,,,,,,
+Ryu,Special Attacks,Up Throw,18/25,46,--,8.0,,,Kicks on frame 25. Leg intangible 25—30.,,,,,,
+Ryu,Special Attacks,Down Throw,18/19,44,--,3.0/6.0,,,--,,,,,,
+Ryu,Special Attacks,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Ryu,Special Attacks,Forward Roll,,30,--,,,,Intangible on frame 4-15.,,,,,,
+Ryu,Special Attacks,Backward Roll,,35,--,,,,Intangible on frame 5-16.,,,,,,
+Ryu,Special Attacks,Neutral Air Dodge,,49,10,,,,Intangible on frame 3-27.,,,,,,
+Ryu,Special Attacks,"Air Dodge, Down",,67,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Special Attacks,"Air Dodge, Diagonally Down",,73,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Special Attacks,"Air Dodge, Left/Right",,80,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Special Attacks,"Air Dodge, Diagonally Up",,89,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Special Attacks,"Air Dodge, Up",,102,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Special Attacks,Stats,,,,,,,,,,,,,
+Ryu,Special Attacks,Ledge Grab,,,,,,,,,,,,,
+Ryu,Special Attacks,Ledge Hang,,,,,,,,,,,,,
+Ryu,Special Attacks,Ledge Roll,,,,,,,,,,,,,
+Ryu,Special Attacks,Getup Attacks,,,,,,,,,,,,,
+Ryu,Grabs / Throws,Grab,6,34,--,--,,6—7,--,,,,27,,
+Ryu,Grabs / Throws,Dash Grab,9,42,--,--,,9—10,--,,,,32,,
+Ryu,Grabs / Throws,Pivot Grab,10,37,--,--,,10—11,--,,,,26,,
+Ryu,Grabs / Throws,Pummel,1,16,--,1.3,,,Total frames includes 10 frames of hitlag,,,,,,
+Ryu,Grabs / Throws,Forward Throw,16,41,--,9.0,,,--,,,,,,
+Ryu,Grabs / Throws,Backward Throw,23,49,--,12.0,,,--,,,,,,
+Ryu,Grabs / Throws,Up Throw,18/25,46,--,8.0,,,Kicks on frame 25. Leg intangible 25—30.,,,,,,
+Ryu,Grabs / Throws,Down Throw,18/19,44,--,3.0/6.0,,,--,,,,,,
+Ryu,Grabs / Throws,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Ryu,Grabs / Throws,Forward Roll,,30,--,,,,Intangible on frame 4-15.,,,,,,
+Ryu,Grabs / Throws,Backward Roll,,35,--,,,,Intangible on frame 5-16.,,,,,,
+Ryu,Grabs / Throws,Neutral Air Dodge,,49,10,,,,Intangible on frame 3-27.,,,,,,
+Ryu,Grabs / Throws,"Air Dodge, Down",,67,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Grabs / Throws,"Air Dodge, Diagonally Down",,73,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Grabs / Throws,"Air Dodge, Left/Right",,80,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Grabs / Throws,"Air Dodge, Diagonally Up",,89,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Grabs / Throws,"Air Dodge, Up",,102,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Grabs / Throws,Stats,,,,,,,,,,,,,
+Ryu,Grabs / Throws,Ledge Grab,,,,,,,,,,,,,
+Ryu,Grabs / Throws,Ledge Hang,,,,,,,,,,,,,
+Ryu,Grabs / Throws,Ledge Roll,,,,,,,,,,,,,
+Ryu,Grabs / Throws,Getup Attacks,,,,,,,,,,,,,
+Ryu,Dodges / Rolls,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Ryu,Dodges / Rolls,Forward Roll,,30,--,,,,Intangible on frame 4-15.,,,,,,
+Ryu,Dodges / Rolls,Backward Roll,,35,--,,,,Intangible on frame 5-16.,,,,,,
+Ryu,Dodges / Rolls,Neutral Air Dodge,,49,10,,,,Intangible on frame 3-27.,,,,,,
+Ryu,Dodges / Rolls,"Air Dodge, Down",,67,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Dodges / Rolls,"Air Dodge, Diagonally Down",,73,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Dodges / Rolls,"Air Dodge, Left/Right",,80,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Dodges / Rolls,"Air Dodge, Diagonally Up",,89,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Dodges / Rolls,"Air Dodge, Up",,102,11-19,,,,Intangible on frame 3-21.,,,,,,
+Ryu,Dodges / Rolls,Stats,,,,,,,,,,,,,
+Ryu,Dodges / Rolls,Ledge Grab,,,,,,,,,,,,,
+Ryu,Dodges / Rolls,Ledge Hang,,,,,,,,,,,,,
+Ryu,Dodges / Rolls,Ledge Roll,,,,,,,,,,,,,
+Ryu,Dodges / Rolls,Getup Attacks,,,,,,,,,,,,,
+Ryu,Misc Info,Stats,,,,,,,,,,,,"Stats Weight — 103 Gravity — 0.120 Walk Speed — 0.75 Run Speed — 1.6 Initial Dash — 1.76 Air Speed — 1.12 Total Air Acceleration — 0.035 SH / FH / SHFF / FHFF Frames — 31 / 40 / 23 / 30 Fall Speed / Fast Fall Speed — 1.6 / 2.24 Out of Shield, Up B — 6 frames Out of Shield, Neutral Air — 7 frames Out of Shield, Up Air or Up Smash — 9 frames Shield Grab (Grab, post-Shieldstun) — 10 frames Shield Drop — 11 frames (universal) Jump Squat (pre-Jump frames) — 3 frames (universal)","[('Up B', '6'), ('Neutral Air', '7'), ('Up Air or Up Smash', '9')]"
+Ryu,Misc Info,Ledge Grab,,,,,,,,,,,,Ledge Grab Normal,
+Ryu,Misc Info,Ledge Hang,,,,,,,,,,,,Ledge Hang ,
+Ryu,Misc Info,Ledge Roll,,,,,,,,,,,,Ledge Roll ,
+Ryu,Misc Info,Getup Attacks,,,,,,,,,,,,Getup Attacks Facing UpFacing DownTripLedge,

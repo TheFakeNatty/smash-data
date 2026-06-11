@@ -32,6 +32,20 @@ def scrape_character(character_slug="mario"):
                 move_data = {
                     'character': character_slug.capitalize(),
                     'section': current_section,
+                    'move': None,
+                    'startup': None,
+                    'total_frames': None,
+                    'landing_lag': None,
+                    'damage': None,
+                    'advantage_on_shield': None,
+                    'active_frames': None,
+                    'notes': None,
+                    'shield_lag': None,
+                    'shield_stun': None,
+                    'hitbox_type': None,
+                    'end_lag': None,
+                    'misc_raw': None,
+                    'oos_options': None,
                 }
                 
                 # Extract each field
@@ -70,7 +84,16 @@ def scrape_character(character_slug="mario"):
                 
                 if endlag := container.find('div', class_='endlag'):
                     move_data['end_lag'] = endlag.get_text(strip=True)
-                
+
+                if current_section == "Misc Info":
+                    misc_text = " ".join([div.get_text(strip=True) for div in container.find_all('div')])
+                    move_data['misc_raw'] = misc_text
+                    
+                    # Extract Out of Shield options
+                    oos_matches = re.findall(r'Out of Shield,\s*([^—]+?)\s*—\s*(\d+)', misc_text)
+                    if oos_matches:
+                        move_data['oos_options'] = oos_matches  # list of tuples (move_name, frames)
+
                 moves.append(move_data)
     
     df = pd.DataFrame(moves)

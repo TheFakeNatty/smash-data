@@ -1,0 +1,143 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Mewtwo,Ground Attacks,Jab,5,21,--,Transitions to Rapid Jab as early as frame 12.,3.0,9,4,--,-12,5—6,15
+Mewtwo,Ground Attacks,Rapid Jab,5/8/11...,--,--,--,0.8,4,4,--,--,**,--
+Mewtwo,Ground Attacks,Rapid Jab Finisher,6,40,--,--,2.5,10,4,--,-30,6—7,33
+Mewtwo,Ground Attacks,Forward Tilt,10,35,--,--,11.0/10.0/9.0,10/8/7,10/10/9,Close/Med/Far,-15/-15/-16,10—11,24
+Mewtwo,Ground Attacks,Up Tilt,8,29,--,--,"7.0/6.0/5.5, 5.0/4.0","7/6/6, 6/5","7/6/6, 6/5","Early close/med/far, Late med/far",-14/-15/-15,8(9—13),16
+Mewtwo,Ground Attacks,Down Tilt,6,23,--,--,5.0/4.5/4.0,6/5/5,6/5/5,Close/med/far,-11/-12/-12,6—7,16
+Mewtwo,Ground Attacks,Dash Attack,10,38,--,--,12.0/6.0,11/8,14/8,Early/Late,-14,10—11(12—20),18
+Mewtwo,Ground Attacks,Forward Smash,19,52,--,Charge hold is frame 12,16.0/20.0,10/15,11/13,Close/Far,-20/-18,19—22,30
+Mewtwo,Ground Attacks,Up Smash,9/14/18/22,68,--,Charge hold is frame 2,2.0/10.0,4/8,3/7,Multi/Final,-39,9(10—11)/14—15/18—19/22—25,43
+Mewtwo,Ground Attacks,Down Smash,21,40,--,Charge hold is frame 15,16.0,14,11,--,-8,21—23,17
+Mewtwo,Ground Attacks,Neutral Air,7/11/15/19/23/27,49,10,Autocancels on frame 46 onward,1.6/4.0,7/10,2/3,Multi/Final,-8/-7,7—8/11—12/15—16/19—20/23—24/27—28,21
+Mewtwo,Ground Attacks,Forward Air,7,39,8,Autocancels on frame 37 onward,13.0,9,5,--,-3,7—9,30
+Mewtwo,Ground Attacks,Back Air,13,39,10,Autocancels on frame 1-2 and 38 onward,13.0/11.0/9.0,9/8/7,5/4/4,Close/med/far,-5/-6/-6,13—17,22
+Mewtwo,Ground Attacks,Up Air,10,39,8,Autocancels on frame 1-2 and 36 onward,12.0/11.0/10.0,9/8/8,5/4/4,Close/med/far,-3/-4/-4,10—14,25
+Mewtwo,Ground Attacks,Down Air,15,47,11,Autocancels on frame 1-3 and frame 42 onward,15.0/14.0,12,5,--,-6,15—18,29
+Mewtwo,Ground Attacks,Neutral B (Shadow Ball),9(+12),27,29,9 startup from charge state. 12 to enter charge state. Takes 4 frames to cancel charge with shield.,2.5—24.9,5—14,2—7,--,-16 to -2,**,--
+Mewtwo,Ground Attacks,"Shadow Ball, Fully Charged",16,39,--,133 frames to reach full charge.,25.0,14,7,--,-2,16—98,--
+Mewtwo,Ground Attacks,Side B (Confusion),10 (21/23/25/27/29/31/33/39),39/42,--,"Grab is on frame 10, the following hits are when successful. 44 total frames when you miss. Reflector active 10-33.",--,--,--,--,--,10—13,26
+Mewtwo,Ground Attacks,Up B (Teleport),**,44,20,Total frames is if you end on the ground. Intangible from 9-19. Grabs ledges as early as frame 16.,--,--,--,--,--,--,--
+Mewtwo,Ground Attacks,Down B (Disable),16,52,--,Intangible on frames 10-16,1.0,4,2,--,-30,16—23,29
+Mewtwo,Ground Attacks,Grab,7,39,--,--,--,,,,,7—8,31
+Mewtwo,Ground Attacks,Dash Grab,10,47,--,--,--,,,,,10—11,36
+Mewtwo,Ground Attacks,Pivot Grab,11,42,--,--,--,,,,,11—12,30
+Mewtwo,Ground Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
+Mewtwo,Ground Attacks,Forward Throw,19/33/40/47/54/61,81,--,"Fires shadow balls on 33,40,47,54, and 61.",3.0/2.0,,,,,,
+Mewtwo,Ground Attacks,Backward Throw,30,54,--,--,10.0,,,,,,
+Mewtwo,Ground Attacks,Up Throw,43,79,--,--,12.0,,,,,,
+Mewtwo,Ground Attacks,Down Throw,16/18,41,--,--,4.0/5.0,,,,,,
+Mewtwo,Ground Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Mewtwo,Ground Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Mewtwo,Ground Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Mewtwo,Ground Attacks,Neutral Air Dodge,,51,10,Intangible on frame 3-26,,,,,,,
+Mewtwo,Ground Attacks,"Air Dodge, Down",,70,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Ground Attacks,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Ground Attacks,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Ground Attacks,"Air Dodge, Diagonally Up",,101,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Ground Attacks,"Air Dodge, Up",,114,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Ground Attacks,Stats,,,,,,,,,,,
+Mewtwo,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Mewtwo,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Mewtwo,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Mewtwo,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Mewtwo,Aerial Attacks,Neutral Air,7/11/15/19/23/27,49,10,Autocancels on frame 46 onward,1.6/4.0,7/10,2/3,Multi/Final,-8/-7,7—8/11—12/15—16/19—20/23—24/27—28,21
+Mewtwo,Aerial Attacks,Forward Air,7,39,8,Autocancels on frame 37 onward,13.0,9,5,--,-3,7—9,30
+Mewtwo,Aerial Attacks,Back Air,13,39,10,Autocancels on frame 1-2 and 38 onward,13.0/11.0/9.0,9/8/7,5/4/4,Close/med/far,-5/-6/-6,13—17,22
+Mewtwo,Aerial Attacks,Up Air,10,39,8,Autocancels on frame 1-2 and 36 onward,12.0/11.0/10.0,9/8/8,5/4/4,Close/med/far,-3/-4/-4,10—14,25
+Mewtwo,Aerial Attacks,Down Air,15,47,11,Autocancels on frame 1-3 and frame 42 onward,15.0/14.0,12,5,--,-6,15—18,29
+Mewtwo,Aerial Attacks,Neutral B (Shadow Ball),9(+12),27,29,9 startup from charge state. 12 to enter charge state. Takes 4 frames to cancel charge with shield.,2.5—24.9,5—14,2—7,--,-16 to -2,**,--
+Mewtwo,Aerial Attacks,"Shadow Ball, Fully Charged",16,39,--,133 frames to reach full charge.,25.0,14,7,--,-2,16—98,--
+Mewtwo,Aerial Attacks,Side B (Confusion),10 (21/23/25/27/29/31/33/39),39/42,--,"Grab is on frame 10, the following hits are when successful. 44 total frames when you miss. Reflector active 10-33.",--,--,--,--,--,10—13,26
+Mewtwo,Aerial Attacks,Up B (Teleport),**,44,20,Total frames is if you end on the ground. Intangible from 9-19. Grabs ledges as early as frame 16.,--,--,--,--,--,--,--
+Mewtwo,Aerial Attacks,Down B (Disable),16,52,--,Intangible on frames 10-16,1.0,4,2,--,-30,16—23,29
+Mewtwo,Aerial Attacks,Grab,7,39,--,--,--,,,,,7—8,31
+Mewtwo,Aerial Attacks,Dash Grab,10,47,--,--,--,,,,,10—11,36
+Mewtwo,Aerial Attacks,Pivot Grab,11,42,--,--,--,,,,,11—12,30
+Mewtwo,Aerial Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
+Mewtwo,Aerial Attacks,Forward Throw,19/33/40/47/54/61,81,--,"Fires shadow balls on 33,40,47,54, and 61.",3.0/2.0,,,,,,
+Mewtwo,Aerial Attacks,Backward Throw,30,54,--,--,10.0,,,,,,
+Mewtwo,Aerial Attacks,Up Throw,43,79,--,--,12.0,,,,,,
+Mewtwo,Aerial Attacks,Down Throw,16/18,41,--,--,4.0/5.0,,,,,,
+Mewtwo,Aerial Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Mewtwo,Aerial Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Mewtwo,Aerial Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Mewtwo,Aerial Attacks,Neutral Air Dodge,,51,10,Intangible on frame 3-26,,,,,,,
+Mewtwo,Aerial Attacks,"Air Dodge, Down",,70,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Aerial Attacks,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Aerial Attacks,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Aerial Attacks,"Air Dodge, Diagonally Up",,101,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Aerial Attacks,"Air Dodge, Up",,114,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Aerial Attacks,Stats,,,,,,,,,,,
+Mewtwo,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Mewtwo,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Mewtwo,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Mewtwo,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Mewtwo,Special Attacks,Neutral B (Shadow Ball),9(+12),27,29,9 startup from charge state. 12 to enter charge state. Takes 4 frames to cancel charge with shield.,2.5—24.9,5—14,2—7,--,-16 to -2,**,--
+Mewtwo,Special Attacks,"Shadow Ball, Fully Charged",16,39,--,133 frames to reach full charge.,25.0,14,7,--,-2,16—98,--
+Mewtwo,Special Attacks,Side B (Confusion),10 (21/23/25/27/29/31/33/39),39/42,--,"Grab is on frame 10, the following hits are when successful. 44 total frames when you miss. Reflector active 10-33.",--,--,--,--,--,10—13,26
+Mewtwo,Special Attacks,Up B (Teleport),**,44,20,Total frames is if you end on the ground. Intangible from 9-19. Grabs ledges as early as frame 16.,--,--,--,--,--,--,--
+Mewtwo,Special Attacks,Down B (Disable),16,52,--,Intangible on frames 10-16,1.0,4,2,--,-30,16—23,29
+Mewtwo,Special Attacks,Grab,7,39,--,--,--,,,,,7—8,31
+Mewtwo,Special Attacks,Dash Grab,10,47,--,--,--,,,,,10—11,36
+Mewtwo,Special Attacks,Pivot Grab,11,42,--,--,--,,,,,11—12,30
+Mewtwo,Special Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
+Mewtwo,Special Attacks,Forward Throw,19/33/40/47/54/61,81,--,"Fires shadow balls on 33,40,47,54, and 61.",3.0/2.0,,,,,,
+Mewtwo,Special Attacks,Backward Throw,30,54,--,--,10.0,,,,,,
+Mewtwo,Special Attacks,Up Throw,43,79,--,--,12.0,,,,,,
+Mewtwo,Special Attacks,Down Throw,16/18,41,--,--,4.0/5.0,,,,,,
+Mewtwo,Special Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Mewtwo,Special Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Mewtwo,Special Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Mewtwo,Special Attacks,Neutral Air Dodge,,51,10,Intangible on frame 3-26,,,,,,,
+Mewtwo,Special Attacks,"Air Dodge, Down",,70,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Special Attacks,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Special Attacks,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Special Attacks,"Air Dodge, Diagonally Up",,101,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Special Attacks,"Air Dodge, Up",,114,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Special Attacks,Stats,,,,,,,,,,,
+Mewtwo,Special Attacks,Ledge Grab,,,,,,,,,,,
+Mewtwo,Special Attacks,Ledge Hang,,,,,,,,,,,
+Mewtwo,Special Attacks,Ledge Roll,,,,,,,,,,,
+Mewtwo,Special Attacks,Getup Attacks,,,,,,,,,,,
+Mewtwo,Grabs / Throws,Grab,7,39,--,--,--,,,,,7—8,31
+Mewtwo,Grabs / Throws,Dash Grab,10,47,--,--,--,,,,,10—11,36
+Mewtwo,Grabs / Throws,Pivot Grab,11,42,--,--,--,,,,,11—12,30
+Mewtwo,Grabs / Throws,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
+Mewtwo,Grabs / Throws,Forward Throw,19/33/40/47/54/61,81,--,"Fires shadow balls on 33,40,47,54, and 61.",3.0/2.0,,,,,,
+Mewtwo,Grabs / Throws,Backward Throw,30,54,--,--,10.0,,,,,,
+Mewtwo,Grabs / Throws,Up Throw,43,79,--,--,12.0,,,,,,
+Mewtwo,Grabs / Throws,Down Throw,16/18,41,--,--,4.0/5.0,,,,,,
+Mewtwo,Grabs / Throws,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Mewtwo,Grabs / Throws,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Mewtwo,Grabs / Throws,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Mewtwo,Grabs / Throws,Neutral Air Dodge,,51,10,Intangible on frame 3-26,,,,,,,
+Mewtwo,Grabs / Throws,"Air Dodge, Down",,70,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Grabs / Throws,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Grabs / Throws,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Grabs / Throws,"Air Dodge, Diagonally Up",,101,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Grabs / Throws,"Air Dodge, Up",,114,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Grabs / Throws,Stats,,,,,,,,,,,
+Mewtwo,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Mewtwo,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Mewtwo,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Mewtwo,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Mewtwo,Dodges / Rolls,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Mewtwo,Dodges / Rolls,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Mewtwo,Dodges / Rolls,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Mewtwo,Dodges / Rolls,Neutral Air Dodge,,51,10,Intangible on frame 3-26,,,,,,,
+Mewtwo,Dodges / Rolls,"Air Dodge, Down",,70,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Dodges / Rolls,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Dodges / Rolls,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Dodges / Rolls,"Air Dodge, Diagonally Up",,101,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Dodges / Rolls,"Air Dodge, Up",,114,11-19,Intangible on frame 3-21,,,,,,,
+Mewtwo,Dodges / Rolls,Stats,,,,,,,,,,,
+Mewtwo,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Mewtwo,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Mewtwo,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Mewtwo,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Mewtwo,Misc Info,Stats,,,,,,,,,,,
+Mewtwo,Misc Info,Ledge Grab,,,,,,,,,,,
+Mewtwo,Misc Info,Ledge Hang,,,,,,,,,,,
+Mewtwo,Misc Info,Ledge Roll,,,,,,,,,,,
+Mewtwo,Misc Info,Getup Attacks,,,,,,,,,,,

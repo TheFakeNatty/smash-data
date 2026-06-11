@@ -1,0 +1,152 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Incineroar,Ground Attacks,Jab 1,5,23,--,Transitions to jab 2 on frame 8,2.5,5,4,--,-14,5—6,17
+Incineroar,Ground Attacks,Jab 2,4,31,--,Transitions to jab 3 on frame 13,2.8,6,4,--,-23,4—5,26
+Incineroar,Ground Attacks,Jab 3,4,37,--,--,6.7,6,5,--,-28,4—5,32
+Incineroar,Ground Attacks,Forward Tilt,12,36,--,--,13.0/12.0,11,12,Far/Close,-12,12—14,22
+Incineroar,Ground Attacks,Up Tilt,6,34,--,Head intangibility on frame 6-11,9.0,7,9,--,-19,6—11,23
+Incineroar,Ground Attacks,Down Tilt,9,29,--,Leg intangibility on frame 8-12,9.0,7,9,--,-11,9—11,18
+Incineroar,Ground Attacks,Dash Attack,8,41,--,--,13.0/9.0,9/7,12/9,Early/Late,-21,8—11/12—15,26
+Incineroar,Ground Attacks,Forward Smash,16,51,--,Charge hold is frame 1,20.0/16.0,14/10,13/11,Close/Far,-22/-24,16—18,33
+Incineroar,Ground Attacks,Up Smash,13,47,--,Arm intangibility on frame 13-18. Charge hold is frame 5,17.0,10,11,--,-23,13—18,29
+Incineroar,Ground Attacks,Down Smash,18,57,--,Charge hold is frame 1,17.0,10,11,--,-28,18—20,37
+Incineroar,Ground Attacks,Neutral Air,5,41,11,Autocancels on frame 1-3 and 36 onward,13.0/7.0,9/7,5/3,Early/Late,-6/-8,5—6/7—25,16
+Incineroar,Ground Attacks,Forward Air,8,44,14,Autocancels on frame 1-6 and 46 onward,12.0/13.0/9.0/9.6,9/10,5/5,Close/Far,-9/-9,8—10(11—14),30
+Incineroar,Ground Attacks,Back Air,7,41,11,Autocancels on frame 1-5 and 36 onward,11.0/13.0,8/10,4/5,Close/Far,-7/-6,7—10,31
+Incineroar,Ground Attacks,Up Air,7,31,8,Autocancels on frame 1-5 and 26 onward,8.0,7,4,--,-4,7—11,20
+Incineroar,Ground Attacks,Down Air,16,44,16,Autocancels on frame 1-3 and 45 onward,15.0/14.0/9.0/8.0,10/10/7,5/5/4,Meteor/Close/Late,-11/-11/-12,16—19/20—21,23
+Incineroar,Ground Attacks,Neutral B (Darkest Lariat),5/15/23/37/50/56,84,--,"On the ground: Invincible on frame 5-6, head/arm invincible on frame 7, and arm invincible on frame 7-57.",16.0—6.0,12—7,14—8,--,-65,5—10/15—16/23—30/37—44/50—51/56—57,27
+Incineroar,Ground Attacks,"Side B (Alolan Whip, Grab)",16,57,--,"Follow with: Lariat, Back Body Drop, or Chest Bounce.",--,--,--,--,--,16—32(grab),--
+Incineroar,Ground Attacks,"Alolan Whip, Lariat Attack",7,47,--,"Following a grab, successful window for a lariat is frame 43-47. Any later is a failure and results in Back Body Drop or Chest Bounce. Damage-based armor 1—58 (14.338% in 1v1, 11.99% base).",20.0,--,--,--,--,**,--
+Incineroar,Ground Attacks,"Alolan Whip, Back Body Drop",8,42,--,"You can hold the button to guarantee this particular attack. Damage-based armor 1—... (14.338% in 1v1, 11.99% base).",12.0,--,--,--,--,**,--
+Incineroar,Ground Attacks,"Alolan Whip, Chest Bounce (Failure)",**,32,--,"Damage-based armor 1—4 (14.338% in 1v1, 11.99% base).",4.0,--,--,--,--,**,--
+Incineroar,Ground Attacks,Up B (Cross Chop),11/38,79,61/35,"Landing hitbox on frame 1. Arm intangibility on frame 13-26. Damage=based armor on frame 4-15 (14.338% in 1v1, 11.99% base). Total frames is if you never land during the dive. Second landing lag is if you land too late.",3.0/7.0/11.0/9.0,9/10/10/10,4/7/10/9,rising/falling early/falling late/landing,-51,(11/13—15/16—24)(38...),41
+Incineroar,Ground Attacks,Down B (Revenge),3 (Start of Counter),49,--,"Counter window 3-27. Next attack's damage increased by""((3-x) + (Max KB Multiplier) * (x-1)) / 2"" where x = current damage dealt multiplier. Stores up to 3x Revenges for total damage combined. Revenge store is lost when you are grabbed or take 36% damage. Lasts 60 seconds at base. Jab 1/2 and the rising hits of Cross Chop don't remove revenge. For more info, including exact knockback multipliers, checkSmash Wiki's page on Revenge.",--,--,--,--,--,**,--
+Incineroar,Ground Attacks,"Revenge, Counter Attack",8,25,--,Invulnerable on frame 1-14 in addition to counter freeze frames.,2.4,**,**,--,**,8—9,16
+Incineroar,Ground Attacks,Grab,7,37,--,--,--,,,,,7—9,28
+Incineroar,Ground Attacks,Dash Grab,11,45,--,--,--,,,,,11—13,32
+Incineroar,Ground Attacks,Pivot Grab,12,43,--,--,--,,,,,12—14,29
+Incineroar,Ground Attacks,Pummel,1,20,**,Total frames includes 14 frames of hitlag,1.6,,,,,,
+Incineroar,Ground Attacks,Forward Throw,58,81,--,--,12.0,,,,,,
+Incineroar,Ground Attacks,Backward Throw,28/30,51,--,--,14.0,,,,,,
+Incineroar,Ground Attacks,Up Throw,27,55,--,--,12.0,,,,,,
+Incineroar,Ground Attacks,Down Throw,22,35,--,--,9.0,,,,,,
+Incineroar,Ground Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Incineroar,Ground Attacks,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Incineroar,Ground Attacks,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Incineroar,Ground Attacks,Neutral Air Dodge,,44,10,Intangible on frame 3-29.,,,,,,,
+Incineroar,Ground Attacks,"Air Dodge, Down",,63,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Ground Attacks,"Air Dodge, Diagonally Down",,72,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Ground Attacks,"Air Dodge, Left/Right",,76,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Ground Attacks,"Air Dodge, Diagonally Up",,86,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Ground Attacks,"Air Dodge, Up",,96,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Ground Attacks,Stats,,,,,,,,,,,
+Incineroar,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Incineroar,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Incineroar,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Incineroar,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Incineroar,Aerial Attacks,Neutral Air,5,41,11,Autocancels on frame 1-3 and 36 onward,13.0/7.0,9/7,5/3,Early/Late,-6/-8,5—6/7—25,16
+Incineroar,Aerial Attacks,Forward Air,8,44,14,Autocancels on frame 1-6 and 46 onward,12.0/13.0/9.0/9.6,9/10,5/5,Close/Far,-9/-9,8—10(11—14),30
+Incineroar,Aerial Attacks,Back Air,7,41,11,Autocancels on frame 1-5 and 36 onward,11.0/13.0,8/10,4/5,Close/Far,-7/-6,7—10,31
+Incineroar,Aerial Attacks,Up Air,7,31,8,Autocancels on frame 1-5 and 26 onward,8.0,7,4,--,-4,7—11,20
+Incineroar,Aerial Attacks,Down Air,16,44,16,Autocancels on frame 1-3 and 45 onward,15.0/14.0/9.0/8.0,10/10/7,5/5/4,Meteor/Close/Late,-11/-11/-12,16—19/20—21,23
+Incineroar,Aerial Attacks,Neutral B (Darkest Lariat),5/15/23/37/50/56,84,--,"On the ground: Invincible on frame 5-6, head/arm invincible on frame 7, and arm invincible on frame 7-57.",16.0—6.0,12—7,14—8,--,-65,5—10/15—16/23—30/37—44/50—51/56—57,27
+Incineroar,Aerial Attacks,"Side B (Alolan Whip, Grab)",16,57,--,"Follow with: Lariat, Back Body Drop, or Chest Bounce.",--,--,--,--,--,16—32(grab),--
+Incineroar,Aerial Attacks,"Alolan Whip, Lariat Attack",7,47,--,"Following a grab, successful window for a lariat is frame 43-47. Any later is a failure and results in Back Body Drop or Chest Bounce. Damage-based armor 1—58 (14.338% in 1v1, 11.99% base).",20.0,--,--,--,--,**,--
+Incineroar,Aerial Attacks,"Alolan Whip, Back Body Drop",8,42,--,"You can hold the button to guarantee this particular attack. Damage-based armor 1—... (14.338% in 1v1, 11.99% base).",12.0,--,--,--,--,**,--
+Incineroar,Aerial Attacks,"Alolan Whip, Chest Bounce (Failure)",**,32,--,"Damage-based armor 1—4 (14.338% in 1v1, 11.99% base).",4.0,--,--,--,--,**,--
+Incineroar,Aerial Attacks,Up B (Cross Chop),11/38,79,61/35,"Landing hitbox on frame 1. Arm intangibility on frame 13-26. Damage=based armor on frame 4-15 (14.338% in 1v1, 11.99% base). Total frames is if you never land during the dive. Second landing lag is if you land too late.",3.0/7.0/11.0/9.0,9/10/10/10,4/7/10/9,rising/falling early/falling late/landing,-51,(11/13—15/16—24)(38...),41
+Incineroar,Aerial Attacks,Down B (Revenge),3 (Start of Counter),49,--,"Counter window 3-27. Next attack's damage increased by""((3-x) + (Max KB Multiplier) * (x-1)) / 2"" where x = current damage dealt multiplier. Stores up to 3x Revenges for total damage combined. Revenge store is lost when you are grabbed or take 36% damage. Lasts 60 seconds at base. Jab 1/2 and the rising hits of Cross Chop don't remove revenge. For more info, including exact knockback multipliers, checkSmash Wiki's page on Revenge.",--,--,--,--,--,**,--
+Incineroar,Aerial Attacks,"Revenge, Counter Attack",8,25,--,Invulnerable on frame 1-14 in addition to counter freeze frames.,2.4,**,**,--,**,8—9,16
+Incineroar,Aerial Attacks,Grab,7,37,--,--,--,,,,,7—9,28
+Incineroar,Aerial Attacks,Dash Grab,11,45,--,--,--,,,,,11—13,32
+Incineroar,Aerial Attacks,Pivot Grab,12,43,--,--,--,,,,,12—14,29
+Incineroar,Aerial Attacks,Pummel,1,20,**,Total frames includes 14 frames of hitlag,1.6,,,,,,
+Incineroar,Aerial Attacks,Forward Throw,58,81,--,--,12.0,,,,,,
+Incineroar,Aerial Attacks,Backward Throw,28/30,51,--,--,14.0,,,,,,
+Incineroar,Aerial Attacks,Up Throw,27,55,--,--,12.0,,,,,,
+Incineroar,Aerial Attacks,Down Throw,22,35,--,--,9.0,,,,,,
+Incineroar,Aerial Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Incineroar,Aerial Attacks,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Incineroar,Aerial Attacks,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Incineroar,Aerial Attacks,Neutral Air Dodge,,44,10,Intangible on frame 3-29.,,,,,,,
+Incineroar,Aerial Attacks,"Air Dodge, Down",,63,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Aerial Attacks,"Air Dodge, Diagonally Down",,72,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Aerial Attacks,"Air Dodge, Left/Right",,76,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Aerial Attacks,"Air Dodge, Diagonally Up",,86,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Aerial Attacks,"Air Dodge, Up",,96,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Aerial Attacks,Stats,,,,,,,,,,,
+Incineroar,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Incineroar,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Incineroar,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Incineroar,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Incineroar,Special Attacks,Neutral B (Darkest Lariat),5/15/23/37/50/56,84,--,"On the ground: Invincible on frame 5-6, head/arm invincible on frame 7, and arm invincible on frame 7-57.",16.0—6.0,12—7,14—8,--,-65,5—10/15—16/23—30/37—44/50—51/56—57,27
+Incineroar,Special Attacks,"Side B (Alolan Whip, Grab)",16,57,--,"Follow with: Lariat, Back Body Drop, or Chest Bounce.",--,--,--,--,--,16—32(grab),--
+Incineroar,Special Attacks,"Alolan Whip, Lariat Attack",7,47,--,"Following a grab, successful window for a lariat is frame 43-47. Any later is a failure and results in Back Body Drop or Chest Bounce. Damage-based armor 1—58 (14.338% in 1v1, 11.99% base).",20.0,--,--,--,--,**,--
+Incineroar,Special Attacks,"Alolan Whip, Back Body Drop",8,42,--,"You can hold the button to guarantee this particular attack. Damage-based armor 1—... (14.338% in 1v1, 11.99% base).",12.0,--,--,--,--,**,--
+Incineroar,Special Attacks,"Alolan Whip, Chest Bounce (Failure)",**,32,--,"Damage-based armor 1—4 (14.338% in 1v1, 11.99% base).",4.0,--,--,--,--,**,--
+Incineroar,Special Attacks,Up B (Cross Chop),11/38,79,61/35,"Landing hitbox on frame 1. Arm intangibility on frame 13-26. Damage=based armor on frame 4-15 (14.338% in 1v1, 11.99% base). Total frames is if you never land during the dive. Second landing lag is if you land too late.",3.0/7.0/11.0/9.0,9/10/10/10,4/7/10/9,rising/falling early/falling late/landing,-51,(11/13—15/16—24)(38...),41
+Incineroar,Special Attacks,Down B (Revenge),3 (Start of Counter),49,--,"Counter window 3-27. Next attack's damage increased by""((3-x) + (Max KB Multiplier) * (x-1)) / 2"" where x = current damage dealt multiplier. Stores up to 3x Revenges for total damage combined. Revenge store is lost when you are grabbed or take 36% damage. Lasts 60 seconds at base. Jab 1/2 and the rising hits of Cross Chop don't remove revenge. For more info, including exact knockback multipliers, checkSmash Wiki's page on Revenge.",--,--,--,--,--,**,--
+Incineroar,Special Attacks,"Revenge, Counter Attack",8,25,--,Invulnerable on frame 1-14 in addition to counter freeze frames.,2.4,**,**,--,**,8—9,16
+Incineroar,Special Attacks,Grab,7,37,--,--,--,,,,,7—9,28
+Incineroar,Special Attacks,Dash Grab,11,45,--,--,--,,,,,11—13,32
+Incineroar,Special Attacks,Pivot Grab,12,43,--,--,--,,,,,12—14,29
+Incineroar,Special Attacks,Pummel,1,20,**,Total frames includes 14 frames of hitlag,1.6,,,,,,
+Incineroar,Special Attacks,Forward Throw,58,81,--,--,12.0,,,,,,
+Incineroar,Special Attacks,Backward Throw,28/30,51,--,--,14.0,,,,,,
+Incineroar,Special Attacks,Up Throw,27,55,--,--,12.0,,,,,,
+Incineroar,Special Attacks,Down Throw,22,35,--,--,9.0,,,,,,
+Incineroar,Special Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Incineroar,Special Attacks,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Incineroar,Special Attacks,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Incineroar,Special Attacks,Neutral Air Dodge,,44,10,Intangible on frame 3-29.,,,,,,,
+Incineroar,Special Attacks,"Air Dodge, Down",,63,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Special Attacks,"Air Dodge, Diagonally Down",,72,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Special Attacks,"Air Dodge, Left/Right",,76,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Special Attacks,"Air Dodge, Diagonally Up",,86,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Special Attacks,"Air Dodge, Up",,96,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Special Attacks,Stats,,,,,,,,,,,
+Incineroar,Special Attacks,Ledge Grab,,,,,,,,,,,
+Incineroar,Special Attacks,Ledge Hang,,,,,,,,,,,
+Incineroar,Special Attacks,Ledge Roll,,,,,,,,,,,
+Incineroar,Special Attacks,Getup Attacks,,,,,,,,,,,
+Incineroar,Grabs / Throws,Grab,7,37,--,--,--,,,,,7—9,28
+Incineroar,Grabs / Throws,Dash Grab,11,45,--,--,--,,,,,11—13,32
+Incineroar,Grabs / Throws,Pivot Grab,12,43,--,--,--,,,,,12—14,29
+Incineroar,Grabs / Throws,Pummel,1,20,**,Total frames includes 14 frames of hitlag,1.6,,,,,,
+Incineroar,Grabs / Throws,Forward Throw,58,81,--,--,12.0,,,,,,
+Incineroar,Grabs / Throws,Backward Throw,28/30,51,--,--,14.0,,,,,,
+Incineroar,Grabs / Throws,Up Throw,27,55,--,--,12.0,,,,,,
+Incineroar,Grabs / Throws,Down Throw,22,35,--,--,9.0,,,,,,
+Incineroar,Grabs / Throws,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Incineroar,Grabs / Throws,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Incineroar,Grabs / Throws,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Incineroar,Grabs / Throws,Neutral Air Dodge,,44,10,Intangible on frame 3-29.,,,,,,,
+Incineroar,Grabs / Throws,"Air Dodge, Down",,63,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Grabs / Throws,"Air Dodge, Diagonally Down",,72,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Grabs / Throws,"Air Dodge, Left/Right",,76,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Grabs / Throws,"Air Dodge, Diagonally Up",,86,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Grabs / Throws,"Air Dodge, Up",,96,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Grabs / Throws,Stats,,,,,,,,,,,
+Incineroar,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Incineroar,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Incineroar,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Incineroar,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Incineroar,Dodges / Rolls,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Incineroar,Dodges / Rolls,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Incineroar,Dodges / Rolls,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Incineroar,Dodges / Rolls,Neutral Air Dodge,,44,10,Intangible on frame 3-29.,,,,,,,
+Incineroar,Dodges / Rolls,"Air Dodge, Down",,63,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Dodges / Rolls,"Air Dodge, Diagonally Down",,72,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Dodges / Rolls,"Air Dodge, Left/Right",,76,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Dodges / Rolls,"Air Dodge, Diagonally Up",,86,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Dodges / Rolls,"Air Dodge, Up",,96,11-19,Intangible on frame 3-21.,,,,,,,
+Incineroar,Dodges / Rolls,Stats,,,,,,,,,,,
+Incineroar,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Incineroar,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Incineroar,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Incineroar,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Incineroar,Misc Info,Stats,,,,,,,,,,,
+Incineroar,Misc Info,Ledge Grab,,,,,,,,,,,
+Incineroar,Misc Info,Ledge Hang,,,,,,,,,,,
+Incineroar,Misc Info,Ledge Roll,,,,,,,,,,,
+Incineroar,Misc Info,Getup Attacks,,,,,,,,,,,
