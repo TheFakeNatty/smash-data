@@ -1,0 +1,145 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Mythra,Ground Attacks,Jab 1,2,20,--,transitions to jab 2 on frame 5,2.0,4,3,--,-15,2—4,16
+Mythra,Ground Attacks,Jab 2,4,30,--,Transitions to jab 3 on frame 13 or Rapid on 12,2.0,4,3,--,-23,4—5,25
+Mythra,Ground Attacks,Jab 3,4,29,--,--,4.0,8,5,--,-20,4—6,23
+Mythra,Ground Attacks,Rapid Jab,8/12/16...,--,--,--,0.4,4,4,--,--,8/12/16...,--
+Mythra,Ground Attacks,Rapid Jab Finisher,6,37,--,--,3.0,7,4,--,-27,6—7,30
+Mythra,Ground Attacks,Forward Tilt,8,25,--,--,5.5,6,6,--,-11,8—9,16
+Mythra,Ground Attacks,Up Tilt,7,26,--,--,4.0,5,5,--,-14,7—12,14
+Mythra,Ground Attacks,Down Tilt,5,20,--,--,3.0/4.0,5/5,4/5,Close/Far,-11/-10,5—7,13
+Mythra,Ground Attacks,Dash Attack,9,39,--,--,7.0/8.5,*/7,*/8,Closest/Far,-22,9—10,29
+Mythra,Ground Attacks,Forward Smash,14,49,--,charge hold on frame 3,13.5,9,9,--,-26,14—17,32
+Mythra,Ground Attacks,Up Smash,9/12/17/22/26,52,--,charge hold on frame 4,2.0/1.5/6.0,4/4/6,3/2/5,launcher/multihits/final hit,-40/-21,9—10/11—24(rehit: 5)/26—27,25
+Mythra,Ground Attacks,Down Smash,8/14,44,--,"Charge hold on frame 2. Blade and leg can both hit the same shield. Third and fourth advantage assume this scenario, first and second are single, far hits.",9.0 / 10.5 / 6.0 / 7.5,7/8/6/7,*/8/5/6,blade close/far / leg close/far,-28/-30/-22/-24,8—10/14—16,28
+Mythra,Ground Attacks,Neutral Air,8,50,13,autocancels on frame 1-7 and 38 onward. Landing hitbox on frame 1.,2.0/3.0/2.0,7,3,Multi/Final/Landing,-10,8—13(rehit: 3)(14—19),31
+Mythra,Ground Attacks,Forward Air,8,37,10,autocancels on frame 1-3 and 36 onward,7.0,7,3,--,-7,8—11,26
+Mythra,Ground Attacks,Back Air,10,33,10,autocancels on frame 1-3 and 26 onward,7.5/6.5,7,3,Early/Late,-7,10—11(12),21
+Mythra,Ground Attacks,Up Air,9,30,8,autocancels on frame 16 onward,6.0,6,3,--,-5,9—13,17
+Mythra,Ground Attacks,Down Air,13,40,11,autocancels on frame 1-4 and 29 onward,8.0/6.0,7,4,Early/Late,-7,13—15(16),24
+Mythra,Ground Attacks,Neutral B (Lightning Buster),9/20/30/40—69/80/90/99/109,67—132,--,"startup is 5 from release, intangibility on on 3-8 for standard and 1-8/12-16 for Max (both are after release)",2.0/6.0/4.0/17.0,4/6 — 5/10,5/6 — 8/15,multihit/final,-21 — -8,**,--
+Mythra,Ground Attacks,Side B (Photon Edge),18/25/32/39/46/54,100,18 (see notes),"If you land before the animation has finished, the remaining total frames elapse. If you land after, you incur 18 frames of landing lag. First hit has no hitlag, while the later hits have different shieldlag for Mythra.Thanks to@jayblu_ on Twitterfor the visual with hurtboxes visible and for creating the mod it came from!",2.5 / 2.5 / 7.0,0/5 (4 self) / 8 (12 self),4/2/3,First/Multi/Final,-47,18—19/25/32/39/46/54,46
+Mythra,Ground Attacks,Up B (Ray of Punishment),10/40,--,15,Ray explodes the next frame after hitting something,7.0/2.0/4.5,8/*/5,7/*/2,Slash/Projectile/Explosion,**,10—12/40—56,--
+Mythra,Ground Attacks,Chroma Dust,10...,--,20,--,7.0/2.5,8/5,7/2,Slash/Projectile,**,10—12/41-56/42-57/43-58/44-59/45-60,--
+Mythra,Ground Attacks,Down B (Swap to Pyra),--,32,--,Invulnerable on frame 6-18.,--,--,--,--,--,--,--
+Mythra,Ground Attacks,Grab,6,36,--,--,--,,,,,6—7,29
+Mythra,Ground Attacks,Dash Grab,11,43,--,--,--,,,,,11—12,31
+Mythra,Ground Attacks,Pivot Grab,12,38,--,--,--,,,,,12—13,25
+Mythra,Ground Attacks,Pummel,1,19,--,total frames includes 14 frames of hitlag (plus one in 1v1),1.5,,,,,,
+Mythra,Ground Attacks,Forward Throw,10/11,27,--,--,3.0/2.5,,,,,,
+Mythra,Ground Attacks,Backward Throw,15/17,35,--,--,3.0/2.5,,,,,,
+Mythra,Ground Attacks,Up Throw,9,29,--,--,4.0,,,,,,
+Mythra,Ground Attacks,Down Throw,20/28,48,--,--,4.0/3.0,,,,,,
+Mythra,Ground Attacks,Spot Dodge,,25/31,--,"Foresight on frame 2-6. Intangible on frame 7-21. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Ground Attacks,Forward Roll,,35,--,"Foresight on frame 2-6. Intangible on frame 7-18. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Ground Attacks,Backward Roll,,38,--,"Foresight on frame 2-7. Intangible on frame 8-19. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Ground Attacks,Neutral Air Dodge,,44,**,"Foresight on frame 2-5. Intangible on frame 6-33. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Ground Attacks,"Air Dodge, Down",,59,**,"Foresight on frame 2-5. Intangible on frame 6-24.	Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Ground Attacks,"Air Dodge, Diagonally Down",,66,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Ground Attacks,"Air Dodge, Left/Right",,73,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Ground Attacks,"Air Dodge, Diagonally Up",,85,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Ground Attacks,"Air Dodge, Up",,95,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Ground Attacks,Stats,,,,,,,,,,,
+Mythra,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Mythra,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Mythra,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Mythra,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Mythra,Aerial Attacks,Neutral Air,8,50,13,autocancels on frame 1-7 and 38 onward. Landing hitbox on frame 1.,2.0/3.0/2.0,7,3,Multi/Final/Landing,-10,8—13(rehit: 3)(14—19),31
+Mythra,Aerial Attacks,Forward Air,8,37,10,autocancels on frame 1-3 and 36 onward,7.0,7,3,--,-7,8—11,26
+Mythra,Aerial Attacks,Back Air,10,33,10,autocancels on frame 1-3 and 26 onward,7.5/6.5,7,3,Early/Late,-7,10—11(12),21
+Mythra,Aerial Attacks,Up Air,9,30,8,autocancels on frame 16 onward,6.0,6,3,--,-5,9—13,17
+Mythra,Aerial Attacks,Down Air,13,40,11,autocancels on frame 1-4 and 29 onward,8.0/6.0,7,4,Early/Late,-7,13—15(16),24
+Mythra,Aerial Attacks,Neutral B (Lightning Buster),9/20/30/40—69/80/90/99/109,67—132,--,"startup is 5 from release, intangibility on on 3-8 for standard and 1-8/12-16 for Max (both are after release)",2.0/6.0/4.0/17.0,4/6 — 5/10,5/6 — 8/15,multihit/final,-21 — -8,**,--
+Mythra,Aerial Attacks,Side B (Photon Edge),18/25/32/39/46/54,100,18 (see notes),"If you land before the animation has finished, the remaining total frames elapse. If you land after, you incur 18 frames of landing lag. First hit has no hitlag, while the later hits have different shieldlag for Mythra.Thanks to@jayblu_ on Twitterfor the visual with hurtboxes visible and for creating the mod it came from!",2.5 / 2.5 / 7.0,0/5 (4 self) / 8 (12 self),4/2/3,First/Multi/Final,-47,18—19/25/32/39/46/54,46
+Mythra,Aerial Attacks,Up B (Ray of Punishment),10/40,--,15,Ray explodes the next frame after hitting something,7.0/2.0/4.5,8/*/5,7/*/2,Slash/Projectile/Explosion,**,10—12/40—56,--
+Mythra,Aerial Attacks,Chroma Dust,10...,--,20,--,7.0/2.5,8/5,7/2,Slash/Projectile,**,10—12/41-56/42-57/43-58/44-59/45-60,--
+Mythra,Aerial Attacks,Down B (Swap to Pyra),--,32,--,Invulnerable on frame 6-18.,--,--,--,--,--,--,--
+Mythra,Aerial Attacks,Grab,6,36,--,--,--,,,,,6—7,29
+Mythra,Aerial Attacks,Dash Grab,11,43,--,--,--,,,,,11—12,31
+Mythra,Aerial Attacks,Pivot Grab,12,38,--,--,--,,,,,12—13,25
+Mythra,Aerial Attacks,Pummel,1,19,--,total frames includes 14 frames of hitlag (plus one in 1v1),1.5,,,,,,
+Mythra,Aerial Attacks,Forward Throw,10/11,27,--,--,3.0/2.5,,,,,,
+Mythra,Aerial Attacks,Backward Throw,15/17,35,--,--,3.0/2.5,,,,,,
+Mythra,Aerial Attacks,Up Throw,9,29,--,--,4.0,,,,,,
+Mythra,Aerial Attacks,Down Throw,20/28,48,--,--,4.0/3.0,,,,,,
+Mythra,Aerial Attacks,Spot Dodge,,25/31,--,"Foresight on frame 2-6. Intangible on frame 7-21. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Aerial Attacks,Forward Roll,,35,--,"Foresight on frame 2-6. Intangible on frame 7-18. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Aerial Attacks,Backward Roll,,38,--,"Foresight on frame 2-7. Intangible on frame 8-19. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Aerial Attacks,Neutral Air Dodge,,44,**,"Foresight on frame 2-5. Intangible on frame 6-33. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Aerial Attacks,"Air Dodge, Down",,59,**,"Foresight on frame 2-5. Intangible on frame 6-24.	Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Aerial Attacks,"Air Dodge, Diagonally Down",,66,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Aerial Attacks,"Air Dodge, Left/Right",,73,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Aerial Attacks,"Air Dodge, Diagonally Up",,85,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Aerial Attacks,"Air Dodge, Up",,95,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Aerial Attacks,Stats,,,,,,,,,,,
+Mythra,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Mythra,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Mythra,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Mythra,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Mythra,Special Attacks,Neutral B (Lightning Buster),9/20/30/40—69/80/90/99/109,67—132,--,"startup is 5 from release, intangibility on on 3-8 for standard and 1-8/12-16 for Max (both are after release)",2.0/6.0/4.0/17.0,4/6 — 5/10,5/6 — 8/15,multihit/final,-21 — -8,**,--
+Mythra,Special Attacks,Side B (Photon Edge),18/25/32/39/46/54,100,18 (see notes),"If you land before the animation has finished, the remaining total frames elapse. If you land after, you incur 18 frames of landing lag. First hit has no hitlag, while the later hits have different shieldlag for Mythra.Thanks to@jayblu_ on Twitterfor the visual with hurtboxes visible and for creating the mod it came from!",2.5 / 2.5 / 7.0,0/5 (4 self) / 8 (12 self),4/2/3,First/Multi/Final,-47,18—19/25/32/39/46/54,46
+Mythra,Special Attacks,Up B (Ray of Punishment),10/40,--,15,Ray explodes the next frame after hitting something,7.0/2.0/4.5,8/*/5,7/*/2,Slash/Projectile/Explosion,**,10—12/40—56,--
+Mythra,Special Attacks,Chroma Dust,10...,--,20,--,7.0/2.5,8/5,7/2,Slash/Projectile,**,10—12/41-56/42-57/43-58/44-59/45-60,--
+Mythra,Special Attacks,Down B (Swap to Pyra),--,32,--,Invulnerable on frame 6-18.,--,--,--,--,--,--,--
+Mythra,Special Attacks,Grab,6,36,--,--,--,,,,,6—7,29
+Mythra,Special Attacks,Dash Grab,11,43,--,--,--,,,,,11—12,31
+Mythra,Special Attacks,Pivot Grab,12,38,--,--,--,,,,,12—13,25
+Mythra,Special Attacks,Pummel,1,19,--,total frames includes 14 frames of hitlag (plus one in 1v1),1.5,,,,,,
+Mythra,Special Attacks,Forward Throw,10/11,27,--,--,3.0/2.5,,,,,,
+Mythra,Special Attacks,Backward Throw,15/17,35,--,--,3.0/2.5,,,,,,
+Mythra,Special Attacks,Up Throw,9,29,--,--,4.0,,,,,,
+Mythra,Special Attacks,Down Throw,20/28,48,--,--,4.0/3.0,,,,,,
+Mythra,Special Attacks,Spot Dodge,,25/31,--,"Foresight on frame 2-6. Intangible on frame 7-21. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Special Attacks,Forward Roll,,35,--,"Foresight on frame 2-6. Intangible on frame 7-18. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Special Attacks,Backward Roll,,38,--,"Foresight on frame 2-7. Intangible on frame 8-19. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Special Attacks,Neutral Air Dodge,,44,**,"Foresight on frame 2-5. Intangible on frame 6-33. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Special Attacks,"Air Dodge, Down",,59,**,"Foresight on frame 2-5. Intangible on frame 6-24.	Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Special Attacks,"Air Dodge, Diagonally Down",,66,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Special Attacks,"Air Dodge, Left/Right",,73,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Special Attacks,"Air Dodge, Diagonally Up",,85,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Special Attacks,"Air Dodge, Up",,95,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Special Attacks,Stats,,,,,,,,,,,
+Mythra,Special Attacks,Ledge Grab,,,,,,,,,,,
+Mythra,Special Attacks,Ledge Hang,,,,,,,,,,,
+Mythra,Special Attacks,Ledge Roll,,,,,,,,,,,
+Mythra,Special Attacks,Getup Attacks,,,,,,,,,,,
+Mythra,Grabs / Throws,Grab,6,36,--,--,--,,,,,6—7,29
+Mythra,Grabs / Throws,Dash Grab,11,43,--,--,--,,,,,11—12,31
+Mythra,Grabs / Throws,Pivot Grab,12,38,--,--,--,,,,,12—13,25
+Mythra,Grabs / Throws,Pummel,1,19,--,total frames includes 14 frames of hitlag (plus one in 1v1),1.5,,,,,,
+Mythra,Grabs / Throws,Forward Throw,10/11,27,--,--,3.0/2.5,,,,,,
+Mythra,Grabs / Throws,Backward Throw,15/17,35,--,--,3.0/2.5,,,,,,
+Mythra,Grabs / Throws,Up Throw,9,29,--,--,4.0,,,,,,
+Mythra,Grabs / Throws,Down Throw,20/28,48,--,--,4.0/3.0,,,,,,
+Mythra,Grabs / Throws,Spot Dodge,,25/31,--,"Foresight on frame 2-6. Intangible on frame 7-21. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Grabs / Throws,Forward Roll,,35,--,"Foresight on frame 2-6. Intangible on frame 7-18. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Grabs / Throws,Backward Roll,,38,--,"Foresight on frame 2-7. Intangible on frame 8-19. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Grabs / Throws,Neutral Air Dodge,,44,**,"Foresight on frame 2-5. Intangible on frame 6-33. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Grabs / Throws,"Air Dodge, Down",,59,**,"Foresight on frame 2-5. Intangible on frame 6-24.	Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Grabs / Throws,"Air Dodge, Diagonally Down",,66,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Grabs / Throws,"Air Dodge, Left/Right",,73,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Grabs / Throws,"Air Dodge, Diagonally Up",,85,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Grabs / Throws,"Air Dodge, Up",,95,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Grabs / Throws,Stats,,,,,,,,,,,
+Mythra,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Mythra,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Mythra,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Mythra,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Mythra,Dodges / Rolls,Spot Dodge,,25/31,--,"Foresight on frame 2-6. Intangible on frame 7-21. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Dodges / Rolls,Forward Roll,,35,--,"Foresight on frame 2-6. Intangible on frame 7-18. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Dodges / Rolls,Backward Roll,,38,--,"Foresight on frame 2-7. Intangible on frame 8-19. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Dodges / Rolls,Neutral Air Dodge,,44,**,"Foresight on frame 2-5. Intangible on frame 6-33. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Dodges / Rolls,"Air Dodge, Down",,59,**,"Foresight on frame 2-5. Intangible on frame 6-24.	Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Dodges / Rolls,"Air Dodge, Diagonally Down",,66,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Dodges / Rolls,"Air Dodge, Left/Right",,73,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Dodges / Rolls,"Air Dodge, Diagonally Up",,85,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Dodges / Rolls,"Air Dodge, Up",,95,**,"Foresight on frame 2-5. Intangible on frame 6-24. Foresight damage received multiplier: 0.5x, slowdown effect speed: 10, slowdown duration: 36 frames.",,,,,,,
+Mythra,Dodges / Rolls,Stats,,,,,,,,,,,
+Mythra,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Mythra,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Mythra,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Mythra,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Mythra,Misc Info,Stats,,,,,,,,,,,
+Mythra,Misc Info,Ledge Grab,,,,,,,,,,,
+Mythra,Misc Info,Ledge Hang,,,,,,,,,,,
+Mythra,Misc Info,Ledge Roll,,,,,,,,,,,
+Mythra,Misc Info,Getup Attacks,,,,,,,,,,,

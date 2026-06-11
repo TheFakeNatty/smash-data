@@ -1,176 +1,176 @@
-character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
-Mii_swordfighter,Ground Attacks,Jab 1,6,19,--,Transitions to jab 2 as early as frame 9,3.0,7,4,--,-9,6—7,12
-Mii_swordfighter,Ground Attacks,Jab 2,6,22,--,Transitions to jab 3 as early as frame 9,3.0,6,4,--,-12,6—7,15
-Mii_swordfighter,Ground Attacks,Jab 3,6,38,--,--,5.0,12,6,--,-26,6—8,30
-Mii_swordfighter,Ground Attacks,Forward Tilt,10,34,--,--,12.0,9,8,--,-16,10—11,23
-Mii_swordfighter,Ground Attacks,Up Tilt,8,32,--,--,7.0,7,7,--,-17,8—12,20
-Mii_swordfighter,Ground Attacks,Down Tilt,5,19,--,--,8.0,7,8,--,-6,5—6,13
-Mii_swordfighter,Ground Attacks,Dash Attack,9,41,--,--,10.0,10,14,--,-18,9—10,31
-Mii_swordfighter,Ground Attacks,Forward Smash,15,59,--,Charge hold is frame 9,14.0/15.0/16.0,10/10/10,10/10/11,Close/Far,-34/-34/-33,15—17,42
-Mii_swordfighter,Ground Attacks,Up Smash,11/14/21,59,--,Charge hold is frame 9. Front/low hit is the 11f startup hit.,4.0/3.0/7.0,5/7/14,-/3/6,--,-32,11—12/14—15/21—22,37
-Mii_swordfighter,Ground Attacks,Down Smash,7/15,53,--,Charge hold is frame 3,12.0/15.0,9/10,8/10,--,-38/-28,7—8/15—16,37
-Mii_swordfighter,Ground Attacks,Neutral Air,10,48,9,Autocancels on frame 1-5 and 32 onward,8.0,7,4,--,-5,10—23,25
-Mii_swordfighter,Ground Attacks,Forward Air,12/16/21,49,12,Autocancels on frame 48 onward,3.0/5.0,5/12,2/3,Multi/Final,-10/-9,12—13/16—17/21—22,27
-Mii_swordfighter,Ground Attacks,Back Air,10,37,9,Autocancels on frame 29 onward,14.0,10,5,--,-4,10—11,26
-Mii_swordfighter,Ground Attacks,Up Air,11,44,10,Autocancels on frame 1-10 and 30 onward,16.0/10.0,10/8,6/4,Early/Late,-4/-6,11—13(14—23),21
-Mii_swordfighter,Ground Attacks,Down Air,14...,58,18,Landing hit on frame 1. Autocancels on frame 1-4 and 50 onward,1.5/5.0,4/6,2/6,Multi/Landing,-11,14—37(rehit: 5)/1—3,21
-Mii_swordfighter,Ground Attacks,Gale Strike,20,67,--,--,13.0/11.0/10.0,9/8/8,5/4/4,Early/Late/Later,-33,20—37(38—55/56—71),--
-Mii_swordfighter,Ground Attacks,Shuriken of Light,13,37,--,--,2.0/3.5/5.0/6.5,4/5/6/6,2/2/3/3,Early/late/later/latest,-18,13—20(21—28/29—36/37—50),--
-Mii_swordfighter,Ground Attacks,Blurring Blade,17/21/25/29/33/44,84,--,Startup is 6 from charge release. Can be charged for 50 addittional frames for more damage,0.8—1.9/8.0—19.2,4—4/11—15,2—3/8—17,Multi/Final,-32 to -23,17—18/21—22/25—26/29—30/33—34/44—45,39
-Mii_swordfighter,Ground Attacks,Airborne Assault,"Ground: 25, Air: 30",104/109,29,Startup is 2 upon reaching a target. Endlag on hit is 48 if you don't land after hitting. Lands on 36 plus 5 frame landing animation on ground level. Stops at an edge with 44 frame endlag animation.,14.0,14,13,--,-28/-35,Ground: 25—60Air: 30—65Hit: 2—5,44
-Mii_swordfighter,Ground Attacks,Gale Stab (Charge),8/11,72/--,29 (Freefall),Charges between 7-8/10-11. Activates through invulnerability.,--,--,--,Ground/Air,--,8—21/11—24,51/35
-Mii_swordfighter,Ground Attacks,Gale Stab (Hit),2,34/--,29 (Freefall),Ledge grabs enabled starting on frame 7.,8.0—18.5,7—12,8—16,Ground/Air,-24 to -16,2—5,28/52
-Mii_swordfighter,Ground Attacks,Chakram,18,52,--,Weak throw has rehit rate of 9 but will bounce off shields. Strong throw hits just once.,1.1/8.0,5/9,2/3,Weak Throw/Strong Throw,-27/-20,18—89/18—40,--
-Mii_swordfighter,Ground Attacks,Stone Scabbard,13/42,--,44,Invulnerable on frame 5-12. Landing hit on frame 1,4.0/3.0/5.0,7/5/13,5/4/6,Rising/Falling/landing,-37,**,--
-Mii_swordfighter,Ground Attacks,Skyward Slash Dash,15/19/22/25/28/31/34,77,20,Total frames assumes you end on the ground.,2.2/3.0/4.0,4/5/5,3/4/5,First/multi/final,-38,15/19—20/22—23/25—26/28—29/31—32/34—35,42
-Mii_swordfighter,Ground Attacks,Hero's Spin,8,78,--,Can be charged for an additional 60 frames. 8f startup is only the front hit.,14.0—19.6,10—12,13—17,Early/Lates,-57 to -53,8—9(10—14/15—24/25—40),38
-Mii_swordfighter,Ground Attacks,Hero's Spin (Air),8/16/22/26/31/38/47,--,30,--,3.0/2.0/5.0,5/4/12,4/3/6,First/multi/final,**,8/11/16/19/22/26/31/38/47—48,--
-Mii_swordfighter,Ground Attacks,Blade Counter,5 (Start of Counter),59,--,Intangible on frame 4-5. Counters on frame 5-26.,--,--,--,--,--,5—26 (counter),--
-Mii_swordfighter,Ground Attacks,"Blade Counter, Activated",21,Ground 38/ Air 41,--,Intangible frames 1-23.,--,--,--,--,--,21—22,16
-Mii_swordfighter,Ground Attacks,Reversal Slash,16 (Can reflect as fast as frame 5),36,--,"Reflects on frame 8-24, search box on frames 4-7. Invulnerable on frame 17-26 if you hit somebody or reflect something.While the move's reflector normally comes out on frame 8, it has a preemptive projectile detector starting on frame 4. If a projectile comes in contact with this detector, the move skips to frame 8 on the next frame, effectively cutting up to three frames of startup (and therefor reflecting on frame 5).",6.0,7,0,--,-13,16—17,19
-Mii_swordfighter,Ground Attacks,Power Thrust,12,59,--,--,15.0/13.0/10.0,10/9/8,14/12/10,Early/Late/Later,-33,12—14(15—22/23—30),29
-Mii_swordfighter,Ground Attacks,Power Thrust (Air),14,58,39,Landing hit on frame 1—2,13.0/7.0,9/10,12/7,falling/landing,-31,14—16/17—24/25—29,29
-Mii_swordfighter,Ground Attacks,Grab,6,34,--,--,--,,,,,6—7,27
-Mii_swordfighter,Ground Attacks,Dash Grab,9,42,--,--,--,,,,,9—10,32
-Mii_swordfighter,Ground Attacks,Pivot Grab,10,37,--,--,--,,,,,10—11,26
-Mii_swordfighter,Ground Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
-Mii_swordfighter,Ground Attacks,Forward Throw,11/13,40,--,--,3.0/3.0,,,,,,
-Mii_swordfighter,Ground Attacks,Backward Throw,15/16,46,--,--,3.0/3.0,,,,,,
-Mii_swordfighter,Ground Attacks,Up Throw,21/23,49,--,--,2.0/3.0,,,,,,
-Mii_swordfighter,Ground Attacks,Down Throw,15/16,32,--,--,2.0/2.0,,,,,,
-Mii_swordfighter,Ground Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Mii_swordfighter,Ground Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Mii_swordfighter,Ground Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Mii_swordfighter,Ground Attacks,Neutral Air Dodge,,50,10,Intangible on frame 3-30,,,,,,,
-Mii_swordfighter,Ground Attacks,"Air Dodge, Down",,69,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Ground Attacks,"Air Dodge, Diagonally Down",,77,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Ground Attacks,"Air Dodge, Left/Right",,84,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Ground Attacks,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Ground Attacks,"Air Dodge, Up",,107,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Ground Attacks,Stats,,,,,,,,,,,
-Mii_swordfighter,Ground Attacks,Ledge Grab,,,,,,,,,,,
-Mii_swordfighter,Ground Attacks,Ledge Hang,,,,,,,,,,,
-Mii_swordfighter,Ground Attacks,Ledge Roll,,,,,,,,,,,
-Mii_swordfighter,Ground Attacks,Getup Attacks,,,,,,,,,,,
-Mii_swordfighter,Aerial Attacks,Neutral Air,10,48,9,Autocancels on frame 1-5 and 32 onward,8.0,7,4,--,-5,10—23,25
-Mii_swordfighter,Aerial Attacks,Forward Air,12/16/21,49,12,Autocancels on frame 48 onward,3.0/5.0,5/12,2/3,Multi/Final,-10/-9,12—13/16—17/21—22,27
-Mii_swordfighter,Aerial Attacks,Back Air,10,37,9,Autocancels on frame 29 onward,14.0,10,5,--,-4,10—11,26
-Mii_swordfighter,Aerial Attacks,Up Air,11,44,10,Autocancels on frame 1-10 and 30 onward,16.0/10.0,10/8,6/4,Early/Late,-4/-6,11—13(14—23),21
-Mii_swordfighter,Aerial Attacks,Down Air,14...,58,18,Landing hit on frame 1. Autocancels on frame 1-4 and 50 onward,1.5/5.0,4/6,2/6,Multi/Landing,-11,14—37(rehit: 5)/1—3,21
-Mii_swordfighter,Aerial Attacks,Gale Strike,20,67,--,--,13.0/11.0/10.0,9/8/8,5/4/4,Early/Late/Later,-33,20—37(38—55/56—71),--
-Mii_swordfighter,Aerial Attacks,Shuriken of Light,13,37,--,--,2.0/3.5/5.0/6.5,4/5/6/6,2/2/3/3,Early/late/later/latest,-18,13—20(21—28/29—36/37—50),--
-Mii_swordfighter,Aerial Attacks,Blurring Blade,17/21/25/29/33/44,84,--,Startup is 6 from charge release. Can be charged for 50 addittional frames for more damage,0.8—1.9/8.0—19.2,4—4/11—15,2—3/8—17,Multi/Final,-32 to -23,17—18/21—22/25—26/29—30/33—34/44—45,39
-Mii_swordfighter,Aerial Attacks,Airborne Assault,"Ground: 25, Air: 30",104/109,29,Startup is 2 upon reaching a target. Endlag on hit is 48 if you don't land after hitting. Lands on 36 plus 5 frame landing animation on ground level. Stops at an edge with 44 frame endlag animation.,14.0,14,13,--,-28/-35,Ground: 25—60Air: 30—65Hit: 2—5,44
-Mii_swordfighter,Aerial Attacks,Gale Stab (Charge),8/11,72/--,29 (Freefall),Charges between 7-8/10-11. Activates through invulnerability.,--,--,--,Ground/Air,--,8—21/11—24,51/35
-Mii_swordfighter,Aerial Attacks,Gale Stab (Hit),2,34/--,29 (Freefall),Ledge grabs enabled starting on frame 7.,8.0—18.5,7—12,8—16,Ground/Air,-24 to -16,2—5,28/52
-Mii_swordfighter,Aerial Attacks,Chakram,18,52,--,Weak throw has rehit rate of 9 but will bounce off shields. Strong throw hits just once.,1.1/8.0,5/9,2/3,Weak Throw/Strong Throw,-27/-20,18—89/18—40,--
-Mii_swordfighter,Aerial Attacks,Stone Scabbard,13/42,--,44,Invulnerable on frame 5-12. Landing hit on frame 1,4.0/3.0/5.0,7/5/13,5/4/6,Rising/Falling/landing,-37,**,--
-Mii_swordfighter,Aerial Attacks,Skyward Slash Dash,15/19/22/25/28/31/34,77,20,Total frames assumes you end on the ground.,2.2/3.0/4.0,4/5/5,3/4/5,First/multi/final,-38,15/19—20/22—23/25—26/28—29/31—32/34—35,42
-Mii_swordfighter,Aerial Attacks,Hero's Spin,8,78,--,Can be charged for an additional 60 frames. 8f startup is only the front hit.,14.0—19.6,10—12,13—17,Early/Lates,-57 to -53,8—9(10—14/15—24/25—40),38
-Mii_swordfighter,Aerial Attacks,Hero's Spin (Air),8/16/22/26/31/38/47,--,30,--,3.0/2.0/5.0,5/4/12,4/3/6,First/multi/final,**,8/11/16/19/22/26/31/38/47—48,--
-Mii_swordfighter,Aerial Attacks,Blade Counter,5 (Start of Counter),59,--,Intangible on frame 4-5. Counters on frame 5-26.,--,--,--,--,--,5—26 (counter),--
-Mii_swordfighter,Aerial Attacks,"Blade Counter, Activated",21,Ground 38/ Air 41,--,Intangible frames 1-23.,--,--,--,--,--,21—22,16
-Mii_swordfighter,Aerial Attacks,Reversal Slash,16 (Can reflect as fast as frame 5),36,--,"Reflects on frame 8-24, search box on frames 4-7. Invulnerable on frame 17-26 if you hit somebody or reflect something.While the move's reflector normally comes out on frame 8, it has a preemptive projectile detector starting on frame 4. If a projectile comes in contact with this detector, the move skips to frame 8 on the next frame, effectively cutting up to three frames of startup (and therefor reflecting on frame 5).",6.0,7,0,--,-13,16—17,19
-Mii_swordfighter,Aerial Attacks,Power Thrust,12,59,--,--,15.0/13.0/10.0,10/9/8,14/12/10,Early/Late/Later,-33,12—14(15—22/23—30),29
-Mii_swordfighter,Aerial Attacks,Power Thrust (Air),14,58,39,Landing hit on frame 1—2,13.0/7.0,9/10,12/7,falling/landing,-31,14—16/17—24/25—29,29
-Mii_swordfighter,Aerial Attacks,Grab,6,34,--,--,--,,,,,6—7,27
-Mii_swordfighter,Aerial Attacks,Dash Grab,9,42,--,--,--,,,,,9—10,32
-Mii_swordfighter,Aerial Attacks,Pivot Grab,10,37,--,--,--,,,,,10—11,26
-Mii_swordfighter,Aerial Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
-Mii_swordfighter,Aerial Attacks,Forward Throw,11/13,40,--,--,3.0/3.0,,,,,,
-Mii_swordfighter,Aerial Attacks,Backward Throw,15/16,46,--,--,3.0/3.0,,,,,,
-Mii_swordfighter,Aerial Attacks,Up Throw,21/23,49,--,--,2.0/3.0,,,,,,
-Mii_swordfighter,Aerial Attacks,Down Throw,15/16,32,--,--,2.0/2.0,,,,,,
-Mii_swordfighter,Aerial Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Mii_swordfighter,Aerial Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Mii_swordfighter,Aerial Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Mii_swordfighter,Aerial Attacks,Neutral Air Dodge,,50,10,Intangible on frame 3-30,,,,,,,
-Mii_swordfighter,Aerial Attacks,"Air Dodge, Down",,69,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Aerial Attacks,"Air Dodge, Diagonally Down",,77,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Aerial Attacks,"Air Dodge, Left/Right",,84,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Aerial Attacks,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Aerial Attacks,"Air Dodge, Up",,107,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Aerial Attacks,Stats,,,,,,,,,,,
-Mii_swordfighter,Aerial Attacks,Ledge Grab,,,,,,,,,,,
-Mii_swordfighter,Aerial Attacks,Ledge Hang,,,,,,,,,,,
-Mii_swordfighter,Aerial Attacks,Ledge Roll,,,,,,,,,,,
-Mii_swordfighter,Aerial Attacks,Getup Attacks,,,,,,,,,,,
-Mii_swordfighter,Special Attacks,Gale Strike,20,67,--,--,13.0/11.0/10.0,9/8/8,5/4/4,Early/Late/Later,-33,20—37(38—55/56—71),--
-Mii_swordfighter,Special Attacks,Shuriken of Light,13,37,--,--,2.0/3.5/5.0/6.5,4/5/6/6,2/2/3/3,Early/late/later/latest,-18,13—20(21—28/29—36/37—50),--
-Mii_swordfighter,Special Attacks,Blurring Blade,17/21/25/29/33/44,84,--,Startup is 6 from charge release. Can be charged for 50 addittional frames for more damage,0.8—1.9/8.0—19.2,4—4/11—15,2—3/8—17,Multi/Final,-32 to -23,17—18/21—22/25—26/29—30/33—34/44—45,39
-Mii_swordfighter,Special Attacks,Airborne Assault,"Ground: 25, Air: 30",104/109,29,Startup is 2 upon reaching a target. Endlag on hit is 48 if you don't land after hitting. Lands on 36 plus 5 frame landing animation on ground level. Stops at an edge with 44 frame endlag animation.,14.0,14,13,--,-28/-35,Ground: 25—60Air: 30—65Hit: 2—5,44
-Mii_swordfighter,Special Attacks,Gale Stab (Charge),8/11,72/--,29 (Freefall),Charges between 7-8/10-11. Activates through invulnerability.,--,--,--,Ground/Air,--,8—21/11—24,51/35
-Mii_swordfighter,Special Attacks,Gale Stab (Hit),2,34/--,29 (Freefall),Ledge grabs enabled starting on frame 7.,8.0—18.5,7—12,8—16,Ground/Air,-24 to -16,2—5,28/52
-Mii_swordfighter,Special Attacks,Chakram,18,52,--,Weak throw has rehit rate of 9 but will bounce off shields. Strong throw hits just once.,1.1/8.0,5/9,2/3,Weak Throw/Strong Throw,-27/-20,18—89/18—40,--
-Mii_swordfighter,Special Attacks,Stone Scabbard,13/42,--,44,Invulnerable on frame 5-12. Landing hit on frame 1,4.0/3.0/5.0,7/5/13,5/4/6,Rising/Falling/landing,-37,**,--
-Mii_swordfighter,Special Attacks,Skyward Slash Dash,15/19/22/25/28/31/34,77,20,Total frames assumes you end on the ground.,2.2/3.0/4.0,4/5/5,3/4/5,First/multi/final,-38,15/19—20/22—23/25—26/28—29/31—32/34—35,42
-Mii_swordfighter,Special Attacks,Hero's Spin,8,78,--,Can be charged for an additional 60 frames. 8f startup is only the front hit.,14.0—19.6,10—12,13—17,Early/Lates,-57 to -53,8—9(10—14/15—24/25—40),38
-Mii_swordfighter,Special Attacks,Hero's Spin (Air),8/16/22/26/31/38/47,--,30,--,3.0/2.0/5.0,5/4/12,4/3/6,First/multi/final,**,8/11/16/19/22/26/31/38/47—48,--
-Mii_swordfighter,Special Attacks,Blade Counter,5 (Start of Counter),59,--,Intangible on frame 4-5. Counters on frame 5-26.,--,--,--,--,--,5—26 (counter),--
-Mii_swordfighter,Special Attacks,"Blade Counter, Activated",21,Ground 38/ Air 41,--,Intangible frames 1-23.,--,--,--,--,--,21—22,16
-Mii_swordfighter,Special Attacks,Reversal Slash,16 (Can reflect as fast as frame 5),36,--,"Reflects on frame 8-24, search box on frames 4-7. Invulnerable on frame 17-26 if you hit somebody or reflect something.While the move's reflector normally comes out on frame 8, it has a preemptive projectile detector starting on frame 4. If a projectile comes in contact with this detector, the move skips to frame 8 on the next frame, effectively cutting up to three frames of startup (and therefor reflecting on frame 5).",6.0,7,0,--,-13,16—17,19
-Mii_swordfighter,Special Attacks,Power Thrust,12,59,--,--,15.0/13.0/10.0,10/9/8,14/12/10,Early/Late/Later,-33,12—14(15—22/23—30),29
-Mii_swordfighter,Special Attacks,Power Thrust (Air),14,58,39,Landing hit on frame 1—2,13.0/7.0,9/10,12/7,falling/landing,-31,14—16/17—24/25—29,29
-Mii_swordfighter,Special Attacks,Grab,6,34,--,--,--,,,,,6—7,27
-Mii_swordfighter,Special Attacks,Dash Grab,9,42,--,--,--,,,,,9—10,32
-Mii_swordfighter,Special Attacks,Pivot Grab,10,37,--,--,--,,,,,10—11,26
-Mii_swordfighter,Special Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
-Mii_swordfighter,Special Attacks,Forward Throw,11/13,40,--,--,3.0/3.0,,,,,,
-Mii_swordfighter,Special Attacks,Backward Throw,15/16,46,--,--,3.0/3.0,,,,,,
-Mii_swordfighter,Special Attacks,Up Throw,21/23,49,--,--,2.0/3.0,,,,,,
-Mii_swordfighter,Special Attacks,Down Throw,15/16,32,--,--,2.0/2.0,,,,,,
-Mii_swordfighter,Special Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Mii_swordfighter,Special Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Mii_swordfighter,Special Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Mii_swordfighter,Special Attacks,Neutral Air Dodge,,50,10,Intangible on frame 3-30,,,,,,,
-Mii_swordfighter,Special Attacks,"Air Dodge, Down",,69,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Special Attacks,"Air Dodge, Diagonally Down",,77,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Special Attacks,"Air Dodge, Left/Right",,84,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Special Attacks,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Special Attacks,"Air Dodge, Up",,107,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Special Attacks,Stats,,,,,,,,,,,
-Mii_swordfighter,Special Attacks,Ledge Grab,,,,,,,,,,,
-Mii_swordfighter,Special Attacks,Ledge Hang,,,,,,,,,,,
-Mii_swordfighter,Special Attacks,Ledge Roll,,,,,,,,,,,
-Mii_swordfighter,Special Attacks,Getup Attacks,,,,,,,,,,,
-Mii_swordfighter,Grabs / Throws,Grab,6,34,--,--,--,,,,,6—7,27
-Mii_swordfighter,Grabs / Throws,Dash Grab,9,42,--,--,--,,,,,9—10,32
-Mii_swordfighter,Grabs / Throws,Pivot Grab,10,37,--,--,--,,,,,10—11,26
-Mii_swordfighter,Grabs / Throws,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
-Mii_swordfighter,Grabs / Throws,Forward Throw,11/13,40,--,--,3.0/3.0,,,,,,
-Mii_swordfighter,Grabs / Throws,Backward Throw,15/16,46,--,--,3.0/3.0,,,,,,
-Mii_swordfighter,Grabs / Throws,Up Throw,21/23,49,--,--,2.0/3.0,,,,,,
-Mii_swordfighter,Grabs / Throws,Down Throw,15/16,32,--,--,2.0/2.0,,,,,,
-Mii_swordfighter,Grabs / Throws,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Mii_swordfighter,Grabs / Throws,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Mii_swordfighter,Grabs / Throws,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Mii_swordfighter,Grabs / Throws,Neutral Air Dodge,,50,10,Intangible on frame 3-30,,,,,,,
-Mii_swordfighter,Grabs / Throws,"Air Dodge, Down",,69,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Grabs / Throws,"Air Dodge, Diagonally Down",,77,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Grabs / Throws,"Air Dodge, Left/Right",,84,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Grabs / Throws,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Grabs / Throws,"Air Dodge, Up",,107,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Grabs / Throws,Stats,,,,,,,,,,,
-Mii_swordfighter,Grabs / Throws,Ledge Grab,,,,,,,,,,,
-Mii_swordfighter,Grabs / Throws,Ledge Hang,,,,,,,,,,,
-Mii_swordfighter,Grabs / Throws,Ledge Roll,,,,,,,,,,,
-Mii_swordfighter,Grabs / Throws,Getup Attacks,,,,,,,,,,,
-Mii_swordfighter,Dodges / Rolls,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Mii_swordfighter,Dodges / Rolls,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Mii_swordfighter,Dodges / Rolls,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Mii_swordfighter,Dodges / Rolls,Neutral Air Dodge,,50,10,Intangible on frame 3-30,,,,,,,
-Mii_swordfighter,Dodges / Rolls,"Air Dodge, Down",,69,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Dodges / Rolls,"Air Dodge, Diagonally Down",,77,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Dodges / Rolls,"Air Dodge, Left/Right",,84,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Dodges / Rolls,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Dodges / Rolls,"Air Dodge, Up",,107,11-19,Intangible on frame 3-21,,,,,,,
-Mii_swordfighter,Dodges / Rolls,Stats,,,,,,,,,,,
-Mii_swordfighter,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
-Mii_swordfighter,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
-Mii_swordfighter,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
-Mii_swordfighter,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
-Mii_swordfighter,Misc Info,Stats,,,,,,,,,,,
-Mii_swordfighter,Misc Info,Ledge Grab,,,,,,,,,,,
-Mii_swordfighter,Misc Info,Ledge Hang,,,,,,,,,,,
-Mii_swordfighter,Misc Info,Ledge Roll,,,,,,,,,,,
-Mii_swordfighter,Misc Info,Getup Attacks,,,,,,,,,,,
+character,section,move,startup,total_frames,landing_lag,damage,advantage_on_shield,active_frames,notes,shield_lag,shield_stun,hitbox_type,end_lag,misc_raw,oos_options
+Mii_swordfighter,Ground Attacks,Jab 1,6,19,--,3.0,-9,6—7,Transitions to jab 2 as early as frame 9,7,4,--,12,,
+Mii_swordfighter,Ground Attacks,Jab 2,6,22,--,3.0,-12,6—7,Transitions to jab 3 as early as frame 9,6,4,--,15,,
+Mii_swordfighter,Ground Attacks,Jab 3,6,38,--,5.0,-26,6—8,--,12,6,--,30,,
+Mii_swordfighter,Ground Attacks,Forward Tilt,10,34,--,12.0,-16,10—11,--,9,8,--,23,,
+Mii_swordfighter,Ground Attacks,Up Tilt,8,32,--,7.0,-17,8—12,--,7,7,--,20,,
+Mii_swordfighter,Ground Attacks,Down Tilt,5,19,--,8.0,-6,5—6,--,7,8,--,13,,
+Mii_swordfighter,Ground Attacks,Dash Attack,9,41,--,10.0,-18,9—10,--,10,14,--,31,,
+Mii_swordfighter,Ground Attacks,Forward Smash,15,59,--,14.0/15.0/16.0,-34/-34/-33,15—17,Charge hold is frame 9,10/10/10,10/10/11,Close/Far,42,,
+Mii_swordfighter,Ground Attacks,Up Smash,11/14/21,59,--,4.0/3.0/7.0,-32,11—12/14—15/21—22,Charge hold is frame 9. Front/low hit is the 11f startup hit.,5/7/14,-/3/6,--,37,,
+Mii_swordfighter,Ground Attacks,Down Smash,7/15,53,--,12.0/15.0,-38/-28,7—8/15—16,Charge hold is frame 3,9/10,8/10,--,37,,
+Mii_swordfighter,Ground Attacks,Neutral Air,10,48,9,8.0,-5,10—23,Autocancels on frame 1-5 and 32 onward,7,4,--,25,,
+Mii_swordfighter,Ground Attacks,Forward Air,12/16/21,49,12,3.0/5.0,-10/-9,12—13/16—17/21—22,Autocancels on frame 48 onward,5/12,2/3,Multi/Final,27,,
+Mii_swordfighter,Ground Attacks,Back Air,10,37,9,14.0,-4,10—11,Autocancels on frame 29 onward,10,5,--,26,,
+Mii_swordfighter,Ground Attacks,Up Air,11,44,10,16.0/10.0,-4/-6,11—13(14—23),Autocancels on frame 1-10 and 30 onward,10/8,6/4,Early/Late,21,,
+Mii_swordfighter,Ground Attacks,Down Air,14...,58,18,1.5/5.0,-11,14—37(rehit: 5)/1—3,Landing hit on frame 1. Autocancels on frame 1-4 and 50 onward,4/6,2/6,Multi/Landing,21,,
+Mii_swordfighter,Ground Attacks,Gale Strike,20,67,--,13.0/11.0/10.0,-33,20—37(38—55/56—71),--,9/8/8,5/4/4,Early/Late/Later,--,,
+Mii_swordfighter,Ground Attacks,Shuriken of Light,13,37,--,2.0/3.5/5.0/6.5,-18,13—20(21—28/29—36/37—50),--,4/5/6/6,2/2/3/3,Early/late/later/latest,--,,
+Mii_swordfighter,Ground Attacks,Blurring Blade,17/21/25/29/33/44,84,--,0.8—1.9/8.0—19.2,-32 to -23,17—18/21—22/25—26/29—30/33—34/44—45,Startup is 6 from charge release. Can be charged for 50 addittional frames for more damage,4—4/11—15,2—3/8—17,Multi/Final,39,,
+Mii_swordfighter,Ground Attacks,Airborne Assault,"Ground: 25, Air: 30",104/109,29,14.0,-28/-35,Ground: 25—60Air: 30—65Hit: 2—5,Startup is 2 upon reaching a target. Endlag on hit is 48 if you don't land after hitting. Lands on 36 plus 5 frame landing animation on ground level. Stops at an edge with 44 frame endlag animation.,14,13,--,44,,
+Mii_swordfighter,Ground Attacks,Gale Stab (Charge),8/11,72/--,29 (Freefall),--,--,8—21/11—24,Charges between 7-8/10-11. Activates through invulnerability.,--,--,Ground/Air,51/35,,
+Mii_swordfighter,Ground Attacks,Gale Stab (Hit),2,34/--,29 (Freefall),8.0—18.5,-24 to -16,2—5,Ledge grabs enabled starting on frame 7.,7—12,8—16,Ground/Air,28/52,,
+Mii_swordfighter,Ground Attacks,Chakram,18,52,--,1.1/8.0,-27/-20,18—89/18—40,Weak throw has rehit rate of 9 but will bounce off shields. Strong throw hits just once.,5/9,2/3,Weak Throw/Strong Throw,--,,
+Mii_swordfighter,Ground Attacks,Stone Scabbard,13/42,--,44,4.0/3.0/5.0,-37,**,Invulnerable on frame 5-12. Landing hit on frame 1,7/5/13,5/4/6,Rising/Falling/landing,--,,
+Mii_swordfighter,Ground Attacks,Skyward Slash Dash,15/19/22/25/28/31/34,77,20,2.2/3.0/4.0,-38,15/19—20/22—23/25—26/28—29/31—32/34—35,Total frames assumes you end on the ground.,4/5/5,3/4/5,First/multi/final,42,,
+Mii_swordfighter,Ground Attacks,Hero's Spin,8,78,--,14.0—19.6,-57 to -53,8—9(10—14/15—24/25—40),Can be charged for an additional 60 frames. 8f startup is only the front hit.,10—12,13—17,Early/Lates,38,,
+Mii_swordfighter,Ground Attacks,Hero's Spin (Air),8/16/22/26/31/38/47,--,30,3.0/2.0/5.0,**,8/11/16/19/22/26/31/38/47—48,--,5/4/12,4/3/6,First/multi/final,--,,
+Mii_swordfighter,Ground Attacks,Blade Counter,5 (Start of Counter),59,--,--,--,5—26 (counter),Intangible on frame 4-5. Counters on frame 5-26.,--,--,--,--,,
+Mii_swordfighter,Ground Attacks,"Blade Counter, Activated",21,Ground 38/ Air 41,--,--,--,21—22,Intangible frames 1-23.,--,--,--,16,,
+Mii_swordfighter,Ground Attacks,Reversal Slash,16 (Can reflect as fast as frame 5),36,--,6.0,-13,16—17,"Reflects on frame 8-24, search box on frames 4-7. Invulnerable on frame 17-26 if you hit somebody or reflect something.While the move's reflector normally comes out on frame 8, it has a preemptive projectile detector starting on frame 4. If a projectile comes in contact with this detector, the move skips to frame 8 on the next frame, effectively cutting up to three frames of startup (and therefor reflecting on frame 5).",7,0,--,19,,
+Mii_swordfighter,Ground Attacks,Power Thrust,12,59,--,15.0/13.0/10.0,-33,12—14(15—22/23—30),--,10/9/8,14/12/10,Early/Late/Later,29,,
+Mii_swordfighter,Ground Attacks,Power Thrust (Air),14,58,39,13.0/7.0,-31,14—16/17—24/25—29,Landing hit on frame 1—2,9/10,12/7,falling/landing,29,,
+Mii_swordfighter,Ground Attacks,Grab,6,34,--,--,,6—7,--,,,,27,,
+Mii_swordfighter,Ground Attacks,Dash Grab,9,42,--,--,,9—10,--,,,,32,,
+Mii_swordfighter,Ground Attacks,Pivot Grab,10,37,--,--,,10—11,--,,,,26,,
+Mii_swordfighter,Ground Attacks,Pummel,1,19,--,1.3,,,Total frames includes 13 frames of hitlag,,,,,,
+Mii_swordfighter,Ground Attacks,Forward Throw,11/13,40,--,3.0/3.0,,,--,,,,,,
+Mii_swordfighter,Ground Attacks,Backward Throw,15/16,46,--,3.0/3.0,,,--,,,,,,
+Mii_swordfighter,Ground Attacks,Up Throw,21/23,49,--,2.0/3.0,,,--,,,,,,
+Mii_swordfighter,Ground Attacks,Down Throw,15/16,32,--,2.0/2.0,,,--,,,,,,
+Mii_swordfighter,Ground Attacks,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Mii_swordfighter,Ground Attacks,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Mii_swordfighter,Ground Attacks,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Mii_swordfighter,Ground Attacks,Neutral Air Dodge,,50,10,,,,Intangible on frame 3-30,,,,,,
+Mii_swordfighter,Ground Attacks,"Air Dodge, Down",,69,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Ground Attacks,"Air Dodge, Diagonally Down",,77,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Ground Attacks,"Air Dodge, Left/Right",,84,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Ground Attacks,"Air Dodge, Diagonally Up",,99,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Ground Attacks,"Air Dodge, Up",,107,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Ground Attacks,Stats,,,,,,,,,,,,,
+Mii_swordfighter,Ground Attacks,Ledge Grab,,,,,,,,,,,,,
+Mii_swordfighter,Ground Attacks,Ledge Hang,,,,,,,,,,,,,
+Mii_swordfighter,Ground Attacks,Ledge Roll,,,,,,,,,,,,,
+Mii_swordfighter,Ground Attacks,Getup Attacks,,,,,,,,,,,,,
+Mii_swordfighter,Aerial Attacks,Neutral Air,10,48,9,8.0,-5,10—23,Autocancels on frame 1-5 and 32 onward,7,4,--,25,,
+Mii_swordfighter,Aerial Attacks,Forward Air,12/16/21,49,12,3.0/5.0,-10/-9,12—13/16—17/21—22,Autocancels on frame 48 onward,5/12,2/3,Multi/Final,27,,
+Mii_swordfighter,Aerial Attacks,Back Air,10,37,9,14.0,-4,10—11,Autocancels on frame 29 onward,10,5,--,26,,
+Mii_swordfighter,Aerial Attacks,Up Air,11,44,10,16.0/10.0,-4/-6,11—13(14—23),Autocancels on frame 1-10 and 30 onward,10/8,6/4,Early/Late,21,,
+Mii_swordfighter,Aerial Attacks,Down Air,14...,58,18,1.5/5.0,-11,14—37(rehit: 5)/1—3,Landing hit on frame 1. Autocancels on frame 1-4 and 50 onward,4/6,2/6,Multi/Landing,21,,
+Mii_swordfighter,Aerial Attacks,Gale Strike,20,67,--,13.0/11.0/10.0,-33,20—37(38—55/56—71),--,9/8/8,5/4/4,Early/Late/Later,--,,
+Mii_swordfighter,Aerial Attacks,Shuriken of Light,13,37,--,2.0/3.5/5.0/6.5,-18,13—20(21—28/29—36/37—50),--,4/5/6/6,2/2/3/3,Early/late/later/latest,--,,
+Mii_swordfighter,Aerial Attacks,Blurring Blade,17/21/25/29/33/44,84,--,0.8—1.9/8.0—19.2,-32 to -23,17—18/21—22/25—26/29—30/33—34/44—45,Startup is 6 from charge release. Can be charged for 50 addittional frames for more damage,4—4/11—15,2—3/8—17,Multi/Final,39,,
+Mii_swordfighter,Aerial Attacks,Airborne Assault,"Ground: 25, Air: 30",104/109,29,14.0,-28/-35,Ground: 25—60Air: 30—65Hit: 2—5,Startup is 2 upon reaching a target. Endlag on hit is 48 if you don't land after hitting. Lands on 36 plus 5 frame landing animation on ground level. Stops at an edge with 44 frame endlag animation.,14,13,--,44,,
+Mii_swordfighter,Aerial Attacks,Gale Stab (Charge),8/11,72/--,29 (Freefall),--,--,8—21/11—24,Charges between 7-8/10-11. Activates through invulnerability.,--,--,Ground/Air,51/35,,
+Mii_swordfighter,Aerial Attacks,Gale Stab (Hit),2,34/--,29 (Freefall),8.0—18.5,-24 to -16,2—5,Ledge grabs enabled starting on frame 7.,7—12,8—16,Ground/Air,28/52,,
+Mii_swordfighter,Aerial Attacks,Chakram,18,52,--,1.1/8.0,-27/-20,18—89/18—40,Weak throw has rehit rate of 9 but will bounce off shields. Strong throw hits just once.,5/9,2/3,Weak Throw/Strong Throw,--,,
+Mii_swordfighter,Aerial Attacks,Stone Scabbard,13/42,--,44,4.0/3.0/5.0,-37,**,Invulnerable on frame 5-12. Landing hit on frame 1,7/5/13,5/4/6,Rising/Falling/landing,--,,
+Mii_swordfighter,Aerial Attacks,Skyward Slash Dash,15/19/22/25/28/31/34,77,20,2.2/3.0/4.0,-38,15/19—20/22—23/25—26/28—29/31—32/34—35,Total frames assumes you end on the ground.,4/5/5,3/4/5,First/multi/final,42,,
+Mii_swordfighter,Aerial Attacks,Hero's Spin,8,78,--,14.0—19.6,-57 to -53,8—9(10—14/15—24/25—40),Can be charged for an additional 60 frames. 8f startup is only the front hit.,10—12,13—17,Early/Lates,38,,
+Mii_swordfighter,Aerial Attacks,Hero's Spin (Air),8/16/22/26/31/38/47,--,30,3.0/2.0/5.0,**,8/11/16/19/22/26/31/38/47—48,--,5/4/12,4/3/6,First/multi/final,--,,
+Mii_swordfighter,Aerial Attacks,Blade Counter,5 (Start of Counter),59,--,--,--,5—26 (counter),Intangible on frame 4-5. Counters on frame 5-26.,--,--,--,--,,
+Mii_swordfighter,Aerial Attacks,"Blade Counter, Activated",21,Ground 38/ Air 41,--,--,--,21—22,Intangible frames 1-23.,--,--,--,16,,
+Mii_swordfighter,Aerial Attacks,Reversal Slash,16 (Can reflect as fast as frame 5),36,--,6.0,-13,16—17,"Reflects on frame 8-24, search box on frames 4-7. Invulnerable on frame 17-26 if you hit somebody or reflect something.While the move's reflector normally comes out on frame 8, it has a preemptive projectile detector starting on frame 4. If a projectile comes in contact with this detector, the move skips to frame 8 on the next frame, effectively cutting up to three frames of startup (and therefor reflecting on frame 5).",7,0,--,19,,
+Mii_swordfighter,Aerial Attacks,Power Thrust,12,59,--,15.0/13.0/10.0,-33,12—14(15—22/23—30),--,10/9/8,14/12/10,Early/Late/Later,29,,
+Mii_swordfighter,Aerial Attacks,Power Thrust (Air),14,58,39,13.0/7.0,-31,14—16/17—24/25—29,Landing hit on frame 1—2,9/10,12/7,falling/landing,29,,
+Mii_swordfighter,Aerial Attacks,Grab,6,34,--,--,,6—7,--,,,,27,,
+Mii_swordfighter,Aerial Attacks,Dash Grab,9,42,--,--,,9—10,--,,,,32,,
+Mii_swordfighter,Aerial Attacks,Pivot Grab,10,37,--,--,,10—11,--,,,,26,,
+Mii_swordfighter,Aerial Attacks,Pummel,1,19,--,1.3,,,Total frames includes 13 frames of hitlag,,,,,,
+Mii_swordfighter,Aerial Attacks,Forward Throw,11/13,40,--,3.0/3.0,,,--,,,,,,
+Mii_swordfighter,Aerial Attacks,Backward Throw,15/16,46,--,3.0/3.0,,,--,,,,,,
+Mii_swordfighter,Aerial Attacks,Up Throw,21/23,49,--,2.0/3.0,,,--,,,,,,
+Mii_swordfighter,Aerial Attacks,Down Throw,15/16,32,--,2.0/2.0,,,--,,,,,,
+Mii_swordfighter,Aerial Attacks,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Mii_swordfighter,Aerial Attacks,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Mii_swordfighter,Aerial Attacks,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Mii_swordfighter,Aerial Attacks,Neutral Air Dodge,,50,10,,,,Intangible on frame 3-30,,,,,,
+Mii_swordfighter,Aerial Attacks,"Air Dodge, Down",,69,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Aerial Attacks,"Air Dodge, Diagonally Down",,77,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Aerial Attacks,"Air Dodge, Left/Right",,84,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Aerial Attacks,"Air Dodge, Diagonally Up",,99,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Aerial Attacks,"Air Dodge, Up",,107,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Aerial Attacks,Stats,,,,,,,,,,,,,
+Mii_swordfighter,Aerial Attacks,Ledge Grab,,,,,,,,,,,,,
+Mii_swordfighter,Aerial Attacks,Ledge Hang,,,,,,,,,,,,,
+Mii_swordfighter,Aerial Attacks,Ledge Roll,,,,,,,,,,,,,
+Mii_swordfighter,Aerial Attacks,Getup Attacks,,,,,,,,,,,,,
+Mii_swordfighter,Special Attacks,Gale Strike,20,67,--,13.0/11.0/10.0,-33,20—37(38—55/56—71),--,9/8/8,5/4/4,Early/Late/Later,--,,
+Mii_swordfighter,Special Attacks,Shuriken of Light,13,37,--,2.0/3.5/5.0/6.5,-18,13—20(21—28/29—36/37—50),--,4/5/6/6,2/2/3/3,Early/late/later/latest,--,,
+Mii_swordfighter,Special Attacks,Blurring Blade,17/21/25/29/33/44,84,--,0.8—1.9/8.0—19.2,-32 to -23,17—18/21—22/25—26/29—30/33—34/44—45,Startup is 6 from charge release. Can be charged for 50 addittional frames for more damage,4—4/11—15,2—3/8—17,Multi/Final,39,,
+Mii_swordfighter,Special Attacks,Airborne Assault,"Ground: 25, Air: 30",104/109,29,14.0,-28/-35,Ground: 25—60Air: 30—65Hit: 2—5,Startup is 2 upon reaching a target. Endlag on hit is 48 if you don't land after hitting. Lands on 36 plus 5 frame landing animation on ground level. Stops at an edge with 44 frame endlag animation.,14,13,--,44,,
+Mii_swordfighter,Special Attacks,Gale Stab (Charge),8/11,72/--,29 (Freefall),--,--,8—21/11—24,Charges between 7-8/10-11. Activates through invulnerability.,--,--,Ground/Air,51/35,,
+Mii_swordfighter,Special Attacks,Gale Stab (Hit),2,34/--,29 (Freefall),8.0—18.5,-24 to -16,2—5,Ledge grabs enabled starting on frame 7.,7—12,8—16,Ground/Air,28/52,,
+Mii_swordfighter,Special Attacks,Chakram,18,52,--,1.1/8.0,-27/-20,18—89/18—40,Weak throw has rehit rate of 9 but will bounce off shields. Strong throw hits just once.,5/9,2/3,Weak Throw/Strong Throw,--,,
+Mii_swordfighter,Special Attacks,Stone Scabbard,13/42,--,44,4.0/3.0/5.0,-37,**,Invulnerable on frame 5-12. Landing hit on frame 1,7/5/13,5/4/6,Rising/Falling/landing,--,,
+Mii_swordfighter,Special Attacks,Skyward Slash Dash,15/19/22/25/28/31/34,77,20,2.2/3.0/4.0,-38,15/19—20/22—23/25—26/28—29/31—32/34—35,Total frames assumes you end on the ground.,4/5/5,3/4/5,First/multi/final,42,,
+Mii_swordfighter,Special Attacks,Hero's Spin,8,78,--,14.0—19.6,-57 to -53,8—9(10—14/15—24/25—40),Can be charged for an additional 60 frames. 8f startup is only the front hit.,10—12,13—17,Early/Lates,38,,
+Mii_swordfighter,Special Attacks,Hero's Spin (Air),8/16/22/26/31/38/47,--,30,3.0/2.0/5.0,**,8/11/16/19/22/26/31/38/47—48,--,5/4/12,4/3/6,First/multi/final,--,,
+Mii_swordfighter,Special Attacks,Blade Counter,5 (Start of Counter),59,--,--,--,5—26 (counter),Intangible on frame 4-5. Counters on frame 5-26.,--,--,--,--,,
+Mii_swordfighter,Special Attacks,"Blade Counter, Activated",21,Ground 38/ Air 41,--,--,--,21—22,Intangible frames 1-23.,--,--,--,16,,
+Mii_swordfighter,Special Attacks,Reversal Slash,16 (Can reflect as fast as frame 5),36,--,6.0,-13,16—17,"Reflects on frame 8-24, search box on frames 4-7. Invulnerable on frame 17-26 if you hit somebody or reflect something.While the move's reflector normally comes out on frame 8, it has a preemptive projectile detector starting on frame 4. If a projectile comes in contact with this detector, the move skips to frame 8 on the next frame, effectively cutting up to three frames of startup (and therefor reflecting on frame 5).",7,0,--,19,,
+Mii_swordfighter,Special Attacks,Power Thrust,12,59,--,15.0/13.0/10.0,-33,12—14(15—22/23—30),--,10/9/8,14/12/10,Early/Late/Later,29,,
+Mii_swordfighter,Special Attacks,Power Thrust (Air),14,58,39,13.0/7.0,-31,14—16/17—24/25—29,Landing hit on frame 1—2,9/10,12/7,falling/landing,29,,
+Mii_swordfighter,Special Attacks,Grab,6,34,--,--,,6—7,--,,,,27,,
+Mii_swordfighter,Special Attacks,Dash Grab,9,42,--,--,,9—10,--,,,,32,,
+Mii_swordfighter,Special Attacks,Pivot Grab,10,37,--,--,,10—11,--,,,,26,,
+Mii_swordfighter,Special Attacks,Pummel,1,19,--,1.3,,,Total frames includes 13 frames of hitlag,,,,,,
+Mii_swordfighter,Special Attacks,Forward Throw,11/13,40,--,3.0/3.0,,,--,,,,,,
+Mii_swordfighter,Special Attacks,Backward Throw,15/16,46,--,3.0/3.0,,,--,,,,,,
+Mii_swordfighter,Special Attacks,Up Throw,21/23,49,--,2.0/3.0,,,--,,,,,,
+Mii_swordfighter,Special Attacks,Down Throw,15/16,32,--,2.0/2.0,,,--,,,,,,
+Mii_swordfighter,Special Attacks,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Mii_swordfighter,Special Attacks,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Mii_swordfighter,Special Attacks,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Mii_swordfighter,Special Attacks,Neutral Air Dodge,,50,10,,,,Intangible on frame 3-30,,,,,,
+Mii_swordfighter,Special Attacks,"Air Dodge, Down",,69,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Special Attacks,"Air Dodge, Diagonally Down",,77,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Special Attacks,"Air Dodge, Left/Right",,84,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Special Attacks,"Air Dodge, Diagonally Up",,99,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Special Attacks,"Air Dodge, Up",,107,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Special Attacks,Stats,,,,,,,,,,,,,
+Mii_swordfighter,Special Attacks,Ledge Grab,,,,,,,,,,,,,
+Mii_swordfighter,Special Attacks,Ledge Hang,,,,,,,,,,,,,
+Mii_swordfighter,Special Attacks,Ledge Roll,,,,,,,,,,,,,
+Mii_swordfighter,Special Attacks,Getup Attacks,,,,,,,,,,,,,
+Mii_swordfighter,Grabs / Throws,Grab,6,34,--,--,,6—7,--,,,,27,,
+Mii_swordfighter,Grabs / Throws,Dash Grab,9,42,--,--,,9—10,--,,,,32,,
+Mii_swordfighter,Grabs / Throws,Pivot Grab,10,37,--,--,,10—11,--,,,,26,,
+Mii_swordfighter,Grabs / Throws,Pummel,1,19,--,1.3,,,Total frames includes 13 frames of hitlag,,,,,,
+Mii_swordfighter,Grabs / Throws,Forward Throw,11/13,40,--,3.0/3.0,,,--,,,,,,
+Mii_swordfighter,Grabs / Throws,Backward Throw,15/16,46,--,3.0/3.0,,,--,,,,,,
+Mii_swordfighter,Grabs / Throws,Up Throw,21/23,49,--,2.0/3.0,,,--,,,,,,
+Mii_swordfighter,Grabs / Throws,Down Throw,15/16,32,--,2.0/2.0,,,--,,,,,,
+Mii_swordfighter,Grabs / Throws,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Mii_swordfighter,Grabs / Throws,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Mii_swordfighter,Grabs / Throws,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Mii_swordfighter,Grabs / Throws,Neutral Air Dodge,,50,10,,,,Intangible on frame 3-30,,,,,,
+Mii_swordfighter,Grabs / Throws,"Air Dodge, Down",,69,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Grabs / Throws,"Air Dodge, Diagonally Down",,77,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Grabs / Throws,"Air Dodge, Left/Right",,84,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Grabs / Throws,"Air Dodge, Diagonally Up",,99,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Grabs / Throws,"Air Dodge, Up",,107,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Grabs / Throws,Stats,,,,,,,,,,,,,
+Mii_swordfighter,Grabs / Throws,Ledge Grab,,,,,,,,,,,,,
+Mii_swordfighter,Grabs / Throws,Ledge Hang,,,,,,,,,,,,,
+Mii_swordfighter,Grabs / Throws,Ledge Roll,,,,,,,,,,,,,
+Mii_swordfighter,Grabs / Throws,Getup Attacks,,,,,,,,,,,,,
+Mii_swordfighter,Dodges / Rolls,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Mii_swordfighter,Dodges / Rolls,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Mii_swordfighter,Dodges / Rolls,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Mii_swordfighter,Dodges / Rolls,Neutral Air Dodge,,50,10,,,,Intangible on frame 3-30,,,,,,
+Mii_swordfighter,Dodges / Rolls,"Air Dodge, Down",,69,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Dodges / Rolls,"Air Dodge, Diagonally Down",,77,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Dodges / Rolls,"Air Dodge, Left/Right",,84,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Dodges / Rolls,"Air Dodge, Diagonally Up",,99,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Dodges / Rolls,"Air Dodge, Up",,107,11-19,,,,Intangible on frame 3-21,,,,,,
+Mii_swordfighter,Dodges / Rolls,Stats,,,,,,,,,,,,,
+Mii_swordfighter,Dodges / Rolls,Ledge Grab,,,,,,,,,,,,,
+Mii_swordfighter,Dodges / Rolls,Ledge Hang,,,,,,,,,,,,,
+Mii_swordfighter,Dodges / Rolls,Ledge Roll,,,,,,,,,,,,,
+Mii_swordfighter,Dodges / Rolls,Getup Attacks,,,,,,,,,,,,,
+Mii_swordfighter,Misc Info,Stats,,,,,,,,,,,,"Stats Weight — 100 Gravity — 0.106 Walk Speed — 1.07 Run Speed — 1.58 Initial Dash — 1.74 Air Speed — 1.17 Total Air Acceleration — 0.06 SH / FH / SHFF / FHFF Frames — 30 / 45 / 20 / 32 Fall Speed / Fast Fall Speed — 1.55 / 2.48 Out of Shield, Up B(#3) — 8 frames (front only) Out of Shield, Up Smash — 11 frames (front/low only) Out of Shield, Up B(#1) — 13 frames Shield Grab (Grab, post-Shieldstun) — 10 frames Shield Drop — 11 frames (universal) Jump Squat (pre-Jump frames) — 3 frames (universal)","[('Up B(#3)', '8'), ('Up Smash', '11'), ('Up B(#1)', '13')]"
+Mii_swordfighter,Misc Info,Ledge Grab,,,,,,,,,,,,Ledge Grab Normal,
+Mii_swordfighter,Misc Info,Ledge Hang,,,,,,,,,,,,Ledge Hang ,
+Mii_swordfighter,Misc Info,Ledge Roll,,,,,,,,,,,,Ledge Roll ,
+Mii_swordfighter,Misc Info,Getup Attacks,,,,,,,,,,,,Getup Attacks Facing UpFacing DownTripLedge,

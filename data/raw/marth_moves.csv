@@ -1,166 +1,166 @@
-character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
-Marth,Ground Attacks,Jab 1,5,25,--,Transitions to Jab 2 as early as frame 11.,3.0/5.0,6/10,4/6,Close/tipper,-16/-14,5—6,19
-Marth,Ground Attacks,Jab 2,4,28,--,--,4.0/6.0,7/11,5/6,Close/tipper,-19/-18,4—5,23
-Marth,Ground Attacks,Forward Tilt,8,33,--,--,9.0/12.0,7/11,9/11,Close/tipper,-16/-14,8—11,22
-Marth,Ground Attacks,Up Tilt,6,33,--,--,5.0/6.0/10.0/,6/9,6/9,Closest/Close/Tipper,-21/-18,6—8/9—12,21
-Marth,Ground Attacks,Down Tilt,7,23,--,--,7.0/10.0,7/10,7/10,Close/tipper,-9/-6,7—8,15
-Marth,Ground Attacks,Dash Attack,13,49,--,--,9.0/10.0/13.0,8/14,14/16,Closest/Close/Tipper,-22/-20,13—16,33
-Marth,Ground Attacks,Forward Smash,10,51,--,Charge hold is frame 3.,13.0/18.0,9/15,9/12,Close/tipper,-32/-29,10—13,38
-Marth,Ground Attacks,Up Smash,13,58,--,Launcher and sword hits generate on the same frame. Charge hold is frame 5,3.0/13.0/17.0,0/9/?,4/9/?,Body Launcher/Close/Tipper,-41/-36,13—14/13—17,41
-Marth,Ground Attacks,Down Smash,6/21,55,--,Charge hold is frame 4.,8.0/12.0/12.0/17.0,7/13/9/15,6/8/8/11,"Close/tipper, close/tipper",-43/-41/-26/-23,6—7/21—23,32
-Marth,Ground Attacks,Neutral Air,6/15,49,7,Autocancels on frame 47 onward,3.5/5.0/7.0/9.5,5/7/7/10,2/3/3/4,close/tipper/close/tipper,-5/-4/-4/-3,6—7/15—21,28
-Marth,Ground Attacks,Forward Air,6,37,10,Autocancels on frame 36 onward,8.0/11.5,7/11,4/5,Close/tipper,-6/-5,6—8,29
-Marth,Ground Attacks,Back Air,7,39,10,Autocancels on frame 1-2 and 32 onward. Turns the character around.,9.0/12.5,7/11,4/5,Close/tipper,-6/-5,7—11,28
-Marth,Ground Attacks,Up Air,5,45,8,Autocancels on frame 1-2 and 38 onward,9.5/13.0,8/12,4/5,Close/tipper,-4/-3,5—9,36
-Marth,Ground Attacks,Down Air,9/11,59,14,Autocancels on frame 1-2 and 55 onward,12.0/15.0/14.0,9/13/12,5/5/5,Close/meteor/tipper,-9/-9/-9,9—13/11,46
-Marth,Ground Attacks,Neutral B (Shield Breaker),19—79,50—110,--,"On release, startup is 8 and total frames is 39",8.0—24.0,10—18,8—Shieldbreak,--,-23 to Shieldbreak,19—20 (or frames 8-9 after release),31
-Marth,Ground Attacks,Side B (Dancing Blade),9,39/29,--,Second total frames is the air version. Can transition to next slash on frame 12-30,2.5/3.0,5/5,4/4,Close/Tipper,-26/-16,9—11,28
-Marth,Ground Attacks,Dancing Blade 2 Neutral,5,38,--,Can transition to next slash on frame 8-29,2.5/3.0,5/5,4/4,Close/Tipper,-29/-29,5—7,31
-Marth,Ground Attacks,Dancing Blade 3 Neutral,4,43,--,Can transition to next slash on frame 7-24,3.0/4.0,5/5,4/5,Close/Tipper,-35/-34,4—6,37
-Marth,Ground Attacks,Dancing Blade 4 Neutral,7,55,--,--,4.0/6.0,5/9,5/6,Close/Tipper,-43/-42,7—9,46
-Marth,Ground Attacks,Dancing Blade 2 Up,4,38,--,Can transition to next slash on frame 8-29,2.5/3.0,5/5,4/4,Close/Tipper,-30/-30,4—7,31
-Marth,Ground Attacks,Dancing Blade 3 Up,5,43,--,Can transition to next slash on frame 8-24,3.0/4.0,5/5,4/5,Close/Tipper,-34/-33,5—7,36
-Marth,Ground Attacks,Dancing Blade 4 Up,6,44,--,--,5.0/7.0,6/7,6/7,Close/Tipper,-32/-31,6—10,34
-Marth,Ground Attacks,Dancing Blade 3 Down,5,43,--,Can transition to next slash on frame 8-24,3.0/4.0,5/,4/5,Close/Tipper,-34/-32,5—7,36
-Marth,Ground Attacks,Dancing Blade 4 Down,7,74,--,--,2.0/4.0/5.0,4/5/6,-/5/6,Multi/Final/Final Tipper,-50/-49,7/10/13/16/19—21,53
-Marth,Ground Attacks,Up B (Dolphin Slash),5,--,24,Intangible on frame 4-5. 1-5 in the air.,11.0/7.0,8/7,10/7,Early/Late,--,5—6/6—11,--
-Marth,Ground Attacks,Down B (Counter),6 (Start of Counter),64,--,Intangibility on 5-6 when detecting. Counter window 6-27.,--,--,--,--,--,**,--
-Marth,Ground Attacks,"Counter, Attack",4,40,--,"Intangible on frame 1-7 in addition to counter freeze frames. 8% Minimum base damage, x1.2 enemy's attack.",--,--,--,--,--,4—6,34
-Marth,Ground Attacks,Grab,6,34,--,--,--,,,,,6—7,27
-Marth,Ground Attacks,Dash Grab,9,42,--,--,--,,,,,9—10,32
-Marth,Ground Attacks,Pivot Grab,10,37,--,--,--,,,,,10—11,26
-Marth,Ground Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
-Marth,Ground Attacks,Forward Throw,18,34,--,Visualization does not linclude hitlag,4.0,,,,,,
-Marth,Ground Attacks,Backward Throw,19,44,--,Visualization does not include hitlag,4.0,,,,,,
-Marth,Ground Attacks,Up Throw,13,44,--,--,5.0,,,,,,
-Marth,Ground Attacks,Down Throw,20,46,--,Visualization does not include hitlag,4.0,,,,,,
-Marth,Ground Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Marth,Ground Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Marth,Ground Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Marth,Ground Attacks,Neutral Air Dodge,,52,10,Intangible on frame 3-29,,,,,,,
-Marth,Ground Attacks,"Air Dodge, Down",,69,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Ground Attacks,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Ground Attacks,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Ground Attacks,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Ground Attacks,"Air Dodge, Up",,116,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Ground Attacks,Stats,,,,,,,,,,,
-Marth,Ground Attacks,Ledge Grab,,,,,,,,,,,
-Marth,Ground Attacks,Ledge Hang,,,,,,,,,,,
-Marth,Ground Attacks,Ledge Roll,,,,,,,,,,,
-Marth,Ground Attacks,Getup Attacks,,,,,,,,,,,
-Marth,Aerial Attacks,Neutral Air,6/15,49,7,Autocancels on frame 47 onward,3.5/5.0/7.0/9.5,5/7/7/10,2/3/3/4,close/tipper/close/tipper,-5/-4/-4/-3,6—7/15—21,28
-Marth,Aerial Attacks,Forward Air,6,37,10,Autocancels on frame 36 onward,8.0/11.5,7/11,4/5,Close/tipper,-6/-5,6—8,29
-Marth,Aerial Attacks,Back Air,7,39,10,Autocancels on frame 1-2 and 32 onward. Turns the character around.,9.0/12.5,7/11,4/5,Close/tipper,-6/-5,7—11,28
-Marth,Aerial Attacks,Up Air,5,45,8,Autocancels on frame 1-2 and 38 onward,9.5/13.0,8/12,4/5,Close/tipper,-4/-3,5—9,36
-Marth,Aerial Attacks,Down Air,9/11,59,14,Autocancels on frame 1-2 and 55 onward,12.0/15.0/14.0,9/13/12,5/5/5,Close/meteor/tipper,-9/-9/-9,9—13/11,46
-Marth,Aerial Attacks,Neutral B (Shield Breaker),19—79,50—110,--,"On release, startup is 8 and total frames is 39",8.0—24.0,10—18,8—Shieldbreak,--,-23 to Shieldbreak,19—20 (or frames 8-9 after release),31
-Marth,Aerial Attacks,Side B (Dancing Blade),9,39/29,--,Second total frames is the air version. Can transition to next slash on frame 12-30,2.5/3.0,5/5,4/4,Close/Tipper,-26/-16,9—11,28
-Marth,Aerial Attacks,Dancing Blade 2 Neutral,5,38,--,Can transition to next slash on frame 8-29,2.5/3.0,5/5,4/4,Close/Tipper,-29/-29,5—7,31
-Marth,Aerial Attacks,Dancing Blade 3 Neutral,4,43,--,Can transition to next slash on frame 7-24,3.0/4.0,5/5,4/5,Close/Tipper,-35/-34,4—6,37
-Marth,Aerial Attacks,Dancing Blade 4 Neutral,7,55,--,--,4.0/6.0,5/9,5/6,Close/Tipper,-43/-42,7—9,46
-Marth,Aerial Attacks,Dancing Blade 2 Up,4,38,--,Can transition to next slash on frame 8-29,2.5/3.0,5/5,4/4,Close/Tipper,-30/-30,4—7,31
-Marth,Aerial Attacks,Dancing Blade 3 Up,5,43,--,Can transition to next slash on frame 8-24,3.0/4.0,5/5,4/5,Close/Tipper,-34/-33,5—7,36
-Marth,Aerial Attacks,Dancing Blade 4 Up,6,44,--,--,5.0/7.0,6/7,6/7,Close/Tipper,-32/-31,6—10,34
-Marth,Aerial Attacks,Dancing Blade 3 Down,5,43,--,Can transition to next slash on frame 8-24,3.0/4.0,5/,4/5,Close/Tipper,-34/-32,5—7,36
-Marth,Aerial Attacks,Dancing Blade 4 Down,7,74,--,--,2.0/4.0/5.0,4/5/6,-/5/6,Multi/Final/Final Tipper,-50/-49,7/10/13/16/19—21,53
-Marth,Aerial Attacks,Up B (Dolphin Slash),5,--,24,Intangible on frame 4-5. 1-5 in the air.,11.0/7.0,8/7,10/7,Early/Late,--,5—6/6—11,--
-Marth,Aerial Attacks,Down B (Counter),6 (Start of Counter),64,--,Intangibility on 5-6 when detecting. Counter window 6-27.,--,--,--,--,--,**,--
-Marth,Aerial Attacks,"Counter, Attack",4,40,--,"Intangible on frame 1-7 in addition to counter freeze frames. 8% Minimum base damage, x1.2 enemy's attack.",--,--,--,--,--,4—6,34
-Marth,Aerial Attacks,Grab,6,34,--,--,--,,,,,6—7,27
-Marth,Aerial Attacks,Dash Grab,9,42,--,--,--,,,,,9—10,32
-Marth,Aerial Attacks,Pivot Grab,10,37,--,--,--,,,,,10—11,26
-Marth,Aerial Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
-Marth,Aerial Attacks,Forward Throw,18,34,--,Visualization does not linclude hitlag,4.0,,,,,,
-Marth,Aerial Attacks,Backward Throw,19,44,--,Visualization does not include hitlag,4.0,,,,,,
-Marth,Aerial Attacks,Up Throw,13,44,--,--,5.0,,,,,,
-Marth,Aerial Attacks,Down Throw,20,46,--,Visualization does not include hitlag,4.0,,,,,,
-Marth,Aerial Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Marth,Aerial Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Marth,Aerial Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Marth,Aerial Attacks,Neutral Air Dodge,,52,10,Intangible on frame 3-29,,,,,,,
-Marth,Aerial Attacks,"Air Dodge, Down",,69,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Aerial Attacks,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Aerial Attacks,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Aerial Attacks,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Aerial Attacks,"Air Dodge, Up",,116,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Aerial Attacks,Stats,,,,,,,,,,,
-Marth,Aerial Attacks,Ledge Grab,,,,,,,,,,,
-Marth,Aerial Attacks,Ledge Hang,,,,,,,,,,,
-Marth,Aerial Attacks,Ledge Roll,,,,,,,,,,,
-Marth,Aerial Attacks,Getup Attacks,,,,,,,,,,,
-Marth,Special Attacks,Neutral B (Shield Breaker),19—79,50—110,--,"On release, startup is 8 and total frames is 39",8.0—24.0,10—18,8—Shieldbreak,--,-23 to Shieldbreak,19—20 (or frames 8-9 after release),31
-Marth,Special Attacks,Side B (Dancing Blade),9,39/29,--,Second total frames is the air version. Can transition to next slash on frame 12-30,2.5/3.0,5/5,4/4,Close/Tipper,-26/-16,9—11,28
-Marth,Special Attacks,Dancing Blade 2 Neutral,5,38,--,Can transition to next slash on frame 8-29,2.5/3.0,5/5,4/4,Close/Tipper,-29/-29,5—7,31
-Marth,Special Attacks,Dancing Blade 3 Neutral,4,43,--,Can transition to next slash on frame 7-24,3.0/4.0,5/5,4/5,Close/Tipper,-35/-34,4—6,37
-Marth,Special Attacks,Dancing Blade 4 Neutral,7,55,--,--,4.0/6.0,5/9,5/6,Close/Tipper,-43/-42,7—9,46
-Marth,Special Attacks,Dancing Blade 2 Up,4,38,--,Can transition to next slash on frame 8-29,2.5/3.0,5/5,4/4,Close/Tipper,-30/-30,4—7,31
-Marth,Special Attacks,Dancing Blade 3 Up,5,43,--,Can transition to next slash on frame 8-24,3.0/4.0,5/5,4/5,Close/Tipper,-34/-33,5—7,36
-Marth,Special Attacks,Dancing Blade 4 Up,6,44,--,--,5.0/7.0,6/7,6/7,Close/Tipper,-32/-31,6—10,34
-Marth,Special Attacks,Dancing Blade 3 Down,5,43,--,Can transition to next slash on frame 8-24,3.0/4.0,5/,4/5,Close/Tipper,-34/-32,5—7,36
-Marth,Special Attacks,Dancing Blade 4 Down,7,74,--,--,2.0/4.0/5.0,4/5/6,-/5/6,Multi/Final/Final Tipper,-50/-49,7/10/13/16/19—21,53
-Marth,Special Attacks,Up B (Dolphin Slash),5,--,24,Intangible on frame 4-5. 1-5 in the air.,11.0/7.0,8/7,10/7,Early/Late,--,5—6/6—11,--
-Marth,Special Attacks,Down B (Counter),6 (Start of Counter),64,--,Intangibility on 5-6 when detecting. Counter window 6-27.,--,--,--,--,--,**,--
-Marth,Special Attacks,"Counter, Attack",4,40,--,"Intangible on frame 1-7 in addition to counter freeze frames. 8% Minimum base damage, x1.2 enemy's attack.",--,--,--,--,--,4—6,34
-Marth,Special Attacks,Grab,6,34,--,--,--,,,,,6—7,27
-Marth,Special Attacks,Dash Grab,9,42,--,--,--,,,,,9—10,32
-Marth,Special Attacks,Pivot Grab,10,37,--,--,--,,,,,10—11,26
-Marth,Special Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
-Marth,Special Attacks,Forward Throw,18,34,--,Visualization does not linclude hitlag,4.0,,,,,,
-Marth,Special Attacks,Backward Throw,19,44,--,Visualization does not include hitlag,4.0,,,,,,
-Marth,Special Attacks,Up Throw,13,44,--,--,5.0,,,,,,
-Marth,Special Attacks,Down Throw,20,46,--,Visualization does not include hitlag,4.0,,,,,,
-Marth,Special Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Marth,Special Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Marth,Special Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Marth,Special Attacks,Neutral Air Dodge,,52,10,Intangible on frame 3-29,,,,,,,
-Marth,Special Attacks,"Air Dodge, Down",,69,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Special Attacks,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Special Attacks,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Special Attacks,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Special Attacks,"Air Dodge, Up",,116,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Special Attacks,Stats,,,,,,,,,,,
-Marth,Special Attacks,Ledge Grab,,,,,,,,,,,
-Marth,Special Attacks,Ledge Hang,,,,,,,,,,,
-Marth,Special Attacks,Ledge Roll,,,,,,,,,,,
-Marth,Special Attacks,Getup Attacks,,,,,,,,,,,
-Marth,Grabs / Throws,Grab,6,34,--,--,--,,,,,6—7,27
-Marth,Grabs / Throws,Dash Grab,9,42,--,--,--,,,,,9—10,32
-Marth,Grabs / Throws,Pivot Grab,10,37,--,--,--,,,,,10—11,26
-Marth,Grabs / Throws,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
-Marth,Grabs / Throws,Forward Throw,18,34,--,Visualization does not linclude hitlag,4.0,,,,,,
-Marth,Grabs / Throws,Backward Throw,19,44,--,Visualization does not include hitlag,4.0,,,,,,
-Marth,Grabs / Throws,Up Throw,13,44,--,--,5.0,,,,,,
-Marth,Grabs / Throws,Down Throw,20,46,--,Visualization does not include hitlag,4.0,,,,,,
-Marth,Grabs / Throws,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Marth,Grabs / Throws,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Marth,Grabs / Throws,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Marth,Grabs / Throws,Neutral Air Dodge,,52,10,Intangible on frame 3-29,,,,,,,
-Marth,Grabs / Throws,"Air Dodge, Down",,69,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Grabs / Throws,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Grabs / Throws,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Grabs / Throws,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Grabs / Throws,"Air Dodge, Up",,116,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Grabs / Throws,Stats,,,,,,,,,,,
-Marth,Grabs / Throws,Ledge Grab,,,,,,,,,,,
-Marth,Grabs / Throws,Ledge Hang,,,,,,,,,,,
-Marth,Grabs / Throws,Ledge Roll,,,,,,,,,,,
-Marth,Grabs / Throws,Getup Attacks,,,,,,,,,,,
-Marth,Dodges / Rolls,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Marth,Dodges / Rolls,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Marth,Dodges / Rolls,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Marth,Dodges / Rolls,Neutral Air Dodge,,52,10,Intangible on frame 3-29,,,,,,,
-Marth,Dodges / Rolls,"Air Dodge, Down",,69,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Dodges / Rolls,"Air Dodge, Diagonally Down",,79,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Dodges / Rolls,"Air Dodge, Left/Right",,85,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Dodges / Rolls,"Air Dodge, Diagonally Up",,99,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Dodges / Rolls,"Air Dodge, Up",,116,11-19,Intangible on frame 3-21,,,,,,,
-Marth,Dodges / Rolls,Stats,,,,,,,,,,,
-Marth,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
-Marth,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
-Marth,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
-Marth,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
-Marth,Misc Info,Stats,,,,,,,,,,,
-Marth,Misc Info,Ledge Grab,,,,,,,,,,,
-Marth,Misc Info,Ledge Hang,,,,,,,,,,,
-Marth,Misc Info,Ledge Roll,,,,,,,,,,,
-Marth,Misc Info,Getup Attacks,,,,,,,,,,,
+character,section,move,startup,total_frames,landing_lag,damage,advantage_on_shield,active_frames,notes,shield_lag,shield_stun,hitbox_type,end_lag,misc_raw,oos_options
+Marth,Ground Attacks,Jab 1,5,25,--,3.0/5.0,-16/-14,5—6,Transitions to Jab 2 as early as frame 11.,6/10,4/6,Close/tipper,19,,
+Marth,Ground Attacks,Jab 2,4,28,--,4.0/6.0,-19/-18,4—5,--,7/11,5/6,Close/tipper,23,,
+Marth,Ground Attacks,Forward Tilt,8,33,--,9.0/12.0,-16/-14,8—11,--,7/11,9/11,Close/tipper,22,,
+Marth,Ground Attacks,Up Tilt,6,33,--,5.0/6.0/10.0/,-21/-18,6—8/9—12,--,6/9,6/9,Closest/Close/Tipper,21,,
+Marth,Ground Attacks,Down Tilt,7,23,--,7.0/10.0,-9/-6,7—8,--,7/10,7/10,Close/tipper,15,,
+Marth,Ground Attacks,Dash Attack,13,49,--,9.0/10.0/13.0,-22/-20,13—16,--,8/14,14/16,Closest/Close/Tipper,33,,
+Marth,Ground Attacks,Forward Smash,10,51,--,13.0/18.0,-32/-29,10—13,Charge hold is frame 3.,9/15,9/12,Close/tipper,38,,
+Marth,Ground Attacks,Up Smash,13,58,--,3.0/13.0/17.0,-41/-36,13—14/13—17,Launcher and sword hits generate on the same frame. Charge hold is frame 5,0/9/?,4/9/?,Body Launcher/Close/Tipper,41,,
+Marth,Ground Attacks,Down Smash,6/21,55,--,8.0/12.0/12.0/17.0,-43/-41/-26/-23,6—7/21—23,Charge hold is frame 4.,7/13/9/15,6/8/8/11,"Close/tipper, close/tipper",32,,
+Marth,Ground Attacks,Neutral Air,6/15,49,7,3.5/5.0/7.0/9.5,-5/-4/-4/-3,6—7/15—21,Autocancels on frame 47 onward,5/7/7/10,2/3/3/4,close/tipper/close/tipper,28,,
+Marth,Ground Attacks,Forward Air,6,37,10,8.0/11.5,-6/-5,6—8,Autocancels on frame 36 onward,7/11,4/5,Close/tipper,29,,
+Marth,Ground Attacks,Back Air,7,39,10,9.0/12.5,-6/-5,7—11,Autocancels on frame 1-2 and 32 onward. Turns the character around.,7/11,4/5,Close/tipper,28,,
+Marth,Ground Attacks,Up Air,5,45,8,9.5/13.0,-4/-3,5—9,Autocancels on frame 1-2 and 38 onward,8/12,4/5,Close/tipper,36,,
+Marth,Ground Attacks,Down Air,9/11,59,14,12.0/15.0/14.0,-9/-9/-9,9—13/11,Autocancels on frame 1-2 and 55 onward,9/13/12,5/5/5,Close/meteor/tipper,46,,
+Marth,Ground Attacks,Neutral B (Shield Breaker),19—79,50—110,--,8.0—24.0,-23 to Shieldbreak,19—20 (or frames 8-9 after release),"On release, startup is 8 and total frames is 39",10—18,8—Shieldbreak,--,31,,
+Marth,Ground Attacks,Side B (Dancing Blade),9,39/29,--,2.5/3.0,-26/-16,9—11,Second total frames is the air version. Can transition to next slash on frame 12-30,5/5,4/4,Close/Tipper,28,,
+Marth,Ground Attacks,Dancing Blade 2 Neutral,5,38,--,2.5/3.0,-29/-29,5—7,Can transition to next slash on frame 8-29,5/5,4/4,Close/Tipper,31,,
+Marth,Ground Attacks,Dancing Blade 3 Neutral,4,43,--,3.0/4.0,-35/-34,4—6,Can transition to next slash on frame 7-24,5/5,4/5,Close/Tipper,37,,
+Marth,Ground Attacks,Dancing Blade 4 Neutral,7,55,--,4.0/6.0,-43/-42,7—9,--,5/9,5/6,Close/Tipper,46,,
+Marth,Ground Attacks,Dancing Blade 2 Up,4,38,--,2.5/3.0,-30/-30,4—7,Can transition to next slash on frame 8-29,5/5,4/4,Close/Tipper,31,,
+Marth,Ground Attacks,Dancing Blade 3 Up,5,43,--,3.0/4.0,-34/-33,5—7,Can transition to next slash on frame 8-24,5/5,4/5,Close/Tipper,36,,
+Marth,Ground Attacks,Dancing Blade 4 Up,6,44,--,5.0/7.0,-32/-31,6—10,--,6/7,6/7,Close/Tipper,34,,
+Marth,Ground Attacks,Dancing Blade 3 Down,5,43,--,3.0/4.0,-34/-32,5—7,Can transition to next slash on frame 8-24,5/,4/5,Close/Tipper,36,,
+Marth,Ground Attacks,Dancing Blade 4 Down,7,74,--,2.0/4.0/5.0,-50/-49,7/10/13/16/19—21,--,4/5/6,-/5/6,Multi/Final/Final Tipper,53,,
+Marth,Ground Attacks,Up B (Dolphin Slash),5,--,24,11.0/7.0,--,5—6/6—11,Intangible on frame 4-5. 1-5 in the air.,8/7,10/7,Early/Late,--,,
+Marth,Ground Attacks,Down B (Counter),6 (Start of Counter),64,--,--,--,**,Intangibility on 5-6 when detecting. Counter window 6-27.,--,--,--,--,,
+Marth,Ground Attacks,"Counter, Attack",4,40,--,--,--,4—6,"Intangible on frame 1-7 in addition to counter freeze frames. 8% Minimum base damage, x1.2 enemy's attack.",--,--,--,34,,
+Marth,Ground Attacks,Grab,6,34,--,--,,6—7,--,,,,27,,
+Marth,Ground Attacks,Dash Grab,9,42,--,--,,9—10,--,,,,32,,
+Marth,Ground Attacks,Pivot Grab,10,37,--,--,,10—11,--,,,,26,,
+Marth,Ground Attacks,Pummel,1,19,--,1.3,,,Total frames includes 13 frames of hitlag,,,,,,
+Marth,Ground Attacks,Forward Throw,18,34,--,4.0,,,Visualization does not linclude hitlag,,,,,,
+Marth,Ground Attacks,Backward Throw,19,44,--,4.0,,,Visualization does not include hitlag,,,,,,
+Marth,Ground Attacks,Up Throw,13,44,--,5.0,,,--,,,,,,
+Marth,Ground Attacks,Down Throw,20,46,--,4.0,,,Visualization does not include hitlag,,,,,,
+Marth,Ground Attacks,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Marth,Ground Attacks,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Marth,Ground Attacks,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Marth,Ground Attacks,Neutral Air Dodge,,52,10,,,,Intangible on frame 3-29,,,,,,
+Marth,Ground Attacks,"Air Dodge, Down",,69,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Ground Attacks,"Air Dodge, Diagonally Down",,79,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Ground Attacks,"Air Dodge, Left/Right",,85,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Ground Attacks,"Air Dodge, Diagonally Up",,99,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Ground Attacks,"Air Dodge, Up",,116,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Ground Attacks,Stats,,,,,,,,,,,,,
+Marth,Ground Attacks,Ledge Grab,,,,,,,,,,,,,
+Marth,Ground Attacks,Ledge Hang,,,,,,,,,,,,,
+Marth,Ground Attacks,Ledge Roll,,,,,,,,,,,,,
+Marth,Ground Attacks,Getup Attacks,,,,,,,,,,,,,
+Marth,Aerial Attacks,Neutral Air,6/15,49,7,3.5/5.0/7.0/9.5,-5/-4/-4/-3,6—7/15—21,Autocancels on frame 47 onward,5/7/7/10,2/3/3/4,close/tipper/close/tipper,28,,
+Marth,Aerial Attacks,Forward Air,6,37,10,8.0/11.5,-6/-5,6—8,Autocancels on frame 36 onward,7/11,4/5,Close/tipper,29,,
+Marth,Aerial Attacks,Back Air,7,39,10,9.0/12.5,-6/-5,7—11,Autocancels on frame 1-2 and 32 onward. Turns the character around.,7/11,4/5,Close/tipper,28,,
+Marth,Aerial Attacks,Up Air,5,45,8,9.5/13.0,-4/-3,5—9,Autocancels on frame 1-2 and 38 onward,8/12,4/5,Close/tipper,36,,
+Marth,Aerial Attacks,Down Air,9/11,59,14,12.0/15.0/14.0,-9/-9/-9,9—13/11,Autocancels on frame 1-2 and 55 onward,9/13/12,5/5/5,Close/meteor/tipper,46,,
+Marth,Aerial Attacks,Neutral B (Shield Breaker),19—79,50—110,--,8.0—24.0,-23 to Shieldbreak,19—20 (or frames 8-9 after release),"On release, startup is 8 and total frames is 39",10—18,8—Shieldbreak,--,31,,
+Marth,Aerial Attacks,Side B (Dancing Blade),9,39/29,--,2.5/3.0,-26/-16,9—11,Second total frames is the air version. Can transition to next slash on frame 12-30,5/5,4/4,Close/Tipper,28,,
+Marth,Aerial Attacks,Dancing Blade 2 Neutral,5,38,--,2.5/3.0,-29/-29,5—7,Can transition to next slash on frame 8-29,5/5,4/4,Close/Tipper,31,,
+Marth,Aerial Attacks,Dancing Blade 3 Neutral,4,43,--,3.0/4.0,-35/-34,4—6,Can transition to next slash on frame 7-24,5/5,4/5,Close/Tipper,37,,
+Marth,Aerial Attacks,Dancing Blade 4 Neutral,7,55,--,4.0/6.0,-43/-42,7—9,--,5/9,5/6,Close/Tipper,46,,
+Marth,Aerial Attacks,Dancing Blade 2 Up,4,38,--,2.5/3.0,-30/-30,4—7,Can transition to next slash on frame 8-29,5/5,4/4,Close/Tipper,31,,
+Marth,Aerial Attacks,Dancing Blade 3 Up,5,43,--,3.0/4.0,-34/-33,5—7,Can transition to next slash on frame 8-24,5/5,4/5,Close/Tipper,36,,
+Marth,Aerial Attacks,Dancing Blade 4 Up,6,44,--,5.0/7.0,-32/-31,6—10,--,6/7,6/7,Close/Tipper,34,,
+Marth,Aerial Attacks,Dancing Blade 3 Down,5,43,--,3.0/4.0,-34/-32,5—7,Can transition to next slash on frame 8-24,5/,4/5,Close/Tipper,36,,
+Marth,Aerial Attacks,Dancing Blade 4 Down,7,74,--,2.0/4.0/5.0,-50/-49,7/10/13/16/19—21,--,4/5/6,-/5/6,Multi/Final/Final Tipper,53,,
+Marth,Aerial Attacks,Up B (Dolphin Slash),5,--,24,11.0/7.0,--,5—6/6—11,Intangible on frame 4-5. 1-5 in the air.,8/7,10/7,Early/Late,--,,
+Marth,Aerial Attacks,Down B (Counter),6 (Start of Counter),64,--,--,--,**,Intangibility on 5-6 when detecting. Counter window 6-27.,--,--,--,--,,
+Marth,Aerial Attacks,"Counter, Attack",4,40,--,--,--,4—6,"Intangible on frame 1-7 in addition to counter freeze frames. 8% Minimum base damage, x1.2 enemy's attack.",--,--,--,34,,
+Marth,Aerial Attacks,Grab,6,34,--,--,,6—7,--,,,,27,,
+Marth,Aerial Attacks,Dash Grab,9,42,--,--,,9—10,--,,,,32,,
+Marth,Aerial Attacks,Pivot Grab,10,37,--,--,,10—11,--,,,,26,,
+Marth,Aerial Attacks,Pummel,1,19,--,1.3,,,Total frames includes 13 frames of hitlag,,,,,,
+Marth,Aerial Attacks,Forward Throw,18,34,--,4.0,,,Visualization does not linclude hitlag,,,,,,
+Marth,Aerial Attacks,Backward Throw,19,44,--,4.0,,,Visualization does not include hitlag,,,,,,
+Marth,Aerial Attacks,Up Throw,13,44,--,5.0,,,--,,,,,,
+Marth,Aerial Attacks,Down Throw,20,46,--,4.0,,,Visualization does not include hitlag,,,,,,
+Marth,Aerial Attacks,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Marth,Aerial Attacks,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Marth,Aerial Attacks,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Marth,Aerial Attacks,Neutral Air Dodge,,52,10,,,,Intangible on frame 3-29,,,,,,
+Marth,Aerial Attacks,"Air Dodge, Down",,69,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Aerial Attacks,"Air Dodge, Diagonally Down",,79,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Aerial Attacks,"Air Dodge, Left/Right",,85,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Aerial Attacks,"Air Dodge, Diagonally Up",,99,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Aerial Attacks,"Air Dodge, Up",,116,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Aerial Attacks,Stats,,,,,,,,,,,,,
+Marth,Aerial Attacks,Ledge Grab,,,,,,,,,,,,,
+Marth,Aerial Attacks,Ledge Hang,,,,,,,,,,,,,
+Marth,Aerial Attacks,Ledge Roll,,,,,,,,,,,,,
+Marth,Aerial Attacks,Getup Attacks,,,,,,,,,,,,,
+Marth,Special Attacks,Neutral B (Shield Breaker),19—79,50—110,--,8.0—24.0,-23 to Shieldbreak,19—20 (or frames 8-9 after release),"On release, startup is 8 and total frames is 39",10—18,8—Shieldbreak,--,31,,
+Marth,Special Attacks,Side B (Dancing Blade),9,39/29,--,2.5/3.0,-26/-16,9—11,Second total frames is the air version. Can transition to next slash on frame 12-30,5/5,4/4,Close/Tipper,28,,
+Marth,Special Attacks,Dancing Blade 2 Neutral,5,38,--,2.5/3.0,-29/-29,5—7,Can transition to next slash on frame 8-29,5/5,4/4,Close/Tipper,31,,
+Marth,Special Attacks,Dancing Blade 3 Neutral,4,43,--,3.0/4.0,-35/-34,4—6,Can transition to next slash on frame 7-24,5/5,4/5,Close/Tipper,37,,
+Marth,Special Attacks,Dancing Blade 4 Neutral,7,55,--,4.0/6.0,-43/-42,7—9,--,5/9,5/6,Close/Tipper,46,,
+Marth,Special Attacks,Dancing Blade 2 Up,4,38,--,2.5/3.0,-30/-30,4—7,Can transition to next slash on frame 8-29,5/5,4/4,Close/Tipper,31,,
+Marth,Special Attacks,Dancing Blade 3 Up,5,43,--,3.0/4.0,-34/-33,5—7,Can transition to next slash on frame 8-24,5/5,4/5,Close/Tipper,36,,
+Marth,Special Attacks,Dancing Blade 4 Up,6,44,--,5.0/7.0,-32/-31,6—10,--,6/7,6/7,Close/Tipper,34,,
+Marth,Special Attacks,Dancing Blade 3 Down,5,43,--,3.0/4.0,-34/-32,5—7,Can transition to next slash on frame 8-24,5/,4/5,Close/Tipper,36,,
+Marth,Special Attacks,Dancing Blade 4 Down,7,74,--,2.0/4.0/5.0,-50/-49,7/10/13/16/19—21,--,4/5/6,-/5/6,Multi/Final/Final Tipper,53,,
+Marth,Special Attacks,Up B (Dolphin Slash),5,--,24,11.0/7.0,--,5—6/6—11,Intangible on frame 4-5. 1-5 in the air.,8/7,10/7,Early/Late,--,,
+Marth,Special Attacks,Down B (Counter),6 (Start of Counter),64,--,--,--,**,Intangibility on 5-6 when detecting. Counter window 6-27.,--,--,--,--,,
+Marth,Special Attacks,"Counter, Attack",4,40,--,--,--,4—6,"Intangible on frame 1-7 in addition to counter freeze frames. 8% Minimum base damage, x1.2 enemy's attack.",--,--,--,34,,
+Marth,Special Attacks,Grab,6,34,--,--,,6—7,--,,,,27,,
+Marth,Special Attacks,Dash Grab,9,42,--,--,,9—10,--,,,,32,,
+Marth,Special Attacks,Pivot Grab,10,37,--,--,,10—11,--,,,,26,,
+Marth,Special Attacks,Pummel,1,19,--,1.3,,,Total frames includes 13 frames of hitlag,,,,,,
+Marth,Special Attacks,Forward Throw,18,34,--,4.0,,,Visualization does not linclude hitlag,,,,,,
+Marth,Special Attacks,Backward Throw,19,44,--,4.0,,,Visualization does not include hitlag,,,,,,
+Marth,Special Attacks,Up Throw,13,44,--,5.0,,,--,,,,,,
+Marth,Special Attacks,Down Throw,20,46,--,4.0,,,Visualization does not include hitlag,,,,,,
+Marth,Special Attacks,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Marth,Special Attacks,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Marth,Special Attacks,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Marth,Special Attacks,Neutral Air Dodge,,52,10,,,,Intangible on frame 3-29,,,,,,
+Marth,Special Attacks,"Air Dodge, Down",,69,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Special Attacks,"Air Dodge, Diagonally Down",,79,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Special Attacks,"Air Dodge, Left/Right",,85,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Special Attacks,"Air Dodge, Diagonally Up",,99,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Special Attacks,"Air Dodge, Up",,116,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Special Attacks,Stats,,,,,,,,,,,,,
+Marth,Special Attacks,Ledge Grab,,,,,,,,,,,,,
+Marth,Special Attacks,Ledge Hang,,,,,,,,,,,,,
+Marth,Special Attacks,Ledge Roll,,,,,,,,,,,,,
+Marth,Special Attacks,Getup Attacks,,,,,,,,,,,,,
+Marth,Grabs / Throws,Grab,6,34,--,--,,6—7,--,,,,27,,
+Marth,Grabs / Throws,Dash Grab,9,42,--,--,,9—10,--,,,,32,,
+Marth,Grabs / Throws,Pivot Grab,10,37,--,--,,10—11,--,,,,26,,
+Marth,Grabs / Throws,Pummel,1,19,--,1.3,,,Total frames includes 13 frames of hitlag,,,,,,
+Marth,Grabs / Throws,Forward Throw,18,34,--,4.0,,,Visualization does not linclude hitlag,,,,,,
+Marth,Grabs / Throws,Backward Throw,19,44,--,4.0,,,Visualization does not include hitlag,,,,,,
+Marth,Grabs / Throws,Up Throw,13,44,--,5.0,,,--,,,,,,
+Marth,Grabs / Throws,Down Throw,20,46,--,4.0,,,Visualization does not include hitlag,,,,,,
+Marth,Grabs / Throws,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Marth,Grabs / Throws,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Marth,Grabs / Throws,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Marth,Grabs / Throws,Neutral Air Dodge,,52,10,,,,Intangible on frame 3-29,,,,,,
+Marth,Grabs / Throws,"Air Dodge, Down",,69,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Grabs / Throws,"Air Dodge, Diagonally Down",,79,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Grabs / Throws,"Air Dodge, Left/Right",,85,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Grabs / Throws,"Air Dodge, Diagonally Up",,99,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Grabs / Throws,"Air Dodge, Up",,116,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Grabs / Throws,Stats,,,,,,,,,,,,,
+Marth,Grabs / Throws,Ledge Grab,,,,,,,,,,,,,
+Marth,Grabs / Throws,Ledge Hang,,,,,,,,,,,,,
+Marth,Grabs / Throws,Ledge Roll,,,,,,,,,,,,,
+Marth,Grabs / Throws,Getup Attacks,,,,,,,,,,,,,
+Marth,Dodges / Rolls,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Marth,Dodges / Rolls,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Marth,Dodges / Rolls,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Marth,Dodges / Rolls,Neutral Air Dodge,,52,10,,,,Intangible on frame 3-29,,,,,,
+Marth,Dodges / Rolls,"Air Dodge, Down",,69,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Dodges / Rolls,"Air Dodge, Diagonally Down",,79,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Dodges / Rolls,"Air Dodge, Left/Right",,85,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Dodges / Rolls,"Air Dodge, Diagonally Up",,99,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Dodges / Rolls,"Air Dodge, Up",,116,11-19,,,,Intangible on frame 3-21,,,,,,
+Marth,Dodges / Rolls,Stats,,,,,,,,,,,,,
+Marth,Dodges / Rolls,Ledge Grab,,,,,,,,,,,,,
+Marth,Dodges / Rolls,Ledge Hang,,,,,,,,,,,,,
+Marth,Dodges / Rolls,Ledge Roll,,,,,,,,,,,,,
+Marth,Dodges / Rolls,Getup Attacks,,,,,,,,,,,,,
+Marth,Misc Info,Stats,,,,,,,,,,,,"Stats Weight — 90 Gravity — 0.075 Walk Speed — 1.575 Run Speed — 1.964 Initial Dash — 2.255 Air Speed — 1.071 Total Air Acceleration — 0.08 SH / FH / SHFF / FHFF Frames — 41 / 55 / 28 / 38 Fall Speed / Fast Fall Speed — 1.58 / 2.528 Out of Shield, Up B — 5 frames Out of Shield, Up Air — 8 frames Out of Shield, Neutral Air or Forward Air — 9 frames Shield Grab (Grab, post-Shieldstun) — 10 frames Shield Drop — 11 frames (universal) Jump Squat (pre-Jump frames) — 3 frames (universal)","[('Up B', '5'), ('Up Air', '8'), ('Neutral Air or Forward Air', '9')]"
+Marth,Misc Info,Ledge Grab,,,,,,,,,,,,Ledge Grab Normal,
+Marth,Misc Info,Ledge Hang,,,,,,,,,,,,Ledge Hang ,
+Marth,Misc Info,Ledge Roll,,,,,,,,,,,,Ledge Roll ,
+Marth,Misc Info,Getup Attacks,,,,,,,,,,,,Getup Attacks Facing UpFacing DownTripLedge,

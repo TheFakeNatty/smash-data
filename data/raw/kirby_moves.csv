@@ -1,153 +1,153 @@
-character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
-Kirby,Ground Attacks,Jab 1,2,14,--,Transitions to Jab 2 as early as frame 4,1.8,8,3,--,-9,2,12
-Kirby,Ground Attacks,Jab 2,3,15,--,Transitions to Rapid Jab as early as frame 5,1.6,5,3,--,-9,3,12
-Kirby,Ground Attacks,Rapid Jab,5/7/9/11...,--,--,--,0.2,4,--,--,--,5/7/9/11...,--
-Kirby,Ground Attacks,Rapid Jab Finisher,3,39,--,--,3.0,15,4,--,-32,3—4,35
-Kirby,Ground Attacks,Forward Tilt,5,23,--,--,8.0/7.0,7/7,8/4,Close/Far,-10/-11,5—8,15
-Kirby,Ground Attacks,Up Tilt,4,20,--,Leg intangibility on frame 4-10. Tipper deals reduced knockback.,5.0/4.0,6/5,6/5,Early/Late,-10/-9,4—5/6—10,10
-Kirby,Ground Attacks,Down Tilt,4,20,--,--,6.0,6,6,--,-9,4—6,14
-Kirby,Ground Attacks,Dash Attack,9,51,--,--,12.0/9.0/6.0,**,**,Early/Late/Latest,-31,9—17/18—26/27—34,17
-Kirby,Ground Attacks,Forward Smash,13,47,--,Charge hold is frame 4,15.0/11.0,12/8,10/8,Early/Late,-23,13—15/16—19,28
-Kirby,Ground Attacks,Up Smash,12,45,--,Leg intangibility on frame 12-17. Charge hold is frame 8.,(15.0%/14.0%)/(14.0%/13.0%)/(13.0%/12.0%),10/9/9,11/9/8,"(Clean/Mid/Late, all split like Close/Tip)",-22/-24,12—14/15—16/17,28
-Kirby,Ground Attacks,Down Smash,7,50,--,Leg intangibility on frame 2-11. Charge hold is frame 2.,14.0/10.0,10,10,--,-33,7—11/12—19,31
-Kirby,Ground Attacks,Neutral Air,8,52,6,Autocancels on frame 1-3 and 49 onward.,10.0/8.0/6.0/4.0,8/7/6/5,4/4/3/3,Early/Late,-2/-2/-3/-3,8—9/10—13/14—18/19—32,20
-Kirby,Ground Attacks,Forward Air,10/17/25,47,8,Autocancels on frame 1-9 and 41 onward,4.0/4.0/6.0,5/5/8,3/3/3,--,-5/-5/-5,10—11/17—18/25—27,20
-Kirby,Ground Attacks,Back Air,6,40,10,Autocancels on frame 1-2 and 32 onward,13.0/8.0,11/7,5/4,Early/Late,-5/-6,6—8/9—12,28
-Kirby,Ground Attacks,Up Air,8,35,7,Autocancels on frame 1-7 and 20 onward.,10.0,8,4,--,-3,8—13,22
-Kirby,Ground Attacks,Down Air,18/21/24/27/30/34,54,16,Landing hit on frame 1. Autocancels on frame 1-17 and 48 onward,1.2/2.0/2.0,4/4/4,2/3/3,multi/final/landing,-12,18—19/21—22/24—25/27—28/30—31/34,20
-Kirby,Ground Attacks,Neutral B (Inhale),10,67,--,Minimum total frames is 67. Endlag is 19 frames upon release. Can eat projectiles. Projectile eat animation is 51 frames long,--,--,--,--,--,10—44 (longer if held),--
-Kirby,Ground Attacks,"Inhale, Copy/Spit",8/8,20/30,--,--,10.0(Swallow)/6.0(Spit),**,**,--,**,**,--
-Kirby,Ground Attacks,Side B (Hammer),11(+15),54,--,Startup is 11 from charging state. Takes 15 frames to enter charging state.,19.0—28.8,14—16,17—25,--,-26 to -18,26—27 (11—12 from charge),27
-Kirby,Ground Attacks,"Hammer, Full Charge",11,59,--,"If on the ground, invulnerable on frame 2-10 and Super armor on frame 11-17. Reaches full charge on frame 135.",35.0,30,31,--,-17,11—12,47
-Kirby,Ground Attacks,Hammer (Air),28/42,71,--,--,16.0,10/10,14/14,--,**/**,28—29/42—43,28
-Kirby,Ground Attacks,Up B (Final Cutter),23/(41/50...)/**/**,--,30,Landing projectile appears on frames 1-2/3-19.,5.0/2.0/(5.0/2.0)/6.0,6/4/6/**,6/3/3/**,Rising/Falling/Landing/Projectile,--/--/-21/**,23—26/(41—49/50...),--
-Kirby,Ground Attacks,Down B (Stone),11,--,--,Emerging from stone is a 31 frame animation. Stone armor begins on frame 11. On Shield data assumes release immediately after hit.,14.0,10,13,--,-35,**,--
-Kirby,Ground Attacks,"Down B, Air (Stone, Air)",29,--,--,Stone armor begins on frame 19. Active frames can be longer depending on release timing. On Shield data assumes release immediately after hit.,18.0,11,16,--,-17,29—47 (**),--
-Kirby,Ground Attacks,Grab,6,34,--,--,--,,,,,6—7,27
-Kirby,Ground Attacks,Dash Grab,9,41,--,--,--,,,,,9—10,31
-Kirby,Ground Attacks,Pivot Grab,10,36,--,--,--,,,,,10—11,25
-Kirby,Ground Attacks,Pummel,1,15,--,Total frames includes 10 frames of hitlag,1.0,,,,,,
-Kirby,Ground Attacks,Forward Throw,45,58,--,--,2.0/5.0,,,,,,
-Kirby,Ground Attacks,Backward Throw,41,49,--,--,8.0,,,,,,
-Kirby,Ground Attacks,Up Throw,58,86,--,Startup and total frames assume level ground. Endlag is always 30 after landing.	Deals 7.0 damage and knockback to anyone near Kirby on frames 45—53.,10.0,,,,,,
-Kirby,Ground Attacks,Down Throw,9,87,--,Throw releases on 58. Active: 9—10/13—14/17—18/21—22/25—26/29—30/33—34/37—38/41—42/56—57.,1.0/2.0,,,,,,
-Kirby,Ground Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Kirby,Ground Attacks,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
-Kirby,Ground Attacks,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
-Kirby,Ground Attacks,Neutral Air Dodge,,62,10,Intangible on frame 3-29,,,,,,,
-Kirby,Ground Attacks,"Air Dodge, Down",,82,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Ground Attacks,"Air Dodge, Diagonally Down",,91,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Ground Attacks,"Air Dodge, Left/Right",,102,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Ground Attacks,"Air Dodge, Diagonally Up",,134,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Ground Attacks,"Air Dodge, Up",,141,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Ground Attacks,Stats,,,,,,,,,,,
-Kirby,Ground Attacks,Ledge Grab,,,,,,,,,,,
-Kirby,Ground Attacks,Ledge Hang,,,,,,,,,,,
-Kirby,Ground Attacks,Ledge Roll,,,,,,,,,,,
-Kirby,Ground Attacks,Getup Attacks,,,,,,,,,,,
-Kirby,Aerial Attacks,Neutral Air,8,52,6,Autocancels on frame 1-3 and 49 onward.,10.0/8.0/6.0/4.0,8/7/6/5,4/4/3/3,Early/Late,-2/-2/-3/-3,8—9/10—13/14—18/19—32,20
-Kirby,Aerial Attacks,Forward Air,10/17/25,47,8,Autocancels on frame 1-9 and 41 onward,4.0/4.0/6.0,5/5/8,3/3/3,--,-5/-5/-5,10—11/17—18/25—27,20
-Kirby,Aerial Attacks,Back Air,6,40,10,Autocancels on frame 1-2 and 32 onward,13.0/8.0,11/7,5/4,Early/Late,-5/-6,6—8/9—12,28
-Kirby,Aerial Attacks,Up Air,8,35,7,Autocancels on frame 1-7 and 20 onward.,10.0,8,4,--,-3,8—13,22
-Kirby,Aerial Attacks,Down Air,18/21/24/27/30/34,54,16,Landing hit on frame 1. Autocancels on frame 1-17 and 48 onward,1.2/2.0/2.0,4/4/4,2/3/3,multi/final/landing,-12,18—19/21—22/24—25/27—28/30—31/34,20
-Kirby,Aerial Attacks,Neutral B (Inhale),10,67,--,Minimum total frames is 67. Endlag is 19 frames upon release. Can eat projectiles. Projectile eat animation is 51 frames long,--,--,--,--,--,10—44 (longer if held),--
-Kirby,Aerial Attacks,"Inhale, Copy/Spit",8/8,20/30,--,--,10.0(Swallow)/6.0(Spit),**,**,--,**,**,--
-Kirby,Aerial Attacks,Side B (Hammer),11(+15),54,--,Startup is 11 from charging state. Takes 15 frames to enter charging state.,19.0—28.8,14—16,17—25,--,-26 to -18,26—27 (11—12 from charge),27
-Kirby,Aerial Attacks,"Hammer, Full Charge",11,59,--,"If on the ground, invulnerable on frame 2-10 and Super armor on frame 11-17. Reaches full charge on frame 135.",35.0,30,31,--,-17,11—12,47
-Kirby,Aerial Attacks,Hammer (Air),28/42,71,--,--,16.0,10/10,14/14,--,**/**,28—29/42—43,28
-Kirby,Aerial Attacks,Up B (Final Cutter),23/(41/50...)/**/**,--,30,Landing projectile appears on frames 1-2/3-19.,5.0/2.0/(5.0/2.0)/6.0,6/4/6/**,6/3/3/**,Rising/Falling/Landing/Projectile,--/--/-21/**,23—26/(41—49/50...),--
-Kirby,Aerial Attacks,Down B (Stone),11,--,--,Emerging from stone is a 31 frame animation. Stone armor begins on frame 11. On Shield data assumes release immediately after hit.,14.0,10,13,--,-35,**,--
-Kirby,Aerial Attacks,"Down B, Air (Stone, Air)",29,--,--,Stone armor begins on frame 19. Active frames can be longer depending on release timing. On Shield data assumes release immediately after hit.,18.0,11,16,--,-17,29—47 (**),--
-Kirby,Aerial Attacks,Grab,6,34,--,--,--,,,,,6—7,27
-Kirby,Aerial Attacks,Dash Grab,9,41,--,--,--,,,,,9—10,31
-Kirby,Aerial Attacks,Pivot Grab,10,36,--,--,--,,,,,10—11,25
-Kirby,Aerial Attacks,Pummel,1,15,--,Total frames includes 10 frames of hitlag,1.0,,,,,,
-Kirby,Aerial Attacks,Forward Throw,45,58,--,--,2.0/5.0,,,,,,
-Kirby,Aerial Attacks,Backward Throw,41,49,--,--,8.0,,,,,,
-Kirby,Aerial Attacks,Up Throw,58,86,--,Startup and total frames assume level ground. Endlag is always 30 after landing.	Deals 7.0 damage and knockback to anyone near Kirby on frames 45—53.,10.0,,,,,,
-Kirby,Aerial Attacks,Down Throw,9,87,--,Throw releases on 58. Active: 9—10/13—14/17—18/21—22/25—26/29—30/33—34/37—38/41—42/56—57.,1.0/2.0,,,,,,
-Kirby,Aerial Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Kirby,Aerial Attacks,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
-Kirby,Aerial Attacks,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
-Kirby,Aerial Attacks,Neutral Air Dodge,,62,10,Intangible on frame 3-29,,,,,,,
-Kirby,Aerial Attacks,"Air Dodge, Down",,82,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Aerial Attacks,"Air Dodge, Diagonally Down",,91,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Aerial Attacks,"Air Dodge, Left/Right",,102,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Aerial Attacks,"Air Dodge, Diagonally Up",,134,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Aerial Attacks,"Air Dodge, Up",,141,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Aerial Attacks,Stats,,,,,,,,,,,
-Kirby,Aerial Attacks,Ledge Grab,,,,,,,,,,,
-Kirby,Aerial Attacks,Ledge Hang,,,,,,,,,,,
-Kirby,Aerial Attacks,Ledge Roll,,,,,,,,,,,
-Kirby,Aerial Attacks,Getup Attacks,,,,,,,,,,,
-Kirby,Special Attacks,Neutral B (Inhale),10,67,--,Minimum total frames is 67. Endlag is 19 frames upon release. Can eat projectiles. Projectile eat animation is 51 frames long,--,--,--,--,--,10—44 (longer if held),--
-Kirby,Special Attacks,"Inhale, Copy/Spit",8/8,20/30,--,--,10.0(Swallow)/6.0(Spit),**,**,--,**,**,--
-Kirby,Special Attacks,Side B (Hammer),11(+15),54,--,Startup is 11 from charging state. Takes 15 frames to enter charging state.,19.0—28.8,14—16,17—25,--,-26 to -18,26—27 (11—12 from charge),27
-Kirby,Special Attacks,"Hammer, Full Charge",11,59,--,"If on the ground, invulnerable on frame 2-10 and Super armor on frame 11-17. Reaches full charge on frame 135.",35.0,30,31,--,-17,11—12,47
-Kirby,Special Attacks,Hammer (Air),28/42,71,--,--,16.0,10/10,14/14,--,**/**,28—29/42—43,28
-Kirby,Special Attacks,Up B (Final Cutter),23/(41/50...)/**/**,--,30,Landing projectile appears on frames 1-2/3-19.,5.0/2.0/(5.0/2.0)/6.0,6/4/6/**,6/3/3/**,Rising/Falling/Landing/Projectile,--/--/-21/**,23—26/(41—49/50...),--
-Kirby,Special Attacks,Down B (Stone),11,--,--,Emerging from stone is a 31 frame animation. Stone armor begins on frame 11. On Shield data assumes release immediately after hit.,14.0,10,13,--,-35,**,--
-Kirby,Special Attacks,"Down B, Air (Stone, Air)",29,--,--,Stone armor begins on frame 19. Active frames can be longer depending on release timing. On Shield data assumes release immediately after hit.,18.0,11,16,--,-17,29—47 (**),--
-Kirby,Special Attacks,Grab,6,34,--,--,--,,,,,6—7,27
-Kirby,Special Attacks,Dash Grab,9,41,--,--,--,,,,,9—10,31
-Kirby,Special Attacks,Pivot Grab,10,36,--,--,--,,,,,10—11,25
-Kirby,Special Attacks,Pummel,1,15,--,Total frames includes 10 frames of hitlag,1.0,,,,,,
-Kirby,Special Attacks,Forward Throw,45,58,--,--,2.0/5.0,,,,,,
-Kirby,Special Attacks,Backward Throw,41,49,--,--,8.0,,,,,,
-Kirby,Special Attacks,Up Throw,58,86,--,Startup and total frames assume level ground. Endlag is always 30 after landing.	Deals 7.0 damage and knockback to anyone near Kirby on frames 45—53.,10.0,,,,,,
-Kirby,Special Attacks,Down Throw,9,87,--,Throw releases on 58. Active: 9—10/13—14/17—18/21—22/25—26/29—30/33—34/37—38/41—42/56—57.,1.0/2.0,,,,,,
-Kirby,Special Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Kirby,Special Attacks,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
-Kirby,Special Attacks,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
-Kirby,Special Attacks,Neutral Air Dodge,,62,10,Intangible on frame 3-29,,,,,,,
-Kirby,Special Attacks,"Air Dodge, Down",,82,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Special Attacks,"Air Dodge, Diagonally Down",,91,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Special Attacks,"Air Dodge, Left/Right",,102,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Special Attacks,"Air Dodge, Diagonally Up",,134,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Special Attacks,"Air Dodge, Up",,141,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Special Attacks,Stats,,,,,,,,,,,
-Kirby,Special Attacks,Ledge Grab,,,,,,,,,,,
-Kirby,Special Attacks,Ledge Hang,,,,,,,,,,,
-Kirby,Special Attacks,Ledge Roll,,,,,,,,,,,
-Kirby,Special Attacks,Getup Attacks,,,,,,,,,,,
-Kirby,Grabs / Throws,Grab,6,34,--,--,--,,,,,6—7,27
-Kirby,Grabs / Throws,Dash Grab,9,41,--,--,--,,,,,9—10,31
-Kirby,Grabs / Throws,Pivot Grab,10,36,--,--,--,,,,,10—11,25
-Kirby,Grabs / Throws,Pummel,1,15,--,Total frames includes 10 frames of hitlag,1.0,,,,,,
-Kirby,Grabs / Throws,Forward Throw,45,58,--,--,2.0/5.0,,,,,,
-Kirby,Grabs / Throws,Backward Throw,41,49,--,--,8.0,,,,,,
-Kirby,Grabs / Throws,Up Throw,58,86,--,Startup and total frames assume level ground. Endlag is always 30 after landing.	Deals 7.0 damage and knockback to anyone near Kirby on frames 45—53.,10.0,,,,,,
-Kirby,Grabs / Throws,Down Throw,9,87,--,Throw releases on 58. Active: 9—10/13—14/17—18/21—22/25—26/29—30/33—34/37—38/41—42/56—57.,1.0/2.0,,,,,,
-Kirby,Grabs / Throws,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Kirby,Grabs / Throws,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
-Kirby,Grabs / Throws,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
-Kirby,Grabs / Throws,Neutral Air Dodge,,62,10,Intangible on frame 3-29,,,,,,,
-Kirby,Grabs / Throws,"Air Dodge, Down",,82,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Grabs / Throws,"Air Dodge, Diagonally Down",,91,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Grabs / Throws,"Air Dodge, Left/Right",,102,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Grabs / Throws,"Air Dodge, Diagonally Up",,134,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Grabs / Throws,"Air Dodge, Up",,141,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Grabs / Throws,Stats,,,,,,,,,,,
-Kirby,Grabs / Throws,Ledge Grab,,,,,,,,,,,
-Kirby,Grabs / Throws,Ledge Hang,,,,,,,,,,,
-Kirby,Grabs / Throws,Ledge Roll,,,,,,,,,,,
-Kirby,Grabs / Throws,Getup Attacks,,,,,,,,,,,
-Kirby,Dodges / Rolls,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Kirby,Dodges / Rolls,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
-Kirby,Dodges / Rolls,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
-Kirby,Dodges / Rolls,Neutral Air Dodge,,62,10,Intangible on frame 3-29,,,,,,,
-Kirby,Dodges / Rolls,"Air Dodge, Down",,82,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Dodges / Rolls,"Air Dodge, Diagonally Down",,91,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Dodges / Rolls,"Air Dodge, Left/Right",,102,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Dodges / Rolls,"Air Dodge, Diagonally Up",,134,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Dodges / Rolls,"Air Dodge, Up",,141,11-19,Intangible on frame 3-21,,,,,,,
-Kirby,Dodges / Rolls,Stats,,,,,,,,,,,
-Kirby,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
-Kirby,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
-Kirby,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
-Kirby,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
-Kirby,Misc Info,Stats,,,,,,,,,,,
-Kirby,Misc Info,Ledge Grab,,,,,,,,,,,
-Kirby,Misc Info,Ledge Hang,,,,,,,,,,,
-Kirby,Misc Info,Ledge Roll,,,,,,,,,,,
-Kirby,Misc Info,Getup Attacks,,,,,,,,,,,
+character,section,move,startup,total_frames,landing_lag,damage,advantage_on_shield,active_frames,notes,shield_lag,shield_stun,hitbox_type,end_lag,misc_raw,oos_options
+Kirby,Ground Attacks,Jab 1,2,14,--,1.8,-9,2,Transitions to Jab 2 as early as frame 4,8,3,--,12,,
+Kirby,Ground Attacks,Jab 2,3,15,--,1.6,-9,3,Transitions to Rapid Jab as early as frame 5,5,3,--,12,,
+Kirby,Ground Attacks,Rapid Jab,5/7/9/11...,--,--,0.2,--,5/7/9/11...,--,4,--,--,--,,
+Kirby,Ground Attacks,Rapid Jab Finisher,3,39,--,3.0,-32,3—4,--,15,4,--,35,,
+Kirby,Ground Attacks,Forward Tilt,5,23,--,8.0/7.0,-10/-11,5—8,--,7/7,8/4,Close/Far,15,,
+Kirby,Ground Attacks,Up Tilt,4,20,--,5.0/4.0,-10/-9,4—5/6—10,Leg intangibility on frame 4-10. Tipper deals reduced knockback.,6/5,6/5,Early/Late,10,,
+Kirby,Ground Attacks,Down Tilt,4,20,--,6.0,-9,4—6,--,6,6,--,14,,
+Kirby,Ground Attacks,Dash Attack,9,51,--,12.0/9.0/6.0,-31,9—17/18—26/27—34,--,**,**,Early/Late/Latest,17,,
+Kirby,Ground Attacks,Forward Smash,13,47,--,15.0/11.0,-23,13—15/16—19,Charge hold is frame 4,12/8,10/8,Early/Late,28,,
+Kirby,Ground Attacks,Up Smash,12,45,--,(15.0%/14.0%)/(14.0%/13.0%)/(13.0%/12.0%),-22/-24,12—14/15—16/17,Leg intangibility on frame 12-17. Charge hold is frame 8.,10/9/9,11/9/8,"(Clean/Mid/Late, all split like Close/Tip)",28,,
+Kirby,Ground Attacks,Down Smash,7,50,--,14.0/10.0,-33,7—11/12—19,Leg intangibility on frame 2-11. Charge hold is frame 2.,10,10,--,31,,
+Kirby,Ground Attacks,Neutral Air,8,52,6,10.0/8.0/6.0/4.0,-2/-2/-3/-3,8—9/10—13/14—18/19—32,Autocancels on frame 1-3 and 49 onward.,8/7/6/5,4/4/3/3,Early/Late,20,,
+Kirby,Ground Attacks,Forward Air,10/17/25,47,8,4.0/4.0/6.0,-5/-5/-5,10—11/17—18/25—27,Autocancels on frame 1-9 and 41 onward,5/5/8,3/3/3,--,20,,
+Kirby,Ground Attacks,Back Air,6,40,10,13.0/8.0,-5/-6,6—8/9—12,Autocancels on frame 1-2 and 32 onward,11/7,5/4,Early/Late,28,,
+Kirby,Ground Attacks,Up Air,8,35,7,10.0,-3,8—13,Autocancels on frame 1-7 and 20 onward.,8,4,--,22,,
+Kirby,Ground Attacks,Down Air,18/21/24/27/30/34,54,16,1.2/2.0/2.0,-12,18—19/21—22/24—25/27—28/30—31/34,Landing hit on frame 1. Autocancels on frame 1-17 and 48 onward,4/4/4,2/3/3,multi/final/landing,20,,
+Kirby,Ground Attacks,Neutral B (Inhale),10,67,--,--,--,10—44 (longer if held),Minimum total frames is 67. Endlag is 19 frames upon release. Can eat projectiles. Projectile eat animation is 51 frames long,--,--,--,--,,
+Kirby,Ground Attacks,"Inhale, Copy/Spit",8/8,20/30,--,10.0(Swallow)/6.0(Spit),**,**,--,**,**,--,--,,
+Kirby,Ground Attacks,Side B (Hammer),11(+15),54,--,19.0—28.8,-26 to -18,26—27 (11—12 from charge),Startup is 11 from charging state. Takes 15 frames to enter charging state.,14—16,17—25,--,27,,
+Kirby,Ground Attacks,"Hammer, Full Charge",11,59,--,35.0,-17,11—12,"If on the ground, invulnerable on frame 2-10 and Super armor on frame 11-17. Reaches full charge on frame 135.",30,31,--,47,,
+Kirby,Ground Attacks,Hammer (Air),28/42,71,--,16.0,**/**,28—29/42—43,--,10/10,14/14,--,28,,
+Kirby,Ground Attacks,Up B (Final Cutter),23/(41/50...)/**/**,--,30,5.0/2.0/(5.0/2.0)/6.0,--/--/-21/**,23—26/(41—49/50...),Landing projectile appears on frames 1-2/3-19.,6/4/6/**,6/3/3/**,Rising/Falling/Landing/Projectile,--,,
+Kirby,Ground Attacks,Down B (Stone),11,--,--,14.0,-35,**,Emerging from stone is a 31 frame animation. Stone armor begins on frame 11. On Shield data assumes release immediately after hit.,10,13,--,--,,
+Kirby,Ground Attacks,"Down B, Air (Stone, Air)",29,--,--,18.0,-17,29—47 (**),Stone armor begins on frame 19. Active frames can be longer depending on release timing. On Shield data assumes release immediately after hit.,11,16,--,--,,
+Kirby,Ground Attacks,Grab,6,34,--,--,,6—7,--,,,,27,,
+Kirby,Ground Attacks,Dash Grab,9,41,--,--,,9—10,--,,,,31,,
+Kirby,Ground Attacks,Pivot Grab,10,36,--,--,,10—11,--,,,,25,,
+Kirby,Ground Attacks,Pummel,1,15,--,1.0,,,Total frames includes 10 frames of hitlag,,,,,,
+Kirby,Ground Attacks,Forward Throw,45,58,--,2.0/5.0,,,--,,,,,,
+Kirby,Ground Attacks,Backward Throw,41,49,--,8.0,,,--,,,,,,
+Kirby,Ground Attacks,Up Throw,58,86,--,10.0,,,Startup and total frames assume level ground. Endlag is always 30 after landing.	Deals 7.0 damage and knockback to anyone near Kirby on frames 45—53.,,,,,,
+Kirby,Ground Attacks,Down Throw,9,87,--,1.0/2.0,,,Throw releases on 58. Active: 9—10/13—14/17—18/21—22/25—26/29—30/33—34/37—38/41—42/56—57.,,,,,,
+Kirby,Ground Attacks,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Kirby,Ground Attacks,Forward Roll,,30,--,,,,Intangible on frame 4-15,,,,,,
+Kirby,Ground Attacks,Backward Roll,,35,--,,,,Intangible on frame 5-16,,,,,,
+Kirby,Ground Attacks,Neutral Air Dodge,,62,10,,,,Intangible on frame 3-29,,,,,,
+Kirby,Ground Attacks,"Air Dodge, Down",,82,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Ground Attacks,"Air Dodge, Diagonally Down",,91,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Ground Attacks,"Air Dodge, Left/Right",,102,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Ground Attacks,"Air Dodge, Diagonally Up",,134,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Ground Attacks,"Air Dodge, Up",,141,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Ground Attacks,Stats,,,,,,,,,,,,,
+Kirby,Ground Attacks,Ledge Grab,,,,,,,,,,,,,
+Kirby,Ground Attacks,Ledge Hang,,,,,,,,,,,,,
+Kirby,Ground Attacks,Ledge Roll,,,,,,,,,,,,,
+Kirby,Ground Attacks,Getup Attacks,,,,,,,,,,,,,
+Kirby,Aerial Attacks,Neutral Air,8,52,6,10.0/8.0/6.0/4.0,-2/-2/-3/-3,8—9/10—13/14—18/19—32,Autocancels on frame 1-3 and 49 onward.,8/7/6/5,4/4/3/3,Early/Late,20,,
+Kirby,Aerial Attacks,Forward Air,10/17/25,47,8,4.0/4.0/6.0,-5/-5/-5,10—11/17—18/25—27,Autocancels on frame 1-9 and 41 onward,5/5/8,3/3/3,--,20,,
+Kirby,Aerial Attacks,Back Air,6,40,10,13.0/8.0,-5/-6,6—8/9—12,Autocancels on frame 1-2 and 32 onward,11/7,5/4,Early/Late,28,,
+Kirby,Aerial Attacks,Up Air,8,35,7,10.0,-3,8—13,Autocancels on frame 1-7 and 20 onward.,8,4,--,22,,
+Kirby,Aerial Attacks,Down Air,18/21/24/27/30/34,54,16,1.2/2.0/2.0,-12,18—19/21—22/24—25/27—28/30—31/34,Landing hit on frame 1. Autocancels on frame 1-17 and 48 onward,4/4/4,2/3/3,multi/final/landing,20,,
+Kirby,Aerial Attacks,Neutral B (Inhale),10,67,--,--,--,10—44 (longer if held),Minimum total frames is 67. Endlag is 19 frames upon release. Can eat projectiles. Projectile eat animation is 51 frames long,--,--,--,--,,
+Kirby,Aerial Attacks,"Inhale, Copy/Spit",8/8,20/30,--,10.0(Swallow)/6.0(Spit),**,**,--,**,**,--,--,,
+Kirby,Aerial Attacks,Side B (Hammer),11(+15),54,--,19.0—28.8,-26 to -18,26—27 (11—12 from charge),Startup is 11 from charging state. Takes 15 frames to enter charging state.,14—16,17—25,--,27,,
+Kirby,Aerial Attacks,"Hammer, Full Charge",11,59,--,35.0,-17,11—12,"If on the ground, invulnerable on frame 2-10 and Super armor on frame 11-17. Reaches full charge on frame 135.",30,31,--,47,,
+Kirby,Aerial Attacks,Hammer (Air),28/42,71,--,16.0,**/**,28—29/42—43,--,10/10,14/14,--,28,,
+Kirby,Aerial Attacks,Up B (Final Cutter),23/(41/50...)/**/**,--,30,5.0/2.0/(5.0/2.0)/6.0,--/--/-21/**,23—26/(41—49/50...),Landing projectile appears on frames 1-2/3-19.,6/4/6/**,6/3/3/**,Rising/Falling/Landing/Projectile,--,,
+Kirby,Aerial Attacks,Down B (Stone),11,--,--,14.0,-35,**,Emerging from stone is a 31 frame animation. Stone armor begins on frame 11. On Shield data assumes release immediately after hit.,10,13,--,--,,
+Kirby,Aerial Attacks,"Down B, Air (Stone, Air)",29,--,--,18.0,-17,29—47 (**),Stone armor begins on frame 19. Active frames can be longer depending on release timing. On Shield data assumes release immediately after hit.,11,16,--,--,,
+Kirby,Aerial Attacks,Grab,6,34,--,--,,6—7,--,,,,27,,
+Kirby,Aerial Attacks,Dash Grab,9,41,--,--,,9—10,--,,,,31,,
+Kirby,Aerial Attacks,Pivot Grab,10,36,--,--,,10—11,--,,,,25,,
+Kirby,Aerial Attacks,Pummel,1,15,--,1.0,,,Total frames includes 10 frames of hitlag,,,,,,
+Kirby,Aerial Attacks,Forward Throw,45,58,--,2.0/5.0,,,--,,,,,,
+Kirby,Aerial Attacks,Backward Throw,41,49,--,8.0,,,--,,,,,,
+Kirby,Aerial Attacks,Up Throw,58,86,--,10.0,,,Startup and total frames assume level ground. Endlag is always 30 after landing.	Deals 7.0 damage and knockback to anyone near Kirby on frames 45—53.,,,,,,
+Kirby,Aerial Attacks,Down Throw,9,87,--,1.0/2.0,,,Throw releases on 58. Active: 9—10/13—14/17—18/21—22/25—26/29—30/33—34/37—38/41—42/56—57.,,,,,,
+Kirby,Aerial Attacks,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Kirby,Aerial Attacks,Forward Roll,,30,--,,,,Intangible on frame 4-15,,,,,,
+Kirby,Aerial Attacks,Backward Roll,,35,--,,,,Intangible on frame 5-16,,,,,,
+Kirby,Aerial Attacks,Neutral Air Dodge,,62,10,,,,Intangible on frame 3-29,,,,,,
+Kirby,Aerial Attacks,"Air Dodge, Down",,82,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Aerial Attacks,"Air Dodge, Diagonally Down",,91,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Aerial Attacks,"Air Dodge, Left/Right",,102,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Aerial Attacks,"Air Dodge, Diagonally Up",,134,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Aerial Attacks,"Air Dodge, Up",,141,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Aerial Attacks,Stats,,,,,,,,,,,,,
+Kirby,Aerial Attacks,Ledge Grab,,,,,,,,,,,,,
+Kirby,Aerial Attacks,Ledge Hang,,,,,,,,,,,,,
+Kirby,Aerial Attacks,Ledge Roll,,,,,,,,,,,,,
+Kirby,Aerial Attacks,Getup Attacks,,,,,,,,,,,,,
+Kirby,Special Attacks,Neutral B (Inhale),10,67,--,--,--,10—44 (longer if held),Minimum total frames is 67. Endlag is 19 frames upon release. Can eat projectiles. Projectile eat animation is 51 frames long,--,--,--,--,,
+Kirby,Special Attacks,"Inhale, Copy/Spit",8/8,20/30,--,10.0(Swallow)/6.0(Spit),**,**,--,**,**,--,--,,
+Kirby,Special Attacks,Side B (Hammer),11(+15),54,--,19.0—28.8,-26 to -18,26—27 (11—12 from charge),Startup is 11 from charging state. Takes 15 frames to enter charging state.,14—16,17—25,--,27,,
+Kirby,Special Attacks,"Hammer, Full Charge",11,59,--,35.0,-17,11—12,"If on the ground, invulnerable on frame 2-10 and Super armor on frame 11-17. Reaches full charge on frame 135.",30,31,--,47,,
+Kirby,Special Attacks,Hammer (Air),28/42,71,--,16.0,**/**,28—29/42—43,--,10/10,14/14,--,28,,
+Kirby,Special Attacks,Up B (Final Cutter),23/(41/50...)/**/**,--,30,5.0/2.0/(5.0/2.0)/6.0,--/--/-21/**,23—26/(41—49/50...),Landing projectile appears on frames 1-2/3-19.,6/4/6/**,6/3/3/**,Rising/Falling/Landing/Projectile,--,,
+Kirby,Special Attacks,Down B (Stone),11,--,--,14.0,-35,**,Emerging from stone is a 31 frame animation. Stone armor begins on frame 11. On Shield data assumes release immediately after hit.,10,13,--,--,,
+Kirby,Special Attacks,"Down B, Air (Stone, Air)",29,--,--,18.0,-17,29—47 (**),Stone armor begins on frame 19. Active frames can be longer depending on release timing. On Shield data assumes release immediately after hit.,11,16,--,--,,
+Kirby,Special Attacks,Grab,6,34,--,--,,6—7,--,,,,27,,
+Kirby,Special Attacks,Dash Grab,9,41,--,--,,9—10,--,,,,31,,
+Kirby,Special Attacks,Pivot Grab,10,36,--,--,,10—11,--,,,,25,,
+Kirby,Special Attacks,Pummel,1,15,--,1.0,,,Total frames includes 10 frames of hitlag,,,,,,
+Kirby,Special Attacks,Forward Throw,45,58,--,2.0/5.0,,,--,,,,,,
+Kirby,Special Attacks,Backward Throw,41,49,--,8.0,,,--,,,,,,
+Kirby,Special Attacks,Up Throw,58,86,--,10.0,,,Startup and total frames assume level ground. Endlag is always 30 after landing.	Deals 7.0 damage and knockback to anyone near Kirby on frames 45—53.,,,,,,
+Kirby,Special Attacks,Down Throw,9,87,--,1.0/2.0,,,Throw releases on 58. Active: 9—10/13—14/17—18/21—22/25—26/29—30/33—34/37—38/41—42/56—57.,,,,,,
+Kirby,Special Attacks,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Kirby,Special Attacks,Forward Roll,,30,--,,,,Intangible on frame 4-15,,,,,,
+Kirby,Special Attacks,Backward Roll,,35,--,,,,Intangible on frame 5-16,,,,,,
+Kirby,Special Attacks,Neutral Air Dodge,,62,10,,,,Intangible on frame 3-29,,,,,,
+Kirby,Special Attacks,"Air Dodge, Down",,82,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Special Attacks,"Air Dodge, Diagonally Down",,91,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Special Attacks,"Air Dodge, Left/Right",,102,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Special Attacks,"Air Dodge, Diagonally Up",,134,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Special Attacks,"Air Dodge, Up",,141,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Special Attacks,Stats,,,,,,,,,,,,,
+Kirby,Special Attacks,Ledge Grab,,,,,,,,,,,,,
+Kirby,Special Attacks,Ledge Hang,,,,,,,,,,,,,
+Kirby,Special Attacks,Ledge Roll,,,,,,,,,,,,,
+Kirby,Special Attacks,Getup Attacks,,,,,,,,,,,,,
+Kirby,Grabs / Throws,Grab,6,34,--,--,,6—7,--,,,,27,,
+Kirby,Grabs / Throws,Dash Grab,9,41,--,--,,9—10,--,,,,31,,
+Kirby,Grabs / Throws,Pivot Grab,10,36,--,--,,10—11,--,,,,25,,
+Kirby,Grabs / Throws,Pummel,1,15,--,1.0,,,Total frames includes 10 frames of hitlag,,,,,,
+Kirby,Grabs / Throws,Forward Throw,45,58,--,2.0/5.0,,,--,,,,,,
+Kirby,Grabs / Throws,Backward Throw,41,49,--,8.0,,,--,,,,,,
+Kirby,Grabs / Throws,Up Throw,58,86,--,10.0,,,Startup and total frames assume level ground. Endlag is always 30 after landing.	Deals 7.0 damage and knockback to anyone near Kirby on frames 45—53.,,,,,,
+Kirby,Grabs / Throws,Down Throw,9,87,--,1.0/2.0,,,Throw releases on 58. Active: 9—10/13—14/17—18/21—22/25—26/29—30/33—34/37—38/41—42/56—57.,,,,,,
+Kirby,Grabs / Throws,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Kirby,Grabs / Throws,Forward Roll,,30,--,,,,Intangible on frame 4-15,,,,,,
+Kirby,Grabs / Throws,Backward Roll,,35,--,,,,Intangible on frame 5-16,,,,,,
+Kirby,Grabs / Throws,Neutral Air Dodge,,62,10,,,,Intangible on frame 3-29,,,,,,
+Kirby,Grabs / Throws,"Air Dodge, Down",,82,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Grabs / Throws,"Air Dodge, Diagonally Down",,91,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Grabs / Throws,"Air Dodge, Left/Right",,102,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Grabs / Throws,"Air Dodge, Diagonally Up",,134,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Grabs / Throws,"Air Dodge, Up",,141,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Grabs / Throws,Stats,,,,,,,,,,,,,
+Kirby,Grabs / Throws,Ledge Grab,,,,,,,,,,,,,
+Kirby,Grabs / Throws,Ledge Hang,,,,,,,,,,,,,
+Kirby,Grabs / Throws,Ledge Roll,,,,,,,,,,,,,
+Kirby,Grabs / Throws,Getup Attacks,,,,,,,,,,,,,
+Kirby,Dodges / Rolls,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Kirby,Dodges / Rolls,Forward Roll,,30,--,,,,Intangible on frame 4-15,,,,,,
+Kirby,Dodges / Rolls,Backward Roll,,35,--,,,,Intangible on frame 5-16,,,,,,
+Kirby,Dodges / Rolls,Neutral Air Dodge,,62,10,,,,Intangible on frame 3-29,,,,,,
+Kirby,Dodges / Rolls,"Air Dodge, Down",,82,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Dodges / Rolls,"Air Dodge, Diagonally Down",,91,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Dodges / Rolls,"Air Dodge, Left/Right",,102,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Dodges / Rolls,"Air Dodge, Diagonally Up",,134,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Dodges / Rolls,"Air Dodge, Up",,141,11-19,,,,Intangible on frame 3-21,,,,,,
+Kirby,Dodges / Rolls,Stats,,,,,,,,,,,,,
+Kirby,Dodges / Rolls,Ledge Grab,,,,,,,,,,,,,
+Kirby,Dodges / Rolls,Ledge Hang,,,,,,,,,,,,,
+Kirby,Dodges / Rolls,Ledge Roll,,,,,,,,,,,,,
+Kirby,Dodges / Rolls,Getup Attacks,,,,,,,,,,,,,
+Kirby,Misc Info,Stats,,,,,,,,,,,,"Stats Weight — 79 Gravity — 0.064 Walk Speed — 0.977 Run Speed — 1.727 Initial Dash — 1.9 Air Speed — 0.84 Total Air Acceleration — 0.095 SH / FH / SHFF / FHFF Frames — 39 / 53 / 26 / 36 Fall Speed / Fast Fall Speed — 1.23 / 1.968 Out of Shield, Back Air — 9 frames Out of Shield, Neutral Air or Up Air — 11 frames Out of Shield, Up Smash — 12 frames Shield Grab (Grab, post-Shieldstun) — 10 frames Shield Drop — 11 frames (universal) Jump Squat (pre-Jump frames) — 3 frames (universal)","[('Back Air', '9'), ('Neutral Air or Up Air', '11'), ('Up Smash', '12')]"
+Kirby,Misc Info,Ledge Grab,,,,,,,,,,,,Ledge Grab Normal,
+Kirby,Misc Info,Ledge Hang,,,,,,,,,,,,Ledge Hang ,
+Kirby,Misc Info,Ledge Roll,,,,,,,,,,,,Ledge Roll ,
+Kirby,Misc Info,Getup Attacks,,,,,,,,,,,,Getup Attacks Facing UpFacing DownTripLedge,

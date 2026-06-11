@@ -1,0 +1,140 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Pac_man,Ground Attacks,Jab 1,4,19,--,Transitions to jab 2 as early as frame 7,2.0,7,3,--,-12,4,15
+Pac_man,Ground Attacks,Jab 2,4,21,--,Transitions to jab 3 as early as frame 7,2.0,5,3,--,-14,4,17
+Pac_man,Ground Attacks,Jab 3,4,33,--,--,4.0,11,5,--,-24,4—5,28
+Pac_man,Ground Attacks,Forward Tilt,5,30,--,--,8.0,7,8,--,-17,5—7,23
+Pac_man,Ground Attacks,Up Tilt,7,24,--,Arm intangibile on frame 7-10,6.5,6,7,--,-10,7—10,14
+Pac_man,Ground Attacks,Down Tilt,7,26,--,--,6.0,6,6,--,-13,7—9,17
+Pac_man,Ground Attacks,Dash Attack,10/19/28/37,45,--,--,2.0 / 4.0,4/11,3/5,Multi/Final,-3,10—11/19—20/28—29/37,8
+Pac_man,Ground Attacks,Forward Smash,16,52,--,Charge hold is frame 4,16.0/9.0,10/7,11/7,Early/Late,-25,16—18(19—29),23
+Pac_man,Ground Attacks,Up Smash,11/15,49,--,Charge hold is frame 4,3.0/14.0,5/10,3/10,--,-24,11/15—17(18—28),21
+Pac_man,Ground Attacks,Down Smash,15,54,--,Charge hold is frame 3,13.0/7.0,9/7,9/6,Early/late,-30,15—17(18—28),26
+Pac_man,Ground Attacks,Neutral Air,3,51,7,Autocancels on frame 1-2 and 45 onward,10.0/6.0,8/6,4/3,Early/Late,-3/-4,3—5(6—9/10—19),32
+Pac_man,Ground Attacks,Forward Air,5,25,10,Autocancels on frame 26 onward,7.6,7,4,--,-6,5—8,17
+Pac_man,Ground Attacks,Back Air,9,40,13,Autocancels on frame 1-8 and 36 onward,11.8/7.0,9/7,5/3,Early/Late,-8/-10,9—11(12—16),24
+Pac_man,Ground Attacks,Up Air,9,36,10,Autocancels on frame 32 onward,10.0,8,4,--,-6,9—16,20
+Pac_man,Ground Attacks,Down Air,6/13/20/27,49,12,Autocancels on frame 50 onward,2.0/7.0,4/7,2/3,Multi/Final,-10/-9,6—7/13—14/20—21/27—28,21
+Pac_man,Ground Attacks,"Neutral B (Bonus Fruit, Throw)",12(+7),41,--,"7 frames to enter charge state. 4 frames to cancel charge with shield. Fruits are Cherry (8), Strawberry (20), Lemon (32), Apple (52), Melon (72), Galaga (92), Bell (112), Key (132) Cherry, Strawberry, Lemon, Apple, and Melon linger for 32 frames after bouncing off somebody",4.3 / 6.0 / 7.5 / 9.5 / 12.0 / 9.0 / 7.5 / 16.0,5/6/7/8/9/7/7/10,2/3/3/4/4/4/3/5,--,-22/-20/-19/-17/-16/-18/-19/-14,**,--
+Pac_man,Ground Attacks,Side B (Power Pellet (Travel | Dash)),24—42 | 35—53,83—118,--,Only the dash's damage depends on level of charge. Knockback-based armor (100 units).,4.0—5.0 | 6.0—12.0,5—6 | 6—9,5 | 6—11,--,-42 to -54,**,--
+Pac_man,Ground Attacks,Up B (Pac-Jump),4,--,30,Trampoline can be interracted with as early as frame 10 and is unblockable.,5.0—10.0,6—8,6—10,first/second/third,**,4—12/13—16/17—21,--
+Pac_man,Ground Attacks,Down B (Fire Hydrant),12,34,--,--,9.0/13.0,7/9,4/5,initial/launched,-11,**,--
+Pac_man,Ground Attacks,Grab,12,58,--,--,--,,,,,12—33,25
+Pac_man,Ground Attacks,Dash Grab,14,66,--,--,--,,,,,14—35,31
+Pac_man,Ground Attacks,Pivot Grab,15,61,--,--,--,,,,,15—36,25
+Pac_man,Ground Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
+Pac_man,Ground Attacks,Forward Throw,13,33,--,--,8.0,,,,,,
+Pac_man,Ground Attacks,Backward Throw,25,59,--,--,11.0,,,,,,
+Pac_man,Ground Attacks,Up Throw,18,37,--,--,5.0,,,,,,
+Pac_man,Ground Attacks,Down Throw,16/24/32/34,64,--,multi/final,1.5/6.0,,,,,,
+Pac_man,Ground Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Pac_man,Ground Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Pac_man,Ground Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Pac_man,Ground Attacks,Neutral Air Dodge,,55,10,Intangible on frame 3-29,,,,,,,
+Pac_man,Ground Attacks,"Air Dodge, Down",,78,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Ground Attacks,"Air Dodge, Diagonally Down",,87,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Ground Attacks,"Air Dodge, Left/Right",,96,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Ground Attacks,"Air Dodge, Diagonally Up",,111,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Ground Attacks,"Air Dodge, Up",,130,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Ground Attacks,Stats,,,,,,,,,,,
+Pac_man,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Pac_man,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Pac_man,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Pac_man,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Pac_man,Aerial Attacks,Neutral Air,3,51,7,Autocancels on frame 1-2 and 45 onward,10.0/6.0,8/6,4/3,Early/Late,-3/-4,3—5(6—9/10—19),32
+Pac_man,Aerial Attacks,Forward Air,5,25,10,Autocancels on frame 26 onward,7.6,7,4,--,-6,5—8,17
+Pac_man,Aerial Attacks,Back Air,9,40,13,Autocancels on frame 1-8 and 36 onward,11.8/7.0,9/7,5/3,Early/Late,-8/-10,9—11(12—16),24
+Pac_man,Aerial Attacks,Up Air,9,36,10,Autocancels on frame 32 onward,10.0,8,4,--,-6,9—16,20
+Pac_man,Aerial Attacks,Down Air,6/13/20/27,49,12,Autocancels on frame 50 onward,2.0/7.0,4/7,2/3,Multi/Final,-10/-9,6—7/13—14/20—21/27—28,21
+Pac_man,Aerial Attacks,"Neutral B (Bonus Fruit, Throw)",12(+7),41,--,"7 frames to enter charge state. 4 frames to cancel charge with shield. Fruits are Cherry (8), Strawberry (20), Lemon (32), Apple (52), Melon (72), Galaga (92), Bell (112), Key (132) Cherry, Strawberry, Lemon, Apple, and Melon linger for 32 frames after bouncing off somebody",4.3 / 6.0 / 7.5 / 9.5 / 12.0 / 9.0 / 7.5 / 16.0,5/6/7/8/9/7/7/10,2/3/3/4/4/4/3/5,--,-22/-20/-19/-17/-16/-18/-19/-14,**,--
+Pac_man,Aerial Attacks,Side B (Power Pellet (Travel | Dash)),24—42 | 35—53,83—118,--,Only the dash's damage depends on level of charge. Knockback-based armor (100 units).,4.0—5.0 | 6.0—12.0,5—6 | 6—9,5 | 6—11,--,-42 to -54,**,--
+Pac_man,Aerial Attacks,Up B (Pac-Jump),4,--,30,Trampoline can be interracted with as early as frame 10 and is unblockable.,5.0—10.0,6—8,6—10,first/second/third,**,4—12/13—16/17—21,--
+Pac_man,Aerial Attacks,Down B (Fire Hydrant),12,34,--,--,9.0/13.0,7/9,4/5,initial/launched,-11,**,--
+Pac_man,Aerial Attacks,Grab,12,58,--,--,--,,,,,12—33,25
+Pac_man,Aerial Attacks,Dash Grab,14,66,--,--,--,,,,,14—35,31
+Pac_man,Aerial Attacks,Pivot Grab,15,61,--,--,--,,,,,15—36,25
+Pac_man,Aerial Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
+Pac_man,Aerial Attacks,Forward Throw,13,33,--,--,8.0,,,,,,
+Pac_man,Aerial Attacks,Backward Throw,25,59,--,--,11.0,,,,,,
+Pac_man,Aerial Attacks,Up Throw,18,37,--,--,5.0,,,,,,
+Pac_man,Aerial Attacks,Down Throw,16/24/32/34,64,--,multi/final,1.5/6.0,,,,,,
+Pac_man,Aerial Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Pac_man,Aerial Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Pac_man,Aerial Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Pac_man,Aerial Attacks,Neutral Air Dodge,,55,10,Intangible on frame 3-29,,,,,,,
+Pac_man,Aerial Attacks,"Air Dodge, Down",,78,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Aerial Attacks,"Air Dodge, Diagonally Down",,87,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Aerial Attacks,"Air Dodge, Left/Right",,96,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Aerial Attacks,"Air Dodge, Diagonally Up",,111,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Aerial Attacks,"Air Dodge, Up",,130,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Aerial Attacks,Stats,,,,,,,,,,,
+Pac_man,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Pac_man,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Pac_man,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Pac_man,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Pac_man,Special Attacks,"Neutral B (Bonus Fruit, Throw)",12(+7),41,--,"7 frames to enter charge state. 4 frames to cancel charge with shield. Fruits are Cherry (8), Strawberry (20), Lemon (32), Apple (52), Melon (72), Galaga (92), Bell (112), Key (132) Cherry, Strawberry, Lemon, Apple, and Melon linger for 32 frames after bouncing off somebody",4.3 / 6.0 / 7.5 / 9.5 / 12.0 / 9.0 / 7.5 / 16.0,5/6/7/8/9/7/7/10,2/3/3/4/4/4/3/5,--,-22/-20/-19/-17/-16/-18/-19/-14,**,--
+Pac_man,Special Attacks,Side B (Power Pellet (Travel | Dash)),24—42 | 35—53,83—118,--,Only the dash's damage depends on level of charge. Knockback-based armor (100 units).,4.0—5.0 | 6.0—12.0,5—6 | 6—9,5 | 6—11,--,-42 to -54,**,--
+Pac_man,Special Attacks,Up B (Pac-Jump),4,--,30,Trampoline can be interracted with as early as frame 10 and is unblockable.,5.0—10.0,6—8,6—10,first/second/third,**,4—12/13—16/17—21,--
+Pac_man,Special Attacks,Down B (Fire Hydrant),12,34,--,--,9.0/13.0,7/9,4/5,initial/launched,-11,**,--
+Pac_man,Special Attacks,Grab,12,58,--,--,--,,,,,12—33,25
+Pac_man,Special Attacks,Dash Grab,14,66,--,--,--,,,,,14—35,31
+Pac_man,Special Attacks,Pivot Grab,15,61,--,--,--,,,,,15—36,25
+Pac_man,Special Attacks,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
+Pac_man,Special Attacks,Forward Throw,13,33,--,--,8.0,,,,,,
+Pac_man,Special Attacks,Backward Throw,25,59,--,--,11.0,,,,,,
+Pac_man,Special Attacks,Up Throw,18,37,--,--,5.0,,,,,,
+Pac_man,Special Attacks,Down Throw,16/24/32/34,64,--,multi/final,1.5/6.0,,,,,,
+Pac_man,Special Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Pac_man,Special Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Pac_man,Special Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Pac_man,Special Attacks,Neutral Air Dodge,,55,10,Intangible on frame 3-29,,,,,,,
+Pac_man,Special Attacks,"Air Dodge, Down",,78,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Special Attacks,"Air Dodge, Diagonally Down",,87,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Special Attacks,"Air Dodge, Left/Right",,96,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Special Attacks,"Air Dodge, Diagonally Up",,111,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Special Attacks,"Air Dodge, Up",,130,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Special Attacks,Stats,,,,,,,,,,,
+Pac_man,Special Attacks,Ledge Grab,,,,,,,,,,,
+Pac_man,Special Attacks,Ledge Hang,,,,,,,,,,,
+Pac_man,Special Attacks,Ledge Roll,,,,,,,,,,,
+Pac_man,Special Attacks,Getup Attacks,,,,,,,,,,,
+Pac_man,Grabs / Throws,Grab,12,58,--,--,--,,,,,12—33,25
+Pac_man,Grabs / Throws,Dash Grab,14,66,--,--,--,,,,,14—35,31
+Pac_man,Grabs / Throws,Pivot Grab,15,61,--,--,--,,,,,15—36,25
+Pac_man,Grabs / Throws,Pummel,1,19,--,Total frames includes 13 frames of hitlag,1.3,,,,,,
+Pac_man,Grabs / Throws,Forward Throw,13,33,--,--,8.0,,,,,,
+Pac_man,Grabs / Throws,Backward Throw,25,59,--,--,11.0,,,,,,
+Pac_man,Grabs / Throws,Up Throw,18,37,--,--,5.0,,,,,,
+Pac_man,Grabs / Throws,Down Throw,16/24/32/34,64,--,multi/final,1.5/6.0,,,,,,
+Pac_man,Grabs / Throws,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Pac_man,Grabs / Throws,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Pac_man,Grabs / Throws,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Pac_man,Grabs / Throws,Neutral Air Dodge,,55,10,Intangible on frame 3-29,,,,,,,
+Pac_man,Grabs / Throws,"Air Dodge, Down",,78,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Grabs / Throws,"Air Dodge, Diagonally Down",,87,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Grabs / Throws,"Air Dodge, Left/Right",,96,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Grabs / Throws,"Air Dodge, Diagonally Up",,111,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Grabs / Throws,"Air Dodge, Up",,130,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Grabs / Throws,Stats,,,,,,,,,,,
+Pac_man,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Pac_man,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Pac_man,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Pac_man,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Pac_man,Dodges / Rolls,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Pac_man,Dodges / Rolls,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Pac_man,Dodges / Rolls,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Pac_man,Dodges / Rolls,Neutral Air Dodge,,55,10,Intangible on frame 3-29,,,,,,,
+Pac_man,Dodges / Rolls,"Air Dodge, Down",,78,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Dodges / Rolls,"Air Dodge, Diagonally Down",,87,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Dodges / Rolls,"Air Dodge, Left/Right",,96,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Dodges / Rolls,"Air Dodge, Diagonally Up",,111,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Dodges / Rolls,"Air Dodge, Up",,130,11-19,Intangible on frame 3-21,,,,,,,
+Pac_man,Dodges / Rolls,Stats,,,,,,,,,,,
+Pac_man,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Pac_man,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Pac_man,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Pac_man,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Pac_man,Misc Info,Stats,,,,,,,,,,,
+Pac_man,Misc Info,Ledge Grab,,,,,,,,,,,
+Pac_man,Misc Info,Ledge Hang,,,,,,,,,,,
+Pac_man,Misc Info,Ledge Roll,,,,,,,,,,,
+Pac_man,Misc Info,Getup Attacks,,,,,,,,,,,

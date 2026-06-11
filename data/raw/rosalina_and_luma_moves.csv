@@ -1,167 +1,167 @@
-character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
-Rosalina_and_luma,Ground Attacks,Jab 1,5,20,--,Transitions to jab 2 as early as frame 9,2.0,7,3,--,-13,5,15
-Rosalina_and_luma,Ground Attacks,Jab 1 (Luma),4,--,--,--,1.5,7(+3),2,--,**,4,--
-Rosalina_and_luma,Ground Attacks,Jab 2,6,24,--,Transitions to jab 3 as early as frame 13,2.0,4,3,--,-16,6—7,17
-Rosalina_and_luma,Ground Attacks,Jab 2 (Luma),6,--,--,--,1.5,4(+1),2,--,-16,6,--
-Rosalina_and_luma,Ground Attacks,Jab 3,7,35,--,--,3.0,10,4,--,-25,7—8,27
-Rosalina_and_luma,Ground Attacks,Jab 3 (Luma),7,--,--,--,3.0,10(+5),2,--,**,7—8,--
-Rosalina_and_luma,Ground Attacks,Rapid Jab,2/5/8/11...,--,--,--,0.3,4,3,--,--,2/5/8/11...,--
-Rosalina_and_luma,Ground Attacks,Rapid Jab (Luma),3/6/9/12...,24,--,--,0.1,4,2,--,--,3/6/9/12...,12
-Rosalina_and_luma,Ground Attacks,Rapid Jab Finisher,5,38,--,--,2.5,10,4,--,-30,6—7,31
-Rosalina_and_luma,Ground Attacks,Rapid Jab Finisher (Luma),5,--,--,--,1.5,8(+4),2,--,-30,6—7,--
-Rosalina_and_luma,Ground Attacks,Forward Tilt,7,37,--,--,7.5,7,8,--,-26,7—9,28
-Rosalina_and_luma,Ground Attacks,Forward Tilt (Luma),8,--,--,--,6.7,10(+5),3,--,-20,8—10,--
-Rosalina_and_luma,Ground Attacks,Up Tilt,7,40,--,Head Intangible on frame 4-10,10.0/8.0,8/7,10/8,Early/Late,-22,7—10/11—17,23
-Rosalina_and_luma,Ground Attacks,Up Tilt (Luma),3,--,--,--,12.0/6.0/4.5,12(+4)/6(-2)/5(-1),4/3/3,Early/Late/Later,-26,3/4—5/6—10,--
-Rosalina_and_luma,Ground Attacks,Down Tilt,5,32,--,--,5.5,8,6,--,-22,5—8,24
-Rosalina_and_luma,Ground Attacks,Down Tilt (Luma),8,--,--,--,5.2,9(+5),3,--,-26,8—13,--
-Rosalina_and_luma,Ground Attacks,Dash Attack,6/17,40,--,--,3.0/4.0,6/7,4/5,--,-31/-19,6—9/17—19,21
-Rosalina_and_luma,Ground Attacks,Dash Attack (Luma),6,--,--,--,4.5,8(+5),2,--,-31/-25,6—8,--
-Rosalina_and_luma,Ground Attacks,Forward Smash,16,51,--,Charge hold is frame 9,12.0,11,8,Normal/Sour,-36/-32,16—18,33
-Rosalina_and_luma,Ground Attacks,Forward Smash (Luma),17,--,--,Charge hold is frame 9,10.5,14(+2),4,--,-21,17—18,--
-Rosalina_and_luma,Ground Attacks,Up Smash,8,47,--,Head intangible on frame 7-16. Charge hold is frame 3,12.0,9,8,--,-34,8—16,31
-Rosalina_and_luma,Ground Attacks,Up Smash (Luma),10,--,--,Charge hold is frame 3,9.0,11(+4),4,--,-34,10—12/13—17,--
-Rosalina_and_luma,Ground Attacks,Down Smash,6/17,41,--,Charge hold is frame 3,7.0/9.0,10/11,6/7,--,-30/-18,6—7/17—18,23
-Rosalina_and_luma,Ground Attacks,Down Smash (Luma),7/19,--,--,--,6.0/7.5,9(+5)/10(+5),3/3,--,-21/-18,7—8/19—20,--
-Rosalina_and_luma,Ground Attacks,Neutral Air,9,43,8,Autocancels on frame 1-4 and 33 onward,10.0/7.0,7/7,4/3,Early/Late,-4/-5,9/10—19/20—31/32/33,10
-Rosalina_and_luma,Ground Attacks,Neutral Air (Luma),7/13,--,--,--,3.0/3.0,5(+4)/5(+4),3/3,--,**,7—9/13—14,--
-Rosalina_and_luma,Ground Attacks,Forward Air,10/13/16/19/22,59,16,Autocancels on frame 1-3 and 50 onward,1.0/4.0,4/8,2/3,Multi/Final,-14/-13,10—20(rehit rate: 3)/22,37
-Rosalina_and_luma,Ground Attacks,Forward Air (Luma),11,--,--,--,4.5,5(-1),3,--,**,11—13,--
-Rosalina_and_luma,Ground Attacks,Back Air,9,54,10,Autocancels on frame 1-3 and 50 onward,11.0,8,4,--,-6,9—11,43
-Rosalina_and_luma,Ground Attacks,Back Air (Luma),10,--,--,--,6.0,9(+5),3,--,**,10—15,--
-Rosalina_and_luma,Ground Attacks,Up Air,8,49,11,Autocancels on frame 45 onward,10.0/5.0/2.0,8/7/6,4/3/2,Early/Late/Later,-7/-8/-9,8—10/11—14/15—19,30
-Rosalina_and_luma,Ground Attacks,Up Air (Luma),6,--,--,--,4.0,6(-2),3,--,**,6—11,--
-Rosalina_and_luma,Ground Attacks,Down Air,17,49,12,Autocancels on frame 50 onward,8.0/6.0/2.0,7/6/4,4/3/2,Early/Late/Later,-7/-8/-9,17/18—22/23—25/26—32,17
-Rosalina_and_luma,Ground Attacks,Down Air (Luma),15,--,--,--,5.0,10(+5),3,--,**,15—19,--
-Rosalina_and_luma,Ground Attacks,Neutral B (Luma Shot),10—91,34—115,--,4 startup and 28 total frames from charge state. Takes 6 frames to enter charge state. 87 frames to reach full charge.,5.0—16.0,6—10,3—5,--,-15 to -9,,--
-Rosalina_and_luma,Ground Attacks,Luma Recall,--,21/23,--,Second total frames is in the air.,--,--,--,--,--,,--
-Rosalina_and_luma,Ground Attacks,Side B (Star Bits),10/16/22,51,--,--,3.0,5,2,--,-22,,--
-Rosalina_and_luma,Ground Attacks,Up B (Launch Star),--,--,30,--,--,--,--,--,--,,--
-Rosalina_and_luma,Ground Attacks,Down B (Gravitational Pull),--,39,--,Pulls on frame 4-29,--,--,--,--,--,,--
-Rosalina_and_luma,Ground Attacks,Grab,6,39,--,--,--,,,,,6—7,32
-Rosalina_and_luma,Ground Attacks,Dash Grab,9,46,--,--,--,,,,,9—10,36
-Rosalina_and_luma,Ground Attacks,Pivot Grab,10,41,--,--,--,,,,,10—11,30
-Rosalina_and_luma,Ground Attacks,Pummel,1,19,**,Total frames includes 13 frames of hitlag,1.3,,,,,,
-Rosalina_and_luma,Ground Attacks,Forward Throw,28,37,--,--,9.0,,,,,,
-Rosalina_and_luma,Ground Attacks,Backward Throw,30,42,--,--,11.0,,,,,,
-Rosalina_and_luma,Ground Attacks,Up Throw,13,37,--,--,7.0,,,,,,
-Rosalina_and_luma,Ground Attacks,Down Throw,13,35,--,--,9.0,,,,,,
-Rosalina_and_luma,Ground Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Rosalina_and_luma,Ground Attacks,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
-Rosalina_and_luma,Ground Attacks,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
-Rosalina_and_luma,Ground Attacks,Neutral Air Dodge,,62,10,Intangible on frame 3-29,,,,,,,
-Rosalina_and_luma,Ground Attacks,"Air Dodge, Down",,86,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Ground Attacks,"Air Dodge, Diagonally Down",,94,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Ground Attacks,"Air Dodge, Left/Right",,105,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Ground Attacks,"Air Dodge, Diagonally Up",,124,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Ground Attacks,"Air Dodge, Up",,144,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Ground Attacks,Stats,,,,,,,,,,,
-Rosalina_and_luma,Ground Attacks,Ledge Grab,,,,,,,,,,,
-Rosalina_and_luma,Ground Attacks,Ledge Hang,,,,,,,,,,,
-Rosalina_and_luma,Ground Attacks,Ledge Roll,,,,,,,,,,,
-Rosalina_and_luma,Ground Attacks,Getup Attacks,,,,,,,,,,,
-Rosalina_and_luma,Aerial Attacks,Neutral Air,9,43,8,Autocancels on frame 1-4 and 33 onward,10.0/7.0,7/7,4/3,Early/Late,-4/-5,9/10—19/20—31/32/33,10
-Rosalina_and_luma,Aerial Attacks,Neutral Air (Luma),7/13,--,--,--,3.0/3.0,5(+4)/5(+4),3/3,--,**,7—9/13—14,--
-Rosalina_and_luma,Aerial Attacks,Forward Air,10/13/16/19/22,59,16,Autocancels on frame 1-3 and 50 onward,1.0/4.0,4/8,2/3,Multi/Final,-14/-13,10—20(rehit rate: 3)/22,37
-Rosalina_and_luma,Aerial Attacks,Forward Air (Luma),11,--,--,--,4.5,5(-1),3,--,**,11—13,--
-Rosalina_and_luma,Aerial Attacks,Back Air,9,54,10,Autocancels on frame 1-3 and 50 onward,11.0,8,4,--,-6,9—11,43
-Rosalina_and_luma,Aerial Attacks,Back Air (Luma),10,--,--,--,6.0,9(+5),3,--,**,10—15,--
-Rosalina_and_luma,Aerial Attacks,Up Air,8,49,11,Autocancels on frame 45 onward,10.0/5.0/2.0,8/7/6,4/3/2,Early/Late/Later,-7/-8/-9,8—10/11—14/15—19,30
-Rosalina_and_luma,Aerial Attacks,Up Air (Luma),6,--,--,--,4.0,6(-2),3,--,**,6—11,--
-Rosalina_and_luma,Aerial Attacks,Down Air,17,49,12,Autocancels on frame 50 onward,8.0/6.0/2.0,7/6/4,4/3/2,Early/Late/Later,-7/-8/-9,17/18—22/23—25/26—32,17
-Rosalina_and_luma,Aerial Attacks,Down Air (Luma),15,--,--,--,5.0,10(+5),3,--,**,15—19,--
-Rosalina_and_luma,Aerial Attacks,Neutral B (Luma Shot),10—91,34—115,--,4 startup and 28 total frames from charge state. Takes 6 frames to enter charge state. 87 frames to reach full charge.,5.0—16.0,6—10,3—5,--,-15 to -9,,--
-Rosalina_and_luma,Aerial Attacks,Luma Recall,--,21/23,--,Second total frames is in the air.,--,--,--,--,--,,--
-Rosalina_and_luma,Aerial Attacks,Side B (Star Bits),10/16/22,51,--,--,3.0,5,2,--,-22,,--
-Rosalina_and_luma,Aerial Attacks,Up B (Launch Star),--,--,30,--,--,--,--,--,--,,--
-Rosalina_and_luma,Aerial Attacks,Down B (Gravitational Pull),--,39,--,Pulls on frame 4-29,--,--,--,--,--,,--
-Rosalina_and_luma,Aerial Attacks,Grab,6,39,--,--,--,,,,,6—7,32
-Rosalina_and_luma,Aerial Attacks,Dash Grab,9,46,--,--,--,,,,,9—10,36
-Rosalina_and_luma,Aerial Attacks,Pivot Grab,10,41,--,--,--,,,,,10—11,30
-Rosalina_and_luma,Aerial Attacks,Pummel,1,19,**,Total frames includes 13 frames of hitlag,1.3,,,,,,
-Rosalina_and_luma,Aerial Attacks,Forward Throw,28,37,--,--,9.0,,,,,,
-Rosalina_and_luma,Aerial Attacks,Backward Throw,30,42,--,--,11.0,,,,,,
-Rosalina_and_luma,Aerial Attacks,Up Throw,13,37,--,--,7.0,,,,,,
-Rosalina_and_luma,Aerial Attacks,Down Throw,13,35,--,--,9.0,,,,,,
-Rosalina_and_luma,Aerial Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Rosalina_and_luma,Aerial Attacks,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
-Rosalina_and_luma,Aerial Attacks,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
-Rosalina_and_luma,Aerial Attacks,Neutral Air Dodge,,62,10,Intangible on frame 3-29,,,,,,,
-Rosalina_and_luma,Aerial Attacks,"Air Dodge, Down",,86,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Aerial Attacks,"Air Dodge, Diagonally Down",,94,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Aerial Attacks,"Air Dodge, Left/Right",,105,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Aerial Attacks,"Air Dodge, Diagonally Up",,124,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Aerial Attacks,"Air Dodge, Up",,144,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Aerial Attacks,Stats,,,,,,,,,,,
-Rosalina_and_luma,Aerial Attacks,Ledge Grab,,,,,,,,,,,
-Rosalina_and_luma,Aerial Attacks,Ledge Hang,,,,,,,,,,,
-Rosalina_and_luma,Aerial Attacks,Ledge Roll,,,,,,,,,,,
-Rosalina_and_luma,Aerial Attacks,Getup Attacks,,,,,,,,,,,
-Rosalina_and_luma,Special Attacks,Neutral B (Luma Shot),10—91,34—115,--,4 startup and 28 total frames from charge state. Takes 6 frames to enter charge state. 87 frames to reach full charge.,5.0—16.0,6—10,3—5,--,-15 to -9,,--
-Rosalina_and_luma,Special Attacks,Luma Recall,--,21/23,--,Second total frames is in the air.,--,--,--,--,--,,--
-Rosalina_and_luma,Special Attacks,Side B (Star Bits),10/16/22,51,--,--,3.0,5,2,--,-22,,--
-Rosalina_and_luma,Special Attacks,Up B (Launch Star),--,--,30,--,--,--,--,--,--,,--
-Rosalina_and_luma,Special Attacks,Down B (Gravitational Pull),--,39,--,Pulls on frame 4-29,--,--,--,--,--,,--
-Rosalina_and_luma,Special Attacks,Grab,6,39,--,--,--,,,,,6—7,32
-Rosalina_and_luma,Special Attacks,Dash Grab,9,46,--,--,--,,,,,9—10,36
-Rosalina_and_luma,Special Attacks,Pivot Grab,10,41,--,--,--,,,,,10—11,30
-Rosalina_and_luma,Special Attacks,Pummel,1,19,**,Total frames includes 13 frames of hitlag,1.3,,,,,,
-Rosalina_and_luma,Special Attacks,Forward Throw,28,37,--,--,9.0,,,,,,
-Rosalina_and_luma,Special Attacks,Backward Throw,30,42,--,--,11.0,,,,,,
-Rosalina_and_luma,Special Attacks,Up Throw,13,37,--,--,7.0,,,,,,
-Rosalina_and_luma,Special Attacks,Down Throw,13,35,--,--,9.0,,,,,,
-Rosalina_and_luma,Special Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Rosalina_and_luma,Special Attacks,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
-Rosalina_and_luma,Special Attacks,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
-Rosalina_and_luma,Special Attacks,Neutral Air Dodge,,62,10,Intangible on frame 3-29,,,,,,,
-Rosalina_and_luma,Special Attacks,"Air Dodge, Down",,86,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Special Attacks,"Air Dodge, Diagonally Down",,94,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Special Attacks,"Air Dodge, Left/Right",,105,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Special Attacks,"Air Dodge, Diagonally Up",,124,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Special Attacks,"Air Dodge, Up",,144,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Special Attacks,Stats,,,,,,,,,,,
-Rosalina_and_luma,Special Attacks,Ledge Grab,,,,,,,,,,,
-Rosalina_and_luma,Special Attacks,Ledge Hang,,,,,,,,,,,
-Rosalina_and_luma,Special Attacks,Ledge Roll,,,,,,,,,,,
-Rosalina_and_luma,Special Attacks,Getup Attacks,,,,,,,,,,,
-Rosalina_and_luma,Grabs / Throws,Grab,6,39,--,--,--,,,,,6—7,32
-Rosalina_and_luma,Grabs / Throws,Dash Grab,9,46,--,--,--,,,,,9—10,36
-Rosalina_and_luma,Grabs / Throws,Pivot Grab,10,41,--,--,--,,,,,10—11,30
-Rosalina_and_luma,Grabs / Throws,Pummel,1,19,**,Total frames includes 13 frames of hitlag,1.3,,,,,,
-Rosalina_and_luma,Grabs / Throws,Forward Throw,28,37,--,--,9.0,,,,,,
-Rosalina_and_luma,Grabs / Throws,Backward Throw,30,42,--,--,11.0,,,,,,
-Rosalina_and_luma,Grabs / Throws,Up Throw,13,37,--,--,7.0,,,,,,
-Rosalina_and_luma,Grabs / Throws,Down Throw,13,35,--,--,9.0,,,,,,
-Rosalina_and_luma,Grabs / Throws,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Rosalina_and_luma,Grabs / Throws,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
-Rosalina_and_luma,Grabs / Throws,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
-Rosalina_and_luma,Grabs / Throws,Neutral Air Dodge,,62,10,Intangible on frame 3-29,,,,,,,
-Rosalina_and_luma,Grabs / Throws,"Air Dodge, Down",,86,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Grabs / Throws,"Air Dodge, Diagonally Down",,94,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Grabs / Throws,"Air Dodge, Left/Right",,105,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Grabs / Throws,"Air Dodge, Diagonally Up",,124,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Grabs / Throws,"Air Dodge, Up",,144,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Grabs / Throws,Stats,,,,,,,,,,,
-Rosalina_and_luma,Grabs / Throws,Ledge Grab,,,,,,,,,,,
-Rosalina_and_luma,Grabs / Throws,Ledge Hang,,,,,,,,,,,
-Rosalina_and_luma,Grabs / Throws,Ledge Roll,,,,,,,,,,,
-Rosalina_and_luma,Grabs / Throws,Getup Attacks,,,,,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,Forward Roll,,30,--,Intangible on frame 4-15,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,Backward Roll,,35,--,Intangible on frame 5-16,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,Neutral Air Dodge,,62,10,Intangible on frame 3-29,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,"Air Dodge, Down",,86,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,"Air Dodge, Diagonally Down",,94,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,"Air Dodge, Left/Right",,105,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,"Air Dodge, Diagonally Up",,124,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,"Air Dodge, Up",,144,11-19,Intangible on frame 3-21,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,Stats,,,,,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
-Rosalina_and_luma,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
-Rosalina_and_luma,Misc Info,Stats,,,,,,,,,,,
-Rosalina_and_luma,Misc Info,Ledge Grab,,,,,,,,,,,
-Rosalina_and_luma,Misc Info,Ledge Hang,,,,,,,,,,,
-Rosalina_and_luma,Misc Info,Ledge Roll,,,,,,,,,,,
-Rosalina_and_luma,Misc Info,Getup Attacks,,,,,,,,,,,
+character,section,move,startup,total_frames,landing_lag,damage,advantage_on_shield,active_frames,notes,shield_lag,shield_stun,hitbox_type,end_lag,misc_raw,oos_options
+Rosalina_and_luma,Ground Attacks,Jab 1,5,20,--,2.0,-13,5,Transitions to jab 2 as early as frame 9,7,3,--,15,,
+Rosalina_and_luma,Ground Attacks,Jab 1 (Luma),4,--,--,1.5,**,4,--,7(+3),2,--,--,,
+Rosalina_and_luma,Ground Attacks,Jab 2,6,24,--,2.0,-16,6—7,Transitions to jab 3 as early as frame 13,4,3,--,17,,
+Rosalina_and_luma,Ground Attacks,Jab 2 (Luma),6,--,--,1.5,-16,6,--,4(+1),2,--,--,,
+Rosalina_and_luma,Ground Attacks,Jab 3,7,35,--,3.0,-25,7—8,--,10,4,--,27,,
+Rosalina_and_luma,Ground Attacks,Jab 3 (Luma),7,--,--,3.0,**,7—8,--,10(+5),2,--,--,,
+Rosalina_and_luma,Ground Attacks,Rapid Jab,2/5/8/11...,--,--,0.3,--,2/5/8/11...,--,4,3,--,--,,
+Rosalina_and_luma,Ground Attacks,Rapid Jab (Luma),3/6/9/12...,24,--,0.1,--,3/6/9/12...,--,4,2,--,12,,
+Rosalina_and_luma,Ground Attacks,Rapid Jab Finisher,5,38,--,2.5,-30,6—7,--,10,4,--,31,,
+Rosalina_and_luma,Ground Attacks,Rapid Jab Finisher (Luma),5,--,--,1.5,-30,6—7,--,8(+4),2,--,--,,
+Rosalina_and_luma,Ground Attacks,Forward Tilt,7,37,--,7.5,-26,7—9,--,7,8,--,28,,
+Rosalina_and_luma,Ground Attacks,Forward Tilt (Luma),8,--,--,6.7,-20,8—10,--,10(+5),3,--,--,,
+Rosalina_and_luma,Ground Attacks,Up Tilt,7,40,--,10.0/8.0,-22,7—10/11—17,Head Intangible on frame 4-10,8/7,10/8,Early/Late,23,,
+Rosalina_and_luma,Ground Attacks,Up Tilt (Luma),3,--,--,12.0/6.0/4.5,-26,3/4—5/6—10,--,12(+4)/6(-2)/5(-1),4/3/3,Early/Late/Later,--,,
+Rosalina_and_luma,Ground Attacks,Down Tilt,5,32,--,5.5,-22,5—8,--,8,6,--,24,,
+Rosalina_and_luma,Ground Attacks,Down Tilt (Luma),8,--,--,5.2,-26,8—13,--,9(+5),3,--,--,,
+Rosalina_and_luma,Ground Attacks,Dash Attack,6/17,40,--,3.0/4.0,-31/-19,6—9/17—19,--,6/7,4/5,--,21,,
+Rosalina_and_luma,Ground Attacks,Dash Attack (Luma),6,--,--,4.5,-31/-25,6—8,--,8(+5),2,--,--,,
+Rosalina_and_luma,Ground Attacks,Forward Smash,16,51,--,12.0,-36/-32,16—18,Charge hold is frame 9,11,8,Normal/Sour,33,,
+Rosalina_and_luma,Ground Attacks,Forward Smash (Luma),17,--,--,10.5,-21,17—18,Charge hold is frame 9,14(+2),4,--,--,,
+Rosalina_and_luma,Ground Attacks,Up Smash,8,47,--,12.0,-34,8—16,Head intangible on frame 7-16. Charge hold is frame 3,9,8,--,31,,
+Rosalina_and_luma,Ground Attacks,Up Smash (Luma),10,--,--,9.0,-34,10—12/13—17,Charge hold is frame 3,11(+4),4,--,--,,
+Rosalina_and_luma,Ground Attacks,Down Smash,6/17,41,--,7.0/9.0,-30/-18,6—7/17—18,Charge hold is frame 3,10/11,6/7,--,23,,
+Rosalina_and_luma,Ground Attacks,Down Smash (Luma),7/19,--,--,6.0/7.5,-21/-18,7—8/19—20,--,9(+5)/10(+5),3/3,--,--,,
+Rosalina_and_luma,Ground Attacks,Neutral Air,9,43,8,10.0/7.0,-4/-5,9/10—19/20—31/32/33,Autocancels on frame 1-4 and 33 onward,7/7,4/3,Early/Late,10,,
+Rosalina_and_luma,Ground Attacks,Neutral Air (Luma),7/13,--,--,3.0/3.0,**,7—9/13—14,--,5(+4)/5(+4),3/3,--,--,,
+Rosalina_and_luma,Ground Attacks,Forward Air,10/13/16/19/22,59,16,1.0/4.0,-14/-13,10—20(rehit rate: 3)/22,Autocancels on frame 1-3 and 50 onward,4/8,2/3,Multi/Final,37,,
+Rosalina_and_luma,Ground Attacks,Forward Air (Luma),11,--,--,4.5,**,11—13,--,5(-1),3,--,--,,
+Rosalina_and_luma,Ground Attacks,Back Air,9,54,10,11.0,-6,9—11,Autocancels on frame 1-3 and 50 onward,8,4,--,43,,
+Rosalina_and_luma,Ground Attacks,Back Air (Luma),10,--,--,6.0,**,10—15,--,9(+5),3,--,--,,
+Rosalina_and_luma,Ground Attacks,Up Air,8,49,11,10.0/5.0/2.0,-7/-8/-9,8—10/11—14/15—19,Autocancels on frame 45 onward,8/7/6,4/3/2,Early/Late/Later,30,,
+Rosalina_and_luma,Ground Attacks,Up Air (Luma),6,--,--,4.0,**,6—11,--,6(-2),3,--,--,,
+Rosalina_and_luma,Ground Attacks,Down Air,17,49,12,8.0/6.0/2.0,-7/-8/-9,17/18—22/23—25/26—32,Autocancels on frame 50 onward,7/6/4,4/3/2,Early/Late/Later,17,,
+Rosalina_and_luma,Ground Attacks,Down Air (Luma),15,--,--,5.0,**,15—19,--,10(+5),3,--,--,,
+Rosalina_and_luma,Ground Attacks,Neutral B (Luma Shot),10—91,34—115,--,5.0—16.0,-15 to -9,,4 startup and 28 total frames from charge state. Takes 6 frames to enter charge state. 87 frames to reach full charge.,6—10,3—5,--,--,,
+Rosalina_and_luma,Ground Attacks,Luma Recall,--,21/23,--,--,--,,Second total frames is in the air.,--,--,--,--,,
+Rosalina_and_luma,Ground Attacks,Side B (Star Bits),10/16/22,51,--,3.0,-22,,--,5,2,--,--,,
+Rosalina_and_luma,Ground Attacks,Up B (Launch Star),--,--,30,--,--,,--,--,--,--,--,,
+Rosalina_and_luma,Ground Attacks,Down B (Gravitational Pull),--,39,--,--,--,,Pulls on frame 4-29,--,--,--,--,,
+Rosalina_and_luma,Ground Attacks,Grab,6,39,--,--,,6—7,--,,,,32,,
+Rosalina_and_luma,Ground Attacks,Dash Grab,9,46,--,--,,9—10,--,,,,36,,
+Rosalina_and_luma,Ground Attacks,Pivot Grab,10,41,--,--,,10—11,--,,,,30,,
+Rosalina_and_luma,Ground Attacks,Pummel,1,19,**,1.3,,,Total frames includes 13 frames of hitlag,,,,,,
+Rosalina_and_luma,Ground Attacks,Forward Throw,28,37,--,9.0,,,--,,,,,,
+Rosalina_and_luma,Ground Attacks,Backward Throw,30,42,--,11.0,,,--,,,,,,
+Rosalina_and_luma,Ground Attacks,Up Throw,13,37,--,7.0,,,--,,,,,,
+Rosalina_and_luma,Ground Attacks,Down Throw,13,35,--,9.0,,,--,,,,,,
+Rosalina_and_luma,Ground Attacks,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Rosalina_and_luma,Ground Attacks,Forward Roll,,30,--,,,,Intangible on frame 4-15,,,,,,
+Rosalina_and_luma,Ground Attacks,Backward Roll,,35,--,,,,Intangible on frame 5-16,,,,,,
+Rosalina_and_luma,Ground Attacks,Neutral Air Dodge,,62,10,,,,Intangible on frame 3-29,,,,,,
+Rosalina_and_luma,Ground Attacks,"Air Dodge, Down",,86,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Ground Attacks,"Air Dodge, Diagonally Down",,94,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Ground Attacks,"Air Dodge, Left/Right",,105,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Ground Attacks,"Air Dodge, Diagonally Up",,124,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Ground Attacks,"Air Dodge, Up",,144,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Ground Attacks,Stats,,,,,,,,,,,,,
+Rosalina_and_luma,Ground Attacks,Ledge Grab,,,,,,,,,,,,,
+Rosalina_and_luma,Ground Attacks,Ledge Hang,,,,,,,,,,,,,
+Rosalina_and_luma,Ground Attacks,Ledge Roll,,,,,,,,,,,,,
+Rosalina_and_luma,Ground Attacks,Getup Attacks,,,,,,,,,,,,,
+Rosalina_and_luma,Aerial Attacks,Neutral Air,9,43,8,10.0/7.0,-4/-5,9/10—19/20—31/32/33,Autocancels on frame 1-4 and 33 onward,7/7,4/3,Early/Late,10,,
+Rosalina_and_luma,Aerial Attacks,Neutral Air (Luma),7/13,--,--,3.0/3.0,**,7—9/13—14,--,5(+4)/5(+4),3/3,--,--,,
+Rosalina_and_luma,Aerial Attacks,Forward Air,10/13/16/19/22,59,16,1.0/4.0,-14/-13,10—20(rehit rate: 3)/22,Autocancels on frame 1-3 and 50 onward,4/8,2/3,Multi/Final,37,,
+Rosalina_and_luma,Aerial Attacks,Forward Air (Luma),11,--,--,4.5,**,11—13,--,5(-1),3,--,--,,
+Rosalina_and_luma,Aerial Attacks,Back Air,9,54,10,11.0,-6,9—11,Autocancels on frame 1-3 and 50 onward,8,4,--,43,,
+Rosalina_and_luma,Aerial Attacks,Back Air (Luma),10,--,--,6.0,**,10—15,--,9(+5),3,--,--,,
+Rosalina_and_luma,Aerial Attacks,Up Air,8,49,11,10.0/5.0/2.0,-7/-8/-9,8—10/11—14/15—19,Autocancels on frame 45 onward,8/7/6,4/3/2,Early/Late/Later,30,,
+Rosalina_and_luma,Aerial Attacks,Up Air (Luma),6,--,--,4.0,**,6—11,--,6(-2),3,--,--,,
+Rosalina_and_luma,Aerial Attacks,Down Air,17,49,12,8.0/6.0/2.0,-7/-8/-9,17/18—22/23—25/26—32,Autocancels on frame 50 onward,7/6/4,4/3/2,Early/Late/Later,17,,
+Rosalina_and_luma,Aerial Attacks,Down Air (Luma),15,--,--,5.0,**,15—19,--,10(+5),3,--,--,,
+Rosalina_and_luma,Aerial Attacks,Neutral B (Luma Shot),10—91,34—115,--,5.0—16.0,-15 to -9,,4 startup and 28 total frames from charge state. Takes 6 frames to enter charge state. 87 frames to reach full charge.,6—10,3—5,--,--,,
+Rosalina_and_luma,Aerial Attacks,Luma Recall,--,21/23,--,--,--,,Second total frames is in the air.,--,--,--,--,,
+Rosalina_and_luma,Aerial Attacks,Side B (Star Bits),10/16/22,51,--,3.0,-22,,--,5,2,--,--,,
+Rosalina_and_luma,Aerial Attacks,Up B (Launch Star),--,--,30,--,--,,--,--,--,--,--,,
+Rosalina_and_luma,Aerial Attacks,Down B (Gravitational Pull),--,39,--,--,--,,Pulls on frame 4-29,--,--,--,--,,
+Rosalina_and_luma,Aerial Attacks,Grab,6,39,--,--,,6—7,--,,,,32,,
+Rosalina_and_luma,Aerial Attacks,Dash Grab,9,46,--,--,,9—10,--,,,,36,,
+Rosalina_and_luma,Aerial Attacks,Pivot Grab,10,41,--,--,,10—11,--,,,,30,,
+Rosalina_and_luma,Aerial Attacks,Pummel,1,19,**,1.3,,,Total frames includes 13 frames of hitlag,,,,,,
+Rosalina_and_luma,Aerial Attacks,Forward Throw,28,37,--,9.0,,,--,,,,,,
+Rosalina_and_luma,Aerial Attacks,Backward Throw,30,42,--,11.0,,,--,,,,,,
+Rosalina_and_luma,Aerial Attacks,Up Throw,13,37,--,7.0,,,--,,,,,,
+Rosalina_and_luma,Aerial Attacks,Down Throw,13,35,--,9.0,,,--,,,,,,
+Rosalina_and_luma,Aerial Attacks,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Rosalina_and_luma,Aerial Attacks,Forward Roll,,30,--,,,,Intangible on frame 4-15,,,,,,
+Rosalina_and_luma,Aerial Attacks,Backward Roll,,35,--,,,,Intangible on frame 5-16,,,,,,
+Rosalina_and_luma,Aerial Attacks,Neutral Air Dodge,,62,10,,,,Intangible on frame 3-29,,,,,,
+Rosalina_and_luma,Aerial Attacks,"Air Dodge, Down",,86,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Aerial Attacks,"Air Dodge, Diagonally Down",,94,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Aerial Attacks,"Air Dodge, Left/Right",,105,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Aerial Attacks,"Air Dodge, Diagonally Up",,124,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Aerial Attacks,"Air Dodge, Up",,144,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Aerial Attacks,Stats,,,,,,,,,,,,,
+Rosalina_and_luma,Aerial Attacks,Ledge Grab,,,,,,,,,,,,,
+Rosalina_and_luma,Aerial Attacks,Ledge Hang,,,,,,,,,,,,,
+Rosalina_and_luma,Aerial Attacks,Ledge Roll,,,,,,,,,,,,,
+Rosalina_and_luma,Aerial Attacks,Getup Attacks,,,,,,,,,,,,,
+Rosalina_and_luma,Special Attacks,Neutral B (Luma Shot),10—91,34—115,--,5.0—16.0,-15 to -9,,4 startup and 28 total frames from charge state. Takes 6 frames to enter charge state. 87 frames to reach full charge.,6—10,3—5,--,--,,
+Rosalina_and_luma,Special Attacks,Luma Recall,--,21/23,--,--,--,,Second total frames is in the air.,--,--,--,--,,
+Rosalina_and_luma,Special Attacks,Side B (Star Bits),10/16/22,51,--,3.0,-22,,--,5,2,--,--,,
+Rosalina_and_luma,Special Attacks,Up B (Launch Star),--,--,30,--,--,,--,--,--,--,--,,
+Rosalina_and_luma,Special Attacks,Down B (Gravitational Pull),--,39,--,--,--,,Pulls on frame 4-29,--,--,--,--,,
+Rosalina_and_luma,Special Attacks,Grab,6,39,--,--,,6—7,--,,,,32,,
+Rosalina_and_luma,Special Attacks,Dash Grab,9,46,--,--,,9—10,--,,,,36,,
+Rosalina_and_luma,Special Attacks,Pivot Grab,10,41,--,--,,10—11,--,,,,30,,
+Rosalina_and_luma,Special Attacks,Pummel,1,19,**,1.3,,,Total frames includes 13 frames of hitlag,,,,,,
+Rosalina_and_luma,Special Attacks,Forward Throw,28,37,--,9.0,,,--,,,,,,
+Rosalina_and_luma,Special Attacks,Backward Throw,30,42,--,11.0,,,--,,,,,,
+Rosalina_and_luma,Special Attacks,Up Throw,13,37,--,7.0,,,--,,,,,,
+Rosalina_and_luma,Special Attacks,Down Throw,13,35,--,9.0,,,--,,,,,,
+Rosalina_and_luma,Special Attacks,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Rosalina_and_luma,Special Attacks,Forward Roll,,30,--,,,,Intangible on frame 4-15,,,,,,
+Rosalina_and_luma,Special Attacks,Backward Roll,,35,--,,,,Intangible on frame 5-16,,,,,,
+Rosalina_and_luma,Special Attacks,Neutral Air Dodge,,62,10,,,,Intangible on frame 3-29,,,,,,
+Rosalina_and_luma,Special Attacks,"Air Dodge, Down",,86,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Special Attacks,"Air Dodge, Diagonally Down",,94,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Special Attacks,"Air Dodge, Left/Right",,105,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Special Attacks,"Air Dodge, Diagonally Up",,124,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Special Attacks,"Air Dodge, Up",,144,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Special Attacks,Stats,,,,,,,,,,,,,
+Rosalina_and_luma,Special Attacks,Ledge Grab,,,,,,,,,,,,,
+Rosalina_and_luma,Special Attacks,Ledge Hang,,,,,,,,,,,,,
+Rosalina_and_luma,Special Attacks,Ledge Roll,,,,,,,,,,,,,
+Rosalina_and_luma,Special Attacks,Getup Attacks,,,,,,,,,,,,,
+Rosalina_and_luma,Grabs / Throws,Grab,6,39,--,--,,6—7,--,,,,32,,
+Rosalina_and_luma,Grabs / Throws,Dash Grab,9,46,--,--,,9—10,--,,,,36,,
+Rosalina_and_luma,Grabs / Throws,Pivot Grab,10,41,--,--,,10—11,--,,,,30,,
+Rosalina_and_luma,Grabs / Throws,Pummel,1,19,**,1.3,,,Total frames includes 13 frames of hitlag,,,,,,
+Rosalina_and_luma,Grabs / Throws,Forward Throw,28,37,--,9.0,,,--,,,,,,
+Rosalina_and_luma,Grabs / Throws,Backward Throw,30,42,--,11.0,,,--,,,,,,
+Rosalina_and_luma,Grabs / Throws,Up Throw,13,37,--,7.0,,,--,,,,,,
+Rosalina_and_luma,Grabs / Throws,Down Throw,13,35,--,9.0,,,--,,,,,,
+Rosalina_and_luma,Grabs / Throws,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Rosalina_and_luma,Grabs / Throws,Forward Roll,,30,--,,,,Intangible on frame 4-15,,,,,,
+Rosalina_and_luma,Grabs / Throws,Backward Roll,,35,--,,,,Intangible on frame 5-16,,,,,,
+Rosalina_and_luma,Grabs / Throws,Neutral Air Dodge,,62,10,,,,Intangible on frame 3-29,,,,,,
+Rosalina_and_luma,Grabs / Throws,"Air Dodge, Down",,86,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Grabs / Throws,"Air Dodge, Diagonally Down",,94,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Grabs / Throws,"Air Dodge, Left/Right",,105,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Grabs / Throws,"Air Dodge, Diagonally Up",,124,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Grabs / Throws,"Air Dodge, Up",,144,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Grabs / Throws,Stats,,,,,,,,,,,,,
+Rosalina_and_luma,Grabs / Throws,Ledge Grab,,,,,,,,,,,,,
+Rosalina_and_luma,Grabs / Throws,Ledge Hang,,,,,,,,,,,,,
+Rosalina_and_luma,Grabs / Throws,Ledge Roll,,,,,,,,,,,,,
+Rosalina_and_luma,Grabs / Throws,Getup Attacks,,,,,,,,,,,,,
+Rosalina_and_luma,Dodges / Rolls,Spot Dodge,,21/26,--,,,,Intangible on frame 3-17,,,,,,
+Rosalina_and_luma,Dodges / Rolls,Forward Roll,,30,--,,,,Intangible on frame 4-15,,,,,,
+Rosalina_and_luma,Dodges / Rolls,Backward Roll,,35,--,,,,Intangible on frame 5-16,,,,,,
+Rosalina_and_luma,Dodges / Rolls,Neutral Air Dodge,,62,10,,,,Intangible on frame 3-29,,,,,,
+Rosalina_and_luma,Dodges / Rolls,"Air Dodge, Down",,86,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Dodges / Rolls,"Air Dodge, Diagonally Down",,94,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Dodges / Rolls,"Air Dodge, Left/Right",,105,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Dodges / Rolls,"Air Dodge, Diagonally Up",,124,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Dodges / Rolls,"Air Dodge, Up",,144,11-19,,,,Intangible on frame 3-21,,,,,,
+Rosalina_and_luma,Dodges / Rolls,Stats,,,,,,,,,,,,,
+Rosalina_and_luma,Dodges / Rolls,Ledge Grab,,,,,,,,,,,,,
+Rosalina_and_luma,Dodges / Rolls,Ledge Hang,,,,,,,,,,,,,
+Rosalina_and_luma,Dodges / Rolls,Ledge Roll,,,,,,,,,,,,,
+Rosalina_and_luma,Dodges / Rolls,Getup Attacks,,,,,,,,,,,,,
+Rosalina_and_luma,Misc Info,Stats,,,,,,,,,,,,"Stats Weight — 82 Gravity — 0.062 Walk Speed — 1.138 Run Speed — 1.795 Initial Dash — 2.035 Air Speed — 1.05 Total Air Acceleration — 0.11 SH / FH / SHFF / FHFF Frames — 50 / 71 / 36 / 49 Fall Speed / Fast Fall Speed — 1.2 / 1.92 Out of Shield, Up Smash — 8 frames Out of Shield, Up Air — 9 frames Out of Shield, Neutral Air — 10 frames Shield Grab (Grab, post-Shieldstun) — 10 frames Shield Drop — 11 frames (universal) Jump Squat (pre-Jump frames) — 3 frames (universal)","[('Up Smash', '8'), ('Up Air', '9'), ('Neutral Air', '10')]"
+Rosalina_and_luma,Misc Info,Ledge Grab,,,,,,,,,,,,Ledge Grab NormalUp BUp B Ending Animation,
+Rosalina_and_luma,Misc Info,Ledge Hang,,,,,,,,,,,,Ledge Hang ,
+Rosalina_and_luma,Misc Info,Ledge Roll,,,,,,,,,,,,Ledge Roll ,
+Rosalina_and_luma,Misc Info,Getup Attacks,,,,,,,,,,,,Getup Attacks Facing UpFacing DownTripLedge,

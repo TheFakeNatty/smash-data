@@ -1,0 +1,160 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Bayonetta,Ground Attacks,Jab 1,9,31,--,Transitions to jab 2 as early as frame 15,1.4,4,3,--,-19,9—12,19
+Bayonetta,Ground Attacks,Jab 2,7,31,--,Transitions to jab 3 as early as frame 14,1.4,4,3,--,-21,7—8,23
+Bayonetta,Ground Attacks,Jab 3,7,39,--,Transitions to rapid jab as early as frame 17,2.2,6,3,--,-29,7—8,31
+Bayonetta,Ground Attacks,Rapid Jab,6/10/14,--,--,--,0.5/0.2,4,4,--,**,**,--
+Bayonetta,Ground Attacks,Rapid Jab Finisher,4/11,62,--,--,5.0,10,6,--,-45,4—5/11—12,50
+Bayonetta,Ground Attacks,Forward Tilt 1,12,31,--,Transitions to next hit as early as frame 16,3.0,5,4,--,-15,12,19
+Bayonetta,Ground Attacks,Forward Tilt 2,12,39,--,Transitions to next hit as early as frame 16,3.0,5,4,--,-23,12,27
+Bayonetta,Ground Attacks,Forward Tilt 3,14,39,--,--,7.0,7,7,--,-21,14—15,24
+Bayonetta,Ground Attacks,Up Tilt,7/10/13,29,--,--,1.5/6.0,--,4/9,3/6,-19/-10,7—9(10—12)/13—15,14
+Bayonetta,Ground Attacks,Down Tilt,7,28,--,--,5.0/6.0,6/6,6/6,Close/Far,-15,7—8,20
+Bayonetta,Ground Attacks,Dash Attack,15,42,--,--,10.0/8.0,8/7,10/8,Early/Late,-17,15—20(21—26),16
+Bayonetta,Ground Attacks,Forward Smash,17,66,--,Charge hold is frame 2,16.0/14.0,14/10,11/10,Far/Close,-38/-39,17—21,45
+Bayonetta,Ground Attacks,Up Smash,18,64,--,Charge hold is frame 6,17.0/16.0/15.0,11/10/10,11/11/10,Early/Late/Later,-35,18—19(20—21/22—23),41
+Bayonetta,Ground Attacks,Down Smash,17/22,65,--,First hit refers to Bayonetta's stomp and is ground only. Charge hold is frame 8.,5.0/16.0/15.0,6/13/12,4/11/10,Stomp/Early/Late,-32,17—18/22(23—25),40
+Bayonetta,Ground Attacks,Neutral Air,9,32,10/18,Second landing lag is extended version. Autocancels on frame 34 onward,8.0/6.0/3.0,7/6/5,4/3/2,Early/Late/Extend,-6/-7/-16,9—17(18—25) (full extended 26—66),--
+Bayonetta,Ground Attacks,Forward Air 1,7,37,12,Autocancels on frame 1-2 and 30 onward,4.0,5,5,--,-7,7—9,28
+Bayonetta,Ground Attacks,Forward Air 2,7,39,12,Autocancels on frame 32 onward,3.3,5,4,--,-8,7—9,30
+Bayonetta,Ground Attacks,Forward Air 3,12,46,12,Autocancels on frame 35 onward,7.0,10,7,--,-5,12—15,31
+Bayonetta,Ground Attacks,Back Air,11,34,10,Autocancels on frame 29 onward,13.0/10.0,9/8,5/4,Far/Close,-5/-6,11—14,20
+Bayonetta,Ground Attacks,Up Air,9,29,8/16,Second landing lag is extended version. Autocancels on frame 1-2 and 26 onward,7.5/3.0,7/5,3/2,Normal/Extend,-5/-14,9—18 (full extended 21—65),--
+Bayonetta,Ground Attacks,Down Air,18,52,30,Landing hit on frame 1. Autocancels on frames 1-17 and 50 onward,7.0/8.0/9.0/5.0,7/7/7/6,3/3/4/6,Close/Far/Farther/Landing,-23,18—24(25—35)/1—2,17
+Bayonetta,Ground Attacks,Neutral B (Bullet Climax),17...,60,--,"15 frame startup with 2 frame release, so 17 frames startup. Reaches full charge on 42. Can only shield cancel as early as frame 45. Repeated shots occur on the same pattern. Alternating 10 and 5 frames later.",1.3,4,2,--,-32,"17—26, 21—30, 32—41, 36—45...",29
+Bayonetta,Ground Attacks,"Neutral B, Full Charge (Bullet Climax, Full Charge)",42/47/57/62...,100,--,Repeated shots occur on the same pattern. Alternating 10 and 5 frames later.,2.7,7,2,--,-29,42—51/47—56/57—66/62—71...,--
+Bayonetta,Ground Attacks,Side B (Heel Slide),15/51,66 (first) 67 (second),--,Second kick occurs only when button is held. Will not occur if first is blocked. 33 endlag when slide is blocked.,8.0/7.0/5.0,7/7/6,8/7/6,Early/Late/Second,-25/-26/-15,15—16/17—18/19—24/25—39 first // 1—11/20—24 second,27
+Bayonetta,Ground Attacks,After Burner Kick,7,31,20,--,6.0/7.0/6.0,9/9/9,6/7/6,Early/Late/Later,-18,7-9/10-12/13-14/15-19,12
+Bayonetta,Ground Attacks,"After Burner Kick, Down",8,43,40,21 endlag on hit. Landing hit occurs on frame 1,6.5/5.0,8/7,7/6,Normal/Landing,-14/-33,8—25/1,18
+Bayonetta,Ground Attacks,Up B (Witch Twist),6/11...,31,18,Both Grounded and Aerial versions are 1.0% weaker when used again.,3.0/0.2/3.0,5/4/5,4/2/4,First/Multi/Final,+0,6/11—25(rehit: 3)/27—28,3
+Bayonetta,Ground Attacks,Down B (Witch Time),8 (start of counter),66,--,"Counters on frames 8—27. Intangible on 8—23, Bat Within 24—35 (overlaps with the Counter
+so 24—27 will trigger both Bat Within AND the slowdown).",--,--,--,--,--,8—27 (counter),--
+Bayonetta,Ground Attacks,Grab,7,37,--,--,**,,,,,7—8,29
+Bayonetta,Ground Attacks,Dash Grab,10,45,--,--,**,,,,,10—11,34
+Bayonetta,Ground Attacks,Pivot Grab,11,40,--,--,**,,,,,11—12,28
+Bayonetta,Ground Attacks,Pummel,1/13,25,--,Startup and Total frames includes 19 frames of hitlag,0.6/0.7,,,,,,
+Bayonetta,Ground Attacks,Forward Throw,14/15,42,--,--,7.0/3.0,,,,,,
+Bayonetta,Ground Attacks,Backward Throw,14-15,49,--,--,3.0/6.0,,,,,,
+Bayonetta,Ground Attacks,Up Throw,9/10,35,--,--,3.0/4.5,,,,,,
+Bayonetta,Ground Attacks,Down Throw,20/21,46,--,--,3.0/5.0,,,,,,
+Bayonetta,Ground Attacks,Spot Dodge,,20/25,--,Intangible on frame 6-17. Bat within on frame 2-5.,,,,,,,
+Bayonetta,Ground Attacks,Forward Roll,,31,--,Intangible on frame 6-15. Bat within on frame 2-5.,,,,,,,
+Bayonetta,Ground Attacks,Backward Roll,,36,--,Intangible on frame 7-16. Bat within on frame 3-6.,,,,,,,
+Bayonetta,Ground Attacks,Neutral Air Dodge,,45,10,Intangible on frame 5-31. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Ground Attacks,"Air Dodge, Down",,63,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Ground Attacks,"Air Dodge, Diagonally Down",,69,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Ground Attacks,"Air Dodge, Left/Right",,74,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Ground Attacks,"Air Dodge, Diagonally Up",,85,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Ground Attacks,"Air Dodge, Up",,93,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Ground Attacks,Stats,,,,,,,,,,,
+Bayonetta,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Bayonetta,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Bayonetta,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Bayonetta,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Bayonetta,Aerial Attacks,Neutral Air,9,32,10/18,Second landing lag is extended version. Autocancels on frame 34 onward,8.0/6.0/3.0,7/6/5,4/3/2,Early/Late/Extend,-6/-7/-16,9—17(18—25) (full extended 26—66),--
+Bayonetta,Aerial Attacks,Forward Air 1,7,37,12,Autocancels on frame 1-2 and 30 onward,4.0,5,5,--,-7,7—9,28
+Bayonetta,Aerial Attacks,Forward Air 2,7,39,12,Autocancels on frame 32 onward,3.3,5,4,--,-8,7—9,30
+Bayonetta,Aerial Attacks,Forward Air 3,12,46,12,Autocancels on frame 35 onward,7.0,10,7,--,-5,12—15,31
+Bayonetta,Aerial Attacks,Back Air,11,34,10,Autocancels on frame 29 onward,13.0/10.0,9/8,5/4,Far/Close,-5/-6,11—14,20
+Bayonetta,Aerial Attacks,Up Air,9,29,8/16,Second landing lag is extended version. Autocancels on frame 1-2 and 26 onward,7.5/3.0,7/5,3/2,Normal/Extend,-5/-14,9—18 (full extended 21—65),--
+Bayonetta,Aerial Attacks,Down Air,18,52,30,Landing hit on frame 1. Autocancels on frames 1-17 and 50 onward,7.0/8.0/9.0/5.0,7/7/7/6,3/3/4/6,Close/Far/Farther/Landing,-23,18—24(25—35)/1—2,17
+Bayonetta,Aerial Attacks,Neutral B (Bullet Climax),17...,60,--,"15 frame startup with 2 frame release, so 17 frames startup. Reaches full charge on 42. Can only shield cancel as early as frame 45. Repeated shots occur on the same pattern. Alternating 10 and 5 frames later.",1.3,4,2,--,-32,"17—26, 21—30, 32—41, 36—45...",29
+Bayonetta,Aerial Attacks,"Neutral B, Full Charge (Bullet Climax, Full Charge)",42/47/57/62...,100,--,Repeated shots occur on the same pattern. Alternating 10 and 5 frames later.,2.7,7,2,--,-29,42—51/47—56/57—66/62—71...,--
+Bayonetta,Aerial Attacks,Side B (Heel Slide),15/51,66 (first) 67 (second),--,Second kick occurs only when button is held. Will not occur if first is blocked. 33 endlag when slide is blocked.,8.0/7.0/5.0,7/7/6,8/7/6,Early/Late/Second,-25/-26/-15,15—16/17—18/19—24/25—39 first // 1—11/20—24 second,27
+Bayonetta,Aerial Attacks,After Burner Kick,7,31,20,--,6.0/7.0/6.0,9/9/9,6/7/6,Early/Late/Later,-18,7-9/10-12/13-14/15-19,12
+Bayonetta,Aerial Attacks,"After Burner Kick, Down",8,43,40,21 endlag on hit. Landing hit occurs on frame 1,6.5/5.0,8/7,7/6,Normal/Landing,-14/-33,8—25/1,18
+Bayonetta,Aerial Attacks,Up B (Witch Twist),6/11...,31,18,Both Grounded and Aerial versions are 1.0% weaker when used again.,3.0/0.2/3.0,5/4/5,4/2/4,First/Multi/Final,+0,6/11—25(rehit: 3)/27—28,3
+Bayonetta,Aerial Attacks,Down B (Witch Time),8 (start of counter),66,--,"Counters on frames 8—27. Intangible on 8—23, Bat Within 24—35 (overlaps with the Counter
+so 24—27 will trigger both Bat Within AND the slowdown).",--,--,--,--,--,8—27 (counter),--
+Bayonetta,Aerial Attacks,Grab,7,37,--,--,**,,,,,7—8,29
+Bayonetta,Aerial Attacks,Dash Grab,10,45,--,--,**,,,,,10—11,34
+Bayonetta,Aerial Attacks,Pivot Grab,11,40,--,--,**,,,,,11—12,28
+Bayonetta,Aerial Attacks,Pummel,1/13,25,--,Startup and Total frames includes 19 frames of hitlag,0.6/0.7,,,,,,
+Bayonetta,Aerial Attacks,Forward Throw,14/15,42,--,--,7.0/3.0,,,,,,
+Bayonetta,Aerial Attacks,Backward Throw,14-15,49,--,--,3.0/6.0,,,,,,
+Bayonetta,Aerial Attacks,Up Throw,9/10,35,--,--,3.0/4.5,,,,,,
+Bayonetta,Aerial Attacks,Down Throw,20/21,46,--,--,3.0/5.0,,,,,,
+Bayonetta,Aerial Attacks,Spot Dodge,,20/25,--,Intangible on frame 6-17. Bat within on frame 2-5.,,,,,,,
+Bayonetta,Aerial Attacks,Forward Roll,,31,--,Intangible on frame 6-15. Bat within on frame 2-5.,,,,,,,
+Bayonetta,Aerial Attacks,Backward Roll,,36,--,Intangible on frame 7-16. Bat within on frame 3-6.,,,,,,,
+Bayonetta,Aerial Attacks,Neutral Air Dodge,,45,10,Intangible on frame 5-31. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Aerial Attacks,"Air Dodge, Down",,63,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Aerial Attacks,"Air Dodge, Diagonally Down",,69,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Aerial Attacks,"Air Dodge, Left/Right",,74,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Aerial Attacks,"Air Dodge, Diagonally Up",,85,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Aerial Attacks,"Air Dodge, Up",,93,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Aerial Attacks,Stats,,,,,,,,,,,
+Bayonetta,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Bayonetta,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Bayonetta,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Bayonetta,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Bayonetta,Special Attacks,Neutral B (Bullet Climax),17...,60,--,"15 frame startup with 2 frame release, so 17 frames startup. Reaches full charge on 42. Can only shield cancel as early as frame 45. Repeated shots occur on the same pattern. Alternating 10 and 5 frames later.",1.3,4,2,--,-32,"17—26, 21—30, 32—41, 36—45...",29
+Bayonetta,Special Attacks,"Neutral B, Full Charge (Bullet Climax, Full Charge)",42/47/57/62...,100,--,Repeated shots occur on the same pattern. Alternating 10 and 5 frames later.,2.7,7,2,--,-29,42—51/47—56/57—66/62—71...,--
+Bayonetta,Special Attacks,Side B (Heel Slide),15/51,66 (first) 67 (second),--,Second kick occurs only when button is held. Will not occur if first is blocked. 33 endlag when slide is blocked.,8.0/7.0/5.0,7/7/6,8/7/6,Early/Late/Second,-25/-26/-15,15—16/17—18/19—24/25—39 first // 1—11/20—24 second,27
+Bayonetta,Special Attacks,After Burner Kick,7,31,20,--,6.0/7.0/6.0,9/9/9,6/7/6,Early/Late/Later,-18,7-9/10-12/13-14/15-19,12
+Bayonetta,Special Attacks,"After Burner Kick, Down",8,43,40,21 endlag on hit. Landing hit occurs on frame 1,6.5/5.0,8/7,7/6,Normal/Landing,-14/-33,8—25/1,18
+Bayonetta,Special Attacks,Up B (Witch Twist),6/11...,31,18,Both Grounded and Aerial versions are 1.0% weaker when used again.,3.0/0.2/3.0,5/4/5,4/2/4,First/Multi/Final,+0,6/11—25(rehit: 3)/27—28,3
+Bayonetta,Special Attacks,Down B (Witch Time),8 (start of counter),66,--,"Counters on frames 8—27. Intangible on 8—23, Bat Within 24—35 (overlaps with the Counter
+so 24—27 will trigger both Bat Within AND the slowdown).",--,--,--,--,--,8—27 (counter),--
+Bayonetta,Special Attacks,Grab,7,37,--,--,**,,,,,7—8,29
+Bayonetta,Special Attacks,Dash Grab,10,45,--,--,**,,,,,10—11,34
+Bayonetta,Special Attacks,Pivot Grab,11,40,--,--,**,,,,,11—12,28
+Bayonetta,Special Attacks,Pummel,1/13,25,--,Startup and Total frames includes 19 frames of hitlag,0.6/0.7,,,,,,
+Bayonetta,Special Attacks,Forward Throw,14/15,42,--,--,7.0/3.0,,,,,,
+Bayonetta,Special Attacks,Backward Throw,14-15,49,--,--,3.0/6.0,,,,,,
+Bayonetta,Special Attacks,Up Throw,9/10,35,--,--,3.0/4.5,,,,,,
+Bayonetta,Special Attacks,Down Throw,20/21,46,--,--,3.0/5.0,,,,,,
+Bayonetta,Special Attacks,Spot Dodge,,20/25,--,Intangible on frame 6-17. Bat within on frame 2-5.,,,,,,,
+Bayonetta,Special Attacks,Forward Roll,,31,--,Intangible on frame 6-15. Bat within on frame 2-5.,,,,,,,
+Bayonetta,Special Attacks,Backward Roll,,36,--,Intangible on frame 7-16. Bat within on frame 3-6.,,,,,,,
+Bayonetta,Special Attacks,Neutral Air Dodge,,45,10,Intangible on frame 5-31. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Special Attacks,"Air Dodge, Down",,63,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Special Attacks,"Air Dodge, Diagonally Down",,69,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Special Attacks,"Air Dodge, Left/Right",,74,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Special Attacks,"Air Dodge, Diagonally Up",,85,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Special Attacks,"Air Dodge, Up",,93,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Special Attacks,Stats,,,,,,,,,,,
+Bayonetta,Special Attacks,Ledge Grab,,,,,,,,,,,
+Bayonetta,Special Attacks,Ledge Hang,,,,,,,,,,,
+Bayonetta,Special Attacks,Ledge Roll,,,,,,,,,,,
+Bayonetta,Special Attacks,Getup Attacks,,,,,,,,,,,
+Bayonetta,Grabs / Throws,Grab,7,37,--,--,**,,,,,7—8,29
+Bayonetta,Grabs / Throws,Dash Grab,10,45,--,--,**,,,,,10—11,34
+Bayonetta,Grabs / Throws,Pivot Grab,11,40,--,--,**,,,,,11—12,28
+Bayonetta,Grabs / Throws,Pummel,1/13,25,--,Startup and Total frames includes 19 frames of hitlag,0.6/0.7,,,,,,
+Bayonetta,Grabs / Throws,Forward Throw,14/15,42,--,--,7.0/3.0,,,,,,
+Bayonetta,Grabs / Throws,Backward Throw,14-15,49,--,--,3.0/6.0,,,,,,
+Bayonetta,Grabs / Throws,Up Throw,9/10,35,--,--,3.0/4.5,,,,,,
+Bayonetta,Grabs / Throws,Down Throw,20/21,46,--,--,3.0/5.0,,,,,,
+Bayonetta,Grabs / Throws,Spot Dodge,,20/25,--,Intangible on frame 6-17. Bat within on frame 2-5.,,,,,,,
+Bayonetta,Grabs / Throws,Forward Roll,,31,--,Intangible on frame 6-15. Bat within on frame 2-5.,,,,,,,
+Bayonetta,Grabs / Throws,Backward Roll,,36,--,Intangible on frame 7-16. Bat within on frame 3-6.,,,,,,,
+Bayonetta,Grabs / Throws,Neutral Air Dodge,,45,10,Intangible on frame 5-31. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Grabs / Throws,"Air Dodge, Down",,63,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Grabs / Throws,"Air Dodge, Diagonally Down",,69,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Grabs / Throws,"Air Dodge, Left/Right",,74,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Grabs / Throws,"Air Dodge, Diagonally Up",,85,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Grabs / Throws,"Air Dodge, Up",,93,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Grabs / Throws,Stats,,,,,,,,,,,
+Bayonetta,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Bayonetta,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Bayonetta,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Bayonetta,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Bayonetta,Dodges / Rolls,Spot Dodge,,20/25,--,Intangible on frame 6-17. Bat within on frame 2-5.,,,,,,,
+Bayonetta,Dodges / Rolls,Forward Roll,,31,--,Intangible on frame 6-15. Bat within on frame 2-5.,,,,,,,
+Bayonetta,Dodges / Rolls,Backward Roll,,36,--,Intangible on frame 7-16. Bat within on frame 3-6.,,,,,,,
+Bayonetta,Dodges / Rolls,Neutral Air Dodge,,45,10,Intangible on frame 5-31. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Dodges / Rolls,"Air Dodge, Down",,63,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Dodges / Rolls,"Air Dodge, Diagonally Down",,69,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Dodges / Rolls,"Air Dodge, Left/Right",,74,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Dodges / Rolls,"Air Dodge, Diagonally Up",,85,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Dodges / Rolls,"Air Dodge, Up",,93,11-19,Intangible on frame 5-21. Bat within on frame 1-4.,,,,,,,
+Bayonetta,Dodges / Rolls,Stats,,,,,,,,,,,
+Bayonetta,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Bayonetta,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Bayonetta,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Bayonetta,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Bayonetta,Misc Info,Stats,,,,,,,,,,,
+Bayonetta,Misc Info,Ledge Grab,,,,,,,,,,,
+Bayonetta,Misc Info,Ledge Hang,,,,,,,,,,,
+Bayonetta,Misc Info,Ledge Roll,,,,,,,,,,,
+Bayonetta,Misc Info,Getup Attacks,,,,,,,,,,,

@@ -1,0 +1,145 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Banjo_and_kazooie,Ground Attacks,Jab 1,4,27,--,Transitions to Jab 2 as early as frame 8,2.2,8,3,--,-20,4—6,21
+Banjo_and_kazooie,Ground Attacks,Jab 2,4,24,--,Transitions to Jab 3 as early as frame 10 or Rapid on 9.,2.2,7,3,--,-17,4—6,18
+Banjo_and_kazooie,Ground Attacks,Jab 3,5,31,--,--,3.8,10,5,--,-21,5—7,24
+Banjo_and_kazooie,Ground Attacks,Rapid Jab,5/7/9...,--,--,--,0.4,4,3,--,--,**,--
+Banjo_and_kazooie,Ground Attacks,Rapid Jab Finisher,7,41,--,--,1.6,9,3,--,-31,7—8,33
+Banjo_and_kazooie,Ground Attacks,Forward Tilt,7,28,--,--,9.0/7.0,8/7,9/7,Far/Close,-12/-14,7—9,19
+Banjo_and_kazooie,Ground Attacks,Up Tilt,11,31,--,Kazooie has hurtboxes on frames 1—24.,10.0,8,10,--,-10,11—14,17
+Banjo_and_kazooie,Ground Attacks,Down Tilt,12,37,--,--,6.0/5.0/4.0,7/6/6,6/6/5,Far/Close/Late,-19/-19,12—17(18—21),16
+Banjo_and_kazooie,Ground Attacks,Dash Attack,9,36,--,--,12.0/8.0,10/7,11/8,Early/Late,-16,9—12(13—20),16
+Banjo_and_kazooie,Ground Attacks,Forward Smash,19,52,--,Charge hold is frame 9,16.0,12,11,--,-22,19—21,31
+Banjo_and_kazooie,Ground Attacks,Up Smash,9...,65,--,Charge hold is frame 6,1.0/1.5/3.6,4/4/10,2/**/4,First/Multi/Final,-35,9—10/13—25 (rehit: 2)/26—27,40
+Banjo_and_kazooie,Ground Attacks,Down Smash,13,46,--,Charge hold is frame 2,15.0,10,10,--,-23,13—17,29
+Banjo_and_kazooie,Ground Attacks,Neutral Air,10/13/16/19/22/25/28/31,47,16,Autocancels on frame 1-9 and 39 onward,0.8/4.2,4/10,2/3,Multi/Final,-14/-13,10-11/13-14/16-17/19-20/22-23/25-26/28-29/31-32,15
+Banjo_and_kazooie,Ground Attacks,Forward Air,15,51,11,Autocancels on frame 1-2 and 37 onward,15.0/12.0,13/10,5/5,Early/Late,-6/-6,15—17(18),33
+Banjo_and_kazooie,Ground Attacks,Back Air,8/12/16,43,18,Autocancels on frame 1-7 and 37 onward,1.6/4.8,4/6,2/3,Multi/Final,-16/-15,8—9/12—13/16—17,26
+Banjo_and_kazooie,Ground Attacks,Up Air,7/9,33,12,Autocancels on frame 35 onward,1.6/5.8,4/6,2/3,First/Second,-10/-9,7—8/9—11,22
+Banjo_and_kazooie,Ground Attacks,Down Air,15,56,27,Landing hit on frame 1. Autocancels on frame 55 onward,10.0/2.0,8/4,4/3,Falling/Landing,-23,15—17(18—45)/1—2,11
+Banjo_and_kazooie,Ground Attacks,Neutral B (Egg Firing),13,49,--,Transitions to Blaster on frame 20.,5.4/4.6/3.8,6/6/5,3/3/2,Early/Late/Latest,-27,13—22(23—52/53—102),--
+Banjo_and_kazooie,Ground Attacks,Breegull Blaster,4(+28),24,--,Taking out Kazooie is a 28 frame animation. Putting her away is 11 frames.,2.4 — 0.8,5—4,2—2,--,-13 — -14,4—6/7—9/10—15/16—18,6
+Banjo_and_kazooie,Ground Attacks,Side B (Wonderwing),18,82,--,Invincible on frames 18-53. Wonderwing is specially designed to lose to grab trades.,22.0/16.0,16/11,10/5,Early/Late,-54,18—35(36—53),29
+Banjo_and_kazooie,Ground Attacks,Up B (Shock Spring Jump),15,42,42,Invulnerable on frame 15-17. Can be charged an additional 16 frames. Does not place Banjo in a helpless state.,3.0,5,2,--,-20,**,--
+Banjo_and_kazooie,Ground Attacks,Down B (Rear Egg),10,44,--,Damage varies slightly based on velocity. Explodes 1 frame after contact.,0.5/8.5,--/-7,--/-3,Contact/Explosion,-23,10—143/1,--
+Banjo_and_kazooie,Ground Attacks,Grab,7,36,--,--,--,,,,,7—8,28
+Banjo_and_kazooie,Ground Attacks,Dash Grab,10,44,--,--,--,,,,,10—11,33
+Banjo_and_kazooie,Ground Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Banjo_and_kazooie,Ground Attacks,Pummel,1,19,--,total frames includes 13 frames of hitlag (plus one in 1v1),1.4,,,,,,
+Banjo_and_kazooie,Ground Attacks,Forward Throw,9/11,33,--,--,5.4/3.0,,,,,,
+Banjo_and_kazooie,Ground Attacks,Backward Throw,36,53,--,--,11.4,,,,,,
+Banjo_and_kazooie,Ground Attacks,Up Throw,13/15,39,--,--,5.4/3.0,,,,,,
+Banjo_and_kazooie,Ground Attacks,Down Throw,34,55,--,--,5.6,,,,,,
+Banjo_and_kazooie,Ground Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Banjo_and_kazooie,Ground Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Banjo_and_kazooie,Ground Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Banjo_and_kazooie,Ground Attacks,Neutral Air Dodge,,45,**,Intangible on frame 3-30,,,,,,,
+Banjo_and_kazooie,Ground Attacks,"Air Dodge, Down",,62,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Ground Attacks,"Air Dodge, Diagonally Down",,69,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Ground Attacks,"Air Dodge, Left/Right",,75,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Ground Attacks,"Air Dodge, Diagonally Up",,88,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Ground Attacks,"Air Dodge, Up",,97,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Ground Attacks,Stats,,,,,,,,,,,
+Banjo_and_kazooie,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Banjo_and_kazooie,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Banjo_and_kazooie,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Banjo_and_kazooie,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Neutral Air,10/13/16/19/22/25/28/31,47,16,Autocancels on frame 1-9 and 39 onward,0.8/4.2,4/10,2/3,Multi/Final,-14/-13,10-11/13-14/16-17/19-20/22-23/25-26/28-29/31-32,15
+Banjo_and_kazooie,Aerial Attacks,Forward Air,15,51,11,Autocancels on frame 1-2 and 37 onward,15.0/12.0,13/10,5/5,Early/Late,-6/-6,15—17(18),33
+Banjo_and_kazooie,Aerial Attacks,Back Air,8/12/16,43,18,Autocancels on frame 1-7 and 37 onward,1.6/4.8,4/6,2/3,Multi/Final,-16/-15,8—9/12—13/16—17,26
+Banjo_and_kazooie,Aerial Attacks,Up Air,7/9,33,12,Autocancels on frame 35 onward,1.6/5.8,4/6,2/3,First/Second,-10/-9,7—8/9—11,22
+Banjo_and_kazooie,Aerial Attacks,Down Air,15,56,27,Landing hit on frame 1. Autocancels on frame 55 onward,10.0/2.0,8/4,4/3,Falling/Landing,-23,15—17(18—45)/1—2,11
+Banjo_and_kazooie,Aerial Attacks,Neutral B (Egg Firing),13,49,--,Transitions to Blaster on frame 20.,5.4/4.6/3.8,6/6/5,3/3/2,Early/Late/Latest,-27,13—22(23—52/53—102),--
+Banjo_and_kazooie,Aerial Attacks,Breegull Blaster,4(+28),24,--,Taking out Kazooie is a 28 frame animation. Putting her away is 11 frames.,2.4 — 0.8,5—4,2—2,--,-13 — -14,4—6/7—9/10—15/16—18,6
+Banjo_and_kazooie,Aerial Attacks,Side B (Wonderwing),18,82,--,Invincible on frames 18-53. Wonderwing is specially designed to lose to grab trades.,22.0/16.0,16/11,10/5,Early/Late,-54,18—35(36—53),29
+Banjo_and_kazooie,Aerial Attacks,Up B (Shock Spring Jump),15,42,42,Invulnerable on frame 15-17. Can be charged an additional 16 frames. Does not place Banjo in a helpless state.,3.0,5,2,--,-20,**,--
+Banjo_and_kazooie,Aerial Attacks,Down B (Rear Egg),10,44,--,Damage varies slightly based on velocity. Explodes 1 frame after contact.,0.5/8.5,--/-7,--/-3,Contact/Explosion,-23,10—143/1,--
+Banjo_and_kazooie,Aerial Attacks,Grab,7,36,--,--,--,,,,,7—8,28
+Banjo_and_kazooie,Aerial Attacks,Dash Grab,10,44,--,--,--,,,,,10—11,33
+Banjo_and_kazooie,Aerial Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Banjo_and_kazooie,Aerial Attacks,Pummel,1,19,--,total frames includes 13 frames of hitlag (plus one in 1v1),1.4,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Forward Throw,9/11,33,--,--,5.4/3.0,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Backward Throw,36,53,--,--,11.4,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Up Throw,13/15,39,--,--,5.4/3.0,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Down Throw,34,55,--,--,5.6,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Neutral Air Dodge,,45,**,Intangible on frame 3-30,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,"Air Dodge, Down",,62,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,"Air Dodge, Diagonally Down",,69,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,"Air Dodge, Left/Right",,75,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,"Air Dodge, Diagonally Up",,88,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,"Air Dodge, Up",,97,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Stats,,,,,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Banjo_and_kazooie,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Banjo_and_kazooie,Special Attacks,Neutral B (Egg Firing),13,49,--,Transitions to Blaster on frame 20.,5.4/4.6/3.8,6/6/5,3/3/2,Early/Late/Latest,-27,13—22(23—52/53—102),--
+Banjo_and_kazooie,Special Attacks,Breegull Blaster,4(+28),24,--,Taking out Kazooie is a 28 frame animation. Putting her away is 11 frames.,2.4 — 0.8,5—4,2—2,--,-13 — -14,4—6/7—9/10—15/16—18,6
+Banjo_and_kazooie,Special Attacks,Side B (Wonderwing),18,82,--,Invincible on frames 18-53. Wonderwing is specially designed to lose to grab trades.,22.0/16.0,16/11,10/5,Early/Late,-54,18—35(36—53),29
+Banjo_and_kazooie,Special Attacks,Up B (Shock Spring Jump),15,42,42,Invulnerable on frame 15-17. Can be charged an additional 16 frames. Does not place Banjo in a helpless state.,3.0,5,2,--,-20,**,--
+Banjo_and_kazooie,Special Attacks,Down B (Rear Egg),10,44,--,Damage varies slightly based on velocity. Explodes 1 frame after contact.,0.5/8.5,--/-7,--/-3,Contact/Explosion,-23,10—143/1,--
+Banjo_and_kazooie,Special Attacks,Grab,7,36,--,--,--,,,,,7—8,28
+Banjo_and_kazooie,Special Attacks,Dash Grab,10,44,--,--,--,,,,,10—11,33
+Banjo_and_kazooie,Special Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Banjo_and_kazooie,Special Attacks,Pummel,1,19,--,total frames includes 13 frames of hitlag (plus one in 1v1),1.4,,,,,,
+Banjo_and_kazooie,Special Attacks,Forward Throw,9/11,33,--,--,5.4/3.0,,,,,,
+Banjo_and_kazooie,Special Attacks,Backward Throw,36,53,--,--,11.4,,,,,,
+Banjo_and_kazooie,Special Attacks,Up Throw,13/15,39,--,--,5.4/3.0,,,,,,
+Banjo_and_kazooie,Special Attacks,Down Throw,34,55,--,--,5.6,,,,,,
+Banjo_and_kazooie,Special Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Banjo_and_kazooie,Special Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Banjo_and_kazooie,Special Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Banjo_and_kazooie,Special Attacks,Neutral Air Dodge,,45,**,Intangible on frame 3-30,,,,,,,
+Banjo_and_kazooie,Special Attacks,"Air Dodge, Down",,62,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Special Attacks,"Air Dodge, Diagonally Down",,69,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Special Attacks,"Air Dodge, Left/Right",,75,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Special Attacks,"Air Dodge, Diagonally Up",,88,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Special Attacks,"Air Dodge, Up",,97,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Special Attacks,Stats,,,,,,,,,,,
+Banjo_and_kazooie,Special Attacks,Ledge Grab,,,,,,,,,,,
+Banjo_and_kazooie,Special Attacks,Ledge Hang,,,,,,,,,,,
+Banjo_and_kazooie,Special Attacks,Ledge Roll,,,,,,,,,,,
+Banjo_and_kazooie,Special Attacks,Getup Attacks,,,,,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Grab,7,36,--,--,--,,,,,7—8,28
+Banjo_and_kazooie,Grabs / Throws,Dash Grab,10,44,--,--,--,,,,,10—11,33
+Banjo_and_kazooie,Grabs / Throws,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Banjo_and_kazooie,Grabs / Throws,Pummel,1,19,--,total frames includes 13 frames of hitlag (plus one in 1v1),1.4,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Forward Throw,9/11,33,--,--,5.4/3.0,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Backward Throw,36,53,--,--,11.4,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Up Throw,13/15,39,--,--,5.4/3.0,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Down Throw,34,55,--,--,5.6,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Neutral Air Dodge,,45,**,Intangible on frame 3-30,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,"Air Dodge, Down",,62,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,"Air Dodge, Diagonally Down",,69,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,"Air Dodge, Left/Right",,75,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,"Air Dodge, Diagonally Up",,88,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,"Air Dodge, Up",,97,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Stats,,,,,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Banjo_and_kazooie,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,Neutral Air Dodge,,45,**,Intangible on frame 3-30,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,"Air Dodge, Down",,62,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,"Air Dodge, Diagonally Down",,69,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,"Air Dodge, Left/Right",,75,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,"Air Dodge, Diagonally Up",,88,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,"Air Dodge, Up",,97,**,Intangible on frame 3-21,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,Stats,,,,,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Banjo_and_kazooie,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Banjo_and_kazooie,Misc Info,Stats,,,,,,,,,,,
+Banjo_and_kazooie,Misc Info,Ledge Grab,,,,,,,,,,,
+Banjo_and_kazooie,Misc Info,Ledge Hang,,,,,,,,,,,
+Banjo_and_kazooie,Misc Info,Ledge Roll,,,,,,,,,,,
+Banjo_and_kazooie,Misc Info,Getup Attacks,,,,,,,,,,,

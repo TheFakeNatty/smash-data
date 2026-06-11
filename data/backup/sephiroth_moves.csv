@@ -1,0 +1,153 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Sephiroth,Ground Attacks,Jab 1,5,28,--,Transitions to jab 2 on frame 10,2.5,7,4,--,-19 [-19],5—7,21
+Sephiroth,Ground Attacks,Jab 2,5,33,--,Transitions to jab 3 on frame 10,2.0,6,3,--,-25 [-24],5—7,26
+Sephiroth,Ground Attacks,Jab 3,7,35,--,**,4.0,8,6,--,-23 [-22],7—9,26
+Sephiroth,Ground Attacks,Forward Tilt,14,37,--,--,7.5/12.0/9.0,7/10/7,8/11/9,close/middle/tip,-15/-11/-14 [-13/-8/-12],14—16,21
+Sephiroth,Ground Attacks,Up Tilt,10/13,37,--,Arm and upper body intangible on frame 13-15,"1.0 (Hit 1)/(11.0/12.5/14.0 (Hit 2, Clean))/(7.0/8.5/10.0 (Hit 2, late))",4/8 / 10/15,2/10 / 12/13,launcher/close/middle/tip,-32/-21/-19/-18 [-31/-18/-16/-14],10/13-15(16-25),12
+Sephiroth,Ground Attacks,Down Tilt,9,42,--,--,8.0/6.0,7/6,8/6,early/late,-25,9—15(16—22),20
+Sephiroth,Ground Attacks,Dash Attack,14,46,--,--,13.0/7.0,11,12,--,-20(-22) [-16(-19)],14—15(16—19),27
+Sephiroth,Ground Attacks,Forward Smash,24,67,--,Charge hold on frame 8. Armor with Wing on 10—23.,13.5/20.0./15.0,9/15/10,9/13/10,close/middle/tip,-33/-29/-32 [-31/-26/-30],24—25,42
+Sephiroth,Ground Attacks,Up Smash,23,63,--,Charge hold on frame 12. Armor with wing on 14—22.Active frames note:Frame in brackets is a coverage hitbox that is active on that frame during the clean hit's active frames.,(15.5/10.5/11.5 Early Hit)/(17.0/13.0/12.0 Clean Hit),8/14/9 / 9/14/9,8/10/8 / 8/11/9,early close/middle/far / late close/middle/far,(-29/-31 front)/(-23/-25/-24 back) [(-26/-29/-30)/(-21/-23/-25)],23/24-[26]-28,35
+Sephiroth,Ground Attacks,Down Smash (if hitting the ground),21,53,--,Charge hold on frame 8. Armour with Wing on 10—20.,16.5/13.5/10.5/11.5/13.0,8/13,8/11,Close/Far,-20/-22 [-17/-20],21—23,30
+Sephiroth,Ground Attacks,Down Smash (does not hit the ground),21,53,--,Charge hold on frame 8. Armour with Wing on 10—20.,10.5/11.5/13.0,8/13,8/11,Close/Far,-24 [-22],21—22,31
+Sephiroth,Ground Attacks,Neutral Air,9,33,9,Autocancels on frame 1 and 30 onward.,8.5,7,4,--,-5 [-4],9—10,23
+Sephiroth,Ground Attacks,Forward Air,13,41,14,Autocancels on frame 1-2 and 39 onward.,(8.0/10.0/11.0 Clean hit)/(5.5/7.0/8.0 Late hit),7/8/10 / 6/7/7,4/4/4 / 3/3/4,early close/middle/far / late close/middle/far,-10 [-9],13—14(15—18),23
+Sephiroth,Ground Attacks,Back Air,15,46,16,Autocancels on frame 1-4 and 46 onward.,9.5/14.5/11.5,8/12/9,4/5/5,close/middle/far,-11 [-10],15—16,30
+Sephiroth,Ground Attacks,Up Air,16,53,21,Autocancels on frame 1-4 and 52 onward.,7.0/11.0/8.5,7/9/7,3/4/4,close/middle/far,-17 [-17],16—21,32
+Sephiroth,Ground Attacks,Down Air,19,61,26,"Autocancels on frame 1-4 and 55 onward. Landing hit on frame 1 of landing, but falling and landing hits cannot seem to hit the same target.",Normal: (15.0/10.0 Clean hit)/10.0 | Landing: (5.0/7.0)/5.0%,12/8/6,5/4/6,early/late/landing,Normal: -27 [-25] | Landing: -19 [-18],19—23/24—39(1—2),22
+Sephiroth,Ground Attacks,Neutral B (Flare),41,65,--,Explosion occurs three frames after contact. Can cancel as early as frame 20. Takes 7 frames to cancel with shield. Startup after charge release is 22.,3.0 / 10.5,*/8,*/4,initial/explode,-28,(22—27/28—34/35—39/40—95)/98—101,--
+Sephiroth,Ground Attacks,Megaflare,52,73,--,Must hold for 31 frames to reach this level of charge. Startup after charge release is 21.,3.5 / 3.7 / 9.0,5/*/7,2/*/4,initial/multi/explode,-22,21—48/(58—60/61—66/67—68),5
+Sephiroth,Ground Attacks,Gigaflare,130,181,--,--,6.0 / 3.7 / 11.0,6/*/10,*/*/4,initial/multi/explode,-13,130—176/(183—184/185—200/201—202),--
+Sephiroth,Ground Attacks,Side B (Shadow Flare),16—42,38—64,--,Startup and total frames vary with charge. Startup after charge release is 8—14 frames.,1.6—4.5 / 6.5,4—5/8,2—3/3,projectile/explode,-17 — -15,8-14,24
+Sephiroth,Ground Attacks,"Up B, no charge (Blade Dash)",25,56*,27,Total frames assumes travel along the ground.,7.0,7,4,--,-27 [-26],25—28,28
+Sephiroth,Ground Attacks,"Up B, charge (Octaslash)",36,104*,56,Total frames assumes travel along the ground.,2.3 (Multihits)/(7.0/2.3 Final hit),5/15,*/7,multi/final,-63 — -61/-47 [-62 — -60/-45],36/38/40/42/44/46/48/50,54
+Sephiroth,Ground Attacks,"Down B (Scintilla, Miss)",38,86,**,"Detection is 7—27.Counter only activates when something hits the wall, not Sephiroth's body.",1.0 / 5.0,4/6,*/3,multi/final,-25 [-25],38—52 (Rehit: 5)/53,33
+Sephiroth,Ground Attacks,"Down B (Scintilla, Success)",7,51,**,Data is Upon the counter's activation. Sephiroth does not suffer hitlag. Damage listed is the Max. Intangibility on 1-11.,(2.0/4.0)/(6.5/18.0),**,**,**,**,7—21/22,29
+Sephiroth,Ground Attacks,Grab,7,36,--,--,--,,,,,7—8,28
+Sephiroth,Ground Attacks,Dash Grab,10,44,--,--,--,,,,,10—11,33
+Sephiroth,Ground Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Sephiroth,Ground Attacks,Pummel,1,19,**,Total frames includes 14 frames of hitlag (plus one in 1v1),1.3,,,,,,
+Sephiroth,Ground Attacks,Forward Throw,14,34,--,"Hits on 14, throws on 15",3.0/3.0,,,,,,
+Sephiroth,Ground Attacks,Backward Throw,18,31,--,"Hits on 18, throws on 19",3.0/3.5,,,,,,
+Sephiroth,Ground Attacks,Up Throw,13(14),32,--,"Hits on 13, late hit on 14. Throws on 14.",4.0/3.0,,,,,,
+Sephiroth,Ground Attacks,Down Throw,40 (throw only),47,--,--,4.0,,,,,,
+Sephiroth,Ground Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Sephiroth,Ground Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Sephiroth,Ground Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Sephiroth,Ground Attacks,Neutral Air Dodge,,44,**,Intangible on frame 3-30,,,,,,,
+Sephiroth,Ground Attacks,"Air Dodge, Down",,61,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Ground Attacks,"Air Dodge, Diagonally Down",,69,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Ground Attacks,"Air Dodge, Left/Right",,74,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Ground Attacks,"Air Dodge, Diagonally Up",,86,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Ground Attacks,"Air Dodge, Up",,97,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Ground Attacks,Stats,,,,,,,,,,,
+Sephiroth,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Sephiroth,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Sephiroth,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Sephiroth,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Sephiroth,Aerial Attacks,Neutral Air,9,33,9,Autocancels on frame 1 and 30 onward.,8.5,7,4,--,-5 [-4],9—10,23
+Sephiroth,Aerial Attacks,Forward Air,13,41,14,Autocancels on frame 1-2 and 39 onward.,(8.0/10.0/11.0 Clean hit)/(5.5/7.0/8.0 Late hit),7/8/10 / 6/7/7,4/4/4 / 3/3/4,early close/middle/far / late close/middle/far,-10 [-9],13—14(15—18),23
+Sephiroth,Aerial Attacks,Back Air,15,46,16,Autocancels on frame 1-4 and 46 onward.,9.5/14.5/11.5,8/12/9,4/5/5,close/middle/far,-11 [-10],15—16,30
+Sephiroth,Aerial Attacks,Up Air,16,53,21,Autocancels on frame 1-4 and 52 onward.,7.0/11.0/8.5,7/9/7,3/4/4,close/middle/far,-17 [-17],16—21,32
+Sephiroth,Aerial Attacks,Down Air,19,61,26,"Autocancels on frame 1-4 and 55 onward. Landing hit on frame 1 of landing, but falling and landing hits cannot seem to hit the same target.",Normal: (15.0/10.0 Clean hit)/10.0 | Landing: (5.0/7.0)/5.0%,12/8/6,5/4/6,early/late/landing,Normal: -27 [-25] | Landing: -19 [-18],19—23/24—39(1—2),22
+Sephiroth,Aerial Attacks,Neutral B (Flare),41,65,--,Explosion occurs three frames after contact. Can cancel as early as frame 20. Takes 7 frames to cancel with shield. Startup after charge release is 22.,3.0 / 10.5,*/8,*/4,initial/explode,-28,(22—27/28—34/35—39/40—95)/98—101,--
+Sephiroth,Aerial Attacks,Megaflare,52,73,--,Must hold for 31 frames to reach this level of charge. Startup after charge release is 21.,3.5 / 3.7 / 9.0,5/*/7,2/*/4,initial/multi/explode,-22,21—48/(58—60/61—66/67—68),5
+Sephiroth,Aerial Attacks,Gigaflare,130,181,--,--,6.0 / 3.7 / 11.0,6/*/10,*/*/4,initial/multi/explode,-13,130—176/(183—184/185—200/201—202),--
+Sephiroth,Aerial Attacks,Side B (Shadow Flare),16—42,38—64,--,Startup and total frames vary with charge. Startup after charge release is 8—14 frames.,1.6—4.5 / 6.5,4—5/8,2—3/3,projectile/explode,-17 — -15,8-14,24
+Sephiroth,Aerial Attacks,"Up B, no charge (Blade Dash)",25,56*,27,Total frames assumes travel along the ground.,7.0,7,4,--,-27 [-26],25—28,28
+Sephiroth,Aerial Attacks,"Up B, charge (Octaslash)",36,104*,56,Total frames assumes travel along the ground.,2.3 (Multihits)/(7.0/2.3 Final hit),5/15,*/7,multi/final,-63 — -61/-47 [-62 — -60/-45],36/38/40/42/44/46/48/50,54
+Sephiroth,Aerial Attacks,"Down B (Scintilla, Miss)",38,86,**,"Detection is 7—27.Counter only activates when something hits the wall, not Sephiroth's body.",1.0 / 5.0,4/6,*/3,multi/final,-25 [-25],38—52 (Rehit: 5)/53,33
+Sephiroth,Aerial Attacks,"Down B (Scintilla, Success)",7,51,**,Data is Upon the counter's activation. Sephiroth does not suffer hitlag. Damage listed is the Max. Intangibility on 1-11.,(2.0/4.0)/(6.5/18.0),**,**,**,**,7—21/22,29
+Sephiroth,Aerial Attacks,Grab,7,36,--,--,--,,,,,7—8,28
+Sephiroth,Aerial Attacks,Dash Grab,10,44,--,--,--,,,,,10—11,33
+Sephiroth,Aerial Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Sephiroth,Aerial Attacks,Pummel,1,19,**,Total frames includes 14 frames of hitlag (plus one in 1v1),1.3,,,,,,
+Sephiroth,Aerial Attacks,Forward Throw,14,34,--,"Hits on 14, throws on 15",3.0/3.0,,,,,,
+Sephiroth,Aerial Attacks,Backward Throw,18,31,--,"Hits on 18, throws on 19",3.0/3.5,,,,,,
+Sephiroth,Aerial Attacks,Up Throw,13(14),32,--,"Hits on 13, late hit on 14. Throws on 14.",4.0/3.0,,,,,,
+Sephiroth,Aerial Attacks,Down Throw,40 (throw only),47,--,--,4.0,,,,,,
+Sephiroth,Aerial Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Sephiroth,Aerial Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Sephiroth,Aerial Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Sephiroth,Aerial Attacks,Neutral Air Dodge,,44,**,Intangible on frame 3-30,,,,,,,
+Sephiroth,Aerial Attacks,"Air Dodge, Down",,61,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Aerial Attacks,"Air Dodge, Diagonally Down",,69,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Aerial Attacks,"Air Dodge, Left/Right",,74,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Aerial Attacks,"Air Dodge, Diagonally Up",,86,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Aerial Attacks,"Air Dodge, Up",,97,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Aerial Attacks,Stats,,,,,,,,,,,
+Sephiroth,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Sephiroth,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Sephiroth,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Sephiroth,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Sephiroth,Special Attacks,Neutral B (Flare),41,65,--,Explosion occurs three frames after contact. Can cancel as early as frame 20. Takes 7 frames to cancel with shield. Startup after charge release is 22.,3.0 / 10.5,*/8,*/4,initial/explode,-28,(22—27/28—34/35—39/40—95)/98—101,--
+Sephiroth,Special Attacks,Megaflare,52,73,--,Must hold for 31 frames to reach this level of charge. Startup after charge release is 21.,3.5 / 3.7 / 9.0,5/*/7,2/*/4,initial/multi/explode,-22,21—48/(58—60/61—66/67—68),5
+Sephiroth,Special Attacks,Gigaflare,130,181,--,--,6.0 / 3.7 / 11.0,6/*/10,*/*/4,initial/multi/explode,-13,130—176/(183—184/185—200/201—202),--
+Sephiroth,Special Attacks,Side B (Shadow Flare),16—42,38—64,--,Startup and total frames vary with charge. Startup after charge release is 8—14 frames.,1.6—4.5 / 6.5,4—5/8,2—3/3,projectile/explode,-17 — -15,8-14,24
+Sephiroth,Special Attacks,"Up B, no charge (Blade Dash)",25,56*,27,Total frames assumes travel along the ground.,7.0,7,4,--,-27 [-26],25—28,28
+Sephiroth,Special Attacks,"Up B, charge (Octaslash)",36,104*,56,Total frames assumes travel along the ground.,2.3 (Multihits)/(7.0/2.3 Final hit),5/15,*/7,multi/final,-63 — -61/-47 [-62 — -60/-45],36/38/40/42/44/46/48/50,54
+Sephiroth,Special Attacks,"Down B (Scintilla, Miss)",38,86,**,"Detection is 7—27.Counter only activates when something hits the wall, not Sephiroth's body.",1.0 / 5.0,4/6,*/3,multi/final,-25 [-25],38—52 (Rehit: 5)/53,33
+Sephiroth,Special Attacks,"Down B (Scintilla, Success)",7,51,**,Data is Upon the counter's activation. Sephiroth does not suffer hitlag. Damage listed is the Max. Intangibility on 1-11.,(2.0/4.0)/(6.5/18.0),**,**,**,**,7—21/22,29
+Sephiroth,Special Attacks,Grab,7,36,--,--,--,,,,,7—8,28
+Sephiroth,Special Attacks,Dash Grab,10,44,--,--,--,,,,,10—11,33
+Sephiroth,Special Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Sephiroth,Special Attacks,Pummel,1,19,**,Total frames includes 14 frames of hitlag (plus one in 1v1),1.3,,,,,,
+Sephiroth,Special Attacks,Forward Throw,14,34,--,"Hits on 14, throws on 15",3.0/3.0,,,,,,
+Sephiroth,Special Attacks,Backward Throw,18,31,--,"Hits on 18, throws on 19",3.0/3.5,,,,,,
+Sephiroth,Special Attacks,Up Throw,13(14),32,--,"Hits on 13, late hit on 14. Throws on 14.",4.0/3.0,,,,,,
+Sephiroth,Special Attacks,Down Throw,40 (throw only),47,--,--,4.0,,,,,,
+Sephiroth,Special Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Sephiroth,Special Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Sephiroth,Special Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Sephiroth,Special Attacks,Neutral Air Dodge,,44,**,Intangible on frame 3-30,,,,,,,
+Sephiroth,Special Attacks,"Air Dodge, Down",,61,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Special Attacks,"Air Dodge, Diagonally Down",,69,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Special Attacks,"Air Dodge, Left/Right",,74,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Special Attacks,"Air Dodge, Diagonally Up",,86,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Special Attacks,"Air Dodge, Up",,97,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Special Attacks,Stats,,,,,,,,,,,
+Sephiroth,Special Attacks,Ledge Grab,,,,,,,,,,,
+Sephiroth,Special Attacks,Ledge Hang,,,,,,,,,,,
+Sephiroth,Special Attacks,Ledge Roll,,,,,,,,,,,
+Sephiroth,Special Attacks,Getup Attacks,,,,,,,,,,,
+Sephiroth,Grabs / Throws,Grab,7,36,--,--,--,,,,,7—8,28
+Sephiroth,Grabs / Throws,Dash Grab,10,44,--,--,--,,,,,10—11,33
+Sephiroth,Grabs / Throws,Pivot Grab,11,39,--,--,--,,,,,11—12,27
+Sephiroth,Grabs / Throws,Pummel,1,19,**,Total frames includes 14 frames of hitlag (plus one in 1v1),1.3,,,,,,
+Sephiroth,Grabs / Throws,Forward Throw,14,34,--,"Hits on 14, throws on 15",3.0/3.0,,,,,,
+Sephiroth,Grabs / Throws,Backward Throw,18,31,--,"Hits on 18, throws on 19",3.0/3.5,,,,,,
+Sephiroth,Grabs / Throws,Up Throw,13(14),32,--,"Hits on 13, late hit on 14. Throws on 14.",4.0/3.0,,,,,,
+Sephiroth,Grabs / Throws,Down Throw,40 (throw only),47,--,--,4.0,,,,,,
+Sephiroth,Grabs / Throws,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Sephiroth,Grabs / Throws,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Sephiroth,Grabs / Throws,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Sephiroth,Grabs / Throws,Neutral Air Dodge,,44,**,Intangible on frame 3-30,,,,,,,
+Sephiroth,Grabs / Throws,"Air Dodge, Down",,61,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Grabs / Throws,"Air Dodge, Diagonally Down",,69,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Grabs / Throws,"Air Dodge, Left/Right",,74,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Grabs / Throws,"Air Dodge, Diagonally Up",,86,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Grabs / Throws,"Air Dodge, Up",,97,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Grabs / Throws,Stats,,,,,,,,,,,
+Sephiroth,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Sephiroth,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Sephiroth,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Sephiroth,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Sephiroth,Dodges / Rolls,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Sephiroth,Dodges / Rolls,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Sephiroth,Dodges / Rolls,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Sephiroth,Dodges / Rolls,Neutral Air Dodge,,44,**,Intangible on frame 3-30,,,,,,,
+Sephiroth,Dodges / Rolls,"Air Dodge, Down",,61,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Dodges / Rolls,"Air Dodge, Diagonally Down",,69,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Dodges / Rolls,"Air Dodge, Left/Right",,74,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Dodges / Rolls,"Air Dodge, Diagonally Up",,86,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Dodges / Rolls,"Air Dodge, Up",,97,**,Intangible on frame 3-21,,,,,,,
+Sephiroth,Dodges / Rolls,Stats,,,,,,,,,,,
+Sephiroth,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Sephiroth,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Sephiroth,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Sephiroth,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Sephiroth,Misc Info,Stats,,,,,,,,,,,
+Sephiroth,Misc Info,Ledge Grab,,,,,,,,,,,
+Sephiroth,Misc Info,Ledge Hang,,,,,,,,,,,
+Sephiroth,Misc Info,Ledge Roll,,,,,,,,,,,
+Sephiroth,Misc Info,Getup Attacks,,,,,,,,,,,

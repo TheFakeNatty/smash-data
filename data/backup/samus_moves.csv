@@ -1,0 +1,150 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Samus,Ground Attacks,Jab 1,3,17,--,Transitions to Jab 2 as early as frame 15.,3.0,5,4,--,-10,3—4,13
+Samus,Ground Attacks,Jab 2,6,29,--,--,8.0,7,8,--,-15,6—9,20
+Samus,Ground Attacks,Forward Tilt,8,33,--,Deals 1.0 more damage when angled.,8.0/9.0/10.0,7/7/8,8/9/10,Close/Middle/Far,-17/-16/-15,8—10,23
+Samus,Ground Attacks,Up Tilt,15,39,--,--,13.0/12.0,9,12,Grounded/Aerial,-12,15—18,21
+Samus,Ground Attacks,Down Tilt,6,44,--,--,12.0,9,12,--,-26,6—8,36
+Samus,Ground Attacks,Dash Attack,8,41,--,--,10.0/6.0,8/6,10/6,Early/Clean/Late,-23,8—9(10—13/14—18),23
+Samus,Ground Attacks,Forward Smash,10,48,--,"Deals 1.0 more damage when angled up, 1.0 less when angled down. Charge hold frame is 3.",12.0/14.0,9/10,9/10,Close/Far,-29/-28,10—11,37
+Samus,Ground Attacks,Up Smash,11/15/19/23/27,56,--,Charge hold frame is 6,3.0/6.0,5/6,3/5,Multihit/Final,-24,11—12/15—16/19—20/23—24/27—28,28
+Samus,Ground Attacks,Down Smash,9/17,44,--,Charge hold frame is 3,10.0/12.0,8/9,8/9,--,-27/-18,9—10/17—18,26
+Samus,Ground Attacks,Neutral Air,8/14,45,9,Autocancels on frame 1-7 and 35 onward,10.0/9.0/8.0,8/8/7,4/4/4,Hit 1/Early Hit 2/Late Hit 2,-5/-5/-6,8—11/14—15(16—22),23
+Samus,Ground Attacks,Forward Air,6/12/18/24/30,59,14,Autocancels on frame 47 onward,3.0/1.6/5.0,5/4/12,2/2/3,First/multi/final,-12/-12/-11,6—7/12—13/18—19/24—25/30—31,28
+Samus,Ground Attacks,Back Air,9,41,14,Autocancels on frame 1-8 and 42 onward,12.0/14.0/9.0,9/7/8,5/4/4,Early close/Early far/late,-9/-9/-10,9—10(11—14),27
+Samus,Ground Attacks,Up Air,5...,39,18,Autocancels on frame 1-2 and 34 onward,3.0/1.2/4.0,5/3/10,2/2/3,First/multi/final,-16/-16/-15,5/7—14(rehit: 3)/16—17,22
+Samus,Ground Attacks,Down Air,17,48,12,Autocancels on frame 1-3 and 34 onward,10.0/14.0,8/10,4/5,Early/Meteor/Late,-8/-7,17—18/19—21/22—23,25
+Samus,Ground Attacks,Z Air,8/16,59,8,--,2.5/4.0,7/8,4/5,First/Second,-4/-3,8—15/16—19,40
+Samus,Ground Attacks,Neutral B (Charge Shot),3(+13),44,--,Startup is 3 from charge state. Takes 13 frames to enter charge state.,5.0—26.1,9—24,3—8,--,-17 to +4,3—62 (from release),--
+Samus,Ground Attacks,"Charge Shot, Full Charge",16,60,--,Takes 125 frames to reach full charge,28.0,24,8,--,-12,16—75,--
+Samus,Ground Attacks,Side B (Homing Missle),18,54/59,--,Projectile lasts until frame 118. Total frames is 59 in the air for either missile type.,8.0,7,3,--,-26,18—137,--
+Samus,Ground Attacks,Side B (Super Missle),21,57/59,30,"Projectile lasts until frame 87. Starts moving forward around frame 50, allowing for followups.",12.0,9,4,--,-24,21—70,--
+Samus,Ground Attacks,Up B (Screw Attack),4...,--,24,Invulnerable on frame 3-6. Rehit rate of 6 for active frames 7-24.,3.0/1.0/2.0,5/4,4/2,First/Multi/Final,--,4-6/7-11/12-14/15-24/25-26,--
+Samus,Ground Attacks,"Up B, Air (Screw Attack, Air)",5...,--,24,Invulnerable on frame 3-4. Rehit rate of 2 for all hits except final.,1.0,4,2,--,--,5-10/11-26/27-28,--
+Samus,Ground Attacks,Down B (Bomb),33,47/44/48,--,Bomb is generated on frame 11. Explosion occurs one frame after touching a target. Bomb explodes automatically on frame 83. Total frames is 44 if the player is holding down.  And 48 in the air with no way to reduce it.,4.0/5.0,5,2,--,--,33-82/1—18,--
+Samus,Ground Attacks,Grab,15,59,--,--,--,,,,,15—22,37
+Samus,Ground Attacks,Dash Grab,17,67,--,--,--,,,,,17—24,43
+Samus,Ground Attacks,Pivot Grab,18,62,--,--,--,,,,,18—25,37
+Samus,Ground Attacks,Pummel,1,19,--,Total frames includes 14 frames of hitlag,1.3,,,,,,
+Samus,Ground Attacks,Forward Throw,16,41,--,--,10.0,,,,,,
+Samus,Ground Attacks,Backward Throw,12,49,--,--,10.0,,,,,,
+Samus,Ground Attacks,Up Throw,15/16,41,--,--,5.0/7.0,,,,,,
+Samus,Ground Attacks,Down Throw,21,37,--,--,8.0,,,,,,
+Samus,Ground Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Samus,Ground Attacks,Forward Roll,,34,--,Intangible on frame 4-18,,,,,,,
+Samus,Ground Attacks,Backward Roll,,39,--,Intangible on frame 5-20,,,,,,,
+Samus,Ground Attacks,Neutral Air Dodge,,56,10,Intangible on frame 3-29,,,,,,,
+Samus,Ground Attacks,"Air Dodge, Down",,80,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Ground Attacks,"Air Dodge, Diagonally Down",,86,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Ground Attacks,"Air Dodge, Left/Right",,96,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Ground Attacks,"Air Dodge, Diagonally Up",,113,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Ground Attacks,"Air Dodge, Up",,130,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Ground Attacks,Stats,,,,,,,,,,,
+Samus,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Samus,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Samus,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Samus,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Samus,Aerial Attacks,Neutral Air,8/14,45,9,Autocancels on frame 1-7 and 35 onward,10.0/9.0/8.0,8/8/7,4/4/4,Hit 1/Early Hit 2/Late Hit 2,-5/-5/-6,8—11/14—15(16—22),23
+Samus,Aerial Attacks,Forward Air,6/12/18/24/30,59,14,Autocancels on frame 47 onward,3.0/1.6/5.0,5/4/12,2/2/3,First/multi/final,-12/-12/-11,6—7/12—13/18—19/24—25/30—31,28
+Samus,Aerial Attacks,Back Air,9,41,14,Autocancels on frame 1-8 and 42 onward,12.0/14.0/9.0,9/7/8,5/4/4,Early close/Early far/late,-9/-9/-10,9—10(11—14),27
+Samus,Aerial Attacks,Up Air,5...,39,18,Autocancels on frame 1-2 and 34 onward,3.0/1.2/4.0,5/3/10,2/2/3,First/multi/final,-16/-16/-15,5/7—14(rehit: 3)/16—17,22
+Samus,Aerial Attacks,Down Air,17,48,12,Autocancels on frame 1-3 and 34 onward,10.0/14.0,8/10,4/5,Early/Meteor/Late,-8/-7,17—18/19—21/22—23,25
+Samus,Aerial Attacks,Z Air,8/16,59,8,--,2.5/4.0,7/8,4/5,First/Second,-4/-3,8—15/16—19,40
+Samus,Aerial Attacks,Neutral B (Charge Shot),3(+13),44,--,Startup is 3 from charge state. Takes 13 frames to enter charge state.,5.0—26.1,9—24,3—8,--,-17 to +4,3—62 (from release),--
+Samus,Aerial Attacks,"Charge Shot, Full Charge",16,60,--,Takes 125 frames to reach full charge,28.0,24,8,--,-12,16—75,--
+Samus,Aerial Attacks,Side B (Homing Missle),18,54/59,--,Projectile lasts until frame 118. Total frames is 59 in the air for either missile type.,8.0,7,3,--,-26,18—137,--
+Samus,Aerial Attacks,Side B (Super Missle),21,57/59,30,"Projectile lasts until frame 87. Starts moving forward around frame 50, allowing for followups.",12.0,9,4,--,-24,21—70,--
+Samus,Aerial Attacks,Up B (Screw Attack),4...,--,24,Invulnerable on frame 3-6. Rehit rate of 6 for active frames 7-24.,3.0/1.0/2.0,5/4,4/2,First/Multi/Final,--,4-6/7-11/12-14/15-24/25-26,--
+Samus,Aerial Attacks,"Up B, Air (Screw Attack, Air)",5...,--,24,Invulnerable on frame 3-4. Rehit rate of 2 for all hits except final.,1.0,4,2,--,--,5-10/11-26/27-28,--
+Samus,Aerial Attacks,Down B (Bomb),33,47/44/48,--,Bomb is generated on frame 11. Explosion occurs one frame after touching a target. Bomb explodes automatically on frame 83. Total frames is 44 if the player is holding down.  And 48 in the air with no way to reduce it.,4.0/5.0,5,2,--,--,33-82/1—18,--
+Samus,Aerial Attacks,Grab,15,59,--,--,--,,,,,15—22,37
+Samus,Aerial Attacks,Dash Grab,17,67,--,--,--,,,,,17—24,43
+Samus,Aerial Attacks,Pivot Grab,18,62,--,--,--,,,,,18—25,37
+Samus,Aerial Attacks,Pummel,1,19,--,Total frames includes 14 frames of hitlag,1.3,,,,,,
+Samus,Aerial Attacks,Forward Throw,16,41,--,--,10.0,,,,,,
+Samus,Aerial Attacks,Backward Throw,12,49,--,--,10.0,,,,,,
+Samus,Aerial Attacks,Up Throw,15/16,41,--,--,5.0/7.0,,,,,,
+Samus,Aerial Attacks,Down Throw,21,37,--,--,8.0,,,,,,
+Samus,Aerial Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Samus,Aerial Attacks,Forward Roll,,34,--,Intangible on frame 4-18,,,,,,,
+Samus,Aerial Attacks,Backward Roll,,39,--,Intangible on frame 5-20,,,,,,,
+Samus,Aerial Attacks,Neutral Air Dodge,,56,10,Intangible on frame 3-29,,,,,,,
+Samus,Aerial Attacks,"Air Dodge, Down",,80,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Aerial Attacks,"Air Dodge, Diagonally Down",,86,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Aerial Attacks,"Air Dodge, Left/Right",,96,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Aerial Attacks,"Air Dodge, Diagonally Up",,113,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Aerial Attacks,"Air Dodge, Up",,130,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Aerial Attacks,Stats,,,,,,,,,,,
+Samus,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Samus,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Samus,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Samus,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Samus,Special Attacks,Neutral B (Charge Shot),3(+13),44,--,Startup is 3 from charge state. Takes 13 frames to enter charge state.,5.0—26.1,9—24,3—8,--,-17 to +4,3—62 (from release),--
+Samus,Special Attacks,"Charge Shot, Full Charge",16,60,--,Takes 125 frames to reach full charge,28.0,24,8,--,-12,16—75,--
+Samus,Special Attacks,Side B (Homing Missle),18,54/59,--,Projectile lasts until frame 118. Total frames is 59 in the air for either missile type.,8.0,7,3,--,-26,18—137,--
+Samus,Special Attacks,Side B (Super Missle),21,57/59,30,"Projectile lasts until frame 87. Starts moving forward around frame 50, allowing for followups.",12.0,9,4,--,-24,21—70,--
+Samus,Special Attacks,Up B (Screw Attack),4...,--,24,Invulnerable on frame 3-6. Rehit rate of 6 for active frames 7-24.,3.0/1.0/2.0,5/4,4/2,First/Multi/Final,--,4-6/7-11/12-14/15-24/25-26,--
+Samus,Special Attacks,"Up B, Air (Screw Attack, Air)",5...,--,24,Invulnerable on frame 3-4. Rehit rate of 2 for all hits except final.,1.0,4,2,--,--,5-10/11-26/27-28,--
+Samus,Special Attacks,Down B (Bomb),33,47/44/48,--,Bomb is generated on frame 11. Explosion occurs one frame after touching a target. Bomb explodes automatically on frame 83. Total frames is 44 if the player is holding down.  And 48 in the air with no way to reduce it.,4.0/5.0,5,2,--,--,33-82/1—18,--
+Samus,Special Attacks,Grab,15,59,--,--,--,,,,,15—22,37
+Samus,Special Attacks,Dash Grab,17,67,--,--,--,,,,,17—24,43
+Samus,Special Attacks,Pivot Grab,18,62,--,--,--,,,,,18—25,37
+Samus,Special Attacks,Pummel,1,19,--,Total frames includes 14 frames of hitlag,1.3,,,,,,
+Samus,Special Attacks,Forward Throw,16,41,--,--,10.0,,,,,,
+Samus,Special Attacks,Backward Throw,12,49,--,--,10.0,,,,,,
+Samus,Special Attacks,Up Throw,15/16,41,--,--,5.0/7.0,,,,,,
+Samus,Special Attacks,Down Throw,21,37,--,--,8.0,,,,,,
+Samus,Special Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Samus,Special Attacks,Forward Roll,,34,--,Intangible on frame 4-18,,,,,,,
+Samus,Special Attacks,Backward Roll,,39,--,Intangible on frame 5-20,,,,,,,
+Samus,Special Attacks,Neutral Air Dodge,,56,10,Intangible on frame 3-29,,,,,,,
+Samus,Special Attacks,"Air Dodge, Down",,80,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Special Attacks,"Air Dodge, Diagonally Down",,86,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Special Attacks,"Air Dodge, Left/Right",,96,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Special Attacks,"Air Dodge, Diagonally Up",,113,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Special Attacks,"Air Dodge, Up",,130,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Special Attacks,Stats,,,,,,,,,,,
+Samus,Special Attacks,Ledge Grab,,,,,,,,,,,
+Samus,Special Attacks,Ledge Hang,,,,,,,,,,,
+Samus,Special Attacks,Ledge Roll,,,,,,,,,,,
+Samus,Special Attacks,Getup Attacks,,,,,,,,,,,
+Samus,Grabs / Throws,Grab,15,59,--,--,--,,,,,15—22,37
+Samus,Grabs / Throws,Dash Grab,17,67,--,--,--,,,,,17—24,43
+Samus,Grabs / Throws,Pivot Grab,18,62,--,--,--,,,,,18—25,37
+Samus,Grabs / Throws,Pummel,1,19,--,Total frames includes 14 frames of hitlag,1.3,,,,,,
+Samus,Grabs / Throws,Forward Throw,16,41,--,--,10.0,,,,,,
+Samus,Grabs / Throws,Backward Throw,12,49,--,--,10.0,,,,,,
+Samus,Grabs / Throws,Up Throw,15/16,41,--,--,5.0/7.0,,,,,,
+Samus,Grabs / Throws,Down Throw,21,37,--,--,8.0,,,,,,
+Samus,Grabs / Throws,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Samus,Grabs / Throws,Forward Roll,,34,--,Intangible on frame 4-18,,,,,,,
+Samus,Grabs / Throws,Backward Roll,,39,--,Intangible on frame 5-20,,,,,,,
+Samus,Grabs / Throws,Neutral Air Dodge,,56,10,Intangible on frame 3-29,,,,,,,
+Samus,Grabs / Throws,"Air Dodge, Down",,80,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Grabs / Throws,"Air Dodge, Diagonally Down",,86,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Grabs / Throws,"Air Dodge, Left/Right",,96,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Grabs / Throws,"Air Dodge, Diagonally Up",,113,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Grabs / Throws,"Air Dodge, Up",,130,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Grabs / Throws,Stats,,,,,,,,,,,
+Samus,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Samus,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Samus,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Samus,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Samus,Dodges / Rolls,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Samus,Dodges / Rolls,Forward Roll,,34,--,Intangible on frame 4-18,,,,,,,
+Samus,Dodges / Rolls,Backward Roll,,39,--,Intangible on frame 5-20,,,,,,,
+Samus,Dodges / Rolls,Neutral Air Dodge,,56,10,Intangible on frame 3-29,,,,,,,
+Samus,Dodges / Rolls,"Air Dodge, Down",,80,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Dodges / Rolls,"Air Dodge, Diagonally Down",,86,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Dodges / Rolls,"Air Dodge, Left/Right",,96,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Dodges / Rolls,"Air Dodge, Diagonally Up",,113,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Dodges / Rolls,"Air Dodge, Up",,130,11-19,Intangible on frame 3-21,,,,,,,
+Samus,Dodges / Rolls,Stats,,,,,,,,,,,
+Samus,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Samus,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Samus,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Samus,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Samus,Misc Info,Stats,,,,,,,,,,,
+Samus,Misc Info,Ledge Grab,,,,,,,,,,,
+Samus,Misc Info,Ledge Hang,,,,,,,,,,,
+Samus,Misc Info,Ledge Roll,,,,,,,,,,,
+Samus,Misc Info,Getup Attacks,,,,,,,,,,,

@@ -1,161 +1,161 @@
-character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
-Diddy_kong,Ground Attacks,Jab 1,3,19,--,Transitions to jab 2 as ealy as frame 6,2.0,7,3,--,-13,3,16
-Diddy_kong,Ground Attacks,Jab 2,5,20,--,Transitions to jab 3 as early as frame 6,1.5,5,3,--,-12,5,15
-Diddy_kong,Ground Attacks,Jab 3,5,34,--,--,4.0,11,5,--,-24,5,29
-Diddy_kong,Ground Attacks,Forward Tilt,10,36,--,--,10.0/7.0,8,10,Early/Late,-16,10—11(12/13—16),20
-Diddy_kong,Ground Attacks,Up Tilt,6,29,--,--,6.0,6,6,--,-17,6—11,18
-Diddy_kong,Ground Attacks,Down Tilt,4,18,--,--,5.5,6,6,--,-8,4—5,13
-Diddy_kong,Ground Attacks,Dash Attack,8/16/22,40,--,--,2.0/3.0,4/5,3/4,Multi/Final,-14,8—9/16—17/22—23,17
-Diddy_kong,Ground Attacks,Forward Smash,12/21,50,--,Charge hold is frame 4,5.0/11.0,6/10,4/8,--,-21,12(13)/21—23,27
-Diddy_kong,Ground Attacks,Up Smash,5/12/19,53,--,Charge hold is frame 1,2.5/6.0,5/6,3/5,Multihit/Final,-29,5(6—8)/12—14(15)/19—23,30
-Diddy_kong,Ground Attacks,Down Smash,7/12,50,--,Charge hold frame is 2,12.0/15.0,9/10,8/10,--,-35/-28,7—8/12—13,37
-Diddy_kong,Ground Attacks,Neutral Air,8,48,8,Autocancels on frame 1-3 and 27 onward,6.0,6,3,--,-5,8—20,28
-Diddy_kong,Ground Attacks,Forward Air,6,46,16,Autocancels on frame 1-2 and 26 onward,10.0/8.0,8/7,4/4,Early/Late,-12/-12,6—9(10—16),30
-Diddy_kong,Ground Attacks,Back Air,5,30,7,Autocancels on frame 1-2 and 20 onward,9.0,7,4,--,-3,5—8,22
-Diddy_kong,Ground Attacks,Up Air,4,36,9,Autocancels on frame 27 onward,7.0,7,3,--,-7,4—7,29
-Diddy_kong,Ground Attacks,Down Air,15,46,17,Autocancels on frame 1-14 and 35 onward,13.0/10.0,9/8,5/4,--,-26 (-13 landing),15—16,30
-Diddy_kong,Ground Attacks,Neutral B (Peanut Popgun),16/17—121/124,48,--,Melee hitbox generated after projectile. Diddy does not suffer hitlag from melee attack,3.3—15.0/2.0,5—10/10—14,2—5/2—2,Projectile/melee,-25 to -17/-19 to -13,**,--
-Diddy_kong,Ground Attacks,"Peanut Popgun, Misfire",123,228,--,You can cancel charge into shield/air dodge as early as frame 14.,23.0,16,20,--,-85,**,--
-Diddy_kong,Ground Attacks,Peanuts (Thrown),--,--,--,--,--,--,--,--,--,--,--
-Diddy_kong,Ground Attacks,Side B (Monkey Flip),18,47/61,26,"First total frames is in the air, second is along level ground.",--,--,--,--,--,18—36,11
-Diddy_kong,Ground Attacks,"Monkey Flip, Attack",6,32,18,Total frames is in the air.,14.0/10.0,10/8,13/10,Early/Late,-5/-8,6—10(11—25),7
-Diddy_kong,Ground Attacks,"Monkey Flip, Grab Success",11/29/59...,--,--,--,--,--,--,--,--,**,--
-Diddy_kong,Ground Attacks,"Monkey Flip, Grab Attack",18/21,36,--,--,--,--,--,--,--,**,--
-Diddy_kong,Ground Attacks,"Monkey Flip, Grab Jump",18/27,42,--,--,--,--,--,--,--,**,--
-Diddy_kong,Ground Attacks,Up B (Rocketbarrel Boost),8—68,--,30,Touching a solid surface during boost activates explosion,10.0/8.0/6.0,8/7/6,10/8/6,Early/Late/Later,--,8—9(10—16/17—35),--
-Diddy_kong,Ground Attacks,"Rocketbarrel Boost, Explosion",1,57-59,--,"Total frames assumes exploding on level ground, Diddy does not suffer hitlag from explosion",18.0,11,6,--,-39 to -41,1—2,55
-Diddy_kong,Ground Attacks,Down B (Banana Peel),--,39,--,Item generated on frame 20,--,6,6,--,--,20 (banana appears),--
-Diddy_kong,Ground Attacks,Grab,7,36,--,--,--,,,,,7—8,28
-Diddy_kong,Ground Attacks,Dash Grab,10,44,--,--,--,,,,,10—11,33
-Diddy_kong,Ground Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
-Diddy_kong,Ground Attacks,Pummel,1,16,--,Total frames includes 10 frames of hitlag,1.0,,,,,,
-Diddy_kong,Ground Attacks,Forward Throw,21,31,--,--,9.0,,,,,,
-Diddy_kong,Ground Attacks,Backward Throw,18,51,--,--,12.0,,,,,,
-Diddy_kong,Ground Attacks,Up Throw,17/19,26,--,--,1.0/4.0,,,,,,
-Diddy_kong,Ground Attacks,Down Throw,22,31,--,--,7.0,,,,,,
-Diddy_kong,Ground Attacks,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
-Diddy_kong,Ground Attacks,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
-Diddy_kong,Ground Attacks,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
-Diddy_kong,Ground Attacks,Neutral Air Dodge,,44,10,Intangible on frame 2-27,,,,,,,
-Diddy_kong,Ground Attacks,"Air Dodge, Down",,62,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Ground Attacks,"Air Dodge, Diagonally Down",,68,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Ground Attacks,"Air Dodge, Left/Right",,74,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Ground Attacks,"Air Dodge, Diagonally Up",,86,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Ground Attacks,"Air Dodge, Up",,96,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Ground Attacks,Stats,,,,,,,,,,,
-Diddy_kong,Ground Attacks,Ledge Grab,,,,,,,,,,,
-Diddy_kong,Ground Attacks,Ledge Hang,,,,,,,,,,,
-Diddy_kong,Ground Attacks,Ledge Roll,,,,,,,,,,,
-Diddy_kong,Ground Attacks,Getup Attacks,,,,,,,,,,,
-Diddy_kong,Aerial Attacks,Neutral Air,8,48,8,Autocancels on frame 1-3 and 27 onward,6.0,6,3,--,-5,8—20,28
-Diddy_kong,Aerial Attacks,Forward Air,6,46,16,Autocancels on frame 1-2 and 26 onward,10.0/8.0,8/7,4/4,Early/Late,-12/-12,6—9(10—16),30
-Diddy_kong,Aerial Attacks,Back Air,5,30,7,Autocancels on frame 1-2 and 20 onward,9.0,7,4,--,-3,5—8,22
-Diddy_kong,Aerial Attacks,Up Air,4,36,9,Autocancels on frame 27 onward,7.0,7,3,--,-7,4—7,29
-Diddy_kong,Aerial Attacks,Down Air,15,46,17,Autocancels on frame 1-14 and 35 onward,13.0/10.0,9/8,5/4,--,-26 (-13 landing),15—16,30
-Diddy_kong,Aerial Attacks,Neutral B (Peanut Popgun),16/17—121/124,48,--,Melee hitbox generated after projectile. Diddy does not suffer hitlag from melee attack,3.3—15.0/2.0,5—10/10—14,2—5/2—2,Projectile/melee,-25 to -17/-19 to -13,**,--
-Diddy_kong,Aerial Attacks,"Peanut Popgun, Misfire",123,228,--,You can cancel charge into shield/air dodge as early as frame 14.,23.0,16,20,--,-85,**,--
-Diddy_kong,Aerial Attacks,Peanuts (Thrown),--,--,--,--,--,--,--,--,--,--,--
-Diddy_kong,Aerial Attacks,Side B (Monkey Flip),18,47/61,26,"First total frames is in the air, second is along level ground.",--,--,--,--,--,18—36,11
-Diddy_kong,Aerial Attacks,"Monkey Flip, Attack",6,32,18,Total frames is in the air.,14.0/10.0,10/8,13/10,Early/Late,-5/-8,6—10(11—25),7
-Diddy_kong,Aerial Attacks,"Monkey Flip, Grab Success",11/29/59...,--,--,--,--,--,--,--,--,**,--
-Diddy_kong,Aerial Attacks,"Monkey Flip, Grab Attack",18/21,36,--,--,--,--,--,--,--,**,--
-Diddy_kong,Aerial Attacks,"Monkey Flip, Grab Jump",18/27,42,--,--,--,--,--,--,--,**,--
-Diddy_kong,Aerial Attacks,Up B (Rocketbarrel Boost),8—68,--,30,Touching a solid surface during boost activates explosion,10.0/8.0/6.0,8/7/6,10/8/6,Early/Late/Later,--,8—9(10—16/17—35),--
-Diddy_kong,Aerial Attacks,"Rocketbarrel Boost, Explosion",1,57-59,--,"Total frames assumes exploding on level ground, Diddy does not suffer hitlag from explosion",18.0,11,6,--,-39 to -41,1—2,55
-Diddy_kong,Aerial Attacks,Down B (Banana Peel),--,39,--,Item generated on frame 20,--,6,6,--,--,20 (banana appears),--
-Diddy_kong,Aerial Attacks,Grab,7,36,--,--,--,,,,,7—8,28
-Diddy_kong,Aerial Attacks,Dash Grab,10,44,--,--,--,,,,,10—11,33
-Diddy_kong,Aerial Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
-Diddy_kong,Aerial Attacks,Pummel,1,16,--,Total frames includes 10 frames of hitlag,1.0,,,,,,
-Diddy_kong,Aerial Attacks,Forward Throw,21,31,--,--,9.0,,,,,,
-Diddy_kong,Aerial Attacks,Backward Throw,18,51,--,--,12.0,,,,,,
-Diddy_kong,Aerial Attacks,Up Throw,17/19,26,--,--,1.0/4.0,,,,,,
-Diddy_kong,Aerial Attacks,Down Throw,22,31,--,--,7.0,,,,,,
-Diddy_kong,Aerial Attacks,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
-Diddy_kong,Aerial Attacks,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
-Diddy_kong,Aerial Attacks,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
-Diddy_kong,Aerial Attacks,Neutral Air Dodge,,44,10,Intangible on frame 2-27,,,,,,,
-Diddy_kong,Aerial Attacks,"Air Dodge, Down",,62,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Aerial Attacks,"Air Dodge, Diagonally Down",,68,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Aerial Attacks,"Air Dodge, Left/Right",,74,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Aerial Attacks,"Air Dodge, Diagonally Up",,86,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Aerial Attacks,"Air Dodge, Up",,96,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Aerial Attacks,Stats,,,,,,,,,,,
-Diddy_kong,Aerial Attacks,Ledge Grab,,,,,,,,,,,
-Diddy_kong,Aerial Attacks,Ledge Hang,,,,,,,,,,,
-Diddy_kong,Aerial Attacks,Ledge Roll,,,,,,,,,,,
-Diddy_kong,Aerial Attacks,Getup Attacks,,,,,,,,,,,
-Diddy_kong,Special Attacks,Neutral B (Peanut Popgun),16/17—121/124,48,--,Melee hitbox generated after projectile. Diddy does not suffer hitlag from melee attack,3.3—15.0/2.0,5—10/10—14,2—5/2—2,Projectile/melee,-25 to -17/-19 to -13,**,--
-Diddy_kong,Special Attacks,"Peanut Popgun, Misfire",123,228,--,You can cancel charge into shield/air dodge as early as frame 14.,23.0,16,20,--,-85,**,--
-Diddy_kong,Special Attacks,Peanuts (Thrown),--,--,--,--,--,--,--,--,--,--,--
-Diddy_kong,Special Attacks,Side B (Monkey Flip),18,47/61,26,"First total frames is in the air, second is along level ground.",--,--,--,--,--,18—36,11
-Diddy_kong,Special Attacks,"Monkey Flip, Attack",6,32,18,Total frames is in the air.,14.0/10.0,10/8,13/10,Early/Late,-5/-8,6—10(11—25),7
-Diddy_kong,Special Attacks,"Monkey Flip, Grab Success",11/29/59...,--,--,--,--,--,--,--,--,**,--
-Diddy_kong,Special Attacks,"Monkey Flip, Grab Attack",18/21,36,--,--,--,--,--,--,--,**,--
-Diddy_kong,Special Attacks,"Monkey Flip, Grab Jump",18/27,42,--,--,--,--,--,--,--,**,--
-Diddy_kong,Special Attacks,Up B (Rocketbarrel Boost),8—68,--,30,Touching a solid surface during boost activates explosion,10.0/8.0/6.0,8/7/6,10/8/6,Early/Late/Later,--,8—9(10—16/17—35),--
-Diddy_kong,Special Attacks,"Rocketbarrel Boost, Explosion",1,57-59,--,"Total frames assumes exploding on level ground, Diddy does not suffer hitlag from explosion",18.0,11,6,--,-39 to -41,1—2,55
-Diddy_kong,Special Attacks,Down B (Banana Peel),--,39,--,Item generated on frame 20,--,6,6,--,--,20 (banana appears),--
-Diddy_kong,Special Attacks,Grab,7,36,--,--,--,,,,,7—8,28
-Diddy_kong,Special Attacks,Dash Grab,10,44,--,--,--,,,,,10—11,33
-Diddy_kong,Special Attacks,Pivot Grab,11,39,--,--,--,,,,,11—12,27
-Diddy_kong,Special Attacks,Pummel,1,16,--,Total frames includes 10 frames of hitlag,1.0,,,,,,
-Diddy_kong,Special Attacks,Forward Throw,21,31,--,--,9.0,,,,,,
-Diddy_kong,Special Attacks,Backward Throw,18,51,--,--,12.0,,,,,,
-Diddy_kong,Special Attacks,Up Throw,17/19,26,--,--,1.0/4.0,,,,,,
-Diddy_kong,Special Attacks,Down Throw,22,31,--,--,7.0,,,,,,
-Diddy_kong,Special Attacks,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
-Diddy_kong,Special Attacks,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
-Diddy_kong,Special Attacks,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
-Diddy_kong,Special Attacks,Neutral Air Dodge,,44,10,Intangible on frame 2-27,,,,,,,
-Diddy_kong,Special Attacks,"Air Dodge, Down",,62,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Special Attacks,"Air Dodge, Diagonally Down",,68,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Special Attacks,"Air Dodge, Left/Right",,74,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Special Attacks,"Air Dodge, Diagonally Up",,86,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Special Attacks,"Air Dodge, Up",,96,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Special Attacks,Stats,,,,,,,,,,,
-Diddy_kong,Special Attacks,Ledge Grab,,,,,,,,,,,
-Diddy_kong,Special Attacks,Ledge Hang,,,,,,,,,,,
-Diddy_kong,Special Attacks,Ledge Roll,,,,,,,,,,,
-Diddy_kong,Special Attacks,Getup Attacks,,,,,,,,,,,
-Diddy_kong,Grabs / Throws,Grab,7,36,--,--,--,,,,,7—8,28
-Diddy_kong,Grabs / Throws,Dash Grab,10,44,--,--,--,,,,,10—11,33
-Diddy_kong,Grabs / Throws,Pivot Grab,11,39,--,--,--,,,,,11—12,27
-Diddy_kong,Grabs / Throws,Pummel,1,16,--,Total frames includes 10 frames of hitlag,1.0,,,,,,
-Diddy_kong,Grabs / Throws,Forward Throw,21,31,--,--,9.0,,,,,,
-Diddy_kong,Grabs / Throws,Backward Throw,18,51,--,--,12.0,,,,,,
-Diddy_kong,Grabs / Throws,Up Throw,17/19,26,--,--,1.0/4.0,,,,,,
-Diddy_kong,Grabs / Throws,Down Throw,22,31,--,--,7.0,,,,,,
-Diddy_kong,Grabs / Throws,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
-Diddy_kong,Grabs / Throws,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
-Diddy_kong,Grabs / Throws,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
-Diddy_kong,Grabs / Throws,Neutral Air Dodge,,44,10,Intangible on frame 2-27,,,,,,,
-Diddy_kong,Grabs / Throws,"Air Dodge, Down",,62,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Grabs / Throws,"Air Dodge, Diagonally Down",,68,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Grabs / Throws,"Air Dodge, Left/Right",,74,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Grabs / Throws,"Air Dodge, Diagonally Up",,86,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Grabs / Throws,"Air Dodge, Up",,96,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Grabs / Throws,Stats,,,,,,,,,,,
-Diddy_kong,Grabs / Throws,Ledge Grab,,,,,,,,,,,
-Diddy_kong,Grabs / Throws,Ledge Hang,,,,,,,,,,,
-Diddy_kong,Grabs / Throws,Ledge Roll,,,,,,,,,,,
-Diddy_kong,Grabs / Throws,Getup Attacks,,,,,,,,,,,
-Diddy_kong,Dodges / Rolls,Spot Dodge,,19/24,--,Intangible on frame 3-16,,,,,,,
-Diddy_kong,Dodges / Rolls,Forward Roll,,28,--,Intangible on frame 4-14,,,,,,,
-Diddy_kong,Dodges / Rolls,Backward Roll,,33,--,Intangible on frame 4-15,,,,,,,
-Diddy_kong,Dodges / Rolls,Neutral Air Dodge,,44,10,Intangible on frame 2-27,,,,,,,
-Diddy_kong,Dodges / Rolls,"Air Dodge, Down",,62,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Dodges / Rolls,"Air Dodge, Diagonally Down",,68,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Dodges / Rolls,"Air Dodge, Left/Right",,74,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Dodges / Rolls,"Air Dodge, Diagonally Up",,86,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Dodges / Rolls,"Air Dodge, Up",,96,11-19,Intangible on frame 2-19,,,,,,,
-Diddy_kong,Dodges / Rolls,Stats,,,,,,,,,,,
-Diddy_kong,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
-Diddy_kong,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
-Diddy_kong,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
-Diddy_kong,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
-Diddy_kong,Misc Info,Stats,,,,,,,,,,,
-Diddy_kong,Misc Info,Ledge Grab,,,,,,,,,,,
-Diddy_kong,Misc Info,Ledge Hang,,,,,,,,,,,
-Diddy_kong,Misc Info,Ledge Roll,,,,,,,,,,,
-Diddy_kong,Misc Info,Getup Attacks,,,,,,,,,,,
+character,section,move,startup,total_frames,landing_lag,damage,advantage_on_shield,active_frames,notes,shield_lag,shield_stun,hitbox_type,end_lag,misc_raw,oos_options
+Diddy_kong,Ground Attacks,Jab 1,3,19,--,2.0,-13,3,Transitions to jab 2 as ealy as frame 6,7,3,--,16,,
+Diddy_kong,Ground Attacks,Jab 2,5,20,--,1.5,-12,5,Transitions to jab 3 as early as frame 6,5,3,--,15,,
+Diddy_kong,Ground Attacks,Jab 3,5,34,--,4.0,-24,5,--,11,5,--,29,,
+Diddy_kong,Ground Attacks,Forward Tilt,10,36,--,10.0/7.0,-16,10—11(12/13—16),--,8,10,Early/Late,20,,
+Diddy_kong,Ground Attacks,Up Tilt,6,29,--,6.0,-17,6—11,--,6,6,--,18,,
+Diddy_kong,Ground Attacks,Down Tilt,4,18,--,5.5,-8,4—5,--,6,6,--,13,,
+Diddy_kong,Ground Attacks,Dash Attack,8/16/22,40,--,2.0/3.0,-14,8—9/16—17/22—23,--,4/5,3/4,Multi/Final,17,,
+Diddy_kong,Ground Attacks,Forward Smash,12/21,50,--,5.0/11.0,-21,12(13)/21—23,Charge hold is frame 4,6/10,4/8,--,27,,
+Diddy_kong,Ground Attacks,Up Smash,5/12/19,53,--,2.5/6.0,-29,5(6—8)/12—14(15)/19—23,Charge hold is frame 1,5/6,3/5,Multihit/Final,30,,
+Diddy_kong,Ground Attacks,Down Smash,7/12,50,--,12.0/15.0,-35/-28,7—8/12—13,Charge hold frame is 2,9/10,8/10,--,37,,
+Diddy_kong,Ground Attacks,Neutral Air,8,48,8,6.0,-5,8—20,Autocancels on frame 1-3 and 27 onward,6,3,--,28,,
+Diddy_kong,Ground Attacks,Forward Air,6,46,16,10.0/8.0,-12/-12,6—9(10—16),Autocancels on frame 1-2 and 26 onward,8/7,4/4,Early/Late,30,,
+Diddy_kong,Ground Attacks,Back Air,5,30,7,9.0,-3,5—8,Autocancels on frame 1-2 and 20 onward,7,4,--,22,,
+Diddy_kong,Ground Attacks,Up Air,4,36,9,7.0,-7,4—7,Autocancels on frame 27 onward,7,3,--,29,,
+Diddy_kong,Ground Attacks,Down Air,15,46,17,13.0/10.0,-26 (-13 landing),15—16,Autocancels on frame 1-14 and 35 onward,9/8,5/4,--,30,,
+Diddy_kong,Ground Attacks,Neutral B (Peanut Popgun),16/17—121/124,48,--,3.3—15.0/2.0,-25 to -17/-19 to -13,**,Melee hitbox generated after projectile. Diddy does not suffer hitlag from melee attack,5—10/10—14,2—5/2—2,Projectile/melee,--,,
+Diddy_kong,Ground Attacks,"Peanut Popgun, Misfire",123,228,--,23.0,-85,**,You can cancel charge into shield/air dodge as early as frame 14.,16,20,--,--,,
+Diddy_kong,Ground Attacks,Peanuts (Thrown),--,--,--,--,--,--,--,--,--,--,--,,
+Diddy_kong,Ground Attacks,Side B (Monkey Flip),18,47/61,26,--,--,18—36,"First total frames is in the air, second is along level ground.",--,--,--,11,,
+Diddy_kong,Ground Attacks,"Monkey Flip, Attack",6,32,18,14.0/10.0,-5/-8,6—10(11—25),Total frames is in the air.,10/8,13/10,Early/Late,7,,
+Diddy_kong,Ground Attacks,"Monkey Flip, Grab Success",11/29/59...,--,--,--,--,**,--,--,--,--,--,,
+Diddy_kong,Ground Attacks,"Monkey Flip, Grab Attack",18/21,36,--,--,--,**,--,--,--,--,--,,
+Diddy_kong,Ground Attacks,"Monkey Flip, Grab Jump",18/27,42,--,--,--,**,--,--,--,--,--,,
+Diddy_kong,Ground Attacks,Up B (Rocketbarrel Boost),8—68,--,30,10.0/8.0/6.0,--,8—9(10—16/17—35),Touching a solid surface during boost activates explosion,8/7/6,10/8/6,Early/Late/Later,--,,
+Diddy_kong,Ground Attacks,"Rocketbarrel Boost, Explosion",1,57-59,--,18.0,-39 to -41,1—2,"Total frames assumes exploding on level ground, Diddy does not suffer hitlag from explosion",11,6,--,55,,
+Diddy_kong,Ground Attacks,Down B (Banana Peel),--,39,--,--,--,20 (banana appears),Item generated on frame 20,6,6,--,--,,
+Diddy_kong,Ground Attacks,Grab,7,36,--,--,,7—8,--,,,,28,,
+Diddy_kong,Ground Attacks,Dash Grab,10,44,--,--,,10—11,--,,,,33,,
+Diddy_kong,Ground Attacks,Pivot Grab,11,39,--,--,,11—12,--,,,,27,,
+Diddy_kong,Ground Attacks,Pummel,1,16,--,1.0,,,Total frames includes 10 frames of hitlag,,,,,,
+Diddy_kong,Ground Attacks,Forward Throw,21,31,--,9.0,,,--,,,,,,
+Diddy_kong,Ground Attacks,Backward Throw,18,51,--,12.0,,,--,,,,,,
+Diddy_kong,Ground Attacks,Up Throw,17/19,26,--,1.0/4.0,,,--,,,,,,
+Diddy_kong,Ground Attacks,Down Throw,22,31,--,7.0,,,--,,,,,,
+Diddy_kong,Ground Attacks,Spot Dodge,,19/24,--,,,,Intangible on frame 3-16,,,,,,
+Diddy_kong,Ground Attacks,Forward Roll,,28,--,,,,Intangible on frame 4-14,,,,,,
+Diddy_kong,Ground Attacks,Backward Roll,,33,--,,,,Intangible on frame 4-15,,,,,,
+Diddy_kong,Ground Attacks,Neutral Air Dodge,,44,10,,,,Intangible on frame 2-27,,,,,,
+Diddy_kong,Ground Attacks,"Air Dodge, Down",,62,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Ground Attacks,"Air Dodge, Diagonally Down",,68,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Ground Attacks,"Air Dodge, Left/Right",,74,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Ground Attacks,"Air Dodge, Diagonally Up",,86,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Ground Attacks,"Air Dodge, Up",,96,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Ground Attacks,Stats,,,,,,,,,,,,,
+Diddy_kong,Ground Attacks,Ledge Grab,,,,,,,,,,,,,
+Diddy_kong,Ground Attacks,Ledge Hang,,,,,,,,,,,,,
+Diddy_kong,Ground Attacks,Ledge Roll,,,,,,,,,,,,,
+Diddy_kong,Ground Attacks,Getup Attacks,,,,,,,,,,,,,
+Diddy_kong,Aerial Attacks,Neutral Air,8,48,8,6.0,-5,8—20,Autocancels on frame 1-3 and 27 onward,6,3,--,28,,
+Diddy_kong,Aerial Attacks,Forward Air,6,46,16,10.0/8.0,-12/-12,6—9(10—16),Autocancels on frame 1-2 and 26 onward,8/7,4/4,Early/Late,30,,
+Diddy_kong,Aerial Attacks,Back Air,5,30,7,9.0,-3,5—8,Autocancels on frame 1-2 and 20 onward,7,4,--,22,,
+Diddy_kong,Aerial Attacks,Up Air,4,36,9,7.0,-7,4—7,Autocancels on frame 27 onward,7,3,--,29,,
+Diddy_kong,Aerial Attacks,Down Air,15,46,17,13.0/10.0,-26 (-13 landing),15—16,Autocancels on frame 1-14 and 35 onward,9/8,5/4,--,30,,
+Diddy_kong,Aerial Attacks,Neutral B (Peanut Popgun),16/17—121/124,48,--,3.3—15.0/2.0,-25 to -17/-19 to -13,**,Melee hitbox generated after projectile. Diddy does not suffer hitlag from melee attack,5—10/10—14,2—5/2—2,Projectile/melee,--,,
+Diddy_kong,Aerial Attacks,"Peanut Popgun, Misfire",123,228,--,23.0,-85,**,You can cancel charge into shield/air dodge as early as frame 14.,16,20,--,--,,
+Diddy_kong,Aerial Attacks,Peanuts (Thrown),--,--,--,--,--,--,--,--,--,--,--,,
+Diddy_kong,Aerial Attacks,Side B (Monkey Flip),18,47/61,26,--,--,18—36,"First total frames is in the air, second is along level ground.",--,--,--,11,,
+Diddy_kong,Aerial Attacks,"Monkey Flip, Attack",6,32,18,14.0/10.0,-5/-8,6—10(11—25),Total frames is in the air.,10/8,13/10,Early/Late,7,,
+Diddy_kong,Aerial Attacks,"Monkey Flip, Grab Success",11/29/59...,--,--,--,--,**,--,--,--,--,--,,
+Diddy_kong,Aerial Attacks,"Monkey Flip, Grab Attack",18/21,36,--,--,--,**,--,--,--,--,--,,
+Diddy_kong,Aerial Attacks,"Monkey Flip, Grab Jump",18/27,42,--,--,--,**,--,--,--,--,--,,
+Diddy_kong,Aerial Attacks,Up B (Rocketbarrel Boost),8—68,--,30,10.0/8.0/6.0,--,8—9(10—16/17—35),Touching a solid surface during boost activates explosion,8/7/6,10/8/6,Early/Late/Later,--,,
+Diddy_kong,Aerial Attacks,"Rocketbarrel Boost, Explosion",1,57-59,--,18.0,-39 to -41,1—2,"Total frames assumes exploding on level ground, Diddy does not suffer hitlag from explosion",11,6,--,55,,
+Diddy_kong,Aerial Attacks,Down B (Banana Peel),--,39,--,--,--,20 (banana appears),Item generated on frame 20,6,6,--,--,,
+Diddy_kong,Aerial Attacks,Grab,7,36,--,--,,7—8,--,,,,28,,
+Diddy_kong,Aerial Attacks,Dash Grab,10,44,--,--,,10—11,--,,,,33,,
+Diddy_kong,Aerial Attacks,Pivot Grab,11,39,--,--,,11—12,--,,,,27,,
+Diddy_kong,Aerial Attacks,Pummel,1,16,--,1.0,,,Total frames includes 10 frames of hitlag,,,,,,
+Diddy_kong,Aerial Attacks,Forward Throw,21,31,--,9.0,,,--,,,,,,
+Diddy_kong,Aerial Attacks,Backward Throw,18,51,--,12.0,,,--,,,,,,
+Diddy_kong,Aerial Attacks,Up Throw,17/19,26,--,1.0/4.0,,,--,,,,,,
+Diddy_kong,Aerial Attacks,Down Throw,22,31,--,7.0,,,--,,,,,,
+Diddy_kong,Aerial Attacks,Spot Dodge,,19/24,--,,,,Intangible on frame 3-16,,,,,,
+Diddy_kong,Aerial Attacks,Forward Roll,,28,--,,,,Intangible on frame 4-14,,,,,,
+Diddy_kong,Aerial Attacks,Backward Roll,,33,--,,,,Intangible on frame 4-15,,,,,,
+Diddy_kong,Aerial Attacks,Neutral Air Dodge,,44,10,,,,Intangible on frame 2-27,,,,,,
+Diddy_kong,Aerial Attacks,"Air Dodge, Down",,62,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Aerial Attacks,"Air Dodge, Diagonally Down",,68,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Aerial Attacks,"Air Dodge, Left/Right",,74,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Aerial Attacks,"Air Dodge, Diagonally Up",,86,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Aerial Attacks,"Air Dodge, Up",,96,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Aerial Attacks,Stats,,,,,,,,,,,,,
+Diddy_kong,Aerial Attacks,Ledge Grab,,,,,,,,,,,,,
+Diddy_kong,Aerial Attacks,Ledge Hang,,,,,,,,,,,,,
+Diddy_kong,Aerial Attacks,Ledge Roll,,,,,,,,,,,,,
+Diddy_kong,Aerial Attacks,Getup Attacks,,,,,,,,,,,,,
+Diddy_kong,Special Attacks,Neutral B (Peanut Popgun),16/17—121/124,48,--,3.3—15.0/2.0,-25 to -17/-19 to -13,**,Melee hitbox generated after projectile. Diddy does not suffer hitlag from melee attack,5—10/10—14,2—5/2—2,Projectile/melee,--,,
+Diddy_kong,Special Attacks,"Peanut Popgun, Misfire",123,228,--,23.0,-85,**,You can cancel charge into shield/air dodge as early as frame 14.,16,20,--,--,,
+Diddy_kong,Special Attacks,Peanuts (Thrown),--,--,--,--,--,--,--,--,--,--,--,,
+Diddy_kong,Special Attacks,Side B (Monkey Flip),18,47/61,26,--,--,18—36,"First total frames is in the air, second is along level ground.",--,--,--,11,,
+Diddy_kong,Special Attacks,"Monkey Flip, Attack",6,32,18,14.0/10.0,-5/-8,6—10(11—25),Total frames is in the air.,10/8,13/10,Early/Late,7,,
+Diddy_kong,Special Attacks,"Monkey Flip, Grab Success",11/29/59...,--,--,--,--,**,--,--,--,--,--,,
+Diddy_kong,Special Attacks,"Monkey Flip, Grab Attack",18/21,36,--,--,--,**,--,--,--,--,--,,
+Diddy_kong,Special Attacks,"Monkey Flip, Grab Jump",18/27,42,--,--,--,**,--,--,--,--,--,,
+Diddy_kong,Special Attacks,Up B (Rocketbarrel Boost),8—68,--,30,10.0/8.0/6.0,--,8—9(10—16/17—35),Touching a solid surface during boost activates explosion,8/7/6,10/8/6,Early/Late/Later,--,,
+Diddy_kong,Special Attacks,"Rocketbarrel Boost, Explosion",1,57-59,--,18.0,-39 to -41,1—2,"Total frames assumes exploding on level ground, Diddy does not suffer hitlag from explosion",11,6,--,55,,
+Diddy_kong,Special Attacks,Down B (Banana Peel),--,39,--,--,--,20 (banana appears),Item generated on frame 20,6,6,--,--,,
+Diddy_kong,Special Attacks,Grab,7,36,--,--,,7—8,--,,,,28,,
+Diddy_kong,Special Attacks,Dash Grab,10,44,--,--,,10—11,--,,,,33,,
+Diddy_kong,Special Attacks,Pivot Grab,11,39,--,--,,11—12,--,,,,27,,
+Diddy_kong,Special Attacks,Pummel,1,16,--,1.0,,,Total frames includes 10 frames of hitlag,,,,,,
+Diddy_kong,Special Attacks,Forward Throw,21,31,--,9.0,,,--,,,,,,
+Diddy_kong,Special Attacks,Backward Throw,18,51,--,12.0,,,--,,,,,,
+Diddy_kong,Special Attacks,Up Throw,17/19,26,--,1.0/4.0,,,--,,,,,,
+Diddy_kong,Special Attacks,Down Throw,22,31,--,7.0,,,--,,,,,,
+Diddy_kong,Special Attacks,Spot Dodge,,19/24,--,,,,Intangible on frame 3-16,,,,,,
+Diddy_kong,Special Attacks,Forward Roll,,28,--,,,,Intangible on frame 4-14,,,,,,
+Diddy_kong,Special Attacks,Backward Roll,,33,--,,,,Intangible on frame 4-15,,,,,,
+Diddy_kong,Special Attacks,Neutral Air Dodge,,44,10,,,,Intangible on frame 2-27,,,,,,
+Diddy_kong,Special Attacks,"Air Dodge, Down",,62,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Special Attacks,"Air Dodge, Diagonally Down",,68,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Special Attacks,"Air Dodge, Left/Right",,74,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Special Attacks,"Air Dodge, Diagonally Up",,86,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Special Attacks,"Air Dodge, Up",,96,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Special Attacks,Stats,,,,,,,,,,,,,
+Diddy_kong,Special Attacks,Ledge Grab,,,,,,,,,,,,,
+Diddy_kong,Special Attacks,Ledge Hang,,,,,,,,,,,,,
+Diddy_kong,Special Attacks,Ledge Roll,,,,,,,,,,,,,
+Diddy_kong,Special Attacks,Getup Attacks,,,,,,,,,,,,,
+Diddy_kong,Grabs / Throws,Grab,7,36,--,--,,7—8,--,,,,28,,
+Diddy_kong,Grabs / Throws,Dash Grab,10,44,--,--,,10—11,--,,,,33,,
+Diddy_kong,Grabs / Throws,Pivot Grab,11,39,--,--,,11—12,--,,,,27,,
+Diddy_kong,Grabs / Throws,Pummel,1,16,--,1.0,,,Total frames includes 10 frames of hitlag,,,,,,
+Diddy_kong,Grabs / Throws,Forward Throw,21,31,--,9.0,,,--,,,,,,
+Diddy_kong,Grabs / Throws,Backward Throw,18,51,--,12.0,,,--,,,,,,
+Diddy_kong,Grabs / Throws,Up Throw,17/19,26,--,1.0/4.0,,,--,,,,,,
+Diddy_kong,Grabs / Throws,Down Throw,22,31,--,7.0,,,--,,,,,,
+Diddy_kong,Grabs / Throws,Spot Dodge,,19/24,--,,,,Intangible on frame 3-16,,,,,,
+Diddy_kong,Grabs / Throws,Forward Roll,,28,--,,,,Intangible on frame 4-14,,,,,,
+Diddy_kong,Grabs / Throws,Backward Roll,,33,--,,,,Intangible on frame 4-15,,,,,,
+Diddy_kong,Grabs / Throws,Neutral Air Dodge,,44,10,,,,Intangible on frame 2-27,,,,,,
+Diddy_kong,Grabs / Throws,"Air Dodge, Down",,62,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Grabs / Throws,"Air Dodge, Diagonally Down",,68,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Grabs / Throws,"Air Dodge, Left/Right",,74,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Grabs / Throws,"Air Dodge, Diagonally Up",,86,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Grabs / Throws,"Air Dodge, Up",,96,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Grabs / Throws,Stats,,,,,,,,,,,,,
+Diddy_kong,Grabs / Throws,Ledge Grab,,,,,,,,,,,,,
+Diddy_kong,Grabs / Throws,Ledge Hang,,,,,,,,,,,,,
+Diddy_kong,Grabs / Throws,Ledge Roll,,,,,,,,,,,,,
+Diddy_kong,Grabs / Throws,Getup Attacks,,,,,,,,,,,,,
+Diddy_kong,Dodges / Rolls,Spot Dodge,,19/24,--,,,,Intangible on frame 3-16,,,,,,
+Diddy_kong,Dodges / Rolls,Forward Roll,,28,--,,,,Intangible on frame 4-14,,,,,,
+Diddy_kong,Dodges / Rolls,Backward Roll,,33,--,,,,Intangible on frame 4-15,,,,,,
+Diddy_kong,Dodges / Rolls,Neutral Air Dodge,,44,10,,,,Intangible on frame 2-27,,,,,,
+Diddy_kong,Dodges / Rolls,"Air Dodge, Down",,62,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Dodges / Rolls,"Air Dodge, Diagonally Down",,68,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Dodges / Rolls,"Air Dodge, Left/Right",,74,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Dodges / Rolls,"Air Dodge, Diagonally Up",,86,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Dodges / Rolls,"Air Dodge, Up",,96,11-19,,,,Intangible on frame 2-19,,,,,,
+Diddy_kong,Dodges / Rolls,Stats,,,,,,,,,,,,,
+Diddy_kong,Dodges / Rolls,Ledge Grab,,,,,,,,,,,,,
+Diddy_kong,Dodges / Rolls,Ledge Hang,,,,,,,,,,,,,
+Diddy_kong,Dodges / Rolls,Ledge Roll,,,,,,,,,,,,,
+Diddy_kong,Dodges / Rolls,Getup Attacks,,,,,,,,,,,,,
+Diddy_kong,Misc Info,Stats,,,,,,,,,,,,"Stats Weight — 90 Gravity — 0.125 Walk Speed — 1.313 Run Speed — 2.006 Initial Dash — 2.09 Air Speed — 0.924 Total Air Acceleration — 0.05 SH / FH / SHFF / FHFF Frames — 36 / 51 / 26 / 36 Fall Speed / Fast Fall Speed — 1.75 / 2.8 Out of Shield, Z-Drop Banana — 4 frames Out of Shield, Up Smash — 5 frames Out of Shield, Up B or Back Air — 8 frames Out of Shield, Forward Air — 9 frames Shield Grab (Grab, post-Shieldstun) — 11 frames Shield Drop — 11 frames (universal) Jump Squat (pre-Jump frames) — 3 frames (universal)","[('Z-Drop Banana', '4'), ('Up Smash', '5'), ('Up B or Back Air', '8'), ('Forward Air', '9')]"
+Diddy_kong,Misc Info,Ledge Grab,,,,,,,,,,,,Ledge Grab NormalUp B,
+Diddy_kong,Misc Info,Ledge Hang,,,,,,,,,,,,Ledge Hang ,
+Diddy_kong,Misc Info,Ledge Roll,,,,,,,,,,,,Ledge Roll ,
+Diddy_kong,Misc Info,Getup Attacks,,,,,,,,,,,,Getup Attacks Facing UpFacing DownTripLedge,

@@ -1,0 +1,146 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Richter,Ground Attacks,Jab 1,5,29,--,Transitions to Jab 2 on frame 11. Transitions to Whip dangle from 9.,2.0,7,3,--,-21,5,24
+Richter,Ground Attacks,Jab 2,3,29,--,Transitions to rapid jab on frame 10.,2.0,5,3,--,-23,3—4,25
+Richter,Ground Attacks,Rapid Jab,9/12/15...,--,--,--,0.5,4,--,--,--,**,--
+Richter,Ground Attacks,Rapid Jab Finisher,3,44,--,--,2.5,10,4,--,-37,**,--
+Richter,Ground Attacks,Whip Dangle,--,--,--,Can initiate from Jab and F-Tilt. 19 lag from putting it away.,1.0/1.5,0/0,3/3,Chain/Ball,**,**,--
+Richter,Ground Attacks,Forward Tilt,12,30,--,--,10.0/12.0/2.0,8/9,10/11,Chain/Ball,-8/-7,12—13,17
+Richter,Ground Attacks,Up Tilt,10,37,--,--,10.0/2.0,8,10,Ball/Chain,-17,10—22,15
+Richter,Ground Attacks,Down Tilt 1,7,44,--,Can cancel hitlag from first hit with second.,5.0,6,6,--,-31,7—23,21
+Richter,Ground Attacks,Down Tilt 2,8,57/43,--,Total frames is 57 on level ground. 43 if you go over an edge.,7.0/3.5,8/5,7/4,Early/Late,-42/-28,8—19/20—28,29
+Richter,Ground Attacks,Dash Attack,10/13/16/19/22/24,54,--,--,2.0/3.5,4/5,-/4,--,-26,10/13/16/19/22/24,30
+Richter,Ground Attacks,Forward Smash,24,62,--,Charge hold is frame 5,14.0/16.0/18.0,11/13,10/12,Chain/Ball,-28/-26,24—25,37
+Richter,Ground Attacks,Up Smash,16,53,--,Charge hold is frame 2,16.0/14.0,10/10,10/11,Ball/Chain,-27/-26,16—18,35
+Richter,Ground Attacks,Down Smash,14/20,55,--,Charge hold is frame 2,12.0/14.0/16.0,9/10,8/11,Chain/Ball,-33/-30/-27/-24,14—15/20—21,34
+Richter,Ground Attacks,Neutral Air,8...,42,14,Autocancels on frame 1-6 and 36 onward,1.0/4.0,4/5,2/3,Multi/Final,-12/-11,8—9/11—12/14—15/17—18/20—21/23—24/26—27,15
+Richter,Ground Attacks,Forward Air,14,39,10,Tethers on frame 13. Autocancels on frame 29 onward,12.0/10.0/2.0,8/9/4,4/5/2,Ball/Chain/Arm,-6/-5/-8,14,25
+Richter,Ground Attacks,Back Air,14,39,10,Tethers on frame 13. Autocancels on frame 28 onward,12.0/10.0/2.0,8/9/4,4/5/2,Ball/Chain/Arm,-6/-5/-8,14—15,24
+Richter,Ground Attacks,Up Air,14,39,10,Tethers on frame 13. Autocancels on frame 1-11 and 28 onward,12.0/10.0/2.0,8/9/4,4/5/2,Ball/Chain/Arm,-6/-5/-8,14—16,23
+Richter,Ground Attacks,Down Air,13,48,26,A hit results in 26 frames of endlag. Autocancels on frame 1-3 and 47 onward,12.0/7.0,10/7,5/3,Early/Late,-21/-23,13—14/15—36,12
+Richter,Ground Attacks,Neutral B (Axe),30,66,--,--,15.0,15,15,--,-6,30—97,--
+Richter,Ground Attacks,Side B (Cross),19,44,--,9 frame animation of catching the cross if no other action is being performed.,8.0/6.0/5.0,7/7/6,3/3/3,Smash/Tilt/Return,-15,19—64,--
+Richter,Ground Attacks,Up B (Uppercut),6/9/...,--,26,Intangible frames 5-6.,2.0/1.5/6.0,6/4/6,-/3/6,First/Multi/Final,**,6/9—20/21 (rehit: 3),--
+Richter,Ground Attacks,Down B (Holy Water),18,45,--,Lands on level ground at frame 32 if nothing is in the way. Explodes on contact with the ground or a wall. Bottle will explode if it takes 6% or more damage. When it hits a shield it takes 0% damage but when it hits a character it takes 3%. Touching the ground loses all 6% damage.Click here for more information.,2.0—2.9,4,2,--,**,18...,27
+Richter,Ground Attacks,Holy Water Explosion,1/4/7/15/23/31/39/47/55,--,--,"Simon's explosion is Fire-type damage, Richter's explosion is Aura-type damage.",1.4,**,**,--,**,1/4/7/15/23/31/39/47/55,--
+Richter,Ground Attacks,Grab,10,37,--,--,--,,,,,10—11,26
+Richter,Ground Attacks,Dash Grab,13,45,--,--,--,,,,,13—14,31
+Richter,Ground Attacks,Pivot Grab,14,42,--,--,--,,,,,14—15,27
+Richter,Ground Attacks,Pummel,1,18,**,Total frames includes 12 frames of hitlag,1.3,,,,,,
+Richter,Ground Attacks,Forward Throw,24,41,--,--,7.0,,,,,,
+Richter,Ground Attacks,Backward Throw,18,41,--,--,7.0,,,,,,
+Richter,Ground Attacks,Up Throw,25/26,46,--,--,6.0/4.0,,,,,,
+Richter,Ground Attacks,Down Throw,33,48,--,--,8.0,,,,,,
+Richter,Ground Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Richter,Ground Attacks,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Richter,Ground Attacks,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Richter,Ground Attacks,Neutral Air Dodge,,46,10,Intangible on frame 3-29.,,,,,,,
+Richter,Ground Attacks,"Air Dodge, Down",,62,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Ground Attacks,"Air Dodge, Diagonally Down",,69,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Ground Attacks,"Air Dodge, Left/Right",,76,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Ground Attacks,"Air Dodge, Diagonally Up",,90,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Ground Attacks,"Air Dodge, Up",,104,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Ground Attacks,Stats,,,,,,,,,,,
+Richter,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Richter,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Richter,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Richter,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Richter,Aerial Attacks,Neutral Air,8...,42,14,Autocancels on frame 1-6 and 36 onward,1.0/4.0,4/5,2/3,Multi/Final,-12/-11,8—9/11—12/14—15/17—18/20—21/23—24/26—27,15
+Richter,Aerial Attacks,Forward Air,14,39,10,Tethers on frame 13. Autocancels on frame 29 onward,12.0/10.0/2.0,8/9/4,4/5/2,Ball/Chain/Arm,-6/-5/-8,14,25
+Richter,Aerial Attacks,Back Air,14,39,10,Tethers on frame 13. Autocancels on frame 28 onward,12.0/10.0/2.0,8/9/4,4/5/2,Ball/Chain/Arm,-6/-5/-8,14—15,24
+Richter,Aerial Attacks,Up Air,14,39,10,Tethers on frame 13. Autocancels on frame 1-11 and 28 onward,12.0/10.0/2.0,8/9/4,4/5/2,Ball/Chain/Arm,-6/-5/-8,14—16,23
+Richter,Aerial Attacks,Down Air,13,48,26,A hit results in 26 frames of endlag. Autocancels on frame 1-3 and 47 onward,12.0/7.0,10/7,5/3,Early/Late,-21/-23,13—14/15—36,12
+Richter,Aerial Attacks,Neutral B (Axe),30,66,--,--,15.0,15,15,--,-6,30—97,--
+Richter,Aerial Attacks,Side B (Cross),19,44,--,9 frame animation of catching the cross if no other action is being performed.,8.0/6.0/5.0,7/7/6,3/3/3,Smash/Tilt/Return,-15,19—64,--
+Richter,Aerial Attacks,Up B (Uppercut),6/9/...,--,26,Intangible frames 5-6.,2.0/1.5/6.0,6/4/6,-/3/6,First/Multi/Final,**,6/9—20/21 (rehit: 3),--
+Richter,Aerial Attacks,Down B (Holy Water),18,45,--,Lands on level ground at frame 32 if nothing is in the way. Explodes on contact with the ground or a wall. Bottle will explode if it takes 6% or more damage. When it hits a shield it takes 0% damage but when it hits a character it takes 3%. Touching the ground loses all 6% damage.Click here for more information.,2.0—2.9,4,2,--,**,18...,27
+Richter,Aerial Attacks,Holy Water Explosion,1/4/7/15/23/31/39/47/55,--,--,"Simon's explosion is Fire-type damage, Richter's explosion is Aura-type damage.",1.4,**,**,--,**,1/4/7/15/23/31/39/47/55,--
+Richter,Aerial Attacks,Grab,10,37,--,--,--,,,,,10—11,26
+Richter,Aerial Attacks,Dash Grab,13,45,--,--,--,,,,,13—14,31
+Richter,Aerial Attacks,Pivot Grab,14,42,--,--,--,,,,,14—15,27
+Richter,Aerial Attacks,Pummel,1,18,**,Total frames includes 12 frames of hitlag,1.3,,,,,,
+Richter,Aerial Attacks,Forward Throw,24,41,--,--,7.0,,,,,,
+Richter,Aerial Attacks,Backward Throw,18,41,--,--,7.0,,,,,,
+Richter,Aerial Attacks,Up Throw,25/26,46,--,--,6.0/4.0,,,,,,
+Richter,Aerial Attacks,Down Throw,33,48,--,--,8.0,,,,,,
+Richter,Aerial Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Richter,Aerial Attacks,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Richter,Aerial Attacks,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Richter,Aerial Attacks,Neutral Air Dodge,,46,10,Intangible on frame 3-29.,,,,,,,
+Richter,Aerial Attacks,"Air Dodge, Down",,62,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Aerial Attacks,"Air Dodge, Diagonally Down",,69,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Aerial Attacks,"Air Dodge, Left/Right",,76,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Aerial Attacks,"Air Dodge, Diagonally Up",,90,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Aerial Attacks,"Air Dodge, Up",,104,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Aerial Attacks,Stats,,,,,,,,,,,
+Richter,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Richter,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Richter,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Richter,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Richter,Special Attacks,Neutral B (Axe),30,66,--,--,15.0,15,15,--,-6,30—97,--
+Richter,Special Attacks,Side B (Cross),19,44,--,9 frame animation of catching the cross if no other action is being performed.,8.0/6.0/5.0,7/7/6,3/3/3,Smash/Tilt/Return,-15,19—64,--
+Richter,Special Attacks,Up B (Uppercut),6/9/...,--,26,Intangible frames 5-6.,2.0/1.5/6.0,6/4/6,-/3/6,First/Multi/Final,**,6/9—20/21 (rehit: 3),--
+Richter,Special Attacks,Down B (Holy Water),18,45,--,Lands on level ground at frame 32 if nothing is in the way. Explodes on contact with the ground or a wall. Bottle will explode if it takes 6% or more damage. When it hits a shield it takes 0% damage but when it hits a character it takes 3%. Touching the ground loses all 6% damage.Click here for more information.,2.0—2.9,4,2,--,**,18...,27
+Richter,Special Attacks,Holy Water Explosion,1/4/7/15/23/31/39/47/55,--,--,"Simon's explosion is Fire-type damage, Richter's explosion is Aura-type damage.",1.4,**,**,--,**,1/4/7/15/23/31/39/47/55,--
+Richter,Special Attacks,Grab,10,37,--,--,--,,,,,10—11,26
+Richter,Special Attacks,Dash Grab,13,45,--,--,--,,,,,13—14,31
+Richter,Special Attacks,Pivot Grab,14,42,--,--,--,,,,,14—15,27
+Richter,Special Attacks,Pummel,1,18,**,Total frames includes 12 frames of hitlag,1.3,,,,,,
+Richter,Special Attacks,Forward Throw,24,41,--,--,7.0,,,,,,
+Richter,Special Attacks,Backward Throw,18,41,--,--,7.0,,,,,,
+Richter,Special Attacks,Up Throw,25/26,46,--,--,6.0/4.0,,,,,,
+Richter,Special Attacks,Down Throw,33,48,--,--,8.0,,,,,,
+Richter,Special Attacks,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Richter,Special Attacks,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Richter,Special Attacks,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Richter,Special Attacks,Neutral Air Dodge,,46,10,Intangible on frame 3-29.,,,,,,,
+Richter,Special Attacks,"Air Dodge, Down",,62,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Special Attacks,"Air Dodge, Diagonally Down",,69,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Special Attacks,"Air Dodge, Left/Right",,76,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Special Attacks,"Air Dodge, Diagonally Up",,90,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Special Attacks,"Air Dodge, Up",,104,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Special Attacks,Stats,,,,,,,,,,,
+Richter,Special Attacks,Ledge Grab,,,,,,,,,,,
+Richter,Special Attacks,Ledge Hang,,,,,,,,,,,
+Richter,Special Attacks,Ledge Roll,,,,,,,,,,,
+Richter,Special Attacks,Getup Attacks,,,,,,,,,,,
+Richter,Grabs / Throws,Grab,10,37,--,--,--,,,,,10—11,26
+Richter,Grabs / Throws,Dash Grab,13,45,--,--,--,,,,,13—14,31
+Richter,Grabs / Throws,Pivot Grab,14,42,--,--,--,,,,,14—15,27
+Richter,Grabs / Throws,Pummel,1,18,**,Total frames includes 12 frames of hitlag,1.3,,,,,,
+Richter,Grabs / Throws,Forward Throw,24,41,--,--,7.0,,,,,,
+Richter,Grabs / Throws,Backward Throw,18,41,--,--,7.0,,,,,,
+Richter,Grabs / Throws,Up Throw,25/26,46,--,--,6.0/4.0,,,,,,
+Richter,Grabs / Throws,Down Throw,33,48,--,--,8.0,,,,,,
+Richter,Grabs / Throws,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Richter,Grabs / Throws,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Richter,Grabs / Throws,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Richter,Grabs / Throws,Neutral Air Dodge,,46,10,Intangible on frame 3-29.,,,,,,,
+Richter,Grabs / Throws,"Air Dodge, Down",,62,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Grabs / Throws,"Air Dodge, Diagonally Down",,69,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Grabs / Throws,"Air Dodge, Left/Right",,76,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Grabs / Throws,"Air Dodge, Diagonally Up",,90,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Grabs / Throws,"Air Dodge, Up",,104,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Grabs / Throws,Stats,,,,,,,,,,,
+Richter,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Richter,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Richter,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Richter,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Richter,Dodges / Rolls,Spot Dodge,,21/26,--,Intangible on frame 3-17,,,,,,,
+Richter,Dodges / Rolls,Forward Roll,,30,--,Intangible on frame 4-15.,,,,,,,
+Richter,Dodges / Rolls,Backward Roll,,35,--,Intangible on frame 5-16.,,,,,,,
+Richter,Dodges / Rolls,Neutral Air Dodge,,46,10,Intangible on frame 3-29.,,,,,,,
+Richter,Dodges / Rolls,"Air Dodge, Down",,62,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Dodges / Rolls,"Air Dodge, Diagonally Down",,69,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Dodges / Rolls,"Air Dodge, Left/Right",,76,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Dodges / Rolls,"Air Dodge, Diagonally Up",,90,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Dodges / Rolls,"Air Dodge, Up",,104,11-19,Intangible on frame 3-21.,,,,,,,
+Richter,Dodges / Rolls,Stats,,,,,,,,,,,
+Richter,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Richter,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Richter,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Richter,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Richter,Misc Info,Stats,,,,,,,,,,,
+Richter,Misc Info,Ledge Grab,,,,,,,,,,,
+Richter,Misc Info,Ledge Hang,,,,,,,,,,,
+Richter,Misc Info,Ledge Roll,,,,,,,,,,,
+Richter,Misc Info,Getup Attacks,,,,,,,,,,,

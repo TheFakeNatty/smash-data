@@ -1,159 +1,159 @@
-character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
-Sora,Ground Attacks,Jab 1,5,36,--,The blade is only hitting directly above at frame 5. Transitions to jab 2 as early as frame 19.,2.8,5,8,--,-22,5—12,24
-Sora,Ground Attacks,Jab 2,7,37,--,Transitions to Jab 3 as early as frame 18,2.6,5,8,--,-22,7—10,27
-Sora,Ground Attacks,Jab 3,10,45,--,--,4.2,5,12,--,-23,10—17,28
-Sora,Ground Attacks,Forward Tilt (Strong/Single),13,41,--,--,7.2,7,15,--,-12,13—17,24
-Sora,Ground Attacks,FTilt 1 > FTilt 2 Combo,"13, 7","40, 35",--,--,"5.2, 3.6","5, 5","14, 10","First Hit, Second Hit",-17,"13—17, 7—10",27
-Sora,Ground Attacks,Forward Tilt 3,10,45,--,--,6.4,6,14,--,-23,10—14,31
-Sora,Ground Attacks,Up Tilt,8/12/16/20/24/28/33,53,--,**,0.8/1.2/4.6,4/4/6,2/2/5,--,-13,8—9/12—13/16—17/20—21/24—25/28—29/33—36,17
-Sora,Ground Attacks,Down Tilt,9,31,--,--,5.2,6,6,--,-16,9—10,21
-Sora,Ground Attacks,Dash Attack,7,47,--,Lower leg intangibility on 7-18. Extra hurtbox between Sora's legs on 22-39.,9.6/7.6/7.2,8/7,18/15,Early/Late,-21,7—12(13—18/19—24),23
-Sora,Ground Attacks,Forward Smash,16,52,--,Charge hold on frame 5.,13.8/15.4,12,19,Early/Late,-16,16—17(18—20),32
-Sora,Ground Attacks,Up Smash,11/16,52,--,Charge hold on frame 6.,0.6/14.6,0/10,3/10,**,-26,11—12/16—19,33
-Sora,Ground Attacks,Down Smash,20,55,--,Fully intangible on frame 3-6. Lower body intangibility on frame 7-10. Charge hold on frame 2.,15.2/14.2,10/10,10/10,Close/Far,-24,20—23(20—22),32
-Sora,Ground Attacks,Neutral Air,8,41,9,Transitions to N-air 2 as early as frame 23. Autocancels on frame 30 onward.,3.8,5,3,--,-6,8—20,21
-Sora,Ground Attacks,Neutral Air 2,6,33,10,Transitions to N-air 3 as early as frame 20. Autocancels on frame 28 onward,3.5,5,2,--,-8,6—10,23
-Sora,Ground Attacks,Neutral Air 3,8,41,11,Autocancels on frame 36 onward,6.8,6,3,--,-8,9—13,28
-Sora,Ground Attacks,Forward Air,10,43,12,Transitions to F-air 2 as early as frame 23. Autocancels on frame 1-2 and 38 onward,4.8,6,3,--,-9,10—15,28
-Sora,Ground Attacks,Forward Air 2,6,33,13,Transitions to F-Air 3 as early as frame 20. Autocancels on frame 28 onward,4.0,5,3,--,-10,6—10,23
-Sora,Ground Attacks,Forward Air 3,8,41,14,Autocancels on frame 36 onward,6.8,6,3,--,-11,9—13,28
-Sora,Ground Attacks,Back Air,13,37,11,Autocancels on frame 1-4 and 37 onward,13.2,9,5,--,-6,13—15,22
-Sora,Ground Attacks,Up Air,10,41,10,Autocancels on frame 32 onward. Scoop active 10-11.,12.2,9,5,--,-5,10—18,23
-Sora,Ground Attacks,Down Air,15,57,28,Landing hit on frames 1-2. Autocancels on frame 46 onward.,9.8/5.5,8/6,11/6,Falling/Landing,-21,15—44,13
-Sora,Ground Attacks,Neutral B (Firaga),16,41,--,Can fire additional shots every 36 frames. Windbox on frames 14—15.,5.6/5.2/4.8,6/6/6,6/6/6,Early/Late/Latest,-14,16—25/26—35/36—55,--
-Sora,Ground Attacks,Neutral B (Thundaga),30/44/58,69,--,Startup refers to when the lightning bolts become active.,5.2,9,3,--,**,Ground: 30—52/44—66/58—80Air: 29—52/43—66/58—80,--
-Sora,Ground Attacks,Neutral B (Blizzaga),15...,55,--,"Windbox starts on 13.Active frame notes: each line is a different ice shard. First line is Windbox/Final, the shards are Early/Mid/Late (except last one). Only size and knockback changes.13-14/35-3615-17/18-20/21-2718-20/21-23/24-3020-22/23-25/26-3223-25/26-28/29-3525-27/28-30/31-3728-30/31-33/34-4030-32/33-35/36-4233-37/38-47",2.4/3.6/1.8,*/*/5,*/*/2,Shard/Final Shard/Final,-17,... see notes :),--
-Sora,Ground Attacks,Side B (Sonic Blade),17/45/73,48/88/120,20,"Total frames refers to travel along the ground. Second and third lunges are voluntary. Hit 1 always does 5.2 damage, hit 2/3 do 5.2 if homing or 3.0 when manually aiming.",5.2 (5.2/3.0),6/5/5,6/4/4,First/Second/Third,-25/-39/-43,**,--
-Sora,Ground Attacks,Up B (Aerial Sweep),9...,**,21,Can cancel into Sonic Blade on frame 50,3.8/2.1/4.6,5/4/6,5/3/5,First/Multi/Final,**,(9/10-11)/17-19/20-22/24-26/27-29/31-33/41-43,--
-Sora,Ground Attacks,Down B (Counterattack),7,51,-,Full intangibility on frames 7-8. Counters on frames 8—25. Sora must be facing the attacker.,**,**,**,**,**,7—25 (counter),--
-Sora,Ground Attacks,"Down B (Counterattack, Success)",25,49,-,"Full intangibility on frame 1-29 (not including freeze frames). When countering a projectile, the first 22 frames of startup are skipped.When turning around, is active on frames 31—35 with 55 total frames and full intangibility on 1-35.",**,**,**,**,**,25—29,20
-Sora,Ground Attacks,Grab,7,35,--,--,--,,,,,7—8,27
-Sora,Ground Attacks,Dash Grab,10,41,--,--,--,,,,,10—11,30
-Sora,Ground Attacks,Pivot Grab,11,37,--,--,--,,,,,11—12,25
-Sora,Ground Attacks,Pummel,1,18,Total frames includes 13 frames of hitlag.,--,1.3,,,,,,
-Sora,Ground Attacks,Forward Throw,15/16,41,--,Hitbox/Throw,5.0/3.0,,,,,,
-Sora,Ground Attacks,Backward Throw,11,57,--,Collateral hitbox on frames 11—31.,11.8,,,,,,
-Sora,Ground Attacks,Up Throw,13,37,--,--,6.8,,,,,,
-Sora,Ground Attacks,Down Throw,19,39,--,--,4.6,,,,,,
-Sora,Ground Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Sora,Ground Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Sora,Ground Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Sora,Ground Attacks,Neutral Air Dodge,,54,**,Intangible on frame 3-30,,,,,,,
-Sora,Ground Attacks,"Air Dodge, Down",,74,**,Intangible on frame 3-21,,,,,,,
-Sora,Ground Attacks,"Air Dodge, Diagonally Down",,83,**,Intangible on frame 3-21,,,,,,,
-Sora,Ground Attacks,"Air Dodge, Left/Right",,92,**,Intangible on frame 3-21,,,,,,,
-Sora,Ground Attacks,"Air Dodge, Diagonally Up",,111,**,Intangible on frame 3-21,,,,,,,
-Sora,Ground Attacks,"Air Dodge, Up",,119,**,Intangible on frame 3-21,,,,,,,
-Sora,Ground Attacks,Stats,,,,,,,,,,,
-Sora,Ground Attacks,Ledge Grab,,,,,,,,,,,
-Sora,Ground Attacks,Ledge Hang,,,,,,,,,,,
-Sora,Ground Attacks,Ledge Roll,,,,,,,,,,,
-Sora,Ground Attacks,Getup Attacks,,,,,,,,,,,
-Sora,Aerial Attacks,Neutral Air,8,41,9,Transitions to N-air 2 as early as frame 23. Autocancels on frame 30 onward.,3.8,5,3,--,-6,8—20,21
-Sora,Aerial Attacks,Neutral Air 2,6,33,10,Transitions to N-air 3 as early as frame 20. Autocancels on frame 28 onward,3.5,5,2,--,-8,6—10,23
-Sora,Aerial Attacks,Neutral Air 3,8,41,11,Autocancels on frame 36 onward,6.8,6,3,--,-8,9—13,28
-Sora,Aerial Attacks,Forward Air,10,43,12,Transitions to F-air 2 as early as frame 23. Autocancels on frame 1-2 and 38 onward,4.8,6,3,--,-9,10—15,28
-Sora,Aerial Attacks,Forward Air 2,6,33,13,Transitions to F-Air 3 as early as frame 20. Autocancels on frame 28 onward,4.0,5,3,--,-10,6—10,23
-Sora,Aerial Attacks,Forward Air 3,8,41,14,Autocancels on frame 36 onward,6.8,6,3,--,-11,9—13,28
-Sora,Aerial Attacks,Back Air,13,37,11,Autocancels on frame 1-4 and 37 onward,13.2,9,5,--,-6,13—15,22
-Sora,Aerial Attacks,Up Air,10,41,10,Autocancels on frame 32 onward. Scoop active 10-11.,12.2,9,5,--,-5,10—18,23
-Sora,Aerial Attacks,Down Air,15,57,28,Landing hit on frames 1-2. Autocancels on frame 46 onward.,9.8/5.5,8/6,11/6,Falling/Landing,-21,15—44,13
-Sora,Aerial Attacks,Neutral B (Firaga),16,41,--,Can fire additional shots every 36 frames. Windbox on frames 14—15.,5.6/5.2/4.8,6/6/6,6/6/6,Early/Late/Latest,-14,16—25/26—35/36—55,--
-Sora,Aerial Attacks,Neutral B (Thundaga),30/44/58,69,--,Startup refers to when the lightning bolts become active.,5.2,9,3,--,**,Ground: 30—52/44—66/58—80Air: 29—52/43—66/58—80,--
-Sora,Aerial Attacks,Neutral B (Blizzaga),15...,55,--,"Windbox starts on 13.Active frame notes: each line is a different ice shard. First line is Windbox/Final, the shards are Early/Mid/Late (except last one). Only size and knockback changes.13-14/35-3615-17/18-20/21-2718-20/21-23/24-3020-22/23-25/26-3223-25/26-28/29-3525-27/28-30/31-3728-30/31-33/34-4030-32/33-35/36-4233-37/38-47",2.4/3.6/1.8,*/*/5,*/*/2,Shard/Final Shard/Final,-17,... see notes :),--
-Sora,Aerial Attacks,Side B (Sonic Blade),17/45/73,48/88/120,20,"Total frames refers to travel along the ground. Second and third lunges are voluntary. Hit 1 always does 5.2 damage, hit 2/3 do 5.2 if homing or 3.0 when manually aiming.",5.2 (5.2/3.0),6/5/5,6/4/4,First/Second/Third,-25/-39/-43,**,--
-Sora,Aerial Attacks,Up B (Aerial Sweep),9...,**,21,Can cancel into Sonic Blade on frame 50,3.8/2.1/4.6,5/4/6,5/3/5,First/Multi/Final,**,(9/10-11)/17-19/20-22/24-26/27-29/31-33/41-43,--
-Sora,Aerial Attacks,Down B (Counterattack),7,51,-,Full intangibility on frames 7-8. Counters on frames 8—25. Sora must be facing the attacker.,**,**,**,**,**,7—25 (counter),--
-Sora,Aerial Attacks,"Down B (Counterattack, Success)",25,49,-,"Full intangibility on frame 1-29 (not including freeze frames). When countering a projectile, the first 22 frames of startup are skipped.When turning around, is active on frames 31—35 with 55 total frames and full intangibility on 1-35.",**,**,**,**,**,25—29,20
-Sora,Aerial Attacks,Grab,7,35,--,--,--,,,,,7—8,27
-Sora,Aerial Attacks,Dash Grab,10,41,--,--,--,,,,,10—11,30
-Sora,Aerial Attacks,Pivot Grab,11,37,--,--,--,,,,,11—12,25
-Sora,Aerial Attacks,Pummel,1,18,Total frames includes 13 frames of hitlag.,--,1.3,,,,,,
-Sora,Aerial Attacks,Forward Throw,15/16,41,--,Hitbox/Throw,5.0/3.0,,,,,,
-Sora,Aerial Attacks,Backward Throw,11,57,--,Collateral hitbox on frames 11—31.,11.8,,,,,,
-Sora,Aerial Attacks,Up Throw,13,37,--,--,6.8,,,,,,
-Sora,Aerial Attacks,Down Throw,19,39,--,--,4.6,,,,,,
-Sora,Aerial Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Sora,Aerial Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Sora,Aerial Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Sora,Aerial Attacks,Neutral Air Dodge,,54,**,Intangible on frame 3-30,,,,,,,
-Sora,Aerial Attacks,"Air Dodge, Down",,74,**,Intangible on frame 3-21,,,,,,,
-Sora,Aerial Attacks,"Air Dodge, Diagonally Down",,83,**,Intangible on frame 3-21,,,,,,,
-Sora,Aerial Attacks,"Air Dodge, Left/Right",,92,**,Intangible on frame 3-21,,,,,,,
-Sora,Aerial Attacks,"Air Dodge, Diagonally Up",,111,**,Intangible on frame 3-21,,,,,,,
-Sora,Aerial Attacks,"Air Dodge, Up",,119,**,Intangible on frame 3-21,,,,,,,
-Sora,Aerial Attacks,Stats,,,,,,,,,,,
-Sora,Aerial Attacks,Ledge Grab,,,,,,,,,,,
-Sora,Aerial Attacks,Ledge Hang,,,,,,,,,,,
-Sora,Aerial Attacks,Ledge Roll,,,,,,,,,,,
-Sora,Aerial Attacks,Getup Attacks,,,,,,,,,,,
-Sora,Special Attacks,Neutral B (Firaga),16,41,--,Can fire additional shots every 36 frames. Windbox on frames 14—15.,5.6/5.2/4.8,6/6/6,6/6/6,Early/Late/Latest,-14,16—25/26—35/36—55,--
-Sora,Special Attacks,Neutral B (Thundaga),30/44/58,69,--,Startup refers to when the lightning bolts become active.,5.2,9,3,--,**,Ground: 30—52/44—66/58—80Air: 29—52/43—66/58—80,--
-Sora,Special Attacks,Neutral B (Blizzaga),15...,55,--,"Windbox starts on 13.Active frame notes: each line is a different ice shard. First line is Windbox/Final, the shards are Early/Mid/Late (except last one). Only size and knockback changes.13-14/35-3615-17/18-20/21-2718-20/21-23/24-3020-22/23-25/26-3223-25/26-28/29-3525-27/28-30/31-3728-30/31-33/34-4030-32/33-35/36-4233-37/38-47",2.4/3.6/1.8,*/*/5,*/*/2,Shard/Final Shard/Final,-17,... see notes :),--
-Sora,Special Attacks,Side B (Sonic Blade),17/45/73,48/88/120,20,"Total frames refers to travel along the ground. Second and third lunges are voluntary. Hit 1 always does 5.2 damage, hit 2/3 do 5.2 if homing or 3.0 when manually aiming.",5.2 (5.2/3.0),6/5/5,6/4/4,First/Second/Third,-25/-39/-43,**,--
-Sora,Special Attacks,Up B (Aerial Sweep),9...,**,21,Can cancel into Sonic Blade on frame 50,3.8/2.1/4.6,5/4/6,5/3/5,First/Multi/Final,**,(9/10-11)/17-19/20-22/24-26/27-29/31-33/41-43,--
-Sora,Special Attacks,Down B (Counterattack),7,51,-,Full intangibility on frames 7-8. Counters on frames 8—25. Sora must be facing the attacker.,**,**,**,**,**,7—25 (counter),--
-Sora,Special Attacks,"Down B (Counterattack, Success)",25,49,-,"Full intangibility on frame 1-29 (not including freeze frames). When countering a projectile, the first 22 frames of startup are skipped.When turning around, is active on frames 31—35 with 55 total frames and full intangibility on 1-35.",**,**,**,**,**,25—29,20
-Sora,Special Attacks,Grab,7,35,--,--,--,,,,,7—8,27
-Sora,Special Attacks,Dash Grab,10,41,--,--,--,,,,,10—11,30
-Sora,Special Attacks,Pivot Grab,11,37,--,--,--,,,,,11—12,25
-Sora,Special Attacks,Pummel,1,18,Total frames includes 13 frames of hitlag.,--,1.3,,,,,,
-Sora,Special Attacks,Forward Throw,15/16,41,--,Hitbox/Throw,5.0/3.0,,,,,,
-Sora,Special Attacks,Backward Throw,11,57,--,Collateral hitbox on frames 11—31.,11.8,,,,,,
-Sora,Special Attacks,Up Throw,13,37,--,--,6.8,,,,,,
-Sora,Special Attacks,Down Throw,19,39,--,--,4.6,,,,,,
-Sora,Special Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Sora,Special Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Sora,Special Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Sora,Special Attacks,Neutral Air Dodge,,54,**,Intangible on frame 3-30,,,,,,,
-Sora,Special Attacks,"Air Dodge, Down",,74,**,Intangible on frame 3-21,,,,,,,
-Sora,Special Attacks,"Air Dodge, Diagonally Down",,83,**,Intangible on frame 3-21,,,,,,,
-Sora,Special Attacks,"Air Dodge, Left/Right",,92,**,Intangible on frame 3-21,,,,,,,
-Sora,Special Attacks,"Air Dodge, Diagonally Up",,111,**,Intangible on frame 3-21,,,,,,,
-Sora,Special Attacks,"Air Dodge, Up",,119,**,Intangible on frame 3-21,,,,,,,
-Sora,Special Attacks,Stats,,,,,,,,,,,
-Sora,Special Attacks,Ledge Grab,,,,,,,,,,,
-Sora,Special Attacks,Ledge Hang,,,,,,,,,,,
-Sora,Special Attacks,Ledge Roll,,,,,,,,,,,
-Sora,Special Attacks,Getup Attacks,,,,,,,,,,,
-Sora,Grabs / Throws,Grab,7,35,--,--,--,,,,,7—8,27
-Sora,Grabs / Throws,Dash Grab,10,41,--,--,--,,,,,10—11,30
-Sora,Grabs / Throws,Pivot Grab,11,37,--,--,--,,,,,11—12,25
-Sora,Grabs / Throws,Pummel,1,18,Total frames includes 13 frames of hitlag.,--,1.3,,,,,,
-Sora,Grabs / Throws,Forward Throw,15/16,41,--,Hitbox/Throw,5.0/3.0,,,,,,
-Sora,Grabs / Throws,Backward Throw,11,57,--,Collateral hitbox on frames 11—31.,11.8,,,,,,
-Sora,Grabs / Throws,Up Throw,13,37,--,--,6.8,,,,,,
-Sora,Grabs / Throws,Down Throw,19,39,--,--,4.6,,,,,,
-Sora,Grabs / Throws,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Sora,Grabs / Throws,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Sora,Grabs / Throws,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Sora,Grabs / Throws,Neutral Air Dodge,,54,**,Intangible on frame 3-30,,,,,,,
-Sora,Grabs / Throws,"Air Dodge, Down",,74,**,Intangible on frame 3-21,,,,,,,
-Sora,Grabs / Throws,"Air Dodge, Diagonally Down",,83,**,Intangible on frame 3-21,,,,,,,
-Sora,Grabs / Throws,"Air Dodge, Left/Right",,92,**,Intangible on frame 3-21,,,,,,,
-Sora,Grabs / Throws,"Air Dodge, Diagonally Up",,111,**,Intangible on frame 3-21,,,,,,,
-Sora,Grabs / Throws,"Air Dodge, Up",,119,**,Intangible on frame 3-21,,,,,,,
-Sora,Grabs / Throws,Stats,,,,,,,,,,,
-Sora,Grabs / Throws,Ledge Grab,,,,,,,,,,,
-Sora,Grabs / Throws,Ledge Hang,,,,,,,,,,,
-Sora,Grabs / Throws,Ledge Roll,,,,,,,,,,,
-Sora,Grabs / Throws,Getup Attacks,,,,,,,,,,,
-Sora,Dodges / Rolls,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
-Sora,Dodges / Rolls,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
-Sora,Dodges / Rolls,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
-Sora,Dodges / Rolls,Neutral Air Dodge,,54,**,Intangible on frame 3-30,,,,,,,
-Sora,Dodges / Rolls,"Air Dodge, Down",,74,**,Intangible on frame 3-21,,,,,,,
-Sora,Dodges / Rolls,"Air Dodge, Diagonally Down",,83,**,Intangible on frame 3-21,,,,,,,
-Sora,Dodges / Rolls,"Air Dodge, Left/Right",,92,**,Intangible on frame 3-21,,,,,,,
-Sora,Dodges / Rolls,"Air Dodge, Diagonally Up",,111,**,Intangible on frame 3-21,,,,,,,
-Sora,Dodges / Rolls,"Air Dodge, Up",,119,**,Intangible on frame 3-21,,,,,,,
-Sora,Dodges / Rolls,Stats,,,,,,,,,,,
-Sora,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
-Sora,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
-Sora,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
-Sora,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
-Sora,Misc Info,Stats,,,,,,,,,,,
-Sora,Misc Info,Ledge Grab,,,,,,,,,,,
-Sora,Misc Info,Ledge Hang,,,,,,,,,,,
-Sora,Misc Info,Ledge Roll,,,,,,,,,,,
-Sora,Misc Info,Getup Attacks,,,,,,,,,,,
+character,section,move,startup,total_frames,landing_lag,damage,advantage_on_shield,active_frames,notes,shield_lag,shield_stun,hitbox_type,end_lag,misc_raw,oos_options
+Sora,Ground Attacks,Jab 1,5,36,--,2.8,-22,5—12,The blade is only hitting directly above at frame 5. Transitions to jab 2 as early as frame 19.,5,8,--,24,,
+Sora,Ground Attacks,Jab 2,7,37,--,2.6,-22,7—10,Transitions to Jab 3 as early as frame 18,5,8,--,27,,
+Sora,Ground Attacks,Jab 3,10,45,--,4.2,-23,10—17,--,5,12,--,28,,
+Sora,Ground Attacks,Forward Tilt (Strong/Single),13,41,--,7.2,-12,13—17,--,7,15,--,24,,
+Sora,Ground Attacks,FTilt 1 > FTilt 2 Combo,"13, 7","40, 35",--,"5.2, 3.6",-17,"13—17, 7—10",--,"5, 5","14, 10","First Hit, Second Hit",27,,
+Sora,Ground Attacks,Forward Tilt 3,10,45,--,6.4,-23,10—14,--,6,14,--,31,,
+Sora,Ground Attacks,Up Tilt,8/12/16/20/24/28/33,53,--,0.8/1.2/4.6,-13,8—9/12—13/16—17/20—21/24—25/28—29/33—36,**,4/4/6,2/2/5,--,17,,
+Sora,Ground Attacks,Down Tilt,9,31,--,5.2,-16,9—10,--,6,6,--,21,,
+Sora,Ground Attacks,Dash Attack,7,47,--,9.6/7.6/7.2,-21,7—12(13—18/19—24),Lower leg intangibility on 7-18. Extra hurtbox between Sora's legs on 22-39.,8/7,18/15,Early/Late,23,,
+Sora,Ground Attacks,Forward Smash,16,52,--,13.8/15.4,-16,16—17(18—20),Charge hold on frame 5.,12,19,Early/Late,32,,
+Sora,Ground Attacks,Up Smash,11/16,52,--,0.6/14.6,-26,11—12/16—19,Charge hold on frame 6.,0/10,3/10,**,33,,
+Sora,Ground Attacks,Down Smash,20,55,--,15.2/14.2,-24,20—23(20—22),Fully intangible on frame 3-6. Lower body intangibility on frame 7-10. Charge hold on frame 2.,10/10,10/10,Close/Far,32,,
+Sora,Ground Attacks,Neutral Air,8,41,9,3.8,-6,8—20,Transitions to N-air 2 as early as frame 23. Autocancels on frame 30 onward.,5,3,--,21,,
+Sora,Ground Attacks,Neutral Air 2,6,33,10,3.5,-8,6—10,Transitions to N-air 3 as early as frame 20. Autocancels on frame 28 onward,5,2,--,23,,
+Sora,Ground Attacks,Neutral Air 3,8,41,11,6.8,-8,9—13,Autocancels on frame 36 onward,6,3,--,28,,
+Sora,Ground Attacks,Forward Air,10,43,12,4.8,-9,10—15,Transitions to F-air 2 as early as frame 23. Autocancels on frame 1-2 and 38 onward,6,3,--,28,,
+Sora,Ground Attacks,Forward Air 2,6,33,13,4.0,-10,6—10,Transitions to F-Air 3 as early as frame 20. Autocancels on frame 28 onward,5,3,--,23,,
+Sora,Ground Attacks,Forward Air 3,8,41,14,6.8,-11,9—13,Autocancels on frame 36 onward,6,3,--,28,,
+Sora,Ground Attacks,Back Air,13,37,11,13.2,-6,13—15,Autocancels on frame 1-4 and 37 onward,9,5,--,22,,
+Sora,Ground Attacks,Up Air,10,41,10,12.2,-5,10—18,Autocancels on frame 32 onward. Scoop active 10-11.,9,5,--,23,,
+Sora,Ground Attacks,Down Air,15,57,28,9.8/5.5,-21,15—44,Landing hit on frames 1-2. Autocancels on frame 46 onward.,8/6,11/6,Falling/Landing,13,,
+Sora,Ground Attacks,Neutral B (Firaga),16,41,--,5.6/5.2/4.8,-14,16—25/26—35/36—55,Can fire additional shots every 36 frames. Windbox on frames 14—15.,6/6/6,6/6/6,Early/Late/Latest,--,,
+Sora,Ground Attacks,Neutral B (Thundaga),30/44/58,69,--,5.2,**,Ground: 30—52/44—66/58—80Air: 29—52/43—66/58—80,Startup refers to when the lightning bolts become active.,9,3,--,--,,
+Sora,Ground Attacks,Neutral B (Blizzaga),15...,55,--,2.4/3.6/1.8,-17,... see notes :),"Windbox starts on 13.Active frame notes: each line is a different ice shard. First line is Windbox/Final, the shards are Early/Mid/Late (except last one). Only size and knockback changes.13-14/35-3615-17/18-20/21-2718-20/21-23/24-3020-22/23-25/26-3223-25/26-28/29-3525-27/28-30/31-3728-30/31-33/34-4030-32/33-35/36-4233-37/38-47",*/*/5,*/*/2,Shard/Final Shard/Final,--,,
+Sora,Ground Attacks,Side B (Sonic Blade),17/45/73,48/88/120,20,5.2 (5.2/3.0),-25/-39/-43,**,"Total frames refers to travel along the ground. Second and third lunges are voluntary. Hit 1 always does 5.2 damage, hit 2/3 do 5.2 if homing or 3.0 when manually aiming.",6/5/5,6/4/4,First/Second/Third,--,,
+Sora,Ground Attacks,Up B (Aerial Sweep),9...,**,21,3.8/2.1/4.6,**,(9/10-11)/17-19/20-22/24-26/27-29/31-33/41-43,Can cancel into Sonic Blade on frame 50,5/4/6,5/3/5,First/Multi/Final,--,,
+Sora,Ground Attacks,Down B (Counterattack),7,51,-,**,**,7—25 (counter),Full intangibility on frames 7-8. Counters on frames 8—25. Sora must be facing the attacker.,**,**,**,--,,
+Sora,Ground Attacks,"Down B (Counterattack, Success)",25,49,-,**,**,25—29,"Full intangibility on frame 1-29 (not including freeze frames). When countering a projectile, the first 22 frames of startup are skipped.When turning around, is active on frames 31—35 with 55 total frames and full intangibility on 1-35.",**,**,**,20,,
+Sora,Ground Attacks,Grab,7,35,--,--,,7—8,--,,,,27,,
+Sora,Ground Attacks,Dash Grab,10,41,--,--,,10—11,--,,,,30,,
+Sora,Ground Attacks,Pivot Grab,11,37,--,--,,11—12,--,,,,25,,
+Sora,Ground Attacks,Pummel,1,18,Total frames includes 13 frames of hitlag.,1.3,,,--,,,,,,
+Sora,Ground Attacks,Forward Throw,15/16,41,--,5.0/3.0,,,Hitbox/Throw,,,,,,
+Sora,Ground Attacks,Backward Throw,11,57,--,11.8,,,Collateral hitbox on frames 11—31.,,,,,,
+Sora,Ground Attacks,Up Throw,13,37,--,6.8,,,--,,,,,,
+Sora,Ground Attacks,Down Throw,19,39,--,4.6,,,--,,,,,,
+Sora,Ground Attacks,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Sora,Ground Attacks,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Sora,Ground Attacks,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Sora,Ground Attacks,Neutral Air Dodge,,54,**,,,,Intangible on frame 3-30,,,,,,
+Sora,Ground Attacks,"Air Dodge, Down",,74,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Ground Attacks,"Air Dodge, Diagonally Down",,83,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Ground Attacks,"Air Dodge, Left/Right",,92,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Ground Attacks,"Air Dodge, Diagonally Up",,111,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Ground Attacks,"Air Dodge, Up",,119,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Ground Attacks,Stats,,,,,,,,,,,,,
+Sora,Ground Attacks,Ledge Grab,,,,,,,,,,,,,
+Sora,Ground Attacks,Ledge Hang,,,,,,,,,,,,,
+Sora,Ground Attacks,Ledge Roll,,,,,,,,,,,,,
+Sora,Ground Attacks,Getup Attacks,,,,,,,,,,,,,
+Sora,Aerial Attacks,Neutral Air,8,41,9,3.8,-6,8—20,Transitions to N-air 2 as early as frame 23. Autocancels on frame 30 onward.,5,3,--,21,,
+Sora,Aerial Attacks,Neutral Air 2,6,33,10,3.5,-8,6—10,Transitions to N-air 3 as early as frame 20. Autocancels on frame 28 onward,5,2,--,23,,
+Sora,Aerial Attacks,Neutral Air 3,8,41,11,6.8,-8,9—13,Autocancels on frame 36 onward,6,3,--,28,,
+Sora,Aerial Attacks,Forward Air,10,43,12,4.8,-9,10—15,Transitions to F-air 2 as early as frame 23. Autocancels on frame 1-2 and 38 onward,6,3,--,28,,
+Sora,Aerial Attacks,Forward Air 2,6,33,13,4.0,-10,6—10,Transitions to F-Air 3 as early as frame 20. Autocancels on frame 28 onward,5,3,--,23,,
+Sora,Aerial Attacks,Forward Air 3,8,41,14,6.8,-11,9—13,Autocancels on frame 36 onward,6,3,--,28,,
+Sora,Aerial Attacks,Back Air,13,37,11,13.2,-6,13—15,Autocancels on frame 1-4 and 37 onward,9,5,--,22,,
+Sora,Aerial Attacks,Up Air,10,41,10,12.2,-5,10—18,Autocancels on frame 32 onward. Scoop active 10-11.,9,5,--,23,,
+Sora,Aerial Attacks,Down Air,15,57,28,9.8/5.5,-21,15—44,Landing hit on frames 1-2. Autocancels on frame 46 onward.,8/6,11/6,Falling/Landing,13,,
+Sora,Aerial Attacks,Neutral B (Firaga),16,41,--,5.6/5.2/4.8,-14,16—25/26—35/36—55,Can fire additional shots every 36 frames. Windbox on frames 14—15.,6/6/6,6/6/6,Early/Late/Latest,--,,
+Sora,Aerial Attacks,Neutral B (Thundaga),30/44/58,69,--,5.2,**,Ground: 30—52/44—66/58—80Air: 29—52/43—66/58—80,Startup refers to when the lightning bolts become active.,9,3,--,--,,
+Sora,Aerial Attacks,Neutral B (Blizzaga),15...,55,--,2.4/3.6/1.8,-17,... see notes :),"Windbox starts on 13.Active frame notes: each line is a different ice shard. First line is Windbox/Final, the shards are Early/Mid/Late (except last one). Only size and knockback changes.13-14/35-3615-17/18-20/21-2718-20/21-23/24-3020-22/23-25/26-3223-25/26-28/29-3525-27/28-30/31-3728-30/31-33/34-4030-32/33-35/36-4233-37/38-47",*/*/5,*/*/2,Shard/Final Shard/Final,--,,
+Sora,Aerial Attacks,Side B (Sonic Blade),17/45/73,48/88/120,20,5.2 (5.2/3.0),-25/-39/-43,**,"Total frames refers to travel along the ground. Second and third lunges are voluntary. Hit 1 always does 5.2 damage, hit 2/3 do 5.2 if homing or 3.0 when manually aiming.",6/5/5,6/4/4,First/Second/Third,--,,
+Sora,Aerial Attacks,Up B (Aerial Sweep),9...,**,21,3.8/2.1/4.6,**,(9/10-11)/17-19/20-22/24-26/27-29/31-33/41-43,Can cancel into Sonic Blade on frame 50,5/4/6,5/3/5,First/Multi/Final,--,,
+Sora,Aerial Attacks,Down B (Counterattack),7,51,-,**,**,7—25 (counter),Full intangibility on frames 7-8. Counters on frames 8—25. Sora must be facing the attacker.,**,**,**,--,,
+Sora,Aerial Attacks,"Down B (Counterattack, Success)",25,49,-,**,**,25—29,"Full intangibility on frame 1-29 (not including freeze frames). When countering a projectile, the first 22 frames of startup are skipped.When turning around, is active on frames 31—35 with 55 total frames and full intangibility on 1-35.",**,**,**,20,,
+Sora,Aerial Attacks,Grab,7,35,--,--,,7—8,--,,,,27,,
+Sora,Aerial Attacks,Dash Grab,10,41,--,--,,10—11,--,,,,30,,
+Sora,Aerial Attacks,Pivot Grab,11,37,--,--,,11—12,--,,,,25,,
+Sora,Aerial Attacks,Pummel,1,18,Total frames includes 13 frames of hitlag.,1.3,,,--,,,,,,
+Sora,Aerial Attacks,Forward Throw,15/16,41,--,5.0/3.0,,,Hitbox/Throw,,,,,,
+Sora,Aerial Attacks,Backward Throw,11,57,--,11.8,,,Collateral hitbox on frames 11—31.,,,,,,
+Sora,Aerial Attacks,Up Throw,13,37,--,6.8,,,--,,,,,,
+Sora,Aerial Attacks,Down Throw,19,39,--,4.6,,,--,,,,,,
+Sora,Aerial Attacks,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Sora,Aerial Attacks,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Sora,Aerial Attacks,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Sora,Aerial Attacks,Neutral Air Dodge,,54,**,,,,Intangible on frame 3-30,,,,,,
+Sora,Aerial Attacks,"Air Dodge, Down",,74,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Aerial Attacks,"Air Dodge, Diagonally Down",,83,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Aerial Attacks,"Air Dodge, Left/Right",,92,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Aerial Attacks,"Air Dodge, Diagonally Up",,111,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Aerial Attacks,"Air Dodge, Up",,119,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Aerial Attacks,Stats,,,,,,,,,,,,,
+Sora,Aerial Attacks,Ledge Grab,,,,,,,,,,,,,
+Sora,Aerial Attacks,Ledge Hang,,,,,,,,,,,,,
+Sora,Aerial Attacks,Ledge Roll,,,,,,,,,,,,,
+Sora,Aerial Attacks,Getup Attacks,,,,,,,,,,,,,
+Sora,Special Attacks,Neutral B (Firaga),16,41,--,5.6/5.2/4.8,-14,16—25/26—35/36—55,Can fire additional shots every 36 frames. Windbox on frames 14—15.,6/6/6,6/6/6,Early/Late/Latest,--,,
+Sora,Special Attacks,Neutral B (Thundaga),30/44/58,69,--,5.2,**,Ground: 30—52/44—66/58—80Air: 29—52/43—66/58—80,Startup refers to when the lightning bolts become active.,9,3,--,--,,
+Sora,Special Attacks,Neutral B (Blizzaga),15...,55,--,2.4/3.6/1.8,-17,... see notes :),"Windbox starts on 13.Active frame notes: each line is a different ice shard. First line is Windbox/Final, the shards are Early/Mid/Late (except last one). Only size and knockback changes.13-14/35-3615-17/18-20/21-2718-20/21-23/24-3020-22/23-25/26-3223-25/26-28/29-3525-27/28-30/31-3728-30/31-33/34-4030-32/33-35/36-4233-37/38-47",*/*/5,*/*/2,Shard/Final Shard/Final,--,,
+Sora,Special Attacks,Side B (Sonic Blade),17/45/73,48/88/120,20,5.2 (5.2/3.0),-25/-39/-43,**,"Total frames refers to travel along the ground. Second and third lunges are voluntary. Hit 1 always does 5.2 damage, hit 2/3 do 5.2 if homing or 3.0 when manually aiming.",6/5/5,6/4/4,First/Second/Third,--,,
+Sora,Special Attacks,Up B (Aerial Sweep),9...,**,21,3.8/2.1/4.6,**,(9/10-11)/17-19/20-22/24-26/27-29/31-33/41-43,Can cancel into Sonic Blade on frame 50,5/4/6,5/3/5,First/Multi/Final,--,,
+Sora,Special Attacks,Down B (Counterattack),7,51,-,**,**,7—25 (counter),Full intangibility on frames 7-8. Counters on frames 8—25. Sora must be facing the attacker.,**,**,**,--,,
+Sora,Special Attacks,"Down B (Counterattack, Success)",25,49,-,**,**,25—29,"Full intangibility on frame 1-29 (not including freeze frames). When countering a projectile, the first 22 frames of startup are skipped.When turning around, is active on frames 31—35 with 55 total frames and full intangibility on 1-35.",**,**,**,20,,
+Sora,Special Attacks,Grab,7,35,--,--,,7—8,--,,,,27,,
+Sora,Special Attacks,Dash Grab,10,41,--,--,,10—11,--,,,,30,,
+Sora,Special Attacks,Pivot Grab,11,37,--,--,,11—12,--,,,,25,,
+Sora,Special Attacks,Pummel,1,18,Total frames includes 13 frames of hitlag.,1.3,,,--,,,,,,
+Sora,Special Attacks,Forward Throw,15/16,41,--,5.0/3.0,,,Hitbox/Throw,,,,,,
+Sora,Special Attacks,Backward Throw,11,57,--,11.8,,,Collateral hitbox on frames 11—31.,,,,,,
+Sora,Special Attacks,Up Throw,13,37,--,6.8,,,--,,,,,,
+Sora,Special Attacks,Down Throw,19,39,--,4.6,,,--,,,,,,
+Sora,Special Attacks,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Sora,Special Attacks,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Sora,Special Attacks,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Sora,Special Attacks,Neutral Air Dodge,,54,**,,,,Intangible on frame 3-30,,,,,,
+Sora,Special Attacks,"Air Dodge, Down",,74,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Special Attacks,"Air Dodge, Diagonally Down",,83,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Special Attacks,"Air Dodge, Left/Right",,92,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Special Attacks,"Air Dodge, Diagonally Up",,111,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Special Attacks,"Air Dodge, Up",,119,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Special Attacks,Stats,,,,,,,,,,,,,
+Sora,Special Attacks,Ledge Grab,,,,,,,,,,,,,
+Sora,Special Attacks,Ledge Hang,,,,,,,,,,,,,
+Sora,Special Attacks,Ledge Roll,,,,,,,,,,,,,
+Sora,Special Attacks,Getup Attacks,,,,,,,,,,,,,
+Sora,Grabs / Throws,Grab,7,35,--,--,,7—8,--,,,,27,,
+Sora,Grabs / Throws,Dash Grab,10,41,--,--,,10—11,--,,,,30,,
+Sora,Grabs / Throws,Pivot Grab,11,37,--,--,,11—12,--,,,,25,,
+Sora,Grabs / Throws,Pummel,1,18,Total frames includes 13 frames of hitlag.,1.3,,,--,,,,,,
+Sora,Grabs / Throws,Forward Throw,15/16,41,--,5.0/3.0,,,Hitbox/Throw,,,,,,
+Sora,Grabs / Throws,Backward Throw,11,57,--,11.8,,,Collateral hitbox on frames 11—31.,,,,,,
+Sora,Grabs / Throws,Up Throw,13,37,--,6.8,,,--,,,,,,
+Sora,Grabs / Throws,Down Throw,19,39,--,4.6,,,--,,,,,,
+Sora,Grabs / Throws,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Sora,Grabs / Throws,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Sora,Grabs / Throws,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Sora,Grabs / Throws,Neutral Air Dodge,,54,**,,,,Intangible on frame 3-30,,,,,,
+Sora,Grabs / Throws,"Air Dodge, Down",,74,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Grabs / Throws,"Air Dodge, Diagonally Down",,83,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Grabs / Throws,"Air Dodge, Left/Right",,92,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Grabs / Throws,"Air Dodge, Diagonally Up",,111,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Grabs / Throws,"Air Dodge, Up",,119,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Grabs / Throws,Stats,,,,,,,,,,,,,
+Sora,Grabs / Throws,Ledge Grab,,,,,,,,,,,,,
+Sora,Grabs / Throws,Ledge Hang,,,,,,,,,,,,,
+Sora,Grabs / Throws,Ledge Roll,,,,,,,,,,,,,
+Sora,Grabs / Throws,Getup Attacks,,,,,,,,,,,,,
+Sora,Dodges / Rolls,Spot Dodge,,20/25,--,,,,Intangible on frame 3-17,,,,,,
+Sora,Dodges / Rolls,Forward Roll,,29,--,,,,Intangible on frame 4-15,,,,,,
+Sora,Dodges / Rolls,Backward Roll,,34,--,,,,Intangible on frame 5-16,,,,,,
+Sora,Dodges / Rolls,Neutral Air Dodge,,54,**,,,,Intangible on frame 3-30,,,,,,
+Sora,Dodges / Rolls,"Air Dodge, Down",,74,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Dodges / Rolls,"Air Dodge, Diagonally Down",,83,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Dodges / Rolls,"Air Dodge, Left/Right",,92,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Dodges / Rolls,"Air Dodge, Diagonally Up",,111,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Dodges / Rolls,"Air Dodge, Up",,119,**,,,,Intangible on frame 3-21,,,,,,
+Sora,Dodges / Rolls,Stats,,,,,,,,,,,,,
+Sora,Dodges / Rolls,Ledge Grab,,,,,,,,,,,,,
+Sora,Dodges / Rolls,Ledge Hang,,,,,,,,,,,,,
+Sora,Dodges / Rolls,Ledge Roll,,,,,,,,,,,,,
+Sora,Dodges / Rolls,Getup Attacks,,,,,,,,,,,,,
+Sora,Misc Info,Stats,,,,,,,,,,,,"Stats Weight — 85 Gravity — 0.064 Walk Speed — 0.82 Run Speed — 1.58 Initial Dash — 1.78 Air Speed — 0.96 Total Air Acceleration — 0.096 SH / FH / SHFF / FHFF Frames — 47 / 57 / 32 / 40 Fall Speed / Fast Fall Speed — 1.44 / 2.304 Out of Shield, Up B — 9 frames Out of Shield, Neutral Air or Grab — 11 frames Out of Shield, Forward Air — 13 frames Shield Grab (Grab, post-Shieldstun) — 11 frames Shield Drop — 11 frames (universal) Jump Squat (pre-Jump frames) — 3 frames (universal)","[('Up B', '9'), ('Neutral Air or Grab', '11'), ('Forward Air', '13')]"
+Sora,Misc Info,Ledge Grab,,,,,,,,,,,,Ledge Grab NormalSide B *Detection*,
+Sora,Misc Info,Ledge Hang,,,,,,,,,,,,Ledge Hang ,
+Sora,Misc Info,Ledge Roll,,,,,,,,,,,,Ledge Roll ,
+Sora,Misc Info,Getup Attacks,,,,,,,,,,,,Getup Attacks Facing UpFacing DownTripLedge,

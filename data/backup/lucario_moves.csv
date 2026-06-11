@@ -1,0 +1,149 @@
+character,section,move,startup,total_frames,landing_lag,notes,damage,shield_lag,shield_stun,hitbox_type,advantage_on_shield,active_frames,end_lag
+Lucario,Ground Attacks,Jab 1,5,24,--,Transitions to jab 2 as early as frame 12,1.6 | 2.5 | 4.0,6 | 7 | 8,3 | 4 | 5,--,-16 | -15 | -14,5—6,18
+Lucario,Ground Attacks,Jab 2,5,26,--,Transitions to jab 3 as early as frame 8,1.3 | 2.0 | 3.2,5 | 5 | 6,3 | 3 | 4,--,-18 | -18 | -17,5—6,20
+Lucario,Ground Attacks,Jab 3,9,35,--,--,1.9 | 3.0 | 4.8,7 | 8 | 9,3 | 4 | 5,--,-23 | -22 | -21,9—10,25
+Lucario,Ground Attacks,Forward Tilt,12/15,32,--,--,2.6/3.9 | 4.0/6.0 | 6.4/9.6,5/5 | 5/6 | 6/8,-/5 | -/6 | -/9,First/Second,-12 | -11 | -8,12—14/15—16,16
+Lucario,Ground Attacks,Up Tilt,6,32,--,--,3.3/3.9 | 5.0/6.0 | 8.0/9.6,5/5 | 6/6 | 7/8,4/5 | 6/6 | 8/9,Close/far,-22/-21 | -20/-20 | -18/-17,6—13,19
+Lucario,Ground Attacks,Down Tilt,7,20,--,--,3.3 | 5.0 | 8.0,5 | 6 | 7,4 | 6 | 8,--,-9 | -7 | -5,7—10,10
+Lucario,Ground Attacks,Dash Attack,7,41,--,--,5.6/6.6/4.6/3.9 | 8.5/10.0/7.0/6.0 | 13.6/16.0/11.2/9.6,6/6/6/5 | 7/8/7/6 | 9/10/8/8,6/7/55 | 8/10/7/6| 12/14/10/9,"Early close/far, Late close/far",-28/-27 | -26/-24 | -22/-20,7—10(11—15),26
+Lucario,Ground Attacks,Forward Smash,19,54,--,Charge hold is frame 3,10.5/8.5 | 16.0/13.0 | 25.6 / 20.8,8/7 | 10/9 | 15/13,8/6 | 11/9 | 16/14,Close/far,-27/-25 | -24/-26 | -19/-21,19—20(21—22),32
+Lucario,Ground Attacks,Up Smash,15/19,63,--,Charge hold is frame 11,2.6/9.2/7.9 | 4.0/14.0/12.0 | 6.4/22.4/19.2,5/8/7 | 5/10/9 | 6/13/12,3/7/6 | 4/10/8 | 5/14/13,"First, second far, second close",-37/-38 | -34/-36 | -30/-31,15—17/19—20/21—23,40
+Lucario,Ground Attacks,Down Smash,16,51,--,Charge hold is frame 4,9.2 | 14.0 | 22.4,8 | 10 | 13,7 | 10 | 14,--,-28 | -25 | -21,16—18,33
+Lucario,Ground Attacks,Neutral Air,10/18,42,5,Autocancels on frame 1-4 and 36 onward,5.2/3.9 | 8.0/6.0 | 12.8/9.6,6/5 | 7/6 | 9/8,3/3 | 4/3 | 5/4,--,-2/-2 | -1/-2 | 0/-1,10—14/18—21,21
+Lucario,Ground Attacks,Forward Air,7,27,9,Autocancels on frame 28 onward,3.9 | 6.0 | 9.6,5 | 6 | 8,3 | 3 | 4,--,-6 | -6 | -5,7—8,19
+Lucario,Ground Attacks,Back Air,13,49,14,Autocancels on frame 1-4 and 41 onward,9.2/8.5 | 14.0/13.0 | 22.4/20.8,8/7 | 10/9 | 13/13,4/4 | 5/5 | 7/7,--,-10/-10 | -9/-9 | -7/-7,13—14(15—16),33
+Lucario,Ground Attacks,Up Air,10,38,13,Autocancels on frame 29 onward,7.2/3.9 | 11.0/6.0 | 17.6/9.6,7/5 | 8/6 | 11/8,3/3 | 4/3 | 6/4,Far/close,-10/-10 | -9/-10 | -7/-9,10—11(12—13),25
+Lucario,Ground Attacks,Down Air,4/11,30,12,Autocancels on frame 25 onward,3.3/3.9 | 5.0/6.0 | 8.0/9.6,5/5 | 6/6 | 7/8,2/3 | 3/3 | 4/4,--,-10/-9 | -9/-9 | -8/-8,4—5/11—12,18
+Lucario,Ground Attacks,Neutral B (Aura Sphere),9 (+8),43,--,9 startup from charge.Takes 8 frames to enter charge state and 4 frames to cancel charge with shield. Charging sphere becomes hitbox on 9 and hits every six frames,4.5 -11.3 | 6.0 - 17.2 | 11.0 - 27.6,6-8 | 7-11 | 8-15,3-4 | 3-6 | 4-8,--,-26 | -25 | -23,17—**,--
+Lucario,Ground Attacks,"Aura Sphere, Full Charge",17,51,--,Takes 99 frames to reach full charge.,11.3 | 17.2 | 27.6,8 | 11 | 15,4 | 6 | 8,--,-23 | -18 | -11,17—**,--
+Lucario,Ground Attacks,Side B (Force Palm),(9)24,63,--,Grabs on frame 9 if on the ground.,7.8/3.5 | 11.5/5.4 | 19.0/8.6,7/5 | 9/6 | 12/7,8/4 | 11/6 | 17/8,Close/far,-24/-30 | -19/-27 | -10/-24,24—25,38
+Lucario,Ground Attacks,"Force Palm, Throw","Throw Hit: 23, Throw: 29",42,--,--,Throw Hit: ** | 10.0 | **Throw: 8.5  | 13.0 | 20.8,--,--,--,--,Throw Hit: 23—24,18
+Lucario,Ground Attacks,Up B (Extreme Speed),46,--,40/37,28 endlag if you end on the ground. Hitbox on frame 1 if you crash directly into ground/wall/ceiling. This bounce is a 37 frame animation on the ground,3.9/2.6 | 6.0/4.0 | 9.6/6.4,6/6 | 7/6 | 9/8,5/5 | 6/5 | 9/7,--,-23/-31 | -22/-31 | -19/-29,46—47(1),--
+Lucario,Ground Attacks,Down B (Double Team),5 (Start of Counter),70,--,Invulnerable on frame 4. Counters on frame 5-24,--,--,--,--,--,5—24(counter),--
+Lucario,Ground Attacks,"Double Team, Counterattack",8,47,--,Invulnerable on frame 1-17 in addition to counter freeze frames.,8.2 | 12.5 | 20.0,15 | 16 | 18,8 | 12 | 18,--,-31 | -27 | -21,**,--
+Lucario,Ground Attacks,Grab,7,39,--,--,--,,,,,7—8,31
+Lucario,Ground Attacks,Dash Grab,10,46,--,--,--,,,,,10—11,35
+Lucario,Ground Attacks,Pivot Grab,11,42,--,--,--,,,,,11—12,30
+Lucario,Ground Attacks,Pummel,1,19 | 20 | 21,--,Total frames includes 12 | 13 | 14 frames of hitlag,0.8 | 1.3 | 2.0,,,,,,
+Lucario,Ground Attacks,Forward Throw,6/7,21,--,--,3.3 / 1.9 | 5.0 / 3.0 | 8.0 / 4.8,,,,,,
+Lucario,Ground Attacks,Backward Throw,14,35,--,--,6.6 | 10.0 | 16.0,,,,,,
+Lucario,Ground Attacks,Up Throw,16/17,37,--,--,3.3 / 3.9 | 5.0 / 6.0 | 8.0 / 9.6,,,,,,
+Lucario,Ground Attacks,Down Throw,28,50,--,--,4.6 | 7.0 | 11.2,,,,,,
+Lucario,Ground Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Lucario,Ground Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Lucario,Ground Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Lucario,Ground Attacks,Neutral Air Dodge,,48,10,Intangible on frame 3-28,,,,,,,
+Lucario,Ground Attacks,"Air Dodge, Down",,65,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Ground Attacks,"Air Dodge, Diagonally Down",,74,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Ground Attacks,"Air Dodge, Left/Right",,91,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Ground Attacks,"Air Dodge, Diagonally Up",,98,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Ground Attacks,"Air Dodge, Up",,108,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Ground Attacks,Stats,,,,,,,,,,,
+Lucario,Ground Attacks,Ledge Grab,,,,,,,,,,,
+Lucario,Ground Attacks,Ledge Hang,,,,,,,,,,,
+Lucario,Ground Attacks,Ledge Roll,,,,,,,,,,,
+Lucario,Ground Attacks,Getup Attacks,,,,,,,,,,,
+Lucario,Aerial Attacks,Neutral Air,10/18,42,5,Autocancels on frame 1-4 and 36 onward,5.2/3.9 | 8.0/6.0 | 12.8/9.6,6/5 | 7/6 | 9/8,3/3 | 4/3 | 5/4,--,-2/-2 | -1/-2 | 0/-1,10—14/18—21,21
+Lucario,Aerial Attacks,Forward Air,7,27,9,Autocancels on frame 28 onward,3.9 | 6.0 | 9.6,5 | 6 | 8,3 | 3 | 4,--,-6 | -6 | -5,7—8,19
+Lucario,Aerial Attacks,Back Air,13,49,14,Autocancels on frame 1-4 and 41 onward,9.2/8.5 | 14.0/13.0 | 22.4/20.8,8/7 | 10/9 | 13/13,4/4 | 5/5 | 7/7,--,-10/-10 | -9/-9 | -7/-7,13—14(15—16),33
+Lucario,Aerial Attacks,Up Air,10,38,13,Autocancels on frame 29 onward,7.2/3.9 | 11.0/6.0 | 17.6/9.6,7/5 | 8/6 | 11/8,3/3 | 4/3 | 6/4,Far/close,-10/-10 | -9/-10 | -7/-9,10—11(12—13),25
+Lucario,Aerial Attacks,Down Air,4/11,30,12,Autocancels on frame 25 onward,3.3/3.9 | 5.0/6.0 | 8.0/9.6,5/5 | 6/6 | 7/8,2/3 | 3/3 | 4/4,--,-10/-9 | -9/-9 | -8/-8,4—5/11—12,18
+Lucario,Aerial Attacks,Neutral B (Aura Sphere),9 (+8),43,--,9 startup from charge.Takes 8 frames to enter charge state and 4 frames to cancel charge with shield. Charging sphere becomes hitbox on 9 and hits every six frames,4.5 -11.3 | 6.0 - 17.2 | 11.0 - 27.6,6-8 | 7-11 | 8-15,3-4 | 3-6 | 4-8,--,-26 | -25 | -23,17—**,--
+Lucario,Aerial Attacks,"Aura Sphere, Full Charge",17,51,--,Takes 99 frames to reach full charge.,11.3 | 17.2 | 27.6,8 | 11 | 15,4 | 6 | 8,--,-23 | -18 | -11,17—**,--
+Lucario,Aerial Attacks,Side B (Force Palm),(9)24,63,--,Grabs on frame 9 if on the ground.,7.8/3.5 | 11.5/5.4 | 19.0/8.6,7/5 | 9/6 | 12/7,8/4 | 11/6 | 17/8,Close/far,-24/-30 | -19/-27 | -10/-24,24—25,38
+Lucario,Aerial Attacks,"Force Palm, Throw","Throw Hit: 23, Throw: 29",42,--,--,Throw Hit: ** | 10.0 | **Throw: 8.5  | 13.0 | 20.8,--,--,--,--,Throw Hit: 23—24,18
+Lucario,Aerial Attacks,Up B (Extreme Speed),46,--,40/37,28 endlag if you end on the ground. Hitbox on frame 1 if you crash directly into ground/wall/ceiling. This bounce is a 37 frame animation on the ground,3.9/2.6 | 6.0/4.0 | 9.6/6.4,6/6 | 7/6 | 9/8,5/5 | 6/5 | 9/7,--,-23/-31 | -22/-31 | -19/-29,46—47(1),--
+Lucario,Aerial Attacks,Down B (Double Team),5 (Start of Counter),70,--,Invulnerable on frame 4. Counters on frame 5-24,--,--,--,--,--,5—24(counter),--
+Lucario,Aerial Attacks,"Double Team, Counterattack",8,47,--,Invulnerable on frame 1-17 in addition to counter freeze frames.,8.2 | 12.5 | 20.0,15 | 16 | 18,8 | 12 | 18,--,-31 | -27 | -21,**,--
+Lucario,Aerial Attacks,Grab,7,39,--,--,--,,,,,7—8,31
+Lucario,Aerial Attacks,Dash Grab,10,46,--,--,--,,,,,10—11,35
+Lucario,Aerial Attacks,Pivot Grab,11,42,--,--,--,,,,,11—12,30
+Lucario,Aerial Attacks,Pummel,1,19 | 20 | 21,--,Total frames includes 12 | 13 | 14 frames of hitlag,0.8 | 1.3 | 2.0,,,,,,
+Lucario,Aerial Attacks,Forward Throw,6/7,21,--,--,3.3 / 1.9 | 5.0 / 3.0 | 8.0 / 4.8,,,,,,
+Lucario,Aerial Attacks,Backward Throw,14,35,--,--,6.6 | 10.0 | 16.0,,,,,,
+Lucario,Aerial Attacks,Up Throw,16/17,37,--,--,3.3 / 3.9 | 5.0 / 6.0 | 8.0 / 9.6,,,,,,
+Lucario,Aerial Attacks,Down Throw,28,50,--,--,4.6 | 7.0 | 11.2,,,,,,
+Lucario,Aerial Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Lucario,Aerial Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Lucario,Aerial Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Lucario,Aerial Attacks,Neutral Air Dodge,,48,10,Intangible on frame 3-28,,,,,,,
+Lucario,Aerial Attacks,"Air Dodge, Down",,65,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Aerial Attacks,"Air Dodge, Diagonally Down",,74,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Aerial Attacks,"Air Dodge, Left/Right",,91,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Aerial Attacks,"Air Dodge, Diagonally Up",,98,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Aerial Attacks,"Air Dodge, Up",,108,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Aerial Attacks,Stats,,,,,,,,,,,
+Lucario,Aerial Attacks,Ledge Grab,,,,,,,,,,,
+Lucario,Aerial Attacks,Ledge Hang,,,,,,,,,,,
+Lucario,Aerial Attacks,Ledge Roll,,,,,,,,,,,
+Lucario,Aerial Attacks,Getup Attacks,,,,,,,,,,,
+Lucario,Special Attacks,Neutral B (Aura Sphere),9 (+8),43,--,9 startup from charge.Takes 8 frames to enter charge state and 4 frames to cancel charge with shield. Charging sphere becomes hitbox on 9 and hits every six frames,4.5 -11.3 | 6.0 - 17.2 | 11.0 - 27.6,6-8 | 7-11 | 8-15,3-4 | 3-6 | 4-8,--,-26 | -25 | -23,17—**,--
+Lucario,Special Attacks,"Aura Sphere, Full Charge",17,51,--,Takes 99 frames to reach full charge.,11.3 | 17.2 | 27.6,8 | 11 | 15,4 | 6 | 8,--,-23 | -18 | -11,17—**,--
+Lucario,Special Attacks,Side B (Force Palm),(9)24,63,--,Grabs on frame 9 if on the ground.,7.8/3.5 | 11.5/5.4 | 19.0/8.6,7/5 | 9/6 | 12/7,8/4 | 11/6 | 17/8,Close/far,-24/-30 | -19/-27 | -10/-24,24—25,38
+Lucario,Special Attacks,"Force Palm, Throw","Throw Hit: 23, Throw: 29",42,--,--,Throw Hit: ** | 10.0 | **Throw: 8.5  | 13.0 | 20.8,--,--,--,--,Throw Hit: 23—24,18
+Lucario,Special Attacks,Up B (Extreme Speed),46,--,40/37,28 endlag if you end on the ground. Hitbox on frame 1 if you crash directly into ground/wall/ceiling. This bounce is a 37 frame animation on the ground,3.9/2.6 | 6.0/4.0 | 9.6/6.4,6/6 | 7/6 | 9/8,5/5 | 6/5 | 9/7,--,-23/-31 | -22/-31 | -19/-29,46—47(1),--
+Lucario,Special Attacks,Down B (Double Team),5 (Start of Counter),70,--,Invulnerable on frame 4. Counters on frame 5-24,--,--,--,--,--,5—24(counter),--
+Lucario,Special Attacks,"Double Team, Counterattack",8,47,--,Invulnerable on frame 1-17 in addition to counter freeze frames.,8.2 | 12.5 | 20.0,15 | 16 | 18,8 | 12 | 18,--,-31 | -27 | -21,**,--
+Lucario,Special Attacks,Grab,7,39,--,--,--,,,,,7—8,31
+Lucario,Special Attacks,Dash Grab,10,46,--,--,--,,,,,10—11,35
+Lucario,Special Attacks,Pivot Grab,11,42,--,--,--,,,,,11—12,30
+Lucario,Special Attacks,Pummel,1,19 | 20 | 21,--,Total frames includes 12 | 13 | 14 frames of hitlag,0.8 | 1.3 | 2.0,,,,,,
+Lucario,Special Attacks,Forward Throw,6/7,21,--,--,3.3 / 1.9 | 5.0 / 3.0 | 8.0 / 4.8,,,,,,
+Lucario,Special Attacks,Backward Throw,14,35,--,--,6.6 | 10.0 | 16.0,,,,,,
+Lucario,Special Attacks,Up Throw,16/17,37,--,--,3.3 / 3.9 | 5.0 / 6.0 | 8.0 / 9.6,,,,,,
+Lucario,Special Attacks,Down Throw,28,50,--,--,4.6 | 7.0 | 11.2,,,,,,
+Lucario,Special Attacks,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Lucario,Special Attacks,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Lucario,Special Attacks,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Lucario,Special Attacks,Neutral Air Dodge,,48,10,Intangible on frame 3-28,,,,,,,
+Lucario,Special Attacks,"Air Dodge, Down",,65,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Special Attacks,"Air Dodge, Diagonally Down",,74,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Special Attacks,"Air Dodge, Left/Right",,91,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Special Attacks,"Air Dodge, Diagonally Up",,98,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Special Attacks,"Air Dodge, Up",,108,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Special Attacks,Stats,,,,,,,,,,,
+Lucario,Special Attacks,Ledge Grab,,,,,,,,,,,
+Lucario,Special Attacks,Ledge Hang,,,,,,,,,,,
+Lucario,Special Attacks,Ledge Roll,,,,,,,,,,,
+Lucario,Special Attacks,Getup Attacks,,,,,,,,,,,
+Lucario,Grabs / Throws,Grab,7,39,--,--,--,,,,,7—8,31
+Lucario,Grabs / Throws,Dash Grab,10,46,--,--,--,,,,,10—11,35
+Lucario,Grabs / Throws,Pivot Grab,11,42,--,--,--,,,,,11—12,30
+Lucario,Grabs / Throws,Pummel,1,19 | 20 | 21,--,Total frames includes 12 | 13 | 14 frames of hitlag,0.8 | 1.3 | 2.0,,,,,,
+Lucario,Grabs / Throws,Forward Throw,6/7,21,--,--,3.3 / 1.9 | 5.0 / 3.0 | 8.0 / 4.8,,,,,,
+Lucario,Grabs / Throws,Backward Throw,14,35,--,--,6.6 | 10.0 | 16.0,,,,,,
+Lucario,Grabs / Throws,Up Throw,16/17,37,--,--,3.3 / 3.9 | 5.0 / 6.0 | 8.0 / 9.6,,,,,,
+Lucario,Grabs / Throws,Down Throw,28,50,--,--,4.6 | 7.0 | 11.2,,,,,,
+Lucario,Grabs / Throws,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Lucario,Grabs / Throws,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Lucario,Grabs / Throws,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Lucario,Grabs / Throws,Neutral Air Dodge,,48,10,Intangible on frame 3-28,,,,,,,
+Lucario,Grabs / Throws,"Air Dodge, Down",,65,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Grabs / Throws,"Air Dodge, Diagonally Down",,74,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Grabs / Throws,"Air Dodge, Left/Right",,91,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Grabs / Throws,"Air Dodge, Diagonally Up",,98,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Grabs / Throws,"Air Dodge, Up",,108,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Grabs / Throws,Stats,,,,,,,,,,,
+Lucario,Grabs / Throws,Ledge Grab,,,,,,,,,,,
+Lucario,Grabs / Throws,Ledge Hang,,,,,,,,,,,
+Lucario,Grabs / Throws,Ledge Roll,,,,,,,,,,,
+Lucario,Grabs / Throws,Getup Attacks,,,,,,,,,,,
+Lucario,Dodges / Rolls,Spot Dodge,,20/25,--,Intangible on frame 3-17,,,,,,,
+Lucario,Dodges / Rolls,Forward Roll,,29,--,Intangible on frame 4-15,,,,,,,
+Lucario,Dodges / Rolls,Backward Roll,,34,--,Intangible on frame 5-16,,,,,,,
+Lucario,Dodges / Rolls,Neutral Air Dodge,,48,10,Intangible on frame 3-28,,,,,,,
+Lucario,Dodges / Rolls,"Air Dodge, Down",,65,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Dodges / Rolls,"Air Dodge, Diagonally Down",,74,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Dodges / Rolls,"Air Dodge, Left/Right",,91,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Dodges / Rolls,"Air Dodge, Diagonally Up",,98,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Dodges / Rolls,"Air Dodge, Up",,108,11-19,Intangible on frame 3-21,,,,,,,
+Lucario,Dodges / Rolls,Stats,,,,,,,,,,,
+Lucario,Dodges / Rolls,Ledge Grab,,,,,,,,,,,
+Lucario,Dodges / Rolls,Ledge Hang,,,,,,,,,,,
+Lucario,Dodges / Rolls,Ledge Roll,,,,,,,,,,,
+Lucario,Dodges / Rolls,Getup Attacks,,,,,,,,,,,
+Lucario,Misc Info,Stats,,,,,,,,,,,
+Lucario,Misc Info,Ledge Grab,,,,,,,,,,,
+Lucario,Misc Info,Ledge Hang,,,,,,,,,,,
+Lucario,Misc Info,Ledge Roll,,,,,,,,,,,
+Lucario,Misc Info,Getup Attacks,,,,,,,,,,,
